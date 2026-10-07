@@ -93,3 +93,7 @@
 - Deck built for the "happiness" topic: project `.agents/projects/happiness_concept_ppt169_20261007`; deliverables = narrated PPTX (15 mp3, fade transitions, auto-advance), PDF (cairosvg+PyMuPDF), preview PNGs.
 - Hard gates to remember: images need `../images/<f>.jpg` href + exact-author credit `© <author> / Wikimedia / CC BY-SA 4.0` for CC-BY images; body font >=18pt so title/body ratio <=2; narrated export requires `--animation-config animations.json`; keep RU hyphenated tokens short or edge-tts aborts the page.
 - See `.openhands/memory/2026-10-07.md` for the full command list and traps.
+- **Measure text, never estimate it.** Cyrillic ink is ~10-20% wider than `len*0.5*font-size`; the old geometric audit under-counted and missed a title running off the 1280px canvas. Render each `<text>` with cairosvg and take the ink bbox.
+- **Vector-text PDF recipe:** cairosvg `svg2pdf` keeps text as vectors; embed an 8x8 placeholder raster, then `pymupdf.Page.replace_image()` swaps in the real photos. ~2.9MB with selectable text.
+- **LibreOffice Impress is installed** in this dev container for independent PPTX rendering: use `/usr/bin/libreoffice` (not `soffice`, which fails to find `libreglo.so`). Re-rendering the PPTX to PDF and diffing against our previews is the strongest pre-push check (expect diff 5-9 from antialiasing).
+- **Never export `LD_LIBRARY_PATH` in the persistent shell** — pointing it at LibreOffice libs segfaults `import numpy` (even in children). Wrap with `env -u LD_LIBRARY_PATH python3`.
