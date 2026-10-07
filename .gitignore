@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Raw / intermediate deck materials (regenerate from the SVGs; too large to track)
+.agents/**/images/
+.agents/**/media/
+.agents/**/backup/
+.agents/**/exports/preview/
+.agents/**/exports/*_video.pptx
+.agents/**/exports/*_narrated.pptx
+.agents/**/exports/happiness_concept_v3.pptx
+.agents/**/svg_final/
+.agents/**/icons/**/*.json
+
+# Tooling caches
+.agent_tmp/
+.cache/
+node_modules/

@@ -1,0 +1,1568 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "final",
+  "target": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "5754dc60573d9289c2a32ad6e43cdec0505652f8db34622f9539cb5e5787d6b1",
+    "file_count": 15,
+    "files": [
+      {
+        "file": "01_cover.svg",
+        "sha256": "571624b23b8be0ec69637365a54ea1c23197ddedbfb4e286ba7d457443511d98"
+      },
+      {
+        "file": "02_goals.svg",
+        "sha256": "4912930c949a5cb0a8740a6cbb9ac99e445ab8e16bd622c0fc516f49bc6edd9c"
+      },
+      {
+        "file": "03_toc.svg",
+        "sha256": "e5db4ad674f41a7b516c43a81c048eb39cf93943d2550200186bb3c5903e7570"
+      },
+      {
+        "file": "04_why.svg",
+        "sha256": "8d176d62aa4386e6e381caaaa32258a302ea0bdc547eb6271904b37f6436e0c9"
+      },
+      {
+        "file": "05_science.svg",
+        "sha256": "3dd2b2396a7f78ff0c3fb36459da3a10ad922ccc67575bf80727e37daee0db5a"
+      },
+      {
+        "file": "06_physiology.svg",
+        "sha256": "44036ba640159a2df515f7ed7db6c7ae9688d8c8590c39dc030b259cd585a351"
+      },
+      {
+        "file": "07_history.svg",
+        "sha256": "dd08621d56d8bb8158ee667bc8c80b7646fb3cd0ee71519017ded9e8fe394fd8"
+      },
+      {
+        "file": "08_hedonia.svg",
+        "sha256": "65333d34361ed8e37efe03e830f2c0cec4763bfa383abb5832df91d9943d2e72"
+      },
+      {
+        "file": "09_formula.svg",
+        "sha256": "8b5d8441783383cd4545357cc6a874bac204bddc9c265ae543cdc8335dca2495"
+      },
+      {
+        "file": "10_factors.svg",
+        "sha256": "3601b6d62a1d74d6383d01e0c17bfe2890146f4c99053583e69ea627a64ef45b"
+      },
+      {
+        "file": "11_easterlin.svg",
+        "sha256": "612a33f651b454e483a3c45950907e774b38dd148c634c515a5c2ab47d836ef7"
+      },
+      {
+        "file": "12_education.svg",
+        "sha256": "4fff657b13d282c4dd128ae1cca50336856389f4217290a4e3b4bb9af39f3e1f"
+      },
+      {
+        "file": "13_digital.svg",
+        "sha256": "bdb29d8abe69454e83b50ee3e78f5e24958a9f659f742f55313fd1130dab3cb8"
+      },
+      {
+        "file": "14_recommendations.svg",
+        "sha256": "cded35b6e45e8ae56a1d78b39bdd86d286a33bbc6747d9a8e9ff422457505b1f"
+      },
+      {
+        "file": "15_conclusions.svg",
+        "sha256": "419a9999a4520dccaaac3106f5d642305b751e8011c484e48bef2aadf0d8a039"
+      }
+    ]
+  },
+  "summary": {
+    "total": 15,
+    "passed": 2,
+    "warnings": 13,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 32,
+      "issues": [
+        {
+          "file": "01_cover.svg",
+          "message": "Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id=\"cover-header\"> x=80.0, y=228.0..346.0, 3 lines; <g id=\"cover-author\"> x=112.0, y=500.0..576.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+        },
+        {
+          "file": "01_cover.svg",
+          "message": "Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+        },
+        {
+          "file": "01_cover.svg",
+          "message": "1 ungrouped top-level Slide-local element(s) in svg_output (<text id=\"credit\">); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+        },
+        {
+          "file": "02_goals.svg",
+          "message": "Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id=\"p02-goal\"> x=120.0, y=336.0..404.0, 3 lines; <g id=\"p02-goal\"> x=120.0, y=490.0..524.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+        },
+        {
+          "file": "02_goals.svg",
+          "message": "Image ../images/p02_goals.jpg is 7360x4912 and renders at 0.17x scale in a 1280x720 slice frame; the source is 1.5 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+        },
+        {
+          "file": "02_goals.svg",
+          "message": "1 ungrouped top-level Slide-local element(s) in svg_output (<text id=\"credit\">); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+        },
+        {
+          "file": "03_toc.svg",
+          "message": "Image ../images/p03_toc.jpg is 6048x4032 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+        },
+        {
+          "file": "03_toc.svg",
+          "message": "1 ungrouped top-level Slide-local element(s) in svg_output (<text id=\"credit\">); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+        },
+        {
+          "file": "05_science.svg",
+          "message": "2 ungrouped top-level Slide-local element(s) in svg_output (<text id=\"p05-note\">, <text id=\"credit\">); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+        },
+        {
+          "file": "06_physiology.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (3 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): p06-credits:font-size None -> '16'; text[52]:font-size '16' -> None; text[53]:font-size '16' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "07_history.svg",
+          "message": "Image ../images/p07_history.jpg is 5184x3456 and renders at 0.25x scale in a 1280x720 slice frame; the source is 2.6 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+        },
+        {
+          "file": "07_history.svg",
+          "message": "Image ../images/ph_aristotle.jpg is 2849x4166 and renders at 0.03x scale in a 76x76 slice frame; the source is 9.8 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+        },
+        {
+          "file": "07_history.svg",
+          "message": "Image ../images/ph_seneca.jpg is 6478x3874 and renders at 0.02x scale in a 76x76 slice frame; the source is 3.3 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+        },
+        {
+          "file": "07_history.svg",
+          "message": "Image ../images/ph_aquinas.jpg is 3064x2298 and renders at 0.03x scale in a 76x76 slice frame; the source is 4.0 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+        },
+        {
+          "file": "07_history.svg",
+          "message": "Image ../images/ph_jefferson.jpg is 2400x2387 and renders at 0.03x scale in a 76x76 slice frame; the source is 1.4 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+        },
+        {
+          "file": "07_history.svg",
+          "message": "1 ungrouped top-level Slide-local element(s) in svg_output (<text id=\"credit\">); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+        },
+        {
+          "file": "08_hedonia.svg",
+          "message": "Image ../images/p08_hedonia.jpg is 6048x4024 and renders at 0.21x scale in a 1280x720 slice frame; the source is 5.0 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+        },
+        {
+          "file": "08_hedonia.svg",
+          "message": "Image ../images/hed_pleasure.jpg is 6016x4016 and renders at 0.08x scale in a 480x180 slice frame; the source is 10.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+        },
+        {
+          "file": "08_hedonia.svg",
+          "message": "Image ../images/eud_meaning.jpg is 3456x2592 and renders at 0.14x scale in a 480x180 slice frame; the source is 1.6 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+        },
+        {
+          "file": "08_hedonia.svg",
+          "message": "1 ungrouped top-level Slide-local element(s) in svg_output (<text id=\"credit\">); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+        },
+        {
+          "file": "10_factors.svg",
+          "message": "Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id=\"p10-list\"> x=848.0, y=268.0..364.0, 4 lines; <g id=\"p10-list\"> x=848.0, y=518.0..582.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+        },
+        {
+          "file": "11_easterlin.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): p11-credits:fill None -> '#7F8C8D'; p11-credits:font-size None -> '16'; text[32]:fill '#7F8C8D' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "11_easterlin.svg",
+          "message": "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"p11-credits\"> x=80.0, y=676.0..696.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+        },
+        {
+          "file": "11_easterlin.svg",
+          "message": "Image ../images/p11_rich.jpg is 3692x3220 and renders at 0.10x scale in a 360x150 slice frame; the source is 4.2 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+        },
+        {
+          "file": "12_education.svg",
+          "message": "Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id=\"p12-list\"> x=848.0, y=382.0..414.0, 2 lines; <g id=\"p12-list\"> x=848.0, y=466.0..498.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+        },
+        {
+          "file": "12_education.svg",
+          "message": "Image ../images/p12_education.jpg is 7200x4800 and renders at 0.18x scale in a 1280x720 slice frame; the source is 10.0 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+        },
+        {
+          "file": "12_education.svg",
+          "message": "1 ungrouped top-level Slide-local element(s) in svg_output (<text id=\"credit\">); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+        },
+        {
+          "file": "13_digital.svg",
+          "message": "Image ../images/p13_digital.jpg is 5616x3744 and renders at 0.23x scale in a 1280x720 slice frame; the source is 10.3 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+        },
+        {
+          "file": "14_recommendations.svg",
+          "message": "1 ungrouped top-level Slide-local element(s) in svg_output (<text id=\"credit\">); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+        },
+        {
+          "file": "15_conclusions.svg",
+          "message": "<text> (x=1060, y=330; text='9. Cyberleninka') exceeds <g id=\"p15-sources\"> data-pptx-bounds on the horizontal axis: content (1060.0, 313.0)-(1208.0, 337.0), container (790.0, 130.0)-(1200.0, 610.0), overflow horizontal 2.0%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈10.6 px per Latin char at 20px incl. headroom; ≈38 chars fit in 410 px"
+        },
+        {
+          "file": "15_conclusions.svg",
+          "message": "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"p15-sources\"> x=818.0, y=430.0..486.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+        },
+        {
+          "file": "15_conclusions.svg",
+          "message": "Image ../images/p15_conclusions.jpg is 6000x4000 and renders at 0.21x scale in a 1280x720 slice frame; the source is 10.8 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+        }
+      ]
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {
+      "#1E8449": [
+        "06_physiology.svg",
+        "08_hedonia.svg",
+        "09_formula.svg",
+        "10_factors.svg",
+        "11_easterlin.svg",
+        "13_digital.svg"
+      ],
+      "#27AE60": [
+        "01_cover.svg",
+        "02_goals.svg",
+        "03_toc.svg",
+        "05_science.svg",
+        "06_physiology.svg",
+        "08_hedonia.svg",
+        "09_formula.svg",
+        "10_factors.svg",
+        "13_digital.svg",
+        "14_recommendations.svg",
+        "15_conclusions.svg"
+      ],
+      "#5D6D7E": [
+        "01_cover.svg",
+        "02_goals.svg",
+        "03_toc.svg",
+        "04_why.svg",
+        "05_science.svg",
+        "06_physiology.svg",
+        "07_history.svg",
+        "08_hedonia.svg",
+        "09_formula.svg",
+        "10_factors.svg",
+        "11_easterlin.svg",
+        "12_education.svg",
+        "13_digital.svg",
+        "14_recommendations.svg",
+        "15_conclusions.svg"
+      ],
+      "#7F8C8D": [
+        "01_cover.svg",
+        "02_goals.svg",
+        "03_toc.svg",
+        "05_science.svg",
+        "06_physiology.svg",
+        "07_history.svg",
+        "08_hedonia.svg",
+        "11_easterlin.svg",
+        "12_education.svg",
+        "14_recommendations.svg"
+      ],
+      "#8D6E63": [
+        "10_factors.svg"
+      ],
+      "#95A5A6": [
+        "02_goals.svg",
+        "04_why.svg",
+        "09_formula.svg",
+        "11_easterlin.svg",
+        "12_education.svg"
+      ],
+      "#B9631B": [
+        "05_science.svg",
+        "06_physiology.svg",
+        "08_hedonia.svg",
+        "12_education.svg"
+      ],
+      "#C0392B": [
+        "06_physiology.svg",
+        "11_easterlin.svg",
+        "13_digital.svg"
+      ],
+      "#D6EAF8": [
+        "01_cover.svg",
+        "02_goals.svg",
+        "03_toc.svg",
+        "04_why.svg",
+        "05_science.svg",
+        "06_physiology.svg",
+        "07_history.svg",
+        "08_hedonia.svg",
+        "09_formula.svg",
+        "10_factors.svg",
+        "11_easterlin.svg",
+        "12_education.svg",
+        "13_digital.svg",
+        "14_recommendations.svg",
+        "15_conclusions.svg"
+      ],
+      "#E67E22": [
+        "01_cover.svg",
+        "02_goals.svg",
+        "03_toc.svg",
+        "04_why.svg",
+        "05_science.svg",
+        "06_physiology.svg",
+        "07_history.svg",
+        "08_hedonia.svg",
+        "12_education.svg",
+        "14_recommendations.svg"
+      ],
+      "#E74C3C": [
+        "01_cover.svg",
+        "03_toc.svg",
+        "04_why.svg",
+        "06_physiology.svg",
+        "11_easterlin.svg",
+        "13_digital.svg"
+      ],
+      "#F5E6D3": [
+        "01_cover.svg",
+        "02_goals.svg",
+        "03_toc.svg",
+        "04_why.svg",
+        "05_science.svg",
+        "06_physiology.svg",
+        "07_history.svg",
+        "08_hedonia.svg",
+        "09_formula.svg",
+        "10_factors.svg",
+        "11_easterlin.svg",
+        "12_education.svg",
+        "13_digital.svg",
+        "14_recommendations.svg",
+        "15_conclusions.svg"
+      ],
+      "#FFFFFF": [
+        "01_cover.svg",
+        "02_goals.svg",
+        "03_toc.svg",
+        "04_why.svg",
+        "05_science.svg",
+        "06_physiology.svg",
+        "07_history.svg",
+        "08_hedonia.svg",
+        "09_formula.svg",
+        "10_factors.svg",
+        "11_easterlin.svg",
+        "12_education.svg",
+        "13_digital.svg",
+        "14_recommendations.svg",
+        "15_conclusions.svg"
+      ]
+    },
+    "fonts": {},
+    "sizes": {}
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 15,
+    "totals": {
+      "text_elements": 276,
+      "image_placements": 25,
+      "icons": 85,
+      "svg_geometry_elements": 145,
+      "preset_shapes": 0,
+      "page_frame_elements": 31,
+      "marker_uses": 0,
+      "inline_emphasis_runs": 0,
+      "gradient_uses": 15,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "pages_with": {
+      "images": 15,
+      "icons": 13,
+      "presets": 0,
+      "charts": 0,
+      "tables": 0,
+      "formulas": 0,
+      "inline_emphasis_runs": 0,
+      "gradient_uses": 15,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "relationship_pages": null,
+    "geometry_elements": {
+      "circle": 22,
+      "ellipse": 1,
+      "line": 11,
+      "path": 5,
+      "polygon": 0,
+      "polyline": 4,
+      "rect": 102
+    },
+    "preset_names": {},
+    "native_objects": {
+      "chart": 0,
+      "formula_block": 0,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 0
+    },
+    "image_page_max_frame_share_range": [
+      1.0,
+      1.0
+    ]
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_cover.svg",
+      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/01_cover.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id=\"cover-header\"> x=80.0, y=228.0..346.0, 3 lines; <g id=\"cover-author\"> x=112.0, y=500.0..576.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate.",
+        "Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time",
+        "1 ungrouped top-level Slide-local element(s) in svg_output (<text id=\"credit\">); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 11,
+          "images": {
+            "placements": 1,
+            "files": [
+              "p01_cover.jpg"
+            ],
+            "max_frame_share": 1.0
+          },
+          "icons": 4,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 1,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 2,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 3,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 11,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#27AE60",
+            "#5D6D7E",
+            "#7F8C8D",
+            "#D6EAF8",
+            "#E67E22",
+            "#E74C3C",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "571624b23b8be0ec69637365a54ea1c23197ddedbfb4e286ba7d457443511d98"
+    },
+    {
+      "file": "02_goals.svg",
+      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/02_goals.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id=\"p02-goal\"> x=120.0, y=336.0..404.0, 3 lines; <g id=\"p02-goal\"> x=120.0, y=490.0..524.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate.",
+        "Image ../images/p02_goals.jpg is 7360x4912 and renders at 0.17x scale in a 1280x720 slice frame; the source is 1.5 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time",
+        "1 ungrouped top-level Slide-local element(s) in svg_output (<text id=\"credit\">); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 19,
+          "images": {
+            "placements": 1,
+            "files": [
+              "p02_goals.jpg"
+            ],
+            "max_frame_share": 1.0
+          },
+          "icons": 1,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 1,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 6,
+              "circle": 9,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 19,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#27AE60",
+            "#5D6D7E",
+            "#7F8C8D",
+            "#95A5A6",
+            "#D6EAF8",
+            "#E67E22",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "4912930c949a5cb0a8740a6cbb9ac99e445ab8e16bd622c0fc516f49bc6edd9c"
+    },
+    {
+      "file": "03_toc.svg",
+      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/03_toc.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Image ../images/p03_toc.jpg is 6048x4032 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time",
+        "1 ungrouped top-level Slide-local element(s) in svg_output (<text id=\"credit\">); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 26,
+          "images": {
+            "placements": 1,
+            "files": [
+              "p03_toc.jpg"
+            ],
+            "max_frame_share": 1.0
+          },
+          "icons": 12,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 1,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 14,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 26,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#27AE60",
+            "#5D6D7E",
+            "#7F8C8D",
+            "#D6EAF8",
+            "#E67E22",
+            "#E74C3C",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "e5db4ad674f41a7b516c43a81c048eb39cf93943d2550200186bb3c5903e7570"
+    },
+    {
+      "file": "04_why.svg",
+      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/04_why.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 17,
+          "images": {
+            "placements": 1,
+            "files": [
+              "p04_why.jpg"
+            ],
+            "max_frame_share": 1.0
+          },
+          "icons": 1,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 1,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 2,
+              "ellipse": 0,
+              "line": 4,
+              "polyline": 2,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 17,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#5D6D7E",
+            "#95A5A6",
+            "#D6EAF8",
+            "#E67E22",
+            "#E74C3C",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "8d176d62aa4386e6e381caaaa32258a302ea0bdc547eb6271904b37f6436e0c9"
+    },
+    {
+      "file": "05_science.svg",
+      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/05_science.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "2 ungrouped top-level Slide-local element(s) in svg_output (<text id=\"p05-note\">, <text id=\"credit\">); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 18,
+          "images": {
+            "placements": 1,
+            "files": [
+              "p05_science.jpg"
+            ],
+            "max_frame_share": 1.0
+          },
+          "icons": 6,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 1,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 6,
+              "circle": 2,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 18,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#27AE60",
+            "#5D6D7E",
+            "#7F8C8D",
+            "#B9631B",
+            "#D6EAF8",
+            "#E67E22",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "3dd2b2396a7f78ff0c3fb36459da3a10ad922ccc67575bf80727e37daee0db5a"
+    },
+    {
+      "file": "06_physiology.svg",
+      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/06_physiology.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (3 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): p06-credits:font-size None -> '16'; text[52]:font-size '16' -> None; text[53]:font-size '16' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 19,
+          "images": {
+            "placements": 2,
+            "files": [
+              "p06_physiology.jpg",
+              "p06_video_poster.jpg"
+            ],
+            "max_frame_share": 1.0
+          },
+          "icons": 9,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 1,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 8,
+              "circle": 1,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 1
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 19,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#1E8449",
+            "#27AE60",
+            "#5D6D7E",
+            "#7F8C8D",
+            "#B9631B",
+            "#C0392B",
+            "#D6EAF8",
+            "#E67E22",
+            "#E74C3C",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "44036ba640159a2df515f7ed7db6c7ae9688d8c8590c39dc030b259cd585a351"
+    },
+    {
+      "file": "07_history.svg",
+      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/07_history.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Image ../images/p07_history.jpg is 5184x3456 and renders at 0.25x scale in a 1280x720 slice frame; the source is 2.6 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time",
+        "Image ../images/ph_aristotle.jpg is 2849x4166 and renders at 0.03x scale in a 76x76 slice frame; the source is 9.8 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time",
+        "Image ../images/ph_seneca.jpg is 6478x3874 and renders at 0.02x scale in a 76x76 slice frame; the source is 3.3 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time",
+        "Image ../images/ph_aquinas.jpg is 3064x2298 and renders at 0.03x scale in a 76x76 slice frame; the source is 4.0 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time",
+        "Image ../images/ph_jefferson.jpg is 2400x2387 and renders at 0.03x scale in a 76x76 slice frame; the source is 1.4 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time",
+        "1 ungrouped top-level Slide-local element(s) in svg_output (<text id=\"credit\">); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 19,
+          "images": {
+            "placements": 6,
+            "files": [
+              "p07_history.jpg",
+              "ph_aquinas.jpg",
+              "ph_aristotle.jpg",
+              "ph_bentham.jpg",
+              "ph_jefferson.jpg",
+              "ph_seneca.jpg"
+            ],
+            "max_frame_share": 1.0
+          },
+          "icons": 1,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 1,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 2,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 19,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#5D6D7E",
+            "#7F8C8D",
+            "#D6EAF8",
+            "#E67E22",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "dd08621d56d8bb8158ee667bc8c80b7646fb3cd0ee71519017ded9e8fe394fd8"
+    },
+    {
+      "file": "08_hedonia.svg",
+      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/08_hedonia.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Image ../images/p08_hedonia.jpg is 6048x4024 and renders at 0.21x scale in a 1280x720 slice frame; the source is 5.0 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time",
+        "Image ../images/hed_pleasure.jpg is 6016x4016 and renders at 0.08x scale in a 480x180 slice frame; the source is 10.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time",
+        "Image ../images/eud_meaning.jpg is 3456x2592 and renders at 0.14x scale in a 480x180 slice frame; the source is 1.6 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time",
+        "1 ungrouped top-level Slide-local element(s) in svg_output (<text id=\"credit\">); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 10,
+          "images": {
+            "placements": 3,
+            "files": [
+              "eud_meaning.jpg",
+              "hed_pleasure.jpg",
+              "p08_hedonia.jpg"
+            ],
+            "max_frame_share": 1.0
+          },
+          "icons": 3,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 1,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 10,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#1E8449",
+            "#27AE60",
+            "#5D6D7E",
+            "#7F8C8D",
+            "#B9631B",
+            "#D6EAF8",
+            "#E67E22",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "65333d34361ed8e37efe03e830f2c0cec4763bfa383abb5832df91d9943d2e72"
+    },
+    {
+      "file": "09_formula.svg",
+      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/09_formula.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 12,
+          "images": {
+            "placements": 1,
+            "files": [
+              "p09_formula.jpg"
+            ],
+            "max_frame_share": 1.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 1,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 8,
+              "circle": 1,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 3
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 12,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#1E8449",
+            "#27AE60",
+            "#5D6D7E",
+            "#95A5A6",
+            "#D6EAF8",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "8b5d8441783383cd4545357cc6a874bac204bddc9c265ae543cdc8335dca2495"
+    },
+    {
+      "file": "10_factors.svg",
+      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/10_factors.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id=\"p10-list\"> x=848.0, y=268.0..364.0, 4 lines; <g id=\"p10-list\"> x=848.0, y=518.0..582.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 15,
+          "images": {
+            "placements": 1,
+            "files": [
+              "p10_factors.jpg"
+            ],
+            "max_frame_share": 1.0
+          },
+          "icons": 11,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 1,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 6,
+              "circle": 0,
+              "ellipse": 1,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 1
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#1E8449",
+            "#27AE60",
+            "#5D6D7E",
+            "#8D6E63",
+            "#D6EAF8",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "3601b6d62a1d74d6383d01e0c17bfe2890146f4c99053583e69ea627a64ef45b"
+    },
+    {
+      "file": "11_easterlin.svg",
+      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/11_easterlin.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): p11-credits:fill None -> '#7F8C8D'; p11-credits:font-size None -> '16'; text[32]:fill '#7F8C8D' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
+        "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"p11-credits\"> x=80.0, y=676.0..696.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate.",
+        "Image ../images/p11_rich.jpg is 3692x3220 and renders at 0.10x scale in a 360x150 slice frame; the source is 4.2 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 3,
+            "files": [
+              "p11_easterlin.jpg",
+              "p11_middle.jpg",
+              "p11_rich.jpg"
+            ],
+            "max_frame_share": 1.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 1,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 1,
+              "ellipse": 0,
+              "line": 3,
+              "polyline": 1,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#1E8449",
+            "#5D6D7E",
+            "#7F8C8D",
+            "#95A5A6",
+            "#C0392B",
+            "#D6EAF8",
+            "#E74C3C",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "612a33f651b454e483a3c45950907e774b38dd148c634c515a5c2ab47d836ef7"
+    },
+    {
+      "file": "12_education.svg",
+      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/12_education.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id=\"p12-list\"> x=848.0, y=382.0..414.0, 2 lines; <g id=\"p12-list\"> x=848.0, y=466.0..498.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate.",
+        "Image ../images/p12_education.jpg is 7200x4800 and renders at 0.18x scale in a 1280x720 slice frame; the source is 10.0 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time",
+        "1 ungrouped top-level Slide-local element(s) in svg_output (<text id=\"credit\">); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 18,
+          "images": {
+            "placements": 1,
+            "files": [
+              "p12_education.jpg"
+            ],
+            "max_frame_share": 1.0
+          },
+          "icons": 1,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 1,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 1,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 1,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 18,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#5D6D7E",
+            "#7F8C8D",
+            "#95A5A6",
+            "#B9631B",
+            "#D6EAF8",
+            "#E67E22",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "4fff657b13d282c4dd128ae1cca50336856389f4217290a4e3b4bb9af39f3e1f"
+    },
+    {
+      "file": "13_digital.svg",
+      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/13_digital.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Image ../images/p13_digital.jpg is 5616x3744 and renders at 0.23x scale in a 1280x720 slice frame; the source is 10.3 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 1,
+            "files": [
+              "p13_digital.jpg"
+            ],
+            "max_frame_share": 1.0
+          },
+          "icons": 12,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 1,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 7,
+              "circle": 1,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#1E8449",
+            "#27AE60",
+            "#5D6D7E",
+            "#C0392B",
+            "#D6EAF8",
+            "#E74C3C",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "bdb29d8abe69454e83b50ee3e78f5e24958a9f659f742f55313fd1130dab3cb8"
+    },
+    {
+      "file": "14_recommendations.svg",
+      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/14_recommendations.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "1 ungrouped top-level Slide-local element(s) in svg_output (<text id=\"credit\">); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 26,
+          "images": {
+            "placements": 1,
+            "files": [
+              "p14_recommendations.jpg"
+            ],
+            "max_frame_share": 1.0
+          },
+          "icons": 14,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 1,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 12,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 26,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#27AE60",
+            "#5D6D7E",
+            "#7F8C8D",
+            "#D6EAF8",
+            "#E67E22",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "cded35b6e45e8ae56a1d78b39bdd86d286a33bbc6747d9a8e9ff422457505b1f"
+    },
+    {
+      "file": "15_conclusions.svg",
+      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/15_conclusions.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "<text> (x=1060, y=330; text='9. Cyberleninka') exceeds <g id=\"p15-sources\"> data-pptx-bounds on the horizontal axis: content (1060.0, 313.0)-(1208.0, 337.0), container (790.0, 130.0)-(1200.0, 610.0), overflow horizontal 2.0%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈10.6 px per Latin char at 20px incl. headroom; ≈38 chars fit in 410 px",
+        "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"p15-sources\"> x=818.0, y=430.0..486.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate.",
+        "Image ../images/p15_conclusions.jpg is 6000x4000 and renders at 0.21x scale in a 1280x720 slice frame; the source is 10.8 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 38,
+          "images": {
+            "placements": 1,
+            "files": [
+              "p15_conclusions.jpg"
+            ],
+            "max_frame_share": 1.0
+          },
+          "icons": 10,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 1,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 14,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 38,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#27AE60",
+            "#5D6D7E",
+            "#D6EAF8",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "419a9999a4520dccaaac3106f5d642305b751e8011c484e48bef2aadf0d8a039"
+    }
+  ]
+}

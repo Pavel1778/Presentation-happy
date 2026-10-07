@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"
+     font-family="Arial" data-pptx-page-role="ending">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D6EAF8;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#F5E6D3;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <image id="p15-photo" x="0" y="0" width="1280" height="720" href="../images/p15_conclusions.jpg" preserveAspectRatio="xMidYMid slice" data-pptx-role="background"/>
+  <rect id="p15-bg" x="0" y="0" width="1280" height="720" fill="url(#bg-grad)" data-pptx-role="background" fill-opacity="0.88"/>
+  <rect id="p15-accent" x="0" y="0" width="1280" height="6" fill="#1B4F72" data-pptx-role="decoration"/>
+
+  <g id="p15-title" data-pptx-bounds="80 40 1120 90">
+    <text x="80" y="100" font-size="48" font-weight="bold" fill="#1B4F72">Счастье = осознанные усилия</text>
+  </g>
+
+  <g id="p15-puzzle" data-pptx-bounds="80 130 680 480">
+    <rect x="80" y="130" width="680" height="480" rx="16" fill="#FFFFFF" fill-opacity="0.85"/>
+    <text x="108" y="174" font-size="24" font-weight="bold" fill="#1B4F72">Десять выводов</text>
+      <rect x="100" y="200" width="316" height="64" rx="12" fill="#FFFFFF" fill-opacity="0.92" stroke="#27AE60" stroke-width="2"/>
+      <use data-icon="tabler-outline/activity" x="112" y="220" width="24" height="24" fill="#27AE60"/>
+      <text x="164" y="240" font-size="20" font-weight="bold" fill="#27AE60" text-anchor="end">1</text>
+      <text x="176" y="240" font-size="20" fill="#2C3E50">многомерность</text>
+      <rect x="100" y="276" width="316" height="64" rx="12" fill="#FFFFFF" fill-opacity="0.92" stroke="#27AE60" stroke-width="2"/>
+      <use data-icon="tabler-outline/dna" x="112" y="296" width="24" height="24" fill="#27AE60"/>
+      <text x="164" y="316" font-size="20" font-weight="bold" fill="#27AE60" text-anchor="end">2</text>
+      <text x="176" y="316" font-size="20" fill="#2C3E50">генетика и действия</text>
+      <rect x="100" y="352" width="316" height="64" rx="12" fill="#FFFFFF" fill-opacity="0.92" stroke="#27AE60" stroke-width="2"/>
+      <use data-icon="tabler-outline/users-group" x="112" y="372" width="24" height="24" fill="#27AE60"/>
+      <text x="164" y="392" font-size="20" font-weight="bold" fill="#27AE60" text-anchor="end">3</text>
+      <text x="176" y="392" font-size="20" fill="#2C3E50">отношения — №1</text>
+      <rect x="100" y="428" width="316" height="64" rx="12" fill="#FFFFFF" fill-opacity="0.92" stroke="#27AE60" stroke-width="2"/>
+      <use data-icon="tabler-outline/wallet" x="112" y="448" width="24" height="24" fill="#27AE60"/>
+      <text x="164" y="468" font-size="20" font-weight="bold" fill="#27AE60" text-anchor="end">4</text>
+      <text x="176" y="468" font-size="20" fill="#2C3E50">доход до порога</text>
+      <rect x="100" y="504" width="316" height="64" rx="12" fill="#FFFFFF" fill-opacity="0.92" stroke="#27AE60" stroke-width="2"/>
+      <use data-icon="tabler-outline/school" x="112" y="524" width="24" height="24" fill="#27AE60"/>
+      <text x="164" y="544" font-size="20" font-weight="bold" fill="#27AE60" text-anchor="end">5</text>
+      <text x="176" y="544" font-size="20" fill="#2C3E50">образование</text>
+      <rect x="416" y="200" width="316" height="64" rx="12" fill="#FFFFFF" fill-opacity="0.92" stroke="#27AE60" stroke-width="2"/>
+      <use data-icon="tabler-outline/device-mobile" x="428" y="220" width="24" height="24" fill="#27AE60"/>
+      <text x="480" y="240" font-size="20" font-weight="bold" fill="#27AE60" text-anchor="end">6</text>
+      <text x="492" y="240" font-size="20" fill="#2C3E50">цифровой баланс</text>
+      <rect x="416" y="276" width="316" height="64" rx="12" fill="#FFFFFF" fill-opacity="0.92" stroke="#27AE60" stroke-width="2"/>
+      <use data-icon="tabler-outline/trending-up" x="428" y="296" width="24" height="24" fill="#27AE60"/>
+      <text x="480" y="316" font-size="20" font-weight="bold" fill="#27AE60" text-anchor="end">7</text>
+      <text x="492" y="316" font-size="20" fill="#2C3E50">счастье развивается</text>
+      <rect x="416" y="352" width="316" height="64" rx="12" fill="#FFFFFF" fill-opacity="0.92" stroke="#27AE60" stroke-width="2"/>
+      <use data-icon="tabler-outline/world" x="428" y="372" width="24" height="24" fill="#27AE60"/>
+      <text x="480" y="392" font-size="20" font-weight="bold" fill="#27AE60" text-anchor="end">8</text>
+      <text x="492" y="392" font-size="20" fill="#2C3E50">культура и смысл</text>
+      <rect x="416" y="428" width="316" height="64" rx="12" fill="#FFFFFF" fill-opacity="0.92" stroke="#27AE60" stroke-width="2"/>
+      <use data-icon="tabler-outline/shield-check" x="428" y="448" width="24" height="24" fill="#27AE60"/>
+      <text x="480" y="468" font-size="20" font-weight="bold" fill="#27AE60" text-anchor="end">9</text>
+      <text x="492" y="468" font-size="20" fill="#2C3E50">стрессоустойчивость</text>
+      <rect x="416" y="504" width="316" height="64" rx="12" fill="#FFFFFF" fill-opacity="0.92" stroke="#27AE60" stroke-width="2"/>
+      <use data-icon="tabler-outline/sparkles" x="428" y="524" width="24" height="24" fill="#27AE60"/>
+      <text x="480" y="544" font-size="20" font-weight="bold" fill="#27AE60" text-anchor="end">10</text>
+      <text x="492" y="544" font-size="20" fill="#2C3E50">осознанные усилия</text>
+  </g>
+
+  <g id="p15-sources" data-pptx-bounds="790 130 410 480">
+    <rect x="790" y="130" width="410" height="480" rx="16" fill="#1B4F72" fill-opacity="0.10"/>
+    <text x="818" y="174" font-size="24" font-weight="bold" fill="#1B4F72">Источники</text>
+    <text x="818" y="222" font-size="20" fill="#2C3E50">1. Apteka.ru</text>
+    <text x="818" y="258" font-size="20" fill="#2C3E50">2. Рувики — «Счастье»</text>
+    <text x="818" y="294" font-size="20" fill="#2C3E50">3. «Большой город»</text>
+    <text x="818" y="330" font-size="20" fill="#2C3E50">4. Skillbox</text>
+    <text x="818" y="366" font-size="20" fill="#2C3E50">5. НИУ ВШЭ</text>
+    <text x="1060" y="222" font-size="20" fill="#2C3E50">6. УрФУ</text>
+    <text x="1060" y="258" font-size="20" fill="#2C3E50">7. b17.ru</text>
+    <text x="1060" y="294" font-size="20" fill="#2C3E50">8. 1economic</text>
+    <text x="1060" y="330" font-size="20" fill="#2C3E50">9. Cyberleninka</text>
+    <text x="1060" y="366" font-size="20" fill="#2C3E50">10. Ria.ru</text>
+    <text x="818" y="430" font-size="20" fill="#5D6D7E">Все выводы опираются</text>
+    <text x="818" y="458" font-size="20" fill="#5D6D7E">на перечисленные</text>
+    <text x="818" y="486" font-size="20" fill="#5D6D7E">источники</text>
+  </g>
+  <text id="p15-foot" x="80" y="700" font-size="16" fill="#5D6D7E" data-pptx-role="footer">Концепция счастья · ИС-24</text>
+  <text id="p15-num" x="1200" y="700" font-size="16" fill="#5D6D7E" text-anchor="end" data-pptx-role="page-number">15</text>
+</svg>

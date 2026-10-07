@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"
+     font-family="Arial" data-pptx-page-role="content">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D6EAF8;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#F5E6D3;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <image id="p11-photo" x="0" y="0" width="1280" height="720" href="../images/p11_easterlin.jpg" preserveAspectRatio="xMidYMid slice" data-pptx-role="background"/>
+  <rect id="p11-bg" x="0" y="0" width="1280" height="720" fill="url(#bg-grad)" data-pptx-role="background" fill-opacity="0.88"/>
+  <rect id="p11-accent" x="0" y="0" width="1280" height="6" fill="#E74C3C" data-pptx-role="decoration"/>
+
+  <g id="p11-title" data-pptx-bounds="80 40 1120 118">
+    <text x="80" y="102" font-size="48" font-weight="bold" fill="#1B4F72">После 75 000 долларов — плато</text>
+    <text x="80" y="144" font-size="24" fill="#5D6D7E">Парадокс Истерлина: рост дохода не всегда ведёт к росту счастья</text>
+  </g>
+
+  <g id="p11-chart" data-pptx-bounds="80 185 800 410">
+    <rect x="80" y="185" width="800" height="410" rx="16" fill="#FFFFFF" fill-opacity="0.85"/>
+    <text x="108" y="228" font-size="24" font-weight="bold" fill="#1B4F72">Счастье и доход (Канеман–Дитон, 2010)</text>
+    <line x1="150" y1="258" x2="150" y2="512" stroke="#95A5A6" stroke-width="2"/>
+    <line x1="150" y1="512" x2="850" y2="512" stroke="#95A5A6" stroke-width="2"/>
+    <polyline points="150,476 260,428 370,372 480,326 590,296 700,282 810,278 845,277" fill="none" stroke="#1B4F72" stroke-width="6"/>
+    <circle cx="590" cy="296" r="18" fill="none" stroke="#E74C3C" stroke-width="6"/>
+    <line x1="590" y1="296" x2="590" y2="512" stroke="#E74C3C" stroke-width="2" stroke-dasharray="6 6"/>
+    <text x="590" y="546" font-size="24" font-weight="bold" fill="#E74C3C" text-anchor="middle">75 000 $</text>
+    <text x="146" y="280" font-size="24" fill="#5D6D7E">высокое</text>
+    <text x="146" y="512" font-size="24" fill="#5D6D7E">низкое</text>
+    <text x="360" y="582" font-size="24" fill="#5D6D7E">Годовой доход, доллары США</text>
+  </g>
+
+  <g id="p11-photos" data-pptx-bounds="900 185 360 410">
+    <image x="900" y="185" width="360" height="170" href="../images/p11_middle.jpg" preserveAspectRatio="xMidYMid slice"/>
+    <text x="900" y="382" font-size="24" fill="#1E8449">средний доход: рост</text>
+    <image x="900" y="400" width="360" height="150" href="../images/p11_rich.jpg" preserveAspectRatio="xMidYMid slice"/>
+    <text x="900" y="580" font-size="24" fill="#C0392B">высокий доход: плато</text>
+  </g>
+
+  <g id="p11-note" data-pptx-bounds="80 612 1120 44">
+    <text x="80" y="646" font-size="24" fill="#5D6D7E">Гедонистическая адаптация: мы быстро привыкаем к новому уровню</text>
+  </g>
+
+  <g id="p11-credits" data-pptx-bounds="80 662 1180 58">
+    <text x="80" y="676" font-size="16" fill="#7F8C8D">© Marek Ślusarczyk ( Tupungato ) Photo portfolio / Wikimedia / CC BY 3.0</text>
+    <text x="80" y="696" font-size="16" fill="#7F8C8D">© ProperAndPolite / Wikimedia / CC BY-SA 4.0; © Pedro Ribeiro Simões from Lisboa, Portugal / Wikimedia / CC BY 2.0</text>
+  </g>
+  <text id="p11-foot" x="700" y="712" font-size="16" fill="#5D6D7E" data-pptx-role="footer">Концепция счастья · ИС-24</text>
+  <text id="p11-num" x="1200" y="712" font-size="16" fill="#5D6D7E" text-anchor="end" data-pptx-role="page-number">11</text>
+</svg>
