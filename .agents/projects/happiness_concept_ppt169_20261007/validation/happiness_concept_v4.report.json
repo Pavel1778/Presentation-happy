@@ -3,19 +3,19 @@
   "status": "passed-with-warnings",
   "output": {
     "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4.pptx",
-    "bytes": 12602155
+    "bytes": 12683549
   },
   "source": {
     "svg_slide_count": 17,
     "layout_definition_count": 0,
     "fingerprint": {
       "algorithm": "sha256",
-      "digest": "e3e2d692ef55e8487df34e43e1a314475ceb8ffea43442e57b544afb1935d02d",
+      "digest": "6ef532d30af2a9cb677fda73e7c75864f73b0c6746e45145f9d265257a802fa1",
       "file_count": 17,
       "files": [
         {
           "file": "01_cover.svg",
-          "sha256": "cd6945075bb3c659919e6e7c00268ae36f3bfe2d8d7163e284867b8de634682c"
+          "sha256": "b561ec6c2279bd66340f160ab7d484b4a7fe631da76a47aad64c0a2e160d7bb5"
         },
         {
           "file": "02_goals.svg",
@@ -23,11 +23,11 @@
         },
         {
           "file": "03_toc.svg",
-          "sha256": "0a259f5be93c4b1025b7f36cb6144ee4919b6e710bde4edee3038df959336a80"
+          "sha256": "4834df779d7749b17ecc6a1258101d4341be4dc510b828b87e9a0ebe7a15e90b"
         },
         {
           "file": "04_annotation.svg",
-          "sha256": "8ec1ea25cfb5cd1229fd4c37ab46ee8ca6e2431f5665a4b65b66c346fa11bb5b"
+          "sha256": "d83a36893c1b2dafdc1b90b4e0c2cd46c3ee6d1c9f2a3d148cebfc97aade5d74"
         },
         {
           "file": "05_why.svg",
@@ -35,15 +35,15 @@
         },
         {
           "file": "06_science.svg",
-          "sha256": "114bf0d073286d69071b5b56c59aa1eb90a4eb5a8bf8ed75a2d721f76c2a6c02"
+          "sha256": "5f629dec7013704c1d76c9afe301dc20f77d3764374e8dd8b688d5c74f788127"
         },
         {
           "file": "07_physiology.svg",
-          "sha256": "2c5d1cf455b5be1adebb16722b30d900b0621028ba3183affdf1a95dab59df73"
+          "sha256": "095891f4ab6b37b4762bc848dc07d99303c2df4ef9cc670914600b734fbc8ad9"
         },
         {
           "file": "08_history.svg",
-          "sha256": "0e6ba0766426f161433b13b27873596143b2f61b003854c98f14a6ad7949554a"
+          "sha256": "81aeb447c36d2c08ffa6d58c595b86426b18a6a0c319a7fbbb8a330aa101ed70"
         },
         {
           "file": "09_hedonia.svg",
@@ -59,11 +59,11 @@
         },
         {
           "file": "12_easterlin.svg",
-          "sha256": "03d5720d0661b6827e5f0adb042e9b2626957cfd90fce5ca025812ced47acdfb"
+          "sha256": "97da822d816aba8c2adc5350a533f3b437defa68647b931e83dc7aaee7b6394c"
         },
         {
           "file": "13_education.svg",
-          "sha256": "f0b4cf4c6d2f85e6c3d2f79f4c75dbcb44bff3b10fd5db8ec59b08ae76f7873d"
+          "sha256": "97a73eda3840abda1d6a1864ea8849ab9ad408f14c631712976a32c432aa8bf1"
         },
         {
           "file": "14_digital.svg",
@@ -71,15 +71,15 @@
         },
         {
           "file": "15_recommendations.svg",
-          "sha256": "f5c31309070471fa5bcb9df73bf00ba18d8c303e547ebb797740e627c9e8a8d6"
+          "sha256": "0918bab891e04ffa7ed3667100004ca7c3fe3bd723c0d7c8329aa4036c3a01b3"
         },
         {
           "file": "16_conclusions.svg",
-          "sha256": "95da4c40890de4791da3827f11067d5f207a9c324af3cd17222e632a1d89a8cc"
+          "sha256": "8b9459329025a10b0af3f6769331549dab8238615ecb7c190615ca246d27fb25"
         },
         {
           "file": "17_sources.svg",
-          "sha256": "4b0c159442d8de5b2c862dadd2780c5884ecba1e18f6715c20cf6b3691ee5bd3"
+          "sha256": "58743593baa456c0ed75a379b1c3498de1bde1f563827e6d28cd1088e993ce2a"
         }
       ]
     },
@@ -117,12 +117,12 @@
     "source_match": "passed",
     "source_fingerprint": {
       "algorithm": "sha256",
-      "digest": "e3e2d692ef55e8487df34e43e1a314475ceb8ffea43442e57b544afb1935d02d",
+      "digest": "6ef532d30af2a9cb677fda73e7c75864f73b0c6746e45145f9d265257a802fa1",
       "file_count": 17,
       "files": [
         {
           "file": "01_cover.svg",
-          "sha256": "cd6945075bb3c659919e6e7c00268ae36f3bfe2d8d7163e284867b8de634682c"
+          "sha256": "b561ec6c2279bd66340f160ab7d484b4a7fe631da76a47aad64c0a2e160d7bb5"
         },
         {
           "file": "02_goals.svg",
@@ -130,11 +130,11 @@
         },
         {
           "file": "03_toc.svg",
-          "sha256": "0a259f5be93c4b1025b7f36cb6144ee4919b6e710bde4edee3038df959336a80"
+          "sha256": "4834df779d7749b17ecc6a1258101d4341be4dc510b828b87e9a0ebe7a15e90b"
         },
         {
           "file": "04_annotation.svg",
-          "sha256": "8ec1ea25cfb5cd1229fd4c37ab46ee8ca6e2431f5665a4b65b66c346fa11bb5b"
+          "sha256": "d83a36893c1b2dafdc1b90b4e0c2cd46c3ee6d1c9f2a3d148cebfc97aade5d74"
         },
         {
           "file": "05_why.svg",
@@ -142,15 +142,15 @@
         },
         {
           "file": "06_science.svg",
-          "sha256": "114bf0d073286d69071b5b56c59aa1eb90a4eb5a8bf8ed75a2d721f76c2a6c02"
+          "sha256": "5f629dec7013704c1d76c9afe301dc20f77d3764374e8dd8b688d5c74f788127"
         },
         {
           "file": "07_physiology.svg",
-          "sha256": "2c5d1cf455b5be1adebb16722b30d900b0621028ba3183affdf1a95dab59df73"
+          "sha256": "095891f4ab6b37b4762bc848dc07d99303c2df4ef9cc670914600b734fbc8ad9"
         },
         {
           "file": "08_history.svg",
-          "sha256": "0e6ba0766426f161433b13b27873596143b2f61b003854c98f14a6ad7949554a"
+          "sha256": "81aeb447c36d2c08ffa6d58c595b86426b18a6a0c319a7fbbb8a330aa101ed70"
         },
         {
           "file": "09_hedonia.svg",
@@ -166,11 +166,11 @@
         },
         {
           "file": "12_easterlin.svg",
-          "sha256": "03d5720d0661b6827e5f0adb042e9b2626957cfd90fce5ca025812ced47acdfb"
+          "sha256": "97da822d816aba8c2adc5350a533f3b437defa68647b931e83dc7aaee7b6394c"
         },
         {
           "file": "13_education.svg",
-          "sha256": "f0b4cf4c6d2f85e6c3d2f79f4c75dbcb44bff3b10fd5db8ec59b08ae76f7873d"
+          "sha256": "97a73eda3840abda1d6a1864ea8849ab9ad408f14c631712976a32c432aa8bf1"
         },
         {
           "file": "14_digital.svg",
@@ -178,15 +178,15 @@
         },
         {
           "file": "15_recommendations.svg",
-          "sha256": "f5c31309070471fa5bcb9df73bf00ba18d8c303e547ebb797740e627c9e8a8d6"
+          "sha256": "0918bab891e04ffa7ed3667100004ca7c3fe3bd723c0d7c8329aa4036c3a01b3"
         },
         {
           "file": "16_conclusions.svg",
-          "sha256": "95da4c40890de4791da3827f11067d5f207a9c324af3cd17222e632a1d89a8cc"
+          "sha256": "8b9459329025a10b0af3f6769331549dab8238615ecb7c190615ca246d27fb25"
         },
         {
           "file": "17_sources.svg",
-          "sha256": "4b0c159442d8de5b2c862dadd2780c5884ecba1e18f6715c20cf6b3691ee5bd3"
+          "sha256": "58743593baa456c0ed75a379b1c3498de1bde1f563827e6d28cd1088e993ce2a"
         }
       ]
     },
@@ -202,7 +202,7 @@
         "issues": []
       },
       "introduced": {
-        "count": 27,
+        "count": 28,
         "issues": [
           {
             "file": "01_cover.svg",
@@ -251,6 +251,10 @@
           {
             "file": "08_history.svg",
             "message": "Image ../images/ph_seneca.jpg is 6478x3874 and renders at 0.02x scale in a 76x76 slice frame; the source is 3.3 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+          },
+          {
+            "file": "08_history.svg",
+            "message": "Image ../images/ph_aquinas.jpg is 3064x2298 and renders at 0.03x scale in a 76x76 slice frame; the source is 4.0 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
           },
           {
             "file": "08_history.svg",
@@ -338,7 +342,7 @@
     },
     "images": {
       "data_uri": 0,
-      "local": 26,
+      "local": 27,
       "external": 0,
       "external_references": []
     }

@@ -14,40 +14,50 @@
       <text id="p07-num" x="1200" y="690" font-size="24" fill="#5D6D7E" text-anchor="end" data-pptx-role="page-number">08</text>
 
   <g id="p07-title" data-pptx-bounds="80 44 1120 92">
-    <text x="80" y="106" font-size="48" font-weight="bold" fill="#1B4F72">Шесть вех в понимании счастья</text>
+    <text x="80" y="106" font-size="48" font-weight="bold" fill="#1B4F72">Семь вех в понимании счастья</text>
   </g>
 
-  <g id="p07-timeline" data-pptx-bounds="60 190 1170 230">
-    <line x1="130" y1="300" x2="1170" y2="300" stroke="#1B4F72" stroke-width="4"/>
-    <g id="p07-p140">
-      <image x="122" y="212" width="76" height="76" href="../images/ph_aristotle.jpg" preserveAspectRatio="xMidYMid slice"/>
-      <text x="160" y="330" font-size="22" font-weight="bold" fill="#1B4F72" text-anchor="middle">Аристотель</text>
-      <text x="160" y="362" font-size="22" fill="#2C3E50" text-anchor="middle">эвдемония</text>
+  <g id="p07-timeline" data-pptx-bounds="60 190 1170 250">
+    <line x1="120" y1="300" x2="1180" y2="300" stroke="#1B4F72" stroke-width="4"/>
+    <g id="p07-c0">
+      <image x="117" y="212" width="76" height="76" href="../images/ph_aristotle.jpg" preserveAspectRatio="xMidYMid slice"/>
+      <circle cx="155" cy="300" r="6" fill="#1B4F72"/>
+      <text x="155" y="332" font-size="24" font-weight="bold" fill="#1B4F72" text-anchor="middle">Аристотель</text>
+      <text x="155" y="360" font-size="22" fill="#2C3E50" text-anchor="middle">эвдемония</text>
     </g>
-    <g id="p07-p300">
-      <image x="322" y="212" width="76" height="76" href="../images/ph_seneca.jpg" preserveAspectRatio="xMidYMid slice"/>
-      <text x="360" y="330" font-size="22" font-weight="bold" fill="#1B4F72" text-anchor="middle">Стоики</text>
-      <text x="360" y="362" font-size="22" fill="#2C3E50" text-anchor="middle">спокойствие</text>
+    <g id="p07-c1">
+      <image x="287" y="212" width="76" height="76" href="../images/ph_seneca.jpg" preserveAspectRatio="xMidYMid slice"/>
+      <circle cx="325" cy="300" r="6" fill="#1B4F72"/>
+      <text x="325" y="398" font-size="24" font-weight="bold" fill="#1B4F72" text-anchor="middle">Стоики</text>
+      <text x="325" y="426" font-size="22" fill="#2C3E50" text-anchor="middle">спокойствие</text>
     </g>
-    <g id="p07-p460">
-      <circle cx="560" cy="250" r="38" fill="#1B4F72" fill-opacity="0.12" stroke="#1B4F72" stroke-width="3"/>
-      <text x="560" y="330" font-size="22" font-weight="bold" fill="#1B4F72" text-anchor="middle">Индия</text>
-      <text x="560" y="362" font-size="22" fill="#2C3E50" text-anchor="middle">освобождение</text>
+    <g id="p07-c2">
+      <circle cx="495" cy="250" r="38" fill="#1B4F72" fill-opacity="0.12" stroke="#1B4F72" stroke-width="3"/>
+      <text x="495" y="332" font-size="24" font-weight="bold" fill="#1B4F72" text-anchor="middle">Индия</text>
+      <text x="495" y="360" font-size="22" fill="#2C3E50" text-anchor="middle">освобождение</text>
     </g>
-    <g id="p07-p780">
-      <image x="722" y="212" width="76" height="76" href="../images/ph_jefferson.jpg" preserveAspectRatio="xMidYMid slice"/>
-      <text x="760" y="330" font-size="22" font-weight="bold" fill="#1B4F72" text-anchor="middle">Джефферсон</text>
-      <text x="760" y="362" font-size="22" fill="#2C3E50" text-anchor="middle">право на счастье</text>
+    <g id="p07-c3">
+      <image x="627" y="212" width="76" height="76" href="../images/ph_aquinas.jpg" preserveAspectRatio="xMidYMid slice"/>
+      <circle cx="665" cy="300" r="6" fill="#1B4F72"/>
+      <text x="665" y="398" font-size="24" font-weight="bold" fill="#1B4F72" text-anchor="middle">Фома Аквинский</text>
+      <text x="665" y="426" font-size="22" fill="#2C3E50" text-anchor="middle">дар Божий</text>
     </g>
-    <g id="p07-p940">
-      <image x="922" y="212" width="76" height="76" href="../images/ph_bentham.jpg" preserveAspectRatio="xMidYMid slice"/>
-      <text x="960" y="330" font-size="22" font-weight="bold" fill="#1B4F72" text-anchor="middle">Бентам и Милль</text>
-      <text x="960" y="362" font-size="22" fill="#2C3E50" text-anchor="middle">удовольствие</text>
+    <g id="p07-c4">
+      <image x="797" y="212" width="76" height="76" href="../images/ph_jefferson.jpg" preserveAspectRatio="xMidYMid slice"/>
+      <circle cx="835" cy="300" r="6" fill="#1B4F72"/>
+      <text x="835" y="332" font-size="24" font-weight="bold" fill="#1B4F72" text-anchor="middle">Джефферсон</text>
+      <text x="835" y="360" font-size="22" fill="#2C3E50" text-anchor="middle">право на счастье</text>
     </g>
-    <g id="p07-p1100">
+    <g id="p07-c5">
+      <image x="967" y="212" width="76" height="76" href="../images/ph_bentham.jpg" preserveAspectRatio="xMidYMid slice"/>
+      <circle cx="1005" cy="300" r="6" fill="#1B4F72"/>
+      <text x="1005" y="398" font-size="24" font-weight="bold" fill="#1B4F72" text-anchor="middle">Бентам и Милль</text>
+      <text x="1005" y="426" font-size="22" fill="#2C3E50" text-anchor="middle">удовольствие</text>
+    </g>
+    <g id="p07-c6">
       <circle cx="1140" cy="250" r="38" fill="#E67E22" fill-opacity="0.12" stroke="#E67E22" stroke-width="3"/>
-      <text x="1140" y="330" font-size="22" font-weight="bold" fill="#E67E22" text-anchor="middle">XXI век</text>
-      <text x="1140" y="362" font-size="22" fill="#2C3E50" text-anchor="middle">многомерность</text>
+      <text x="1140" y="332" font-size="24" font-weight="bold" fill="#E67E22" text-anchor="middle">XXI век</text>
+      <text x="1140" y="360" font-size="22" fill="#2C3E50" text-anchor="middle">многомерность</text>
     </g>
   </g>
 

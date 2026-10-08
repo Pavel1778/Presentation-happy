@@ -32,15 +32,15 @@
     <use data-icon="tabler-outline/heart" x="960" y="500" width="52" height="52" fill="#E74C3C"/>
     <use data-icon="tabler-outline/sun" x="1040" y="500" width="52" height="52" fill="#E67E22"/>
     <use data-icon="tabler-outline/users" x="1120" y="500" width="52" height="52" fill="#27AE60"/>
-    <text x="880" y="582" font-size="22" fill="#5D6D7E">мозг · сердце · солнце · семья</text>
+    <text x="880" y="582" font-size="24" fill="#5D6D7E">мозг · сердце · солнце · семья</text>
   </g>
 
   <g id="cover-logo" data-pptx-bounds="1040 80 200 200">
     <circle cx="1140" cy="140" r="50" fill="#1B4F72" fill-opacity="0.92"/>
     <circle cx="1140" cy="140" r="42" fill="none" stroke="#FFFFFF" stroke-width="3"/>
     <use data-icon="tabler-outline/school" x="1116" y="116" width="48" height="48" fill="#FFFFFF"/>
-    <text x="1140" y="214" font-size="22" font-weight="bold" fill="#1B4F72" text-anchor="middle">РКСИ</text>
-    <text x="1140" y="240" font-size="22" fill="#5D6D7E" text-anchor="middle">колледж связи</text>
+    <text x="1140" y="214" font-size="24" font-weight="bold" fill="#1B4F72" text-anchor="middle">РКСИ</text>
+    <text x="1140" y="240" font-size="24" fill="#5D6D7E" text-anchor="middle">колледж связи</text>
   </g>
   <g id="cover-question" data-pptx-bounds="80 620 900 68">
     <text x="80" y="666" font-size="24" font-style="italic" fill="#E67E22">Почему деньги не гарантируют счастья?</text>

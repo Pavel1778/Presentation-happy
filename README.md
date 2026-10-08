@@ -7,13 +7,13 @@
 [ppt-master](https://github.com/hugohe3/ppt-master). Все исходники (текст, заметки,
 анимации, озвучка, SVG) лежат в репозитории и воспроизводимы.
 
-## Готовые файлы
+## Готовые файлы (в корне репозитория)
 
 | Файл | Что это |
 | --- | --- |
-| `exports/happiness_concept_v4_video.pptx` | Основной файл: 17 слайдов, 16:9, анимации, заметки докладчика, встроенная озвучка и видео. |
-| `exports/happiness_concept_v4.pptx` | Та же презентация без встроенного видео (меньше размер). |
-| `exports/happiness_concept_20261007.pdf` | PDF-версия для печати и сдачи. |
+| `Konceptsiya_schastya.pptx` | Основной файл: 17 слайдов, 16:9, анимации, заметки докладчика, встроенная озвучка и видео. |
+| `Konceptsiya_schastya_bez_video.pptx` | Та же презентация без встроенного видео (меньше размер). |
+| `Konceptsiya_schastya.pdf` | PDF-версия для печати и сдачи (17 страниц, 16:9). |
 
 Контент целиком воспроизводится из `svg_output/` (17 страниц) + `notes/` + `audio/` +
 `animations.json`. Вспомогательные и тяжёлые артефакты (фото, видео, превью, промежуточные
@@ -28,14 +28,14 @@ PPTX) в репозиторий не входят — см. `.gitignore`.
 5. `05_why` — почему тема важна.
 6. `06_science` — научный подход (био-психо-социальная модель).
 7. `07_physiology` — физиология счастья + видео «нейросети мозга».
-8. `08_history` — история идей (6 вех: от Аристотеля до позитивной психологии).
+8. `08_history` — история идей (7 вех: от Аристотеля до позитивной психологии).
 9. `09_hedonia` — гедония и эвдемония.
 10. `10_formula` — слагаемые счастья (модель).
 11. `11_factors` — факторы, влияющие на счастье.
 12. `12_easterlin` — парадокс Истерлина (плато после 75 000 $).
 13. `13_education` — образование и счастье.
 14. `14_digital` — цифровая среда: плюсы и минусы.
-15. `15_recommendations` — практические рекомендации (6 шагов).
+15. `15_recommendations` — практические рекомендации (8 шагов).
 16. `16_conclusions` — выводы.
 17. `17_sources` — список источников.
 
@@ -63,14 +63,14 @@ python3 scripts/svg_to_pptx.py \
   /workspace/.../happiness_concept_ppt169_20261007 \
   -f ppt169 --with-notes --narration-audio-dir audio \
   --animation-config animations.json --image-sizing display --image-quality 82 \
-  -o .../exports/happiness_concept_v4.pptx
+  -o ./Konceptsiya_schastya_bez_video.pptx
 ```
 
 Проверка качества SVG и готового PPTX:
 
 ```bash
 python3 scripts/svg_quality_checker.py <project> --quick-generate --json
-python3 scripts/pptx_delivery_check.py <project>/exports/happiness_concept_v4.pptx
+python3 scripts/pptx_delivery_check.py ./Konceptsiya_schastya.pptx
 ```
 
 ## Замечания по правовой части

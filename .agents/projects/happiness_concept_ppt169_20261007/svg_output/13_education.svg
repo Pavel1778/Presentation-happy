@@ -29,7 +29,7 @@
     <text x="172" y="560" font-size="24" fill="#5D6D7E">ниже</text>
     <text x="190" y="596" font-size="24" fill="#5D6D7E">среднее</text>
     <text x="600" y="596" font-size="24" fill="#5D6D7E">высшее</text>
-    <text x="270" y="636" font-size="22" fill="#5D6D7E">Уровень образования → уровень счастья</text>
+    <text x="270" y="636" font-size="24" fill="#5D6D7E">Уровень образования → уровень счастья</text>
   </g>
 
   <g id="p12-list" data-pptx-bounds="820 200 380 420">

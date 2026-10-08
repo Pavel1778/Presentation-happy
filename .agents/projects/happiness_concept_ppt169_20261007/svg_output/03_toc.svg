@@ -22,49 +22,49 @@
       <rect x="80" y="200" width="270" height="150" rx="16" fill="#FFFFFF" fill-opacity="0.85"/>
       <use data-icon="tabler-outline/activity" x="104" y="224" width="44" height="44" fill="#27AE60"/>
       <text x="160" y="258" font-size="24" font-weight="bold" fill="#2C3E50">Зачем изучать</text>
-      <text x="104" y="316" font-size="22" fill="#5D6D7E">счастье</text>
+      <text x="104" y="316" font-size="24" fill="#5D6D7E">счастье</text>
     </g>
     <g id="p03-t02">
       <rect x="365" y="200" width="270" height="150" rx="16" fill="#FFFFFF" fill-opacity="0.85"/>
       <use data-icon="tabler-outline/scale" x="389" y="224" width="44" height="44" fill="#27AE60"/>
       <text x="445" y="258" font-size="24" font-weight="bold" fill="#2C3E50">Научный</text>
-      <text x="389" y="316" font-size="22" fill="#5D6D7E">подход</text>
+      <text x="389" y="316" font-size="24" fill="#5D6D7E">подход</text>
     </g>
     <g id="p03-t03">
       <rect x="650" y="200" width="270" height="150" rx="16" fill="#FFFFFF" fill-opacity="0.85"/>
       <use data-icon="tabler-outline/brain" x="674" y="224" width="44" height="44" fill="#27AE60"/>
       <text x="730" y="258" font-size="24" font-weight="bold" fill="#2C3E50">Физиология</text>
-      <text x="674" y="316" font-size="22" fill="#5D6D7E">и гормоны</text>
+      <text x="674" y="316" font-size="24" fill="#5D6D7E">и гормоны</text>
     </g>
     <g id="p03-t04">
       <rect x="935" y="200" width="270" height="150" rx="16" fill="#FFFFFF" fill-opacity="0.85"/>
       <use data-icon="tabler-outline/timeline" x="959" y="224" width="44" height="44" fill="#27AE60"/>
       <text x="1015" y="258" font-size="24" font-weight="bold" fill="#2C3E50">История</text>
-      <text x="959" y="316" font-size="22" fill="#5D6D7E">взглядов</text>
+      <text x="959" y="316" font-size="24" fill="#5D6D7E">взглядов</text>
     </g>
     <g id="p03-t05">
       <rect x="80" y="400" width="270" height="150" rx="16" fill="#FFFFFF" fill-opacity="0.85"/>
       <use data-icon="tabler-outline/mood-smile" x="104" y="424" width="44" height="44" fill="#E67E22"/>
       <text x="160" y="458" font-size="24" font-weight="bold" fill="#2C3E50">Гедонизм</text>
-      <text x="104" y="516" font-size="22" fill="#5D6D7E">и эвдемония</text>
+      <text x="104" y="516" font-size="24" fill="#5D6D7E">и эвдемония</text>
     </g>
     <g id="p03-t06">
       <rect x="365" y="400" width="270" height="150" rx="16" fill="#FFFFFF" fill-opacity="0.85"/>
       <use data-icon="tabler-outline/chart-pie" x="389" y="424" width="44" height="44" fill="#E67E22"/>
       <text x="445" y="458" font-size="24" font-weight="bold" fill="#2C3E50">Формула</text>
-      <text x="389" y="516" font-size="22" fill="#5D6D7E">счастья</text>
+      <text x="389" y="516" font-size="24" fill="#5D6D7E">счастья</text>
     </g>
     <g id="p03-t07">
       <rect x="650" y="400" width="270" height="150" rx="16" fill="#FFFFFF" fill-opacity="0.85"/>
       <use data-icon="tabler-outline/tree" x="674" y="424" width="44" height="44" fill="#E67E22"/>
       <text x="730" y="458" font-size="24" font-weight="bold" fill="#2C3E50">Факторы</text>
-      <text x="674" y="516" font-size="22" fill="#5D6D7E">счастья</text>
+      <text x="674" y="516" font-size="24" fill="#5D6D7E">счастья</text>
     </g>
     <g id="p03-t08">
       <rect x="935" y="400" width="270" height="150" rx="16" fill="#FFFFFF" fill-opacity="0.85"/>
       <use data-icon="tabler-outline/award" x="959" y="424" width="44" height="44" fill="#E74C3C"/>
       <text x="1015" y="458" font-size="24" font-weight="bold" fill="#2C3E50">Выводы</text>
-      <text x="959" y="516" font-size="22" fill="#5D6D7E">и рекомендации</text>
+      <text x="959" y="516" font-size="24" fill="#5D6D7E">и рекомендации</text>
     </g>
   </g>
       <text id="credit" x="80" y="712" font-size="22" fill="#7F8C8D">© Shixart1985 / Wikimedia / CC BY 2.0</text>

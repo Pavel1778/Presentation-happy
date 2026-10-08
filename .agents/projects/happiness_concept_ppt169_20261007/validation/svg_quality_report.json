@@ -4,12 +4,12 @@
   "target": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007",
   "source_fingerprint": {
     "algorithm": "sha256",
-    "digest": "e3e2d692ef55e8487df34e43e1a314475ceb8ffea43442e57b544afb1935d02d",
+    "digest": "6ef532d30af2a9cb677fda73e7c75864f73b0c6746e45145f9d265257a802fa1",
     "file_count": 17,
     "files": [
       {
         "file": "01_cover.svg",
-        "sha256": "cd6945075bb3c659919e6e7c00268ae36f3bfe2d8d7163e284867b8de634682c"
+        "sha256": "b561ec6c2279bd66340f160ab7d484b4a7fe631da76a47aad64c0a2e160d7bb5"
       },
       {
         "file": "02_goals.svg",
@@ -17,11 +17,11 @@
       },
       {
         "file": "03_toc.svg",
-        "sha256": "0a259f5be93c4b1025b7f36cb6144ee4919b6e710bde4edee3038df959336a80"
+        "sha256": "4834df779d7749b17ecc6a1258101d4341be4dc510b828b87e9a0ebe7a15e90b"
       },
       {
         "file": "04_annotation.svg",
-        "sha256": "8ec1ea25cfb5cd1229fd4c37ab46ee8ca6e2431f5665a4b65b66c346fa11bb5b"
+        "sha256": "d83a36893c1b2dafdc1b90b4e0c2cd46c3ee6d1c9f2a3d148cebfc97aade5d74"
       },
       {
         "file": "05_why.svg",
@@ -29,15 +29,15 @@
       },
       {
         "file": "06_science.svg",
-        "sha256": "114bf0d073286d69071b5b56c59aa1eb90a4eb5a8bf8ed75a2d721f76c2a6c02"
+        "sha256": "5f629dec7013704c1d76c9afe301dc20f77d3764374e8dd8b688d5c74f788127"
       },
       {
         "file": "07_physiology.svg",
-        "sha256": "2c5d1cf455b5be1adebb16722b30d900b0621028ba3183affdf1a95dab59df73"
+        "sha256": "095891f4ab6b37b4762bc848dc07d99303c2df4ef9cc670914600b734fbc8ad9"
       },
       {
         "file": "08_history.svg",
-        "sha256": "0e6ba0766426f161433b13b27873596143b2f61b003854c98f14a6ad7949554a"
+        "sha256": "81aeb447c36d2c08ffa6d58c595b86426b18a6a0c319a7fbbb8a330aa101ed70"
       },
       {
         "file": "09_hedonia.svg",
@@ -53,11 +53,11 @@
       },
       {
         "file": "12_easterlin.svg",
-        "sha256": "03d5720d0661b6827e5f0adb042e9b2626957cfd90fce5ca025812ced47acdfb"
+        "sha256": "97da822d816aba8c2adc5350a533f3b437defa68647b931e83dc7aaee7b6394c"
       },
       {
         "file": "13_education.svg",
-        "sha256": "f0b4cf4c6d2f85e6c3d2f79f4c75dbcb44bff3b10fd5db8ec59b08ae76f7873d"
+        "sha256": "97a73eda3840abda1d6a1864ea8849ab9ad408f14c631712976a32c432aa8bf1"
       },
       {
         "file": "14_digital.svg",
@@ -65,15 +65,15 @@
       },
       {
         "file": "15_recommendations.svg",
-        "sha256": "f5c31309070471fa5bcb9df73bf00ba18d8c303e547ebb797740e627c9e8a8d6"
+        "sha256": "0918bab891e04ffa7ed3667100004ca7c3fe3bd723c0d7c8329aa4036c3a01b3"
       },
       {
         "file": "16_conclusions.svg",
-        "sha256": "95da4c40890de4791da3827f11067d5f207a9c324af3cd17222e632a1d89a8cc"
+        "sha256": "8b9459329025a10b0af3f6769331549dab8238615ecb7c190615ca246d27fb25"
       },
       {
         "file": "17_sources.svg",
-        "sha256": "4b0c159442d8de5b2c862dadd2780c5884ecba1e18f6715c20cf6b3691ee5bd3"
+        "sha256": "58743593baa456c0ed75a379b1c3498de1bde1f563827e6d28cd1088e993ce2a"
       }
     ]
   },
@@ -90,7 +90,7 @@
       "issues": []
     },
     "introduced": {
-      "count": 27,
+      "count": 28,
       "issues": [
         {
           "file": "01_cover.svg",
@@ -139,6 +139,10 @@
         {
           "file": "08_history.svg",
           "message": "Image ../images/ph_seneca.jpg is 6478x3874 and renders at 0.02x scale in a 76x76 slice frame; the source is 3.3 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+        },
+        {
+          "file": "08_history.svg",
+          "message": "Image ../images/ph_aquinas.jpg is 3064x2298 and renders at 0.03x scale in a 76x76 slice frame; the source is 4.0 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
         },
         {
           "file": "08_history.svg",
@@ -215,7 +219,164 @@
     }
   },
   "drift": {
-    "colors": {},
+    "colors": {
+      "#1E8449": [
+        "07_physiology.svg",
+        "09_hedonia.svg",
+        "10_formula.svg",
+        "11_factors.svg",
+        "12_easterlin.svg",
+        "14_digital.svg",
+        "17_sources.svg"
+      ],
+      "#27AE60": [
+        "01_cover.svg",
+        "02_goals.svg",
+        "03_toc.svg",
+        "04_annotation.svg",
+        "06_science.svg",
+        "07_physiology.svg",
+        "09_hedonia.svg",
+        "10_formula.svg",
+        "11_factors.svg",
+        "14_digital.svg",
+        "15_recommendations.svg",
+        "16_conclusions.svg",
+        "17_sources.svg"
+      ],
+      "#5D6D7E": [
+        "01_cover.svg",
+        "02_goals.svg",
+        "03_toc.svg",
+        "04_annotation.svg",
+        "05_why.svg",
+        "06_science.svg",
+        "07_physiology.svg",
+        "08_history.svg",
+        "09_hedonia.svg",
+        "10_formula.svg",
+        "11_factors.svg",
+        "12_easterlin.svg",
+        "13_education.svg",
+        "14_digital.svg",
+        "15_recommendations.svg",
+        "16_conclusions.svg",
+        "17_sources.svg"
+      ],
+      "#7F8C8D": [
+        "01_cover.svg",
+        "02_goals.svg",
+        "03_toc.svg",
+        "04_annotation.svg",
+        "06_science.svg",
+        "07_physiology.svg",
+        "08_history.svg",
+        "09_hedonia.svg",
+        "12_easterlin.svg",
+        "13_education.svg",
+        "15_recommendations.svg",
+        "17_sources.svg"
+      ],
+      "#8D6E63": [
+        "11_factors.svg"
+      ],
+      "#95A5A6": [
+        "02_goals.svg",
+        "05_why.svg",
+        "10_formula.svg",
+        "12_easterlin.svg",
+        "13_education.svg"
+      ],
+      "#B9631B": [
+        "06_science.svg",
+        "07_physiology.svg",
+        "09_hedonia.svg",
+        "13_education.svg"
+      ],
+      "#C0392B": [
+        "07_physiology.svg",
+        "12_easterlin.svg",
+        "14_digital.svg"
+      ],
+      "#D6EAF8": [
+        "01_cover.svg",
+        "02_goals.svg",
+        "03_toc.svg",
+        "04_annotation.svg",
+        "05_why.svg",
+        "06_science.svg",
+        "07_physiology.svg",
+        "08_history.svg",
+        "09_hedonia.svg",
+        "10_formula.svg",
+        "11_factors.svg",
+        "12_easterlin.svg",
+        "13_education.svg",
+        "14_digital.svg",
+        "15_recommendations.svg",
+        "16_conclusions.svg",
+        "17_sources.svg"
+      ],
+      "#E67E22": [
+        "01_cover.svg",
+        "02_goals.svg",
+        "03_toc.svg",
+        "05_why.svg",
+        "06_science.svg",
+        "07_physiology.svg",
+        "08_history.svg",
+        "09_hedonia.svg",
+        "13_education.svg",
+        "15_recommendations.svg"
+      ],
+      "#E74C3C": [
+        "01_cover.svg",
+        "03_toc.svg",
+        "04_annotation.svg",
+        "05_why.svg",
+        "07_physiology.svg",
+        "12_easterlin.svg",
+        "14_digital.svg"
+      ],
+      "#F5E6D3": [
+        "01_cover.svg",
+        "02_goals.svg",
+        "03_toc.svg",
+        "04_annotation.svg",
+        "05_why.svg",
+        "06_science.svg",
+        "07_physiology.svg",
+        "08_history.svg",
+        "09_hedonia.svg",
+        "10_formula.svg",
+        "11_factors.svg",
+        "12_easterlin.svg",
+        "13_education.svg",
+        "14_digital.svg",
+        "15_recommendations.svg",
+        "16_conclusions.svg",
+        "17_sources.svg"
+      ],
+      "#FFFFFF": [
+        "01_cover.svg",
+        "02_goals.svg",
+        "03_toc.svg",
+        "04_annotation.svg",
+        "05_why.svg",
+        "06_science.svg",
+        "07_physiology.svg",
+        "08_history.svg",
+        "09_hedonia.svg",
+        "10_formula.svg",
+        "11_factors.svg",
+        "12_easterlin.svg",
+        "13_education.svg",
+        "14_digital.svg",
+        "15_recommendations.svg",
+        "16_conclusions.svg",
+        "17_sources.svg"
+      ]
+    },
     "fonts": {},
     "sizes": {}
   },
@@ -223,10 +384,10 @@
     "scope": "informational-not-a-quota",
     "pages": 17,
     "totals": {
-      "text_elements": 282,
-      "image_placements": 26,
-      "icons": 74,
-      "svg_geometry_elements": 146,
+      "text_elements": 284,
+      "image_placements": 27,
+      "icons": 77,
+      "svg_geometry_elements": 154,
       "preset_shapes": 0,
       "page_frame_elements": 35,
       "marker_uses": 0,
@@ -249,13 +410,13 @@
     },
     "relationship_pages": null,
     "geometry_elements": {
-      "circle": 24,
+      "circle": 29,
       "ellipse": 1,
       "line": 11,
       "path": 5,
       "polygon": 0,
       "polyline": 4,
-      "rect": 101
+      "rect": 104
     },
     "preset_names": {},
     "native_objects": {
@@ -336,10 +497,22 @@
           "Arial"
         ],
         "text_elements": 13,
-        "tspan_elements": 0
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#27AE60",
+            "#5D6D7E",
+            "#7F8C8D",
+            "#D6EAF8",
+            "#E67E22",
+            "#E74C3C",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
       },
       "passed": true,
-      "source_sha256": "cd6945075bb3c659919e6e7c00268ae36f3bfe2d8d7163e284867b8de634682c"
+      "source_sha256": "b561ec6c2279bd66340f160ab7d484b4a7fe631da76a47aad64c0a2e160d7bb5"
     },
     {
       "file": "02_goals.svg",
@@ -400,7 +573,19 @@
           "Arial"
         ],
         "text_elements": 19,
-        "tspan_elements": 0
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#27AE60",
+            "#5D6D7E",
+            "#7F8C8D",
+            "#95A5A6",
+            "#D6EAF8",
+            "#E67E22",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
       },
       "passed": true,
       "source_sha256": "4fc82277f6ed0389d3693030e45d6c6e6488f60fb8864189eb67e0558b4c068d"
@@ -463,10 +648,22 @@
           "Arial"
         ],
         "text_elements": 20,
-        "tspan_elements": 0
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#27AE60",
+            "#5D6D7E",
+            "#7F8C8D",
+            "#D6EAF8",
+            "#E67E22",
+            "#E74C3C",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
       },
       "passed": true,
-      "source_sha256": "0a259f5be93c4b1025b7f36cb6144ee4919b6e710bde4edee3038df959336a80"
+      "source_sha256": "4834df779d7749b17ecc6a1258101d4341be4dc510b828b87e9a0ebe7a15e90b"
     },
     {
       "file": "04_annotation.svg",
@@ -526,10 +723,21 @@
           "Arial"
         ],
         "text_elements": 19,
-        "tspan_elements": 0
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#27AE60",
+            "#5D6D7E",
+            "#7F8C8D",
+            "#D6EAF8",
+            "#E74C3C",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
       },
       "passed": true,
-      "source_sha256": "8ec1ea25cfb5cd1229fd4c37ab46ee8ca6e2431f5665a4b65b66c346fa11bb5b"
+      "source_sha256": "d83a36893c1b2dafdc1b90b4e0c2cd46c3ee6d1c9f2a3d148cebfc97aade5d74"
     },
     {
       "file": "05_why.svg",
@@ -586,7 +794,18 @@
           "Arial"
         ],
         "text_elements": 17,
-        "tspan_elements": 0
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#5D6D7E",
+            "#95A5A6",
+            "#D6EAF8",
+            "#E67E22",
+            "#E74C3C",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
       },
       "passed": true,
       "source_sha256": "fded799a495abefb6030e0bf5e46e6a446af13cbedf96c5f87c4e148a4429b34"
@@ -646,10 +865,22 @@
           "Arial"
         ],
         "text_elements": 18,
-        "tspan_elements": 0
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#27AE60",
+            "#5D6D7E",
+            "#7F8C8D",
+            "#B9631B",
+            "#D6EAF8",
+            "#E67E22",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
       },
       "passed": true,
-      "source_sha256": "114bf0d073286d69071b5b56c59aa1eb90a4eb5a8bf8ed75a2d721f76c2a6c02"
+      "source_sha256": "5f629dec7013704c1d76c9afe301dc20f77d3764374e8dd8b688d5c74f788127"
     },
     {
       "file": "07_physiology.svg",
@@ -707,10 +938,25 @@
           "Arial"
         ],
         "text_elements": 19,
-        "tspan_elements": 0
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#1E8449",
+            "#27AE60",
+            "#5D6D7E",
+            "#7F8C8D",
+            "#B9631B",
+            "#C0392B",
+            "#D6EAF8",
+            "#E67E22",
+            "#E74C3C",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
       },
       "passed": true,
-      "source_sha256": "2c5d1cf455b5be1adebb16722b30d900b0621028ba3183affdf1a95dab59df73"
+      "source_sha256": "095891f4ab6b37b4762bc848dc07d99303c2df4ef9cc670914600b734fbc8ad9"
     },
     {
       "file": "08_history.svg",
@@ -721,17 +967,19 @@
         "Image ../images/p07_history.jpg is 5184x3456 and renders at 0.25x scale in a 1280x720 slice frame; the source is 2.6 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time",
         "Image ../images/ph_aristotle.jpg is 2849x4166 and renders at 0.03x scale in a 76x76 slice frame; the source is 9.8 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time",
         "Image ../images/ph_seneca.jpg is 6478x3874 and renders at 0.02x scale in a 76x76 slice frame; the source is 3.3 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time",
+        "Image ../images/ph_aquinas.jpg is 3064x2298 and renders at 0.03x scale in a 76x76 slice frame; the source is 4.0 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time",
         "Image ../images/ph_jefferson.jpg is 2400x2387 and renders at 0.03x scale in a 76x76 slice frame; the source is 1.4 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time",
         "1 ungrouped top-level Slide-local element(s) in svg_output (<text id=\"credit\">); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
       ],
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 18,
+          "text_elements": 20,
           "images": {
-            "placements": 5,
+            "placements": 6,
             "files": [
               "p07_history.jpg",
+              "ph_aquinas.jpg",
               "ph_aristotle.jpg",
               "ph_bentham.jpg",
               "ph_jefferson.jpg",
@@ -749,7 +997,7 @@
           "geometry": {
             "svg_elements": {
               "rect": 3,
-              "circle": 2,
+              "circle": 7,
               "ellipse": 0,
               "line": 1,
               "polyline": 0,
@@ -776,11 +1024,21 @@
         "fonts": [
           "Arial"
         ],
-        "text_elements": 18,
-        "tspan_elements": 0
+        "text_elements": 20,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#5D6D7E",
+            "#7F8C8D",
+            "#D6EAF8",
+            "#E67E22",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
       },
       "passed": true,
-      "source_sha256": "0e6ba0766426f161433b13b27873596143b2f61b003854c98f14a6ad7949554a"
+      "source_sha256": "81aeb447c36d2c08ffa6d58c595b86426b18a6a0c319a7fbbb8a330aa101ed70"
     },
     {
       "file": "09_hedonia.svg",
@@ -844,7 +1102,20 @@
           "Arial"
         ],
         "text_elements": 11,
-        "tspan_elements": 0
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#1E8449",
+            "#27AE60",
+            "#5D6D7E",
+            "#7F8C8D",
+            "#B9631B",
+            "#D6EAF8",
+            "#E67E22",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
       },
       "passed": true,
       "source_sha256": "3de52a4732b7af4f4e50142007768da762377a8f07952a205da53401f2904a74"
@@ -904,7 +1175,18 @@
           "Arial"
         ],
         "text_elements": 12,
-        "tspan_elements": 0
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#1E8449",
+            "#27AE60",
+            "#5D6D7E",
+            "#95A5A6",
+            "#D6EAF8",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
       },
       "passed": true,
       "source_sha256": "9d8acf88c5a808d9e08386ee3db3a56d1b5738f85614f89d4903d8153834ea4b"
@@ -966,7 +1248,18 @@
           "Arial"
         ],
         "text_elements": 15,
-        "tspan_elements": 0
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#1E8449",
+            "#27AE60",
+            "#5D6D7E",
+            "#8D6E63",
+            "#D6EAF8",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
       },
       "passed": true,
       "source_sha256": "2187d50a9d000dfa08878a0e3428debdfe3ccd9c868cecf40ba369a912a4fceb"
@@ -1030,10 +1323,23 @@
           "Arial"
         ],
         "text_elements": 13,
-        "tspan_elements": 1
+        "tspan_elements": 1,
+        "contextual_values": {
+          "colors": [
+            "#1E8449",
+            "#5D6D7E",
+            "#7F8C8D",
+            "#95A5A6",
+            "#C0392B",
+            "#D6EAF8",
+            "#E74C3C",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
       },
       "passed": true,
-      "source_sha256": "03d5720d0661b6827e5f0adb042e9b2626957cfd90fce5ca025812ced47acdfb"
+      "source_sha256": "97da822d816aba8c2adc5350a533f3b437defa68647b931e83dc7aaee7b6394c"
     },
     {
       "file": "13_education.svg",
@@ -1094,10 +1400,22 @@
           "Arial"
         ],
         "text_elements": 18,
-        "tspan_elements": 0
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#5D6D7E",
+            "#7F8C8D",
+            "#95A5A6",
+            "#B9631B",
+            "#D6EAF8",
+            "#E67E22",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
       },
       "passed": true,
-      "source_sha256": "f0b4cf4c6d2f85e6c3d2f79f4c75dbcb44bff3b10fd5db8ec59b08ae76f7873d"
+      "source_sha256": "97a73eda3840abda1d6a1864ea8849ab9ad408f14c631712976a32c432aa8bf1"
     },
     {
       "file": "14_digital.svg",
@@ -1156,7 +1474,19 @@
           "Arial"
         ],
         "text_elements": 14,
-        "tspan_elements": 0
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#1E8449",
+            "#27AE60",
+            "#5D6D7E",
+            "#C0392B",
+            "#D6EAF8",
+            "#E74C3C",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
       },
       "passed": true,
       "source_sha256": "613fda3d985f1fb10d406933ecf97cf2e972153e1e38912a09df8c3415a49da2"
@@ -1180,7 +1510,7 @@
             ],
             "max_frame_share": 1.0
           },
-          "icons": 6,
+          "icons": 9,
           "effects": {
             "inline_emphasis_runs": 0,
             "gradient_uses": 1,
@@ -1189,7 +1519,7 @@
           },
           "geometry": {
             "svg_elements": {
-              "rect": 8,
+              "rect": 11,
               "circle": 0,
               "ellipse": 0,
               "line": 0,
@@ -1218,10 +1548,21 @@
           "Arial"
         ],
         "text_elements": 22,
-        "tspan_elements": 0
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#27AE60",
+            "#5D6D7E",
+            "#7F8C8D",
+            "#D6EAF8",
+            "#E67E22",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
       },
       "passed": true,
-      "source_sha256": "f5c31309070471fa5bcb9df73bf00ba18d8c303e547ebb797740e627c9e8a8d6"
+      "source_sha256": "0918bab891e04ffa7ed3667100004ca7c3fe3bd723c0d7c8329aa4036c3a01b3"
     },
     {
       "file": "16_conclusions.svg",
@@ -1280,10 +1621,19 @@
           "Arial"
         ],
         "text_elements": 16,
-        "tspan_elements": 0
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#27AE60",
+            "#5D6D7E",
+            "#D6EAF8",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
       },
       "passed": true,
-      "source_sha256": "95da4c40890de4791da3827f11067d5f207a9c324af3cd17222e632a1d89a8cc"
+      "source_sha256": "8b9459329025a10b0af3f6769331549dab8238615ecb7c190615ca246d27fb25"
     },
     {
       "file": "17_sources.svg",
@@ -1342,10 +1692,21 @@
           "Arial"
         ],
         "text_elements": 18,
-        "tspan_elements": 0
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#1E8449",
+            "#27AE60",
+            "#5D6D7E",
+            "#7F8C8D",
+            "#D6EAF8",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
       },
       "passed": true,
-      "source_sha256": "4b0c159442d8de5b2c862dadd2780c5884ecba1e18f6715c20cf6b3691ee5bd3"
+      "source_sha256": "58743593baa456c0ed75a379b1c3498de1bde1f563827e6d28cd1088e993ce2a"
     }
   ]
 }

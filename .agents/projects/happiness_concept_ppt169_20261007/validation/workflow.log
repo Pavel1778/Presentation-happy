@@ -2302,3 +2302,349 @@ argv: ["/usr/local/bin/python3", "scripts/pptx_delivery_check.py", "/workspace/p
 cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
 argv: ["/usr/local/bin/python3", "scripts/pptx_delivery_check.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4_video.pptx"]
 === 2026-10-08T09:04:11.976Z END run=e9def4924dfe elapsed_ms=829 output_lines=839 retained=0 omitted=839 ===
+
+=== 2026-10-08T09:21:54.126Z PYTHON run=c1605d563c68 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/notes_to_audio.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--provider", "edge", "--voice", "ru-RU-SvetlanaNeural", "--rate", "-5%", "--subtitle-max-chars", "20", "--concurrency", "4"]
+stdout:
+  [OK] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/audio/01_cover.mp3
+stderr:
+  error: failed to generate /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/audio/15_recommendations.mp3: Edge TTS word boundaries crossed subtitle split points; subtitle timing was not generated
+=== 2026-10-08T09:22:07.912Z END run=c1605d563c68 elapsed_ms=13785 output_lines=34 retained=2 omitted=32 ===
+
+=== 2026-10-08T09:22:14.862Z PYTHON run=3d2b23bda746 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/notes_to_audio.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--provider", "edge", "--voice", "ru-RU-SvetlanaNeural", "--rate", "-5%", "--subtitle-max-chars", "20", "--concurrency", "4"]
+stdout:
+  [OK] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/audio/01_cover.mp3
+stderr:
+  error: failed to generate /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/audio/15_recommendations.mp3: Edge TTS word boundaries crossed subtitle split points; subtitle timing was not generated
+=== 2026-10-08T09:22:18.427Z END run=3d2b23bda746 elapsed_ms=3564 output_lines=34 retained=2 omitted=32 ===
+
+=== 2026-10-08T09:22:27.771Z PYTHON run=4fec09aef4ba ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/notes_to_audio.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--provider", "edge", "--voice", "ru-RU-SvetlanaNeural", "--rate", "-5%", "--subtitle-max-chars", "40", "--concurrency", "4"]
+stdout:
+  [OK] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/audio/01_cover.mp3
+stderr:
+  error: failed to generate /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/audio/15_recommendations.mp3: Edge TTS word boundaries crossed subtitle split points; subtitle timing was not generated
+=== 2026-10-08T09:22:31.335Z END run=4fec09aef4ba elapsed_ms=3564 output_lines=34 retained=2 omitted=32 ===
+
+=== 2026-10-08T09:22:35.870Z PYTHON run=164ea0618cfc ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/notes_to_audio.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--provider", "edge", "--voice", "ru-RU-SvetlanaNeural", "--rate", "-5%", "--subtitle-max-chars", "20", "--concurrency", "1"]
+stdout:
+  [OK] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/audio/01_cover.mp3
+stderr:
+  error: failed to generate /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/audio/15_recommendations.mp3: Edge TTS word boundaries crossed subtitle split points; subtitle timing was not generated
+=== 2026-10-08T09:22:47.360Z END run=164ea0618cfc elapsed_ms=11490 output_lines=34 retained=2 omitted=32 ===
+
+=== 2026-10-08T09:23:05.289Z PYTHON run=e5d062be49be ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/notes_to_audio.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--provider", "edge", "--voice", "ru-RU-SvetlanaNeural", "--rate", "-5%", "--subtitle-max-chars", "20", "--concurrency", "1"]
+stdout:
+  [OK] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/audio/01_cover.mp3
+stderr:
+  error: failed to generate /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/audio/15_recommendations.mp3: Edge TTS word boundaries crossed subtitle split points; subtitle timing was not generated
+=== 2026-10-08T09:23:22.957Z END run=e5d062be49be elapsed_ms=17668 output_lines=34 retained=2 omitted=32 ===
+
+=== 2026-10-08T09:23:23.463Z PYTHON run=839b51bb89c1 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/notes_to_audio.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--provider", "edge", "--voice", "ru-RU-SvetlanaNeural", "--rate", "-5%", "--subtitle-max-chars", "20", "--concurrency", "1"]
+stdout:
+  [OK] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/audio/01_cover.mp3
+stderr:
+  error: failed to generate /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/audio/15_recommendations.mp3: Edge TTS word boundaries crossed subtitle split points; subtitle timing was not generated
+=== 2026-10-08T09:23:34.909Z END run=839b51bb89c1 elapsed_ms=11445 output_lines=34 retained=2 omitted=32 ===
+
+=== 2026-10-08T09:23:35.383Z PYTHON run=544cefbc9cdb ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/notes_to_audio.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--provider", "edge", "--voice", "ru-RU-SvetlanaNeural", "--rate", "-5%", "--subtitle-max-chars", "20", "--concurrency", "1"]
+stdout:
+  [OK] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/audio/01_cover.mp3
+stderr:
+  error: failed to generate /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/audio/15_recommendations.mp3: Edge TTS word boundaries crossed subtitle split points; subtitle timing was not generated
+=== 2026-10-08T09:23:46.202Z END run=544cefbc9cdb elapsed_ms=10819 output_lines=34 retained=2 omitted=32 ===
+
+=== 2026-10-08T09:23:46.679Z PYTHON run=40b35ecc83dd ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/notes_to_audio.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--provider", "edge", "--voice", "ru-RU-SvetlanaNeural", "--rate", "-5%", "--subtitle-max-chars", "20", "--concurrency", "1"]
+stdout:
+  [OK] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/audio/01_cover.mp3
+stderr:
+  error: failed to generate /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/audio/15_recommendations.mp3: Edge TTS word boundaries crossed subtitle split points; subtitle timing was not generated
+=== 2026-10-08T09:23:57.775Z END run=40b35ecc83dd elapsed_ms=11096 output_lines=34 retained=2 omitted=32 ===
+
+=== 2026-10-08T09:23:58.261Z PYTHON run=f33b382100b4 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/notes_to_audio.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--provider", "edge", "--voice", "ru-RU-SvetlanaNeural", "--rate", "-5%", "--subtitle-max-chars", "20", "--concurrency", "1"]
+stdout:
+  [OK] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/audio/01_cover.mp3
+stderr:
+  error: failed to generate /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/audio/15_recommendations.mp3: Edge TTS word boundaries crossed subtitle split points; subtitle timing was not generated
+=== 2026-10-08T09:24:08.792Z END run=f33b382100b4 elapsed_ms=10531 output_lines=34 retained=2 omitted=32 ===
+
+=== 2026-10-08T09:24:13.765Z PYTHON run=2f044ed1d74e ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/notes_to_audio.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--provider", "edge", "--voice", "ru-RU-SvetlanaNeural", "--rate", "-5%", "--subtitle-max-chars", "20", "--concurrency", "1"]
+stdout:
+  [OK] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/audio/01_cover.mp3
+  [Done] Generated 17/17 audio/SRT pair(s): /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/audio
+  [REPORT] Narration manifest: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/audio/manifest.json
+=== 2026-10-08T09:24:31.114Z END run=2f044ed1d74e elapsed_ms=17348 output_lines=37 retained=3 omitted=34 ===
+
+=== 2026-10-08T09:25:05.985Z PYTHON run=346932fba3cb ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "-f", "ppt169", "--with-notes", "--narration-audio-dir", "audio", "--animation-config", "animations.json", "--image-sizing", "display", "--image-quality", "82", "-o", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4.pptx"]
+stderr:
+  Error: default release export requires a passing final SVG quality report for the current svg_output/; found stale.
+  Run: python3 skills/ppt-master/scripts/svg_quality_checker.py "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007" --canonical-authoring --stage final --json
+=== 2026-10-08T09:25:06.981Z END run=346932fba3cb elapsed_ms=996 output_lines=2 retained=2 omitted=0 ===
+
+=== 2026-10-08T09:25:09.160Z PYTHON run=f6d790de4277 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_quality_checker.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="cover-header"> x=80.0, y=228.0..346.0, 3 lines; <g id="cover-author"> x=112.0, y=500.0..576.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 02_goals.svg - Passed (with warnings)
+  [OK] 05_why.svg - Passed
+  [ERROR] 06_science.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text> (x=120, y=672; text='Фредриксон: на одно …') exceeds <g id="p05-note"> data-pptx-bounds on the vertical axis: content (120.0, 651.6)-(902.5, 680.4), container (80.0, 655.0)-(1220.0, 717.0), overflow horizontal 0.0%, vertical 5.5% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text
+  [OK] 07_physiology.svg - Passed
+     viewBox: 0 0 1280 720
+  [WARN] 08_history.svg - Passed (with warnings)
+     viewBox: 0 0 1280 720
+  [SUMMARY] Check Summary
+  Total files: 17
+    [OK] Fully passed: 3 (17%)
+    [WARN] With warnings: 13 (76%)
+    [ERROR] With errors: 1 (5%)
+  Provenance categories:
+    blocking: 1          hard findings; gate also requires exit 0
+    introduced: 28       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 17 | text: 284 | images: 27 | icons: 77
+    Geometry: SVG elements 149 | native presets 0 | page-frame elements 35 | marker uses 0
+  [REPORT] JSON quality report exported: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json
+=== 2026-10-08T09:25:15.941Z END run=f6d790de4277 elapsed_ms=6780 output_lines=110 retained=26 omitted=84 ===
+
+=== 2026-10-08T09:25:27.066Z PYTHON run=752b7c7916a6 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_quality_checker.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="cover-header"> x=80.0, y=228.0..346.0, 3 lines; <g id="cover-author"> x=112.0, y=500.0..576.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 02_goals.svg - Passed (with warnings)
+  [OK] 05_why.svg - Passed
+  [ERROR] 06_science.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <g id="p05-approaches"> data-pptx-bounds overlaps <g id="p05-note"> data-pptx-bounds by 1040.0px x 10.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+  [OK] 07_physiology.svg - Passed
+     viewBox: 0 0 1280 720
+  [WARN] 08_history.svg - Passed (with warnings)
+     viewBox: 0 0 1280 720
+  [SUMMARY] Check Summary
+  Total files: 17
+    [OK] Fully passed: 3 (17%)
+    [WARN] With warnings: 13 (76%)
+    [ERROR] With errors: 1 (5%)
+  Provenance categories:
+    blocking: 1          hard findings; gate also requires exit 0
+    introduced: 28       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 17 | text: 284 | images: 27 | icons: 77
+    Geometry: SVG elements 149 | native presets 0 | page-frame elements 35 | marker uses 0
+  [REPORT] JSON quality report exported: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json
+=== 2026-10-08T09:25:32.740Z END run=752b7c7916a6 elapsed_ms=5673 output_lines=110 retained=26 omitted=84 ===
+
+=== 2026-10-08T09:25:38.750Z PYTHON run=93426a8f9e77 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_quality_checker.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--canonical-authoring", "--stage", "final"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="cover-header"> x=80.0, y=228.0..346.0, 3 lines; <g id="cover-author"> x=112.0, y=500.0..576.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 02_goals.svg - Passed (with warnings)
+  [OK] 05_why.svg - Passed
+  [ERROR] 06_science.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <g id="p05-approaches"> data-pptx-bounds overlaps <g id="p05-note"> data-pptx-bounds by 1040.0px x 10.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+  [OK] 07_physiology.svg - Passed
+     viewBox: 0 0 1280 720
+  [WARN] 08_history.svg - Passed (with warnings)
+     viewBox: 0 0 1280 720
+  [SUMMARY] Check Summary
+  Total files: 17
+    [OK] Fully passed: 3 (17%)
+    [WARN] With warnings: 13 (76%)
+    [ERROR] With errors: 1 (5%)
+  Provenance categories:
+    blocking: 1          hard findings; gate also requires exit 0
+    introduced: 28       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 17 | text: 284 | images: 27 | icons: 77
+    Geometry: SVG elements 149 | native presets 0 | page-frame elements 35 | marker uses 0
+=== 2026-10-08T09:25:44.480Z END run=93426a8f9e77 elapsed_ms=5730 output_lines=109 retained=25 omitted=84 ===
+
+=== 2026-10-08T09:25:53.529Z PYTHON run=6c4f711e4e29 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_quality_checker.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--canonical-authoring", "--stage", "final"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="cover-header"> x=80.0, y=228.0..346.0, 3 lines; <g id="cover-author"> x=112.0, y=500.0..576.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 02_goals.svg - Passed (with warnings)
+  [OK] 05_why.svg - Passed
+  [SUMMARY] Check Summary
+  Total files: 17
+    [OK] Fully passed: 4 (23%)
+    [WARN] With warnings: 13 (76%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 28       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 17 | text: 284 | images: 27 | icons: 77
+    Geometry: SVG elements 149 | native presets 0 | page-frame elements 35 | marker uses 0
+=== 2026-10-08T09:25:59.290Z END run=6c4f711e4e29 elapsed_ms=5761 output_lines=106 retained=18 omitted=88 ===
+
+=== 2026-10-08T09:26:01.448Z PYTHON run=449a5722bec8 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "-f", "ppt169", "--with-notes", "--narration-audio-dir", "audio", "--animation-config", "animations.json", "--image-sizing", "display", "--image-quality", "82", "-o", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4.pptx"]
+stderr:
+  Error: default release export requires a passing final SVG quality report for the current svg_output/; found failed.
+  Run: python3 skills/ppt-master/scripts/svg_quality_checker.py "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007" --canonical-authoring --stage final --json
+=== 2026-10-08T09:26:02.562Z END run=449a5722bec8 elapsed_ms=1113 output_lines=2 retained=2 omitted=0 ===
+
+=== 2026-10-08T09:26:05.771Z PYTHON run=c7075d6edf82 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_quality_checker.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="cover-header"> x=80.0, y=228.0..346.0, 3 lines; <g id="cover-author"> x=112.0, y=500.0..576.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 02_goals.svg - Passed (with warnings)
+  [OK] 05_why.svg - Passed
+  [SUMMARY] Check Summary
+  Total files: 17
+    [OK] Fully passed: 4 (23%)
+    [WARN] With warnings: 13 (76%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 28       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 17 | text: 284 | images: 27 | icons: 77
+    Geometry: SVG elements 149 | native presets 0 | page-frame elements 35 | marker uses 0
+  [REPORT] JSON quality report exported: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json
+=== 2026-10-08T09:26:11.541Z END run=c7075d6edf82 elapsed_ms=5770 output_lines=107 retained=19 omitted=88 ===
+
+=== 2026-10-08T09:26:26.386Z PYTHON run=ed271d4fa43b ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "-f", "ppt169", "--with-notes", "--narration-audio-dir", "audio", "--animation-config", "animations.json", "--image-sizing", "display", "--image-quality", "82", "-o", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4.pptx"]
+stdout:
+  [Done] Saved: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4.pptx
+    [POSTFLIGHT] status=passed-with-warnings quality_gate=passed slides=17 warning_categories=1
+    [POSTFLIGHT][WARNING] quality_introduced_warnings=28
+    [PPTX] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4.pptx
+    [REPORT] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/happiness_concept_v4.report.json
+=== 2026-10-08T09:26:44.008Z END run=ed271d4fa43b elapsed_ms=17621 output_lines=73 retained=5 omitted=68 ===
+
+=== 2026-10-08T09:27:21.802Z PYTHON run=a317dc667296 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/pptx_delivery_check.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4.pptx"]
+=== 2026-10-08T09:27:22.672Z END run=a317dc667296 elapsed_ms=870 output_lines=826 retained=0 omitted=826 ===
+
+=== 2026-10-08T09:27:23.023Z PYTHON run=5e39201eb86c ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/pptx_delivery_check.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4_video.pptx"]
+=== 2026-10-08T09:27:23.915Z END run=5e39201eb86c elapsed_ms=892 output_lines=867 retained=0 omitted=867 ===
+
+=== 2026-10-08T09:27:32.861Z PYTHON run=de5717a0e1d3 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/pptx_delivery_check.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4_video.pptx"]
+=== 2026-10-08T09:27:33.756Z END run=de5717a0e1d3 elapsed_ms=895 output_lines=850 retained=0 omitted=850 ===
+
+=== 2026-10-08T09:37:42.802Z PYTHON run=2ce27e33c5fc ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_quality_checker.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="cover-header"> x=80.0, y=228.0..346.0, 3 lines; <g id="cover-author"> x=112.0, y=500.0..576.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 02_goals.svg - Passed (with warnings)
+  [OK] 05_why.svg - Passed
+  [SUMMARY] Check Summary
+  Total files: 17
+    [OK] Fully passed: 4 (23%)
+    [WARN] With warnings: 13 (76%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 28       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 17 | text: 284 | images: 27 | icons: 77
+    Geometry: SVG elements 154 | native presets 0 | page-frame elements 35 | marker uses 0
+  [REPORT] JSON quality report exported: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json
+=== 2026-10-08T09:37:48.810Z END run=2ce27e33c5fc elapsed_ms=6007 output_lines=107 retained=19 omitted=88 ===
+
+=== 2026-10-08T09:37:51.979Z PYTHON run=950e64c98464 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "-f", "ppt169", "--with-notes", "--narration-audio-dir", "audio", "--animation-config", "animations.json", "--image-sizing", "display", "--image-quality", "82", "-o", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4.pptx"]
+
+=== 2026-10-08T09:37:54.974Z PYTHON run=f218c3f81f10 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "-f", "ppt169", "--with-notes", "--narration-audio-dir", "audio", "--animation-config", "animations.json", "--image-sizing", "display", "--image-quality", "82", "-o", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4.pptx"]
+
+=== 2026-10-08T09:37:57.969Z PYTHON run=bb1c0089a822 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "-f", "ppt169", "--with-notes", "--narration-audio-dir", "audio", "--animation-config", "animations.json", "--image-sizing", "display", "--image-quality", "82", "-o", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4.pptx"]
+
+=== 2026-10-08T09:38:01.026Z PYTHON run=77093f4fd839 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "-f", "ppt169", "--with-notes", "--narration-audio-dir", "audio", "--animation-config", "animations.json", "--image-sizing", "display", "--image-quality", "82", "-o", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4.pptx"]
+
+=== 2026-10-08T09:38:07.560Z PYTHON run=c568e3d3dc64 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "-f", "ppt169", "--with-notes", "--narration-audio-dir", "audio", "--animation-config", "animations.json", "--image-sizing", "display", "--image-quality", "82", "-o", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4.pptx"]
+
+=== 2026-10-08T09:38:11.066Z PYTHON run=279c0a7cb8a4 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "-f", "ppt169", "--with-notes", "--narration-audio-dir", "audio", "--animation-config", "animations.json", "--image-sizing", "display", "--image-quality", "82", "-o", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4.pptx"]
+
+=== 2026-10-08T09:38:20.918Z PYTHON run=ac4c50c49446 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "-f", "ppt169", "--with-notes", "--narration-audio-dir", "audio", "--animation-config", "animations.json", "--image-sizing", "display", "--image-quality", "82", "-o", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4.pptx"]
+stdout:
+  [Done] Saved: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4.pptx
+    [POSTFLIGHT] status=passed-with-warnings quality_gate=passed slides=17 warning_categories=1
+    [POSTFLIGHT][WARNING] quality_introduced_warnings=28
+    [PPTX] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4.pptx
+    [REPORT] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/happiness_concept_v4.report.json
+=== 2026-10-08T09:38:38.094Z END run=ac4c50c49446 elapsed_ms=17176 output_lines=73 retained=5 omitted=68 ===
+
+=== 2026-10-08T09:38:46.547Z PYTHON run=56acf860919e ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/pptx_delivery_check.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4.pptx"]
+=== 2026-10-08T09:38:47.406Z END run=56acf860919e elapsed_ms=858 output_lines=826 retained=0 omitted=826 ===
+
+=== 2026-10-08T09:38:47.759Z PYTHON run=a84363a1d6fe ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/pptx_delivery_check.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4_video.pptx"]
+=== 2026-10-08T09:38:48.635Z END run=a84363a1d6fe elapsed_ms=875 output_lines=850 retained=0 omitted=850 ===

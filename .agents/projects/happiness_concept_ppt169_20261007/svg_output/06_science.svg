@@ -10,8 +10,8 @@
   <image id="p05" x="0" y="0" width="1280" height="720" href="../images/p05_science.jpg" preserveAspectRatio="xMidYMid slice" data-pptx-role="background"/>
   <rect id="p05-bg" x="0" y="0" width="1280" height="720" fill="url(#bg-grad)" data-pptx-role="background" fill-opacity="0.88"/>
   <rect id="p05-accent" x="0" y="0" width="1280" height="6" fill="#27AE60" data-pptx-role="decoration"/>
-      <text id="p05-foot" x="80" y="712" font-size="22" fill="#5D6D7E" data-pptx-role="footer">Концепция счастья · ИС-24</text>
-      <text id="p05-num" x="1200" y="712" font-size="22" fill="#5D6D7E" text-anchor="end" data-pptx-role="page-number">06</text>
+      <text id="p05-foot" x="80" y="712" font-size="24" fill="#5D6D7E" data-pptx-role="footer">Концепция счастья · ИС-24</text>
+      <text id="p05-num" x="1200" y="712" font-size="24" fill="#5D6D7E" text-anchor="end" data-pptx-role="page-number">06</text>
 
   <g id="p05-title" data-pptx-bounds="80 44 1120 92">
     <text x="80" y="106" font-size="48" font-weight="bold" fill="#1B4F72">Счастье = оценка жизни + эмоции</text>
@@ -47,8 +47,8 @@
     <text x="966" y="605" font-size="24" fill="#2C3E50">Био-психо-</text>
     <text x="920" y="638" font-size="24" fill="#2C3E50">социальный</text>
   </g>
-  <g id="p05-note" data-pptx-bounds="80 660 1140 48">
-    <text x="120" y="684" font-size="22" fill="#5D6D7E">Фредриксон: на одно негативное переживание — три позитивных</text>
-    <text id="credit" x="80" y="700" font-size="22" fill="#7F8C8D">© YVC Biology Department / Wikimedia / CC BY 2.0</text>
+  <g id="p05-note" data-pptx-bounds="80 656 1140 62">
+    <text x="120" y="680" font-size="24" fill="#5D6D7E">Фредриксон: на одно негативное переживание — три позитивных</text>
+    <text id="credit" x="80" y="702" font-size="22" fill="#7F8C8D">© YVC Biology Department / Wikimedia / CC BY 2.0</text>
   </g>
 </svg>

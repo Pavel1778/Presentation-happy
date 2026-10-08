@@ -14,51 +14,63 @@
       <text id="p14-num" x="1200" y="690" font-size="24" fill="#5D6D7E" text-anchor="end" data-pptx-role="page-number">15</text>
 
   <g id="p14-title" data-pptx-bounds="80 44 1120 92">
-    <text x="80" y="106" font-size="48" font-weight="bold" fill="#1B4F72">Шесть шагов к счастью</text>
+    <text x="80" y="106" font-size="48" font-weight="bold" fill="#1B4F72">Восемь шагов к счастью</text>
   </g>
 
-  <g id="p14-checklist" data-pptx-bounds="80 180 1140 480">
+  <g id="p14-checklist" data-pptx-bounds="80 170 1140 480">
     <g id="p14-s1">
-      <rect x="80" y="190" width="360" height="200" rx="16" fill="#FFFFFF" fill-opacity="0.85"/>
-      <use data-icon="tabler-outline/heart" x="104" y="220" width="44" height="44" fill="#27AE60"/>
-      <text x="160" y="252" font-size="24" font-weight="bold" fill="#1B4F72">Инвестируйте</text>
-      <text x="104" y="320" font-size="22" fill="#2C3E50">в отношения</text>
-      <text x="104" y="352" font-size="22" fill="#5D6D7E">они важнее денег</text>
+      <rect x="80" y="180" width="360" height="145" rx="16" fill="#FFFFFF" fill-opacity="0.85"/>
+      <use data-icon="tabler-outline/heart" x="96" y="205" width="36" height="36" fill="#27AE60"/>
+      <text x="146" y="243" font-size="24" font-weight="bold" fill="#1B4F72">Инвестируйте</text>
+      <text x="146" y="289" font-size="24" fill="#2C3E50">в отношения</text>
     </g>
     <g id="p14-s2">
-      <rect x="470" y="190" width="360" height="200" rx="16" fill="#FFFFFF" fill-opacity="0.85"/>
-      <use data-icon="tabler-outline/notebook" x="494" y="220" width="44" height="44" fill="#27AE60"/>
-      <text x="550" y="252" font-size="24" font-weight="bold" fill="#1B4F72">Практикуйте</text>
-      <text x="494" y="320" font-size="22" fill="#2C3E50">благодарность</text>
-      <text x="494" y="352" font-size="22" fill="#5D6D7E">каждый день</text>
+      <rect x="470" y="180" width="360" height="145" rx="16" fill="#FFFFFF" fill-opacity="0.85"/>
+      <use data-icon="tabler-outline/notebook" x="486" y="205" width="36" height="36" fill="#27AE60"/>
+      <text x="536" y="243" font-size="24" font-weight="bold" fill="#1B4F72">Практикуйте</text>
+      <text x="536" y="289" font-size="24" fill="#2C3E50">благодарность</text>
     </g>
     <g id="p14-s3">
-      <rect x="860" y="190" width="360" height="200" rx="16" fill="#FFFFFF" fill-opacity="0.85"/>
-      <use data-icon="tabler-outline/run" x="884" y="220" width="44" height="44" fill="#27AE60"/>
-      <text x="940" y="252" font-size="24" font-weight="bold" fill="#1B4F72">Занимайтесь</text>
-      <text x="884" y="320" font-size="22" fill="#2C3E50">спортом</text>
-      <text x="884" y="352" font-size="22" fill="#5D6D7E">и бывайте на воздухе</text>
+      <rect x="860" y="180" width="360" height="145" rx="16" fill="#FFFFFF" fill-opacity="0.85"/>
+      <use data-icon="tabler-outline/run" x="876" y="205" width="36" height="36" fill="#27AE60"/>
+      <text x="926" y="243" font-size="24" font-weight="bold" fill="#1B4F72">Занимайтесь</text>
+      <text x="926" y="289" font-size="24" fill="#2C3E50">спортом</text>
     </g>
     <g id="p14-s4">
-      <rect x="80" y="420" width="360" height="200" rx="16" fill="#FFFFFF" fill-opacity="0.85"/>
-      <use data-icon="tabler-outline/flower" x="104" y="450" width="44" height="44" fill="#E67E22"/>
-      <text x="160" y="482" font-size="24" font-weight="bold" fill="#1B4F72">Медитируйте</text>
-      <text x="104" y="550" font-size="22" fill="#2C3E50">осознанность</text>
-      <text x="104" y="582" font-size="22" fill="#5D6D7E">снижает стресс</text>
+      <rect x="80" y="340" width="360" height="145" rx="16" fill="#FFFFFF" fill-opacity="0.85"/>
+      <use data-icon="tabler-outline/flower" x="96" y="365" width="36" height="36" fill="#E67E22"/>
+      <text x="146" y="403" font-size="24" font-weight="bold" fill="#1B4F72">Медитируйте</text>
+      <text x="146" y="449" font-size="24" fill="#2C3E50">осознанность</text>
     </g>
     <g id="p14-s5">
-      <rect x="470" y="420" width="360" height="200" rx="16" fill="#FFFFFF" fill-opacity="0.85"/>
-      <use data-icon="tabler-outline/device-mobile" x="494" y="450" width="44" height="44" fill="#E67E22"/>
-      <text x="550" y="482" font-size="24" font-weight="bold" fill="#1B4F72">Ограничьте</text>
-      <text x="494" y="550" font-size="22" fill="#2C3E50">соцсети</text>
-      <text x="494" y="582" font-size="22" fill="#5D6D7E">цифровой детокс</text>
+      <rect x="470" y="340" width="360" height="145" rx="16" fill="#FFFFFF" fill-opacity="0.85"/>
+      <use data-icon="tabler-outline/target" x="486" y="365" width="36" height="36" fill="#E67E22"/>
+      <text x="536" y="403" font-size="24" font-weight="bold" fill="#1B4F72">Ставьте цели</text>
+      <text x="536" y="449" font-size="24" fill="#2C3E50">смысл и планы</text>
     </g>
     <g id="p14-s6">
-      <rect x="860" y="420" width="360" height="200" rx="16" fill="#FFFFFF" fill-opacity="0.85"/>
-      <use data-icon="tabler-outline/bed" x="884" y="450" width="44" height="44" fill="#E67E22"/>
-      <text x="940" y="482" font-size="24" font-weight="bold" fill="#1B4F72">Спите</text>
-      <text x="884" y="550" font-size="22" fill="#2C3E50">достаточно</text>
-      <text x="884" y="582" font-size="22" fill="#5D6D7E">7–8 часов</text>
+      <rect x="860" y="340" width="360" height="145" rx="16" fill="#FFFFFF" fill-opacity="0.85"/>
+      <use data-icon="tabler-outline/users" x="876" y="365" width="36" height="36" fill="#E67E22"/>
+      <text x="926" y="403" font-size="24" font-weight="bold" fill="#1B4F72">Помогайте</text>
+      <text x="926" y="449" font-size="24" fill="#2C3E50">другим людям</text>
+    </g>
+    <g id="p14-s7">
+      <rect x="80" y="500" width="360" height="145" rx="16" fill="#FFFFFF" fill-opacity="0.85"/>
+      <use data-icon="tabler-outline/device-mobile" x="96" y="525" width="36" height="36" fill="#1B4F72"/>
+      <text x="146" y="563" font-size="24" font-weight="bold" fill="#1B4F72">Ограничьте</text>
+      <text x="146" y="609" font-size="24" fill="#2C3E50">соцсети</text>
+    </g>
+    <g id="p14-s8">
+      <rect x="470" y="500" width="360" height="145" rx="16" fill="#FFFFFF" fill-opacity="0.85"/>
+      <use data-icon="tabler-outline/bed" x="486" y="525" width="36" height="36" fill="#1B4F72"/>
+      <text x="536" y="563" font-size="24" font-weight="bold" fill="#1B4F72">Спите</text>
+      <text x="536" y="609" font-size="24" fill="#2C3E50">7–8 часов</text>
+    </g>
+    <g id="p14-apteka">
+      <rect x="860" y="500" width="360" height="145" rx="16" fill="#1B4F72" fill-opacity="0.12"/>
+      <use data-icon="tabler-outline/bulb" x="876" y="525" width="36" height="36" fill="#1B4F72"/>
+      <text x="926" y="563" font-size="24" font-weight="bold" fill="#1B4F72">Apteka.ru</text>
+      <text x="926" y="609" font-size="24" fill="#1B4F72">материалы о счастье</text>
     </g>
   </g>
 
