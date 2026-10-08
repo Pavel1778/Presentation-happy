@@ -11,7 +11,7 @@
   <rect id="p13-bg" x="0" y="0" width="1280" height="720" fill="url(#bg-grad)" data-pptx-role="background" fill-opacity="0.88"/>
   <rect id="p13-accent" x="0" y="0" width="1280" height="6" fill="#1B4F72" data-pptx-role="decoration"/>
       <text id="p13-foot" x="80" y="690" font-size="24" fill="#5D6D7E" data-pptx-role="footer">Концепция счастья · ИС-24</text>
-      <text id="p13-num" x="1200" y="690" font-size="24" fill="#5D6D7E" text-anchor="end" data-pptx-role="page-number">14</text>
+      <text id="p13-num" x="1200" y="690" font-size="24" fill="#5D6D7E" text-anchor="end" data-pptx-role="page-number">13</text>
 
   <g id="p13-title" data-pptx-bounds="80 44 1120 92">
     <text x="80" y="106" font-size="48" font-weight="bold" fill="#1B4F72">Баланс онлайн и офлайн</text>

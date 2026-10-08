@@ -2648,3 +2648,310 @@ argv: ["/usr/local/bin/python3", "scripts/pptx_delivery_check.py", "/workspace/p
 cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
 argv: ["/usr/local/bin/python3", "scripts/pptx_delivery_check.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4_video.pptx"]
 === 2026-10-08T09:38:48.635Z END run=a84363a1d6fe elapsed_ms=875 output_lines=850 retained=0 omitted=850 ===
+
+=== 2026-10-08T09:46:21.507Z PYTHON run=f15aa9ee0402 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_quality_checker.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="cover-header"> x=80.0, y=228.0..346.0, 3 lines; <g id="cover-author"> x=112.0, y=500.0..576.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 01_goals.svg - Passed (with warnings)
+  [OK] 03_why.svg - Passed
+  [ERROR] 15_sources.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <g id="p15-sources"> data-pptx-bounds overlaps <g id="p15-credits"> data-pptx-bounds by 20.0px x 250.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+     [ERROR] <text> (x=80, y=92; text='Выводы и источники') exceeds <g id="p15-title"> data-pptx-bounds on the vertical axis: content (80.0, 51.2)-(580.2, 108.8), container (80.0, 40.0)-(1200.0, 100.0), overflow horizontal 0.0%, vertical 14.7% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text
+     [ERROR] <text> (x=656, y=264; text='8. Счастье развивает…') exceeds <g id="p15-conclusions"> data-pptx-bounds on the horizontal axis: content (656.0, 247.0)-(1267.5, 271.0), container (80.0, 120.0)-(1200.0, 366.0), overflow horizontal 6.0%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈12.5 px per mixed char at 20px incl. headroom; ≈89 chars fit in 1120 px
+     [ERROR] <text id="credit"> exceeds <g id="p15-credit"> data-pptx-bounds on the vertical axis: content (80.0, 698.4)-(455.3, 717.6), container (80.0, 696.0)-(720.0, 716.0), overflow horizontal 0.0%, vertical 8.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text
+     [ERROR] spec_lock typography-size recurrence: undeclared font-size 17 (10 occurrences) exceeds the sparse-display limit of 2 occurrences. Structural text must return to its declared role band; a genuinely recurring display treatment needs a justified named role in the Design Spec and spec_lock.
+     [WARN] <text> (x=656, y=232; text='7. Образование и кул…') exceeds <g id="p15-conclusions"> data-pptx-bounds on the horizontal axis: content (656.0, 215.0)-(1222.8, 239.0), container (80.0, 120.0)-(1200.0, 366.0), overflow horizontal 2.0%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈12.1 px per mixed char at 20px incl. headroom; ≈92 chars fit in 1120 px
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="p15-credits"> x=788.0, y=460.0..488.0, 2 lines; <g id="p15-credits"> x=788.0, y=598.0..626.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p15_conclusions.jpg is 6000x4000 and renders at 0.21x scale in a 1280x720 slice frame; the source is 10.8 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [SUMMARY] Check Summary
+  Total files: 16
+    [OK] Fully passed: 4 (25%)
+    [WARN] With warnings: 11 (68%)
+    [ERROR] With errors: 17 (100%)
+  Provenance categories:
+    blocking: 21         hard findings; gate also requires exit 0
+    introduced: 28       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 16 | text: 277 | images: 26 | icons: 73
+    Geometry: SVG elements 148 | native presets 0 | page-frame elements 33 | marker uses 0
+    Effects: inline emphasis 0 (pages 0) | gradients 16 (pages 16) | filters 0 (pages 0) | text effects 0 (pages 0)
+    [ERROR] animations.json references missing slide: 02_goals
+    [ERROR] animations.json references missing slide: 03_toc
+    [ERROR] animations.json references missing slide: 04_annotation
+    [ERROR] animations.json references missing slide: 05_why
+    [ERROR] animations.json references missing slide: 06_science
+    [ERROR] animations.json references missing slide: 07_physiology
+    [ERROR] animations.json references missing slide: 08_history
+    [ERROR] animations.json references missing slide: 09_hedonia
+    [ERROR] animations.json references missing slide: 10_formula
+    [ERROR] animations.json references missing slide: 11_factors
+    [ERROR] animations.json references missing slide: 12_easterlin
+    [ERROR] animations.json references missing slide: 13_education
+    [ERROR] animations.json references missing slide: 14_digital
+    [ERROR] animations.json references missing slide: 15_recommendations
+    [ERROR] animations.json references missing slide: 16_conclusions
+    [ERROR] animations.json references missing slide: 17_sources
+    1. XML well-formedness: write typography as raw Unicode (—, ©, →, NBSP); escape XML reserved chars as &amp; &lt; &gt; &quot; &apos; — never use HTML named entities like &nbsp; &mdash; &copy;
+    2. viewBox issues: root viewBox is the canvas authority (see references/canvas-formats.md)
+    3. Paint recommendation: generated SVG prefers uppercase #RRGGBB plus channel-specific opacity; compatible alternatives remain non-blocking
+    4. foreignObject: Use <text> + <tspan> for manual line breaks
+  [REPORT] JSON quality report exported: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json
+=== 2026-10-08T09:46:27.010Z END run=f15aa9ee0402 elapsed_ms=5503 output_lines=134 retained=50 omitted=84 ===
+
+=== 2026-10-08T09:47:10.693Z PYTHON run=682b037b7495 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_quality_checker.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="cover-header"> x=80.0, y=228.0..346.0, 3 lines; <g id="cover-author"> x=112.0, y=500.0..576.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 01_goals.svg - Passed (with warnings)
+  [OK] 03_why.svg - Passed
+  [ERROR] 15_sources.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text id="credit"> exceeds the root viewBox on the vertical axis: content (80.0, 699.3)-(561.2, 725.7), canvas (0.0, 0.0)-(1280.0, 720.0), overflow horizontal 0.0%, vertical 0.8%; move or reflow the text until its estimated bounds stay on-page
+     [WARN] <text> (x=80, y=98; text='Выводы и источники') exceeds <g id="p15-title"> data-pptx-bounds on the vertical axis: content (80.0, 57.2)-(580.2, 114.8), container (80.0, 40.0)-(1200.0, 112.0), overflow horizontal 0.0%, vertical 3.9% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text
+     [WARN] <text> (x=104, y=624; text='7. Портал b17.ru') exceeds <g id="p15-sources"> data-pptx-bounds on the vertical axis: content (104.0, 607.0)-(264.5, 631.0), container (80.0, 386.0)-(740.0, 626.0), overflow horizontal 0.0%, vertical 2.1% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="p15-credits"> x=808.0, y=454.0..482.0, 2 lines; <g id="p15-credits"> x=808.0, y=586.0..614.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p15_conclusions.jpg is 6000x4000 and renders at 0.21x scale in a 1280x720 slice frame; the source is 10.8 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [SUMMARY] Check Summary
+  Total files: 16
+    [OK] Fully passed: 4 (25%)
+    [WARN] With warnings: 11 (68%)
+    [ERROR] With errors: 17 (100%)
+  Provenance categories:
+    blocking: 17         hard findings; gate also requires exit 0
+    introduced: 30       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 16 | text: 277 | images: 26 | icons: 73
+    Geometry: SVG elements 148 | native presets 0 | page-frame elements 33 | marker uses 0
+    [ERROR] animations.json references missing slide: 02_goals
+    [ERROR] animations.json references missing slide: 03_toc
+    [ERROR] animations.json references missing slide: 04_annotation
+    [ERROR] animations.json references missing slide: 05_why
+    [ERROR] animations.json references missing slide: 06_science
+    [ERROR] animations.json references missing slide: 07_physiology
+    [ERROR] animations.json references missing slide: 08_history
+    [ERROR] animations.json references missing slide: 09_hedonia
+    [ERROR] animations.json references missing slide: 10_formula
+    [ERROR] animations.json references missing slide: 11_factors
+    [ERROR] animations.json references missing slide: 12_easterlin
+    [ERROR] animations.json references missing slide: 13_education
+    [ERROR] animations.json references missing slide: 14_digital
+    [ERROR] animations.json references missing slide: 15_recommendations
+    [ERROR] animations.json references missing slide: 16_conclusions
+    [ERROR] animations.json references missing slide: 17_sources
+    1. XML well-formedness: write typography as raw Unicode (—, ©, →, NBSP); escape XML reserved chars as &amp; &lt; &gt; &quot; &apos; — never use HTML named entities like &nbsp; &mdash; &copy;
+    2. viewBox issues: root viewBox is the canvas authority (see references/canvas-formats.md)
+    3. Paint recommendation: generated SVG prefers uppercase #RRGGBB plus channel-specific opacity; compatible alternatives remain non-blocking
+    4. foreignObject: Use <text> + <tspan> for manual line breaks
+  [REPORT] JSON quality report exported: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json
+=== 2026-10-08T09:47:16.268Z END run=682b037b7495 elapsed_ms=5575 output_lines=128 retained=46 omitted=82 ===
+
+=== 2026-10-08T09:47:24.734Z PYTHON run=d436f8070647 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_quality_checker.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="cover-header"> x=80.0, y=228.0..346.0, 3 lines; <g id="cover-author"> x=112.0, y=500.0..576.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 01_goals.svg - Passed (with warnings)
+  [OK] 03_why.svg - Passed
+  [SUMMARY] Check Summary
+  Total files: 16
+    [OK] Fully passed: 4 (25%)
+    [WARN] With warnings: 12 (75%)
+    [ERROR] With errors: 16 (100%)
+  Provenance categories:
+    blocking: 16         hard findings; gate also requires exit 0
+    introduced: 29       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 16 | text: 276 | images: 26 | icons: 73
+    Geometry: SVG elements 148 | native presets 0 | page-frame elements 33 | marker uses 0
+    [ERROR] animations.json references missing slide: 02_goals
+    [ERROR] animations.json references missing slide: 03_toc
+    [ERROR] animations.json references missing slide: 04_annotation
+    [ERROR] animations.json references missing slide: 05_why
+    [ERROR] animations.json references missing slide: 06_science
+    [ERROR] animations.json references missing slide: 07_physiology
+    [ERROR] animations.json references missing slide: 08_history
+    [ERROR] animations.json references missing slide: 09_hedonia
+    [ERROR] animations.json references missing slide: 10_formula
+    [ERROR] animations.json references missing slide: 11_factors
+    [ERROR] animations.json references missing slide: 12_easterlin
+    [ERROR] animations.json references missing slide: 13_education
+    [ERROR] animations.json references missing slide: 14_digital
+    [ERROR] animations.json references missing slide: 15_recommendations
+    [ERROR] animations.json references missing slide: 16_conclusions
+    [ERROR] animations.json references missing slide: 17_sources
+    1. XML well-formedness: write typography as raw Unicode (—, ©, →, NBSP); escape XML reserved chars as &amp; &lt; &gt; &quot; &apos; — never use HTML named entities like &nbsp; &mdash; &copy;
+    2. viewBox issues: root viewBox is the canvas authority (see references/canvas-formats.md)
+    3. Paint recommendation: generated SVG prefers uppercase #RRGGBB plus channel-specific opacity; compatible alternatives remain non-blocking
+    4. foreignObject: Use <text> + <tspan> for manual line breaks
+  [REPORT] JSON quality report exported: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json
+=== 2026-10-08T09:47:30.239Z END run=d436f8070647 elapsed_ms=5504 output_lines=125 retained=39 omitted=86 ===
+
+=== 2026-10-08T09:47:36.644Z PYTHON run=b74a92ac8699 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/animation_config.py", "list-groups", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007"]
+=== 2026-10-08T09:47:36.966Z END run=b74a92ac8699 elapsed_ms=321 output_lines=16 retained=0 omitted=16 ===
+
+=== 2026-10-08T09:48:24.593Z PYTHON run=c82d5098919a ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/notes_to_audio.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--provider", "edge", "--voice", "ru-RU-SvetlanaNeural", "--rate", "-5%"]
+stdout:
+  [OK] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/audio/01_cover.mp3
+  [Done] Generated 15/15 audio/SRT pair(s): /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/audio
+  [REPORT] Narration manifest: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/audio/manifest.json
+=== 2026-10-08T09:48:34.629Z END run=c82d5098919a elapsed_ms=10036 output_lines=33 retained=3 omitted=30 ===
+
+=== 2026-10-08T09:48:36.813Z PYTHON run=0614c7522c95 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_quality_checker.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="cover-header"> x=80.0, y=228.0..346.0, 3 lines; <g id="cover-author"> x=112.0, y=500.0..576.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 01_goals.svg - Passed (with warnings)
+  [OK] 03_why.svg - Passed
+  [SUMMARY] Check Summary
+  Total files: 15
+    [OK] Fully passed: 4 (26%)
+    [WARN] With warnings: 11 (73%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 28       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 15 | text: 260 | images: 25 | icons: 67
+    Geometry: SVG elements 139 | native presets 0 | page-frame elements 31 | marker uses 0
+  [REPORT] JSON quality report exported: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json
+=== 2026-10-08T09:48:41.984Z END run=0614c7522c95 elapsed_ms=5171 output_lines=103 retained=19 omitted=84 ===
+
+=== 2026-10-08T09:49:08.759Z PYTHON run=f64bc6e7e594 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "-f", "ppt169", "--with-notes", "--narration-audio-dir", "audio", "--animation-config", "animations.json", "--image-sizing", "display", "--image-quality", "82", "-o", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v5.pptx"]
+stdout:
+  [Done] Saved: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v5.pptx
+    [POSTFLIGHT] status=passed-with-warnings quality_gate=passed slides=15 warning_categories=1
+    [POSTFLIGHT][WARNING] quality_introduced_warnings=28
+    [PPTX] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v5.pptx
+    [REPORT] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/happiness_concept_v5.report.json
+=== 2026-10-08T09:49:23.910Z END run=f64bc6e7e594 elapsed_ms=15150 output_lines=67 retained=5 omitted=62 ===
+
+=== 2026-10-08T09:50:40.877Z PYTHON run=e582562510b0 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/pptx_delivery_check.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v5.pptx"]
+=== 2026-10-08T09:50:41.681Z END run=e582562510b0 elapsed_ms=803 output_lines=792 retained=0 omitted=792 ===
+
+=== 2026-10-08T09:50:41.996Z PYTHON run=1f6b577ffb01 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/pptx_delivery_check.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v5_video.pptx"]
+=== 2026-10-08T09:50:42.819Z END run=1f6b577ffb01 elapsed_ms=822 output_lines=816 retained=0 omitted=816 ===
+
+=== 2026-10-08T09:50:45.468Z PYTHON run=63477e63bab5 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/pptx_delivery_check.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v5_video.pptx"]
+=== 2026-10-08T09:50:46.289Z END run=63477e63bab5 elapsed_ms=820 output_lines=816 retained=0 omitted=816 ===
+
+=== 2026-10-08T09:50:46.613Z PYTHON run=9ee5d19325b6 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/pptx_delivery_check.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v5_video.pptx"]
+=== 2026-10-08T09:50:47.409Z END run=9ee5d19325b6 elapsed_ms=796 output_lines=816 retained=0 omitted=816 ===
+
+=== 2026-10-08T09:54:11.791Z PYTHON run=0e63b23a1999 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_quality_checker.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="cover-header"> x=80.0, y=228.0..346.0, 3 lines; <g id="cover-author"> x=112.0, y=500.0..576.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 01_goals.svg - Passed (with warnings)
+  [OK] 03_why.svg - Passed
+  [ERROR] 10_easterlin.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] Missing image-specific inline attribution for sourced image p11_easterlin.jpg (Marek Ślusarczyk ( Tupungato ) Photo portfolio; CC BY). Add compact author + license credit per references/image-searcher.md §7.
+     [ERROR] Missing image-specific inline attribution for sourced image p11_rich.jpg (Pedro Ribeiro Simões from Lisboa, Portugal; CC BY). Add compact author + license credit per references/image-searcher.md §7.
+     [WARN] Image ../images/p11_rich.jpg is 3692x3220 and renders at 0.10x scale in a 360x150 slice frame; the source is 4.2 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 11_education.svg - Passed (with warnings)
+     viewBox: 0 0 1280 720
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="p12-list"> x=848.0, y=382.0..414.0, 2 lines; <g id="p12-list"> x=848.0, y=466.0..498.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+  [SUMMARY] Check Summary
+  Total files: 15
+    [OK] Fully passed: 4 (26%)
+    [WARN] With warnings: 10 (66%)
+    [ERROR] With errors: 1 (6%)
+  Provenance categories:
+    blocking: 2          hard findings; gate also requires exit 0
+    introduced: 28       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 15 | text: 260 | images: 25 | icons: 67
+    Geometry: SVG elements 139 | native presets 0 | page-frame elements 31 | marker uses 0
+  [REPORT] JSON quality report exported: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json
+=== 2026-10-08T09:54:16.966Z END run=0e63b23a1999 elapsed_ms=5174 output_lines=107 retained=27 omitted=80 ===
+
+=== 2026-10-08T09:54:39.384Z PYTHON run=13dc108005d7 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_quality_checker.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="cover-header"> x=80.0, y=228.0..346.0, 3 lines; <g id="cover-author"> x=112.0, y=500.0..576.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 01_goals.svg - Passed (with warnings)
+  [OK] 03_why.svg - Passed
+  [SUMMARY] Check Summary
+  Total files: 15
+    [OK] Fully passed: 4 (26%)
+    [WARN] With warnings: 11 (73%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 29       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 15 | text: 260 | images: 25 | icons: 67
+    Geometry: SVG elements 139 | native presets 0 | page-frame elements 31 | marker uses 0
+  [REPORT] JSON quality report exported: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json
+=== 2026-10-08T09:54:44.547Z END run=13dc108005d7 elapsed_ms=5163 output_lines=106 retained=19 omitted=87 ===
+
+=== 2026-10-08T09:54:46.692Z PYTHON run=2f3f8dbaee8b ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "-f", "ppt169", "--with-notes", "--narration-audio-dir", "audio", "--animation-config", "animations.json", "--image-sizing", "display", "--image-quality", "82", "-o", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v5.pptx"]
+stdout:
+  [Done] Saved: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v5.pptx
+    [POSTFLIGHT] status=passed-with-warnings quality_gate=passed slides=15 warning_categories=1
+    [POSTFLIGHT][WARNING] quality_introduced_warnings=29
+    [PPTX] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v5.pptx
+    [REPORT] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/happiness_concept_v5.report.json
+=== 2026-10-08T09:55:01.865Z END run=2f3f8dbaee8b elapsed_ms=15173 output_lines=67 retained=5 omitted=62 ===
+
+=== 2026-10-08T09:55:08.931Z PYTHON run=0bab3180bf52 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/pptx_delivery_check.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v5.pptx"]
+=== 2026-10-08T09:55:09.701Z END run=0bab3180bf52 elapsed_ms=770 output_lines=792 retained=0 omitted=792 ===
+
+=== 2026-10-08T09:55:10.019Z PYTHON run=598d8142d4cf ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/pptx_delivery_check.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v5_video.pptx"]
+=== 2026-10-08T09:55:10.798Z END run=598d8142d4cf elapsed_ms=778 output_lines=816 retained=0 omitted=816 ===
+
+=== 2026-10-08T09:55:13.453Z PYTHON run=b36f792419f7 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/pptx_delivery_check.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v5_video.pptx"]
+=== 2026-10-08T09:55:14.256Z END run=b36f792419f7 elapsed_ms=803 output_lines=816 retained=0 omitted=816 ===
