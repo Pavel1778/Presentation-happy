@@ -4,7 +4,7 @@
   "target": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007",
   "source_fingerprint": {
     "algorithm": "sha256",
-    "digest": "ed727aee89407a8cdd2c2ea1c16a7cd9fd7f82dc8dadae92937b3139e4a83239",
+    "digest": "08af00dc4e872f3b93ba7920f96fe1b4db696e5d4c3afe9b0cc760d0ee93a37e",
     "file_count": 15,
     "files": [
       {
@@ -25,11 +25,11 @@
       },
       {
         "file": "04_science.svg",
-        "sha256": "8754bf8c6fce0ab693ed9e6ac36a51e565c1c7c1497a9e9406558db1247af448"
+        "sha256": "d88d5198973aaf6fccc23aff9a99253c02936761b2be0107ac8d8e6c6fc34526"
       },
       {
         "file": "05_physiology.svg",
-        "sha256": "76814c43aa8d6a026b01822a13735fe36af6ab6854651690af7b82313cec0926"
+        "sha256": "c5f9495dec5e98f25d454cab91e8cdaf7e5f25c2a32de477742788e8310337cf"
       },
       {
         "file": "06_history.svg",
@@ -41,7 +41,7 @@
       },
       {
         "file": "08_formula.svg",
-        "sha256": "bf0f33217de86894c3469bcf8e8d27b9730d5aeb2b2055de77ba52b71e448841"
+        "sha256": "4d8c00ad0fd898b2d5b717de579916b4fbb3190d5faec198c79ad3d4c146c42e"
       },
       {
         "file": "09_factors.svg",
@@ -49,7 +49,7 @@
       },
       {
         "file": "10_easterlin.svg",
-        "sha256": "c8f6a75c331c8fca880c37c6637b3fdf6c263985f5166f7dd44fd89c8c5cf2ac"
+        "sha256": "6aad42505c8b35511c072a6d8c97a2cb57fbdc6541e884a294cd08d943fff4a3"
       },
       {
         "file": "11_education.svg",
@@ -65,14 +65,14 @@
       },
       {
         "file": "15_sources.svg",
-        "sha256": "07a795fdf46c1df809c6a35ac1afc1cccccf289cfb80d2358833d6aacd99b11b"
+        "sha256": "c423bcbf322ad77561061340b71cf30cb484d0f5ffc3df2fec46d2b3c3e7647e"
       }
     ]
   },
   "summary": {
     "total": 15,
-    "passed": 4,
-    "warnings": 11,
+    "passed": 3,
+    "warnings": 12,
     "errors": 0
   },
   "issue_types": {},
@@ -82,7 +82,7 @@
       "issues": []
     },
     "introduced": {
-      "count": 29,
+      "count": 27,
       "issues": [
         {
           "file": "01_cover.svg",
@@ -111,6 +111,10 @@
         {
           "file": "02_toc.svg",
           "message": "1 ungrouped top-level Slide-local element(s) in svg_output (<text id=\"credit\">); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+        },
+        {
+          "file": "05_physiology.svg",
+          "message": "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"p06-dopamine\"> x=176.0, y=256.0..284.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
         },
         {
           "file": "06_history.svg",
@@ -158,7 +162,7 @@
         },
         {
           "file": "10_easterlin.svg",
-          "message": "<text> (x=80, y=676; text='© Marek Ślusarczyk (…') exceeds <g id=\"p11-credits\"> data-pptx-bounds on the vertical axis: content (80.0, 662.4)-(550.9, 713.6), container (80.0, 654.0)-(1260.0, 712.0), overflow horizontal 0.0%, vertical 2.8% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text"
+          "message": "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"p11-findings\"> x=104.0, y=626.0..654.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
         },
         {
           "file": "10_easterlin.svg",
@@ -186,18 +190,6 @@
         },
         {
           "file": "15_sources.svg",
-          "message": "<text> (x=80, y=98; text='Выводы и источники') exceeds <g id=\"p15-title\"> data-pptx-bounds on the vertical axis: content (80.0, 57.2)-(580.2, 114.8), container (80.0, 40.0)-(1200.0, 112.0), overflow horizontal 0.0%, vertical 3.9% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text"
-        },
-        {
-          "file": "15_sources.svg",
-          "message": "<text> (x=104, y=624; text='7. Портал b17.ru') exceeds <g id=\"p15-sources\"> data-pptx-bounds on the vertical axis: content (104.0, 607.0)-(264.5, 631.0), container (80.0, 386.0)-(740.0, 626.0), overflow horizontal 0.0%, vertical 2.1% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text"
-        },
-        {
-          "file": "15_sources.svg",
-          "message": "Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id=\"p15-credits\"> x=808.0, y=454.0..482.0, 2 lines; <g id=\"p15-credits\"> x=808.0, y=586.0..614.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
-        },
-        {
-          "file": "15_sources.svg",
           "message": "Image ../images/p15_conclusions.jpg is 6000x4000 and renders at 0.21x scale in a 1280x720 slice frame; the source is 10.8 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
         }
       ]
@@ -222,8 +214,7 @@
         "08_formula.svg",
         "09_factors.svg",
         "10_easterlin.svg",
-        "12_digital.svg",
-        "15_sources.svg"
+        "12_digital.svg"
       ],
       "#27AE60": [
         "01_cover.svg",
@@ -234,9 +225,9 @@
         "07_hedonia.svg",
         "08_formula.svg",
         "09_factors.svg",
+        "10_easterlin.svg",
         "12_digital.svg",
-        "13_recommendations.svg",
-        "15_sources.svg"
+        "13_recommendations.svg"
       ],
       "#5D6D7E": [
         "01_cover.svg",
@@ -363,7 +354,8 @@
     "fonts": {},
     "sizes": {
       "16": [
-        "10_easterlin.svg"
+        "10_easterlin.svg",
+        "15_sources.svg"
       ]
     }
   },
@@ -371,10 +363,10 @@
     "scope": "informational-not-a-quota",
     "pages": 15,
     "totals": {
-      "text_elements": 260,
-      "image_placements": 25,
+      "text_elements": 253,
+      "image_placements": 26,
       "icons": 67,
-      "svg_geometry_elements": 139,
+      "svg_geometry_elements": 138,
       "preset_shapes": 0,
       "page_frame_elements": 31,
       "marker_uses": 0,
@@ -397,7 +389,7 @@
     },
     "relationship_pages": null,
     "geometry_elements": {
-      "circle": 29,
+      "circle": 28,
       "ellipse": 1,
       "line": 11,
       "path": 5,
@@ -793,18 +785,20 @@
         }
       },
       "passed": true,
-      "source_sha256": "8754bf8c6fce0ab693ed9e6ac36a51e565c1c7c1497a9e9406558db1247af448"
+      "source_sha256": "d88d5198973aaf6fccc23aff9a99253c02936761b2be0107ac8d8e6c6fc34526"
     },
     {
       "file": "05_physiology.svg",
       "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/05_physiology.svg",
       "exists": true,
       "errors": [],
-      "warnings": [],
+      "warnings": [
+        "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"p06-dopamine\"> x=176.0, y=256.0..284.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+      ],
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 19,
+          "text_elements": 21,
           "images": {
             "placements": 2,
             "files": [
@@ -850,7 +844,7 @@
         "fonts": [
           "Arial"
         ],
-        "text_elements": 19,
+        "text_elements": 21,
         "tspan_elements": 0,
         "contextual_values": {
           "colors": [
@@ -869,7 +863,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "76814c43aa8d6a026b01822a13735fe36af6ab6854651690af7b82313cec0926"
+      "source_sha256": "c5f9495dec5e98f25d454cab91e8cdaf7e5f25c2a32de477742788e8310337cf"
     },
     {
       "file": "06_history.svg",
@@ -1060,7 +1054,7 @@
           "geometry": {
             "svg_elements": {
               "rect": 8,
-              "circle": 1,
+              "circle": 0,
               "ellipse": 0,
               "line": 0,
               "polyline": 0,
@@ -1102,7 +1096,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "bf0f33217de86894c3469bcf8e8d27b9730d5aeb2b2055de77ba52b71e448841"
+      "source_sha256": "4d8c00ad0fd898b2d5b717de579916b4fbb3190d5faec198c79ad3d4c146c42e"
     },
     {
       "file": "09_factors.svg",
@@ -1183,13 +1177,13 @@
       "exists": true,
       "errors": [],
       "warnings": [
-        "<text> (x=80, y=676; text='© Marek Ślusarczyk (…') exceeds <g id=\"p11-credits\"> data-pptx-bounds on the vertical axis: content (80.0, 662.4)-(550.9, 713.6), container (80.0, 654.0)-(1260.0, 712.0), overflow horizontal 0.0%, vertical 2.8% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text",
+        "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"p11-findings\"> x=104.0, y=626.0..654.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate.",
         "Image ../images/p11_rich.jpg is 3692x3220 and renders at 0.10x scale in a 360x150 slice frame; the source is 4.2 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
       ],
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 13,
+          "text_elements": 14,
           "images": {
             "placements": 3,
             "files": [
@@ -1208,7 +1202,7 @@
           },
           "geometry": {
             "svg_elements": {
-              "rect": 3,
+              "rect": 4,
               "circle": 1,
               "ellipse": 0,
               "line": 3,
@@ -1236,11 +1230,12 @@
         "fonts": [
           "Arial"
         ],
-        "text_elements": 13,
-        "tspan_elements": 2,
+        "text_elements": 14,
+        "tspan_elements": 1,
         "contextual_values": {
           "colors": [
             "#1E8449",
+            "#27AE60",
             "#5D6D7E",
             "#7F8C8D",
             "#95A5A6",
@@ -1252,11 +1247,11 @@
           ]
         },
         "sparse_typography_sizes": {
-          "16": 1
+          "16": 2
         }
       },
       "passed": true,
-      "source_sha256": "c8f6a75c331c8fca880c37c6637b3fdf6c263985f5166f7dd44fd89c8c5cf2ac"
+      "source_sha256": "6aad42505c8b35511c072a6d8c97a2cb57fbdc6541e884a294cd08d943fff4a3"
     },
     {
       "file": "11_education.svg",
@@ -1487,19 +1482,17 @@
       "exists": true,
       "errors": [],
       "warnings": [
-        "<text> (x=80, y=98; text='Выводы и источники') exceeds <g id=\"p15-title\"> data-pptx-bounds on the vertical axis: content (80.0, 57.2)-(580.2, 114.8), container (80.0, 40.0)-(1200.0, 112.0), overflow horizontal 0.0%, vertical 3.9% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text",
-        "<text> (x=104, y=624; text='7. Портал b17.ru') exceeds <g id=\"p15-sources\"> data-pptx-bounds on the vertical axis: content (104.0, 607.0)-(264.5, 631.0), container (80.0, 386.0)-(740.0, 626.0), overflow horizontal 0.0%, vertical 2.1% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text",
-        "Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id=\"p15-credits\"> x=808.0, y=454.0..482.0, 2 lines; <g id=\"p15-credits\"> x=808.0, y=586.0..614.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate.",
         "Image ../images/p15_conclusions.jpg is 6000x4000 and renders at 0.21x scale in a 1280x720 slice frame; the source is 10.8 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
       ],
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 29,
+          "text_elements": 19,
           "images": {
-            "placements": 1,
+            "placements": 2,
             "files": [
-              "p15_conclusions.jpg"
+              "p15_conclusions.jpg",
+              "qr_sources.svg"
             ],
             "max_frame_share": 1.0
           },
@@ -1512,7 +1505,7 @@
           },
           "geometry": {
             "svg_elements": {
-              "rect": 6,
+              "rect": 5,
               "circle": 0,
               "ellipse": 0,
               "line": 0,
@@ -1540,21 +1533,22 @@
         "fonts": [
           "Arial"
         ],
-        "text_elements": 29,
+        "text_elements": 19,
         "tspan_elements": 0,
         "contextual_values": {
           "colors": [
-            "#1E8449",
-            "#27AE60",
             "#5D6D7E",
             "#D6EAF8",
             "#F5E6D3",
             "#FFFFFF"
           ]
+        },
+        "sparse_typography_sizes": {
+          "16": 2
         }
       },
       "passed": true,
-      "source_sha256": "07a795fdf46c1df809c6a35ac1afc1cccccf289cfb80d2358833d6aacd99b11b"
+      "source_sha256": "c423bcbf322ad77561061340b71cf30cb484d0f5ffc3df2fec46d2b3c3e7647e"
     }
   ]
 }

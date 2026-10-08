@@ -1,6 +1,6 @@
 {
   "schema": "ppt-master.narration.v1",
-  "generated_at": "2026-10-08T09:48:34Z",
+  "generated_at": "2026-10-08T10:37:57Z",
   "provider": "edge",
   "model": "edge-tts",
   "voice_ref": "ru-RU-SvetlanaNeural",
