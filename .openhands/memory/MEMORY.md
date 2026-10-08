@@ -109,3 +109,7 @@
 - SVG font scales ~0.75 on export (24px->18pt); min content font 18pt, credits 16.5pt (allowed). 7 items don't fit one row at 24pt in 170px columns — use a staggered two-row timeline.
 - Verified with: `pptx_delivery_check.py` (passed), XML audit (15 slides/notes, sldSz, transitions, 0 template tokens), LibreOffice->PDF (15 pages) + `pdftotext -bbox` overlap scan (0).
 - **Slide-15 QR** points at the README anchor `#полный-список-источников`; the QR SVG is `images/qr_sources.svg`. Verify by cropping the QR from a `pdftoppm` PDF render and decoding with `cv2.QRCodeDetector` (`pip install opencv-python-headless`); keep the README heading text stable or the anchor breaks.
+- **Type minimum vs `spec_lock.md`**: `label:20` = 15 pt at 1280×720 — too small. Deck floor is 22 px (16.5 pt); README says "≥16.5 pt". Bumping type re-triggers module-bounds errors (08_formula note left its band) — resize owning bands, keep adjacent bands disjoint.
+- **Long Cyrillic bullets collide across columns** (slides 14/15): measure with `/tmp/fm.py width()` ×1.06 against the column; `pdftotext -bbox` on the PDF is the definitive word-level overlap detector. Reword, don't shrink type.
+- **Slide-06 video**: render the FULL poster in a rounded white frame (NO `clipPath`); LibreOffice stretches the injected mp4 to the shape rect. Frame EMU: off (4476750,2000250) ext (3238500,2381250) = 340×250 px at 9525/px.
+- Slide 15 QR de-labeled to "Полный список" + "Наведите камеру"; still decodes to the README anchor.
