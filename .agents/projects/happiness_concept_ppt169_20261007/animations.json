@@ -105,15 +105,21 @@
           "duration": 0.4,
           "trigger": "after-previous"
         },
-        "p06-video": {
+        "p06-caveat": {
           "effect": "entrance_fade",
           "order": 2,
+          "duration": 0.4,
+          "trigger": "after-previous"
+        },
+        "p06-video": {
+          "effect": "entrance_fade",
+          "order": 3,
           "duration": 0.5,
           "trigger": "after-previous"
         },
         "p06-summary": {
           "effect": "entrance_fade",
-          "order": 3,
+          "order": 4,
           "duration": 0.5,
           "trigger": "after-previous"
         }
@@ -306,6 +312,12 @@
         "p15-sources": {
           "effect": "entrance_fade",
           "order": 3,
+          "duration": 0.5,
+          "trigger": "after-previous"
+        },
+        "p15-qr": {
+          "effect": "entrance_fade",
+          "order": 4,
           "duration": 0.5,
           "trigger": "after-previous"
         }
