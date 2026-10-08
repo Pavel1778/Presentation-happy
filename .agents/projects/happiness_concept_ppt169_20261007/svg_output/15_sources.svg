@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"
+     font-family="Arial" data-pptx-page-role="ending">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D6EAF8;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#F5E6D3;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <image id="p15-photo" x="0" y="0" width="1280" height="720" href="../images/p15_conclusions.jpg" preserveAspectRatio="xMidYMid slice" data-pptx-role="background"/>
+  <rect id="p15-bg" x="0" y="0" width="1280" height="720" fill="url(#bg-grad)" data-pptx-role="background" fill-opacity="0.90"/>
+  <rect id="p15-accent" x="0" y="0" width="1280" height="6" fill="#1B4F72" data-pptx-role="decoration"/>
+  <text id="p15-foot" x="80" y="694" font-size="22" fill="#5D6D7E" data-pptx-role="footer">Концепция счастья · ИС-24</text>
+  <text id="p15-num" x="1200" y="694" font-size="22" fill="#5D6D7E" text-anchor="end" data-pptx-role="page-number">15</text>
+
+  <g id="p15-title" data-pptx-bounds="80 40 1120 72">
+    <text x="80" y="98" font-size="48" font-weight="bold" fill="#1B4F72">Выводы и источники</text>
+  </g>
+
+  <g id="p15-conclusions" data-pptx-bounds="80 130 1120 236">
+    <rect x="80" y="130" width="1120" height="236" rx="16" fill="#FFFFFF" fill-opacity="0.86"/>
+    <text x="112" y="168" font-size="22" font-weight="bold" fill="#1B4F72">Восемь главных выводов</text>
+    <text x="112" y="206" font-size="20" fill="#2C3E50">1. Счастье многомерно: гены, обстоятельства, действия.</text>
+    <text x="112" y="238" font-size="20" fill="#2C3E50">2. Качество отношений — сильнейший предиктор.</text>
+    <text x="112" y="270" font-size="20" fill="#2C3E50">3. Деньги важны лишь до определённого уровня.</text>
+    <text x="112" y="302" font-size="20" fill="#2C3E50">4. Цифровые технологии амбивалентны.</text>
+    <text x="112" y="334" font-size="20" fill="#2C3E50">5. Смысл устойчивее удовольствия.</text>
+    <text x="656" y="206" font-size="20" fill="#2C3E50">6. Устойчивость и здоровье — база.</text>
+    <text x="656" y="238" font-size="20" fill="#2C3E50">7. Образование поддерживает благополучие.</text>
+    <text x="656" y="270" font-size="20" fill="#2C3E50">8. Счастье — это навык.</text>
+  </g>
+
+  <g id="p15-sources" data-pptx-bounds="80 386 660 240">
+    <rect x="80" y="386" width="660" height="240" rx="16" fill="#FFFFFF" fill-opacity="0.86"/>
+    <text x="104" y="420" font-size="22" font-weight="bold" fill="#1B4F72">Источники</text>
+    <text x="104" y="456" font-size="20" fill="#5D6D7E">1. Apteka.ru — материалы о счастье</text>
+    <text x="104" y="484" font-size="20" fill="#5D6D7E">2. Рувики, статья «Счастье»</text>
+    <text x="104" y="512" font-size="20" fill="#5D6D7E">3. Журнал «Большой город»</text>
+    <text x="104" y="540" font-size="20" fill="#5D6D7E">4. Портал Skillbox</text>
+    <text x="104" y="568" font-size="20" fill="#5D6D7E">5. НИУ ВШЭ, исследования</text>
+    <text x="104" y="596" font-size="20" fill="#5D6D7E">6. УрФУ, публикации</text>
+    <text x="104" y="624" font-size="20" fill="#5D6D7E">7. Портал b17.ru</text>
+    <text x="410" y="456" font-size="20" fill="#5D6D7E">8. Портал 1economic</text>
+    <text x="410" y="484" font-size="20" fill="#5D6D7E">9. Cyberleninka</text>
+    <text x="410" y="512" font-size="20" fill="#5D6D7E">10. РИА Новости</text>
+  </g>
+
+  <g id="p15-credits" data-pptx-bounds="780 386 420 240">
+    <rect x="780" y="386" width="420" height="108" rx="14" fill="#27AE60" fill-opacity="0.14"/>
+    <text x="808" y="420" font-size="22" font-weight="bold" fill="#1E8449">Научная основа</text>
+    <text x="808" y="454" font-size="20" fill="#2C3E50">Селигман</text>
+    <text x="808" y="482" font-size="20" fill="#2C3E50">Канеман и Дитон</text>
+    <rect x="780" y="518" width="420" height="108" rx="14" fill="#1B4F72" fill-opacity="0.12"/>
+    <text x="808" y="552" font-size="22" font-weight="bold" fill="#1B4F72">Критика</text>
+    <text x="808" y="586" font-size="20" fill="#2C3E50">Эренрейх</text>
+    <text x="808" y="614" font-size="20" fill="#2C3E50">Стивенсон и Вольферс</text>
+  </g>
+</svg>

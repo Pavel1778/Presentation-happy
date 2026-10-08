@@ -11,7 +11,7 @@
   <rect id="p12-bg" x="0" y="0" width="1280" height="720" fill="url(#bg-grad)" data-pptx-role="background" fill-opacity="0.88"/>
   <rect id="p12-accent" x="0" y="0" width="1280" height="6" fill="#E67E22" data-pptx-role="decoration"/>
       <text id="p12-foot" x="80" y="690" font-size="24" fill="#5D6D7E" data-pptx-role="footer">Концепция счастья · ИС-24</text>
-      <text id="p12-num" x="1200" y="690" font-size="24" fill="#5D6D7E" text-anchor="end" data-pptx-role="page-number">13</text>
+      <text id="p12-num" x="1200" y="690" font-size="24" fill="#5D6D7E" text-anchor="end" data-pptx-role="page-number">12</text>
 
   <g id="p12-title" data-pptx-bounds="80 40 1120 118">
     <text x="80" y="102" font-size="48" font-weight="bold" fill="#1B4F72">Парадокс среднего звена</text>
