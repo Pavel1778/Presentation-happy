@@ -1,48 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"
-     font-family="Arial" data-pptx-page-role="ending">
-  <defs>
-    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#D6EAF8;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#F5E6D3;stop-opacity:1"/>
-    </linearGradient>
-  </defs>
-  <image id="p15-photo" x="0" y="0" width="1280" height="720" href="../images/p15_conclusions.jpg" preserveAspectRatio="xMidYMid slice" data-pptx-role="background"/>
-  <rect id="p15-bg" x="0" y="0" width="1280" height="720" fill="url(#bg-grad)" data-pptx-role="background" fill-opacity="0.90"/>
-  <rect id="p15-accent" x="0" y="0" width="1280" height="6" fill="#1B4F72" data-pptx-role="decoration"/>
-  <text id="p15-foot" x="80" y="694" font-size="22" fill="#5D6D7E" data-pptx-role="footer">Концепция счастья · ИС-24</text>
-  <text id="p15-num" x="1200" y="694" font-size="22" fill="#5D6D7E" text-anchor="end" data-pptx-role="page-number">15</text>
-
-  <g id="p15-title" data-pptx-bounds="80 40 1120 80">
-    <text x="80" y="98" font-size="48" font-weight="bold" fill="#1B4F72">Выводы и источники</text>
-  </g>
-
-  <g id="p15-conclusions" data-pptx-bounds="80 130 1120 214">
-    <rect x="80" y="130" width="1120" height="214" rx="16" fill="#FFFFFF" fill-opacity="0.86"/>
-    <text x="112" y="166" font-size="20" font-weight="bold" fill="#1B4F72">Пять главных выводов</text>
-    <text x="112" y="204" font-size="20" fill="#2C3E50">1. Счастье многомерно: гены, обстоятельства, действия.</text>
-    <text x="112" y="232" font-size="20" fill="#2C3E50">2. Качество отношений — сильнейший предиктор.</text>
-    <text x="112" y="260" font-size="20" fill="#2C3E50">3. Деньги важны лишь до определённого уровня.</text>
-    <text x="112" y="288" font-size="20" fill="#2C3E50">4. Смысл устойчивее удовольствия.</text>
-    <text x="112" y="316" font-size="20" fill="#2C3E50">5. Счастье — это навык, который можно развивать.</text>
-  </g>
-
-  <g id="p15-sources" data-pptx-bounds="80 358 660 268">
-    <rect x="80" y="358" width="660" height="268" rx="16" fill="#FFFFFF" fill-opacity="0.86"/>
-    <text x="104" y="392" font-size="20" font-weight="bold" fill="#1B4F72">Шесть главных источников</text>
-    <text x="104" y="422" font-size="20" fill="#5D6D7E">1. World Happiness Report (ВОЗ)</text>
-    <text x="104" y="448" font-size="20" fill="#5D6D7E">2. Killingsworth, PNAS (2021)</text>
-    <text x="104" y="474" font-size="20" fill="#5D6D7E">3. Канеман и Дитон (2010, 2023)</text>
-    <text x="104" y="500" font-size="20" fill="#5D6D7E">4. Селигман, «Подлинное счастье»</text>
-    <text x="104" y="526" font-size="20" fill="#5D6D7E">5. Рувики, статья «Счастье»</text>
-    <text x="104" y="552" font-size="20" fill="#5D6D7E">6. Skillbox, «Что такое счастье»</text>
-  </g>
-
-  <g id="p15-qr" data-pptx-bounds="780 358 420 268">
-    <rect x="780" y="358" width="420" height="268" rx="16" fill="#1B4F72" fill-opacity="0.10"/>
-    <text x="808" y="392" font-size="20" font-weight="bold" fill="#1B4F72">Полный список источников</text>
-    <image x="915" y="404" width="150" height="150" href="../images/qr_sources.svg"/>
-    <text x="990" y="580" font-size="20" fill="#2C3E50" text-anchor="middle">Отсканируйте QR-код</text>
-    <text x="990" y="604" font-size="16" fill="#5D6D7E" text-anchor="middle">github.com/Pavel1778/Presentation-happy</text>
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"     font-family="Arial" lang="ru-RU" data-pptx-page-role="content">  <defs>    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">      <stop offset="0%" style="stop-color:#D6EAF8;stop-opacity:1"/>      <stop offset="100%" style="stop-color:#F5E6D3;stop-opacity:1"/>    </linearGradient>  </defs>  <image id="p15-photo" x="0" y="0" width="1280" height="720" href="../images/p15_conclusions.jpg" preserveAspectRatio="xMidYMid slice" data-pptx-role="background"/>  <rect id="p15-bg" x="0" y="0" width="1280" height="720" fill="url(#bg-grad)" fill-opacity="0.9" data-pptx-role="background"/>  <rect id="accent" x="0" y="0" width="1280" height="6" fill="#27AE60" data-pptx-role="decoration"/>  <g id="title" data-pptx-bounds="80 44 1120 82">    <text x="80" y="106" font-size="48" font-weight="bold" fill="#1B4F72">Счастье = осознанные усилия</text>
+  </g>  <g id="conclusions" data-pptx-bounds="80 130 1120 222">    <rect x="80" y="130" width="1120" height="222" rx="16" fill="#FFFFFF" fill-opacity="0.88"/>    <use data-icon="tabler-outline/award" x="108" y="146" width="40" height="40" fill="#1E8449"/>    <text x="164" y="176" font-size="24" font-weight="bold" fill="#1B4F72">Выводы</text>    <text x="112" y="222" font-size="22" fill="#2C3E50">• Счастье: гены, среда и действия</text>    <text x="672" y="222" font-size="22" fill="#2C3E50">• Качество отношений — ключевой фактор</text>    <text x="112" y="260" font-size="22" fill="#2C3E50">• Деньги важны до определённого уровня</text>    <text x="672" y="260" font-size="22" fill="#2C3E50">• Смысл устойчивее удовольствия</text>    <text x="112" y="298" font-size="22" fill="#2C3E50">• Счастье — навык, его можно развивать</text>  </g>  <g id="sources" data-pptx-bounds="80 372 680 276">    <text x="104" y="406" font-size="24" font-weight="bold" fill="#1B4F72">Источники</text>    <text x="104" y="442" font-size="22" fill="#5D6D7E">1. World Happiness Report</text>    <text x="104" y="476" font-size="22" fill="#5D6D7E">2. Killingsworth, PNAS (2021)</text>    <text x="104" y="510" font-size="22" fill="#5D6D7E">3. Канеман и Дитон (2010, 2023)</text>    <text x="104" y="544" font-size="22" fill="#5D6D7E">4. Селигман, «Подлинное счастье»</text>    <text x="104" y="578" font-size="22" fill="#5D6D7E">5. Рувики, «Счастье»</text>    <text x="104" y="612" font-size="22" fill="#5D6D7E">6. Skillbox, «Что такое счастье»</text>  </g>  <g id="qr" data-pptx-bounds="760 372 440 276">
+    <text x="950" y="410" font-size="24" font-weight="bold" fill="#1B4F72" text-anchor="middle">Полный список</text>
+    <image x="860" y="430" width="180" height="180" href="../images/qr_sources.svg"/>
+    <text x="950" y="640" font-size="22" fill="#5D6D7E" text-anchor="middle">Наведите камеру</text>
   </g>
 </svg>

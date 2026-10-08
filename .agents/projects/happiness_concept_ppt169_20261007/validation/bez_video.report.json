@@ -2,15 +2,15 @@
   "schema": "ppt-master.pptx-postflight-report.v1",
   "status": "passed-with-warnings",
   "output": {
-    "path": "/tmp/Konceptsiya_bez_video.pptx",
-    "bytes": 12550577
+    "path": "/tmp/bez_video.pptx",
+    "bytes": 12550409
   },
   "source": {
     "svg_slide_count": 15,
     "layout_definition_count": 0,
     "fingerprint": {
       "algorithm": "sha256",
-      "digest": "73f7594e01dc0870f53a7b6d93ed6a294c0774522f30f3118011ce1119d12010",
+      "digest": "9aa3db5ed3a86ec53e7a57df9e536beb65c763e8d51316298f70b658570456ef",
       "file_count": 15,
       "files": [
         {
@@ -19,7 +19,7 @@
         },
         {
           "file": "01_goals.svg",
-          "sha256": "614889531f48d3e665ee06a87e6fe400e35205b0c78ad3a4a65a6ba5064aee71"
+          "sha256": "704d719029b17579a78025490b5b1fe248e93caf6f0f9e27f47777dcbf2886a6"
         },
         {
           "file": "02_toc.svg",
@@ -31,15 +31,15 @@
         },
         {
           "file": "04_science.svg",
-          "sha256": "f258c26f8d35234b88dad4bc6492815039968f232f7a8ed9f9ae8760359744e2"
+          "sha256": "09005a56c509b4b31f54882c53b7f39a5662778a2be7f737174973deb3e4a0d0"
         },
         {
           "file": "05_physiology.svg",
-          "sha256": "d14dddd2b834aeebb222685e16cd932f4154aabdc3bb215ee15d59488f349f15"
+          "sha256": "5ead9ed88e20ad3fa08c39711b221ba119516d2d7d8e149e560d262dde09ae03"
         },
         {
           "file": "06_history.svg",
-          "sha256": "47c041ab031e4b6d191f95fbcb722c63d94deb14c128e0a38e0e35c755f93a8d"
+          "sha256": "ecd274452f7574d54c87c51237039dd69ee3cd596142fe1f9538318d0b8d67bd"
         },
         {
           "file": "07_hedonia.svg",
@@ -47,19 +47,19 @@
         },
         {
           "file": "08_formula.svg",
-          "sha256": "92e69fbf3ae92777d6c83dbcd296f945c85d8abad53352f020430d28e942d7a0"
+          "sha256": "c0ea7b9f46b088a6bce0d9f5a06b3ff4fc231106f4aa918616ad1ed4bdaf7958"
         },
         {
           "file": "09_factors.svg",
-          "sha256": "9f7c07e7e8ee5cc2217f359da5fb91d9a81041e3a8b1474a6f4743821d3d428f"
+          "sha256": "df38810413ff4a55cb4e94d18ca7a566295cff7b8209d61186743aab556d3cf1"
         },
         {
           "file": "10_easterlin.svg",
-          "sha256": "a20b5606ad0014e6faa854890179b312965b2babc561c8442128ecd9ef263d0f"
+          "sha256": "dd92dfa68acefe5d124d7e514e66f0aee0e11b0165f30f93c1dd78708982868e"
         },
         {
           "file": "11_education.svg",
-          "sha256": "3cec4089ccbd7b551e501e05ba968cd0f124cd6c81b60d806ba06601a26f004e"
+          "sha256": "2a0a95b5cf3a992d27144d3b1a97d0b2738a5fbb3586530b732afd8a77b23b21"
         },
         {
           "file": "12_digital.svg",
@@ -67,11 +67,11 @@
         },
         {
           "file": "13_recommendations.svg",
-          "sha256": "edfad5097134788580fadad0aa8b842c59f45a346da6ec3a8de36899e0bb7ad1"
+          "sha256": "10e0c6e9b518cb53b2020390ebde15cb272474668ca3851fd8cdab8c6eddfcd5"
         },
         {
           "file": "15_sources.svg",
-          "sha256": "c142f48dfbd14763992d55e6c5a45fa491ad00fa1724cc3d3090f18217250966"
+          "sha256": "5235da45855fc14396176a6084405dc06c82775c3195b724bb75af33c929d796"
         }
       ]
     },
@@ -109,7 +109,7 @@
     "source_match": "passed",
     "source_fingerprint": {
       "algorithm": "sha256",
-      "digest": "73f7594e01dc0870f53a7b6d93ed6a294c0774522f30f3118011ce1119d12010",
+      "digest": "9aa3db5ed3a86ec53e7a57df9e536beb65c763e8d51316298f70b658570456ef",
       "file_count": 15,
       "files": [
         {
@@ -118,7 +118,7 @@
         },
         {
           "file": "01_goals.svg",
-          "sha256": "614889531f48d3e665ee06a87e6fe400e35205b0c78ad3a4a65a6ba5064aee71"
+          "sha256": "704d719029b17579a78025490b5b1fe248e93caf6f0f9e27f47777dcbf2886a6"
         },
         {
           "file": "02_toc.svg",
@@ -130,15 +130,15 @@
         },
         {
           "file": "04_science.svg",
-          "sha256": "f258c26f8d35234b88dad4bc6492815039968f232f7a8ed9f9ae8760359744e2"
+          "sha256": "09005a56c509b4b31f54882c53b7f39a5662778a2be7f737174973deb3e4a0d0"
         },
         {
           "file": "05_physiology.svg",
-          "sha256": "d14dddd2b834aeebb222685e16cd932f4154aabdc3bb215ee15d59488f349f15"
+          "sha256": "5ead9ed88e20ad3fa08c39711b221ba119516d2d7d8e149e560d262dde09ae03"
         },
         {
           "file": "06_history.svg",
-          "sha256": "47c041ab031e4b6d191f95fbcb722c63d94deb14c128e0a38e0e35c755f93a8d"
+          "sha256": "ecd274452f7574d54c87c51237039dd69ee3cd596142fe1f9538318d0b8d67bd"
         },
         {
           "file": "07_hedonia.svg",
@@ -146,19 +146,19 @@
         },
         {
           "file": "08_formula.svg",
-          "sha256": "92e69fbf3ae92777d6c83dbcd296f945c85d8abad53352f020430d28e942d7a0"
+          "sha256": "c0ea7b9f46b088a6bce0d9f5a06b3ff4fc231106f4aa918616ad1ed4bdaf7958"
         },
         {
           "file": "09_factors.svg",
-          "sha256": "9f7c07e7e8ee5cc2217f359da5fb91d9a81041e3a8b1474a6f4743821d3d428f"
+          "sha256": "df38810413ff4a55cb4e94d18ca7a566295cff7b8209d61186743aab556d3cf1"
         },
         {
           "file": "10_easterlin.svg",
-          "sha256": "a20b5606ad0014e6faa854890179b312965b2babc561c8442128ecd9ef263d0f"
+          "sha256": "dd92dfa68acefe5d124d7e514e66f0aee0e11b0165f30f93c1dd78708982868e"
         },
         {
           "file": "11_education.svg",
-          "sha256": "3cec4089ccbd7b551e501e05ba968cd0f124cd6c81b60d806ba06601a26f004e"
+          "sha256": "2a0a95b5cf3a992d27144d3b1a97d0b2738a5fbb3586530b732afd8a77b23b21"
         },
         {
           "file": "12_digital.svg",
@@ -166,11 +166,11 @@
         },
         {
           "file": "13_recommendations.svg",
-          "sha256": "edfad5097134788580fadad0aa8b842c59f45a346da6ec3a8de36899e0bb7ad1"
+          "sha256": "10e0c6e9b518cb53b2020390ebde15cb272474668ca3851fd8cdab8c6eddfcd5"
         },
         {
           "file": "15_sources.svg",
-          "sha256": "c142f48dfbd14763992d55e6c5a45fa491ad00fa1724cc3d3090f18217250966"
+          "sha256": "5235da45855fc14396176a6084405dc06c82775c3195b724bb75af33c929d796"
         }
       ]
     },

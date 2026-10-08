@@ -29,9 +29,14 @@
 - title_family: Arial
 - body_family: Arial
 - title: 48
+- lead: 40
+- subtitle: 32
+- card: 28
+- card-body: 26
 - body: 24
+- small: 22
 - label: 20
-- credit: 22
+- fine: 18
 
 ## icons
 - library: tabler-outline

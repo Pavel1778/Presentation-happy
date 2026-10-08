@@ -17,19 +17,19 @@
     },
     "01_goals": {
       "groups": {
-        "p02-title": {
+        "title": {
           "effect": "entrance_fade",
           "order": 1,
           "duration": 0.4,
           "trigger": "after-previous"
         },
-        "p02-goal": {
+        "goal": {
           "effect": "entrance_fade",
           "order": 2,
           "duration": 0.5,
           "trigger": "after-previous"
         },
-        "p02-tasks": {
+        "tasks": {
           "effect": "entrance_fade",
           "order": 3,
           "duration": 0.5,
@@ -39,13 +39,13 @@
     },
     "02_toc": {
       "groups": {
-        "p03-title": {
+        "title": {
           "effect": "entrance_fade",
           "order": 1,
           "duration": 0.4,
           "trigger": "after-previous"
         },
-        "p03-grid": {
+        "toc": {
           "effect": "entrance_fade",
           "order": 2,
           "duration": 0.5,
@@ -55,19 +55,19 @@
     },
     "03_why": {
       "groups": {
-        "p04-title": {
+        "title": {
           "effect": "entrance_fade",
           "order": 1,
           "duration": 0.4,
           "trigger": "after-previous"
         },
-        "p04-depression": {
+        "chart-dep": {
           "effect": "entrance_fade",
           "order": 2,
           "duration": 0.5,
           "trigger": "after-previous"
         },
-        "p04-happiness": {
+        "chart-hap": {
           "effect": "entrance_fade",
           "order": 3,
           "duration": 0.5,
@@ -77,19 +77,19 @@
     },
     "04_science": {
       "groups": {
-        "p05-title": {
+        "title": {
           "effect": "entrance_fade",
           "order": 1,
           "duration": 0.4,
           "trigger": "after-previous"
         },
-        "p05-venn": {
+        "swb": {
           "effect": "entrance_fade",
           "order": 2,
           "duration": 0.5,
           "trigger": "after-previous"
         },
-        "p05-approaches": {
+        "approaches": {
           "effect": "entrance_fade",
           "order": 3,
           "duration": 0.5,
@@ -99,27 +99,21 @@
     },
     "05_physiology": {
       "groups": {
-        "p06-title": {
+        "title": {
           "effect": "entrance_fade",
           "order": 1,
           "duration": 0.4,
           "trigger": "after-previous"
         },
-        "p06-caveat": {
+        "dopamine": {
           "effect": "entrance_fade",
           "order": 2,
-          "duration": 0.4,
-          "trigger": "after-previous"
-        },
-        "p06-video": {
-          "effect": "entrance_fade",
-          "order": 3,
           "duration": 0.5,
           "trigger": "after-previous"
         },
-        "p06-summary": {
+        "serotonin": {
           "effect": "entrance_fade",
-          "order": 4,
+          "order": 3,
           "duration": 0.5,
           "trigger": "after-previous"
         }
@@ -127,21 +121,15 @@
     },
     "06_history": {
       "groups": {
-        "p07-title": {
+        "title": {
           "effect": "entrance_fade",
           "order": 1,
           "duration": 0.4,
           "trigger": "after-previous"
         },
-        "p07-timeline": {
+        "timeline": {
           "effect": "entrance_fade",
           "order": 2,
-          "duration": 0.5,
-          "trigger": "after-previous"
-        },
-        "p07-note": {
-          "effect": "entrance_fade",
-          "order": 3,
           "duration": 0.5,
           "trigger": "after-previous"
         }
@@ -149,21 +137,15 @@
     },
     "07_hedonia": {
       "groups": {
-        "p08-title": {
+        "title": {
           "effect": "entrance_fade",
           "order": 1,
           "duration": 0.4,
           "trigger": "after-previous"
         },
-        "p08-hedonia": {
+        "compare": {
           "effect": "entrance_fade",
           "order": 2,
-          "duration": 0.5,
-          "trigger": "after-previous"
-        },
-        "p08-eudaimonia": {
-          "effect": "entrance_fade",
-          "order": 3,
           "duration": 0.5,
           "trigger": "after-previous"
         }
@@ -171,19 +153,19 @@
     },
     "08_formula": {
       "groups": {
-        "p09-title": {
+        "title": {
           "effect": "entrance_fade",
           "order": 1,
           "duration": 0.4,
           "trigger": "after-previous"
         },
-        "p09-pie": {
+        "donut": {
           "effect": "entrance_fade",
           "order": 2,
           "duration": 0.5,
           "trigger": "after-previous"
         },
-        "p09-legend": {
+        "legend": {
           "effect": "entrance_fade",
           "order": 3,
           "duration": 0.5,
@@ -193,19 +175,19 @@
     },
     "09_factors": {
       "groups": {
-        "p10-title": {
+        "title": {
           "effect": "entrance_fade",
           "order": 1,
           "duration": 0.4,
           "trigger": "after-previous"
         },
-        "p10-tree": {
+        "photo": {
           "effect": "entrance_fade",
           "order": 2,
           "duration": 0.5,
           "trigger": "after-previous"
         },
-        "p10-list": {
+        "factors": {
           "effect": "entrance_fade",
           "order": 3,
           "duration": 0.5,
@@ -215,19 +197,19 @@
     },
     "10_easterlin": {
       "groups": {
-        "p11-title": {
+        "title": {
           "effect": "entrance_fade",
           "order": 1,
           "duration": 0.4,
           "trigger": "after-previous"
         },
-        "p11-chart": {
+        "chart": {
           "effect": "entrance_fade",
           "order": 2,
           "duration": 0.5,
           "trigger": "after-previous"
         },
-        "p11-photos": {
+        "theses": {
           "effect": "entrance_fade",
           "order": 3,
           "duration": 0.5,
@@ -237,19 +219,19 @@
     },
     "11_education": {
       "groups": {
-        "p12-title": {
+        "title": {
           "effect": "entrance_fade",
           "order": 1,
           "duration": 0.4,
           "trigger": "after-previous"
         },
-        "p12-chart": {
+        "chart": {
           "effect": "entrance_fade",
           "order": 2,
           "duration": 0.5,
           "trigger": "after-previous"
         },
-        "p12-list": {
+        "list": {
           "effect": "entrance_fade",
           "order": 3,
           "duration": 0.5,
@@ -259,19 +241,19 @@
     },
     "12_digital": {
       "groups": {
-        "p13-title": {
+        "title": {
           "effect": "entrance_fade",
           "order": 1,
           "duration": 0.4,
           "trigger": "after-previous"
         },
-        "p13-plus": {
+        "plus": {
           "effect": "entrance_fade",
           "order": 2,
           "duration": 0.5,
           "trigger": "after-previous"
         },
-        "p13-minus": {
+        "minus": {
           "effect": "entrance_fade",
           "order": 3,
           "duration": 0.5,
@@ -281,13 +263,13 @@
     },
     "13_recommendations": {
       "groups": {
-        "p14-title": {
+        "title": {
           "effect": "entrance_fade",
           "order": 1,
           "duration": 0.4,
           "trigger": "after-previous"
         },
-        "p14-checklist": {
+        "recs": {
           "effect": "entrance_fade",
           "order": 2,
           "duration": 0.5,
@@ -297,27 +279,21 @@
     },
     "15_sources": {
       "groups": {
-        "p15-title": {
+        "title": {
           "effect": "entrance_fade",
           "order": 1,
           "duration": 0.4,
           "trigger": "after-previous"
         },
-        "p15-conclusions": {
+        "conclusions": {
           "effect": "entrance_fade",
           "order": 2,
           "duration": 0.5,
           "trigger": "after-previous"
         },
-        "p15-sources": {
+        "qr": {
           "effect": "entrance_fade",
           "order": 3,
-          "duration": 0.5,
-          "trigger": "after-previous"
-        },
-        "p15-qr": {
-          "effect": "entrance_fade",
-          "order": 4,
           "duration": 0.5,
           "trigger": "after-previous"
         }
