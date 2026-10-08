@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"
+     font-family="Arial" data-pptx-page-role="content">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D6EAF8;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#F5E6D3;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <image id="p10-photo" x="0" y="0" width="1280" height="720" href="../images/p10_factors.jpg" preserveAspectRatio="xMidYMid slice" data-pptx-role="background"/>
+  <rect id="p10-bg" x="0" y="0" width="1280" height="720" fill="url(#bg-grad)" data-pptx-role="background" fill-opacity="0.88"/>
+  <rect id="p10-accent" x="0" y="0" width="1280" height="6" fill="#27AE60" data-pptx-role="decoration"/>
+      <text id="p10-foot" x="80" y="690" font-size="24" fill="#5D6D7E" data-pptx-role="footer">Концепция счастья · ИС-24</text>
+      <text id="p10-num" x="1200" y="690" font-size="24" fill="#5D6D7E" text-anchor="end" data-pptx-role="page-number">11</text>
+
+  <g id="p10-title" data-pptx-bounds="80 44 1120 92">
+    <text x="80" y="106" font-size="48" font-weight="bold" fill="#1B4F72">Качество отношений важнее денег</text>
+  </g>
+
+  <g id="p10-tree" data-pptx-bounds="80 180 700 470">
+    <rect x="80" y="180" width="700" height="470" rx="16" fill="#FFFFFF" fill-opacity="0.85"/>
+    <rect x="418" y="270" width="24" height="290" fill="#8D6E63"/>
+    <path d="M 430 320 L 290 240 M 430 360 L 570 240 M 430 400 L 320 330 M 430 440 L 570 340" stroke="#8D6E63" stroke-width="8"/>
+    <ellipse cx="430" cy="230" rx="210" ry="62" fill="#27AE60" fill-opacity="0.30"/>
+    <text x="430" y="240" font-size="24" font-weight="bold" fill="#1E8449" text-anchor="middle">Внешние факторы</text>
+    <use data-icon="tabler-outline/wallet" x="300" y="180" width="34" height="34" fill="#1E8449"/>
+    <use data-icon="tabler-outline/briefcase" x="360" y="180" width="34" height="34" fill="#1E8449"/>
+    <use data-icon="tabler-outline/gavel" x="420" y="180" width="34" height="34" fill="#1E8449"/>
+    <use data-icon="tabler-outline/world" x="480" y="180" width="34" height="34" fill="#1E8449"/>
+    <use data-icon="tabler-outline/users-group" x="540" y="180" width="34" height="34" fill="#1E8449"/>
+    <text x="430" y="380" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Отношения</text>
+    <text x="430" y="520" font-size="24" font-weight="bold" fill="#1B4F72" text-anchor="middle">Внутренние факторы</text>
+    <use data-icon="tabler-outline/bulb" x="230" y="540" width="34" height="34" fill="#1B4F72"/>
+    <use data-icon="tabler-outline/heart" x="300" y="540" width="34" height="34" fill="#1B4F72"/>
+    <use data-icon="tabler-outline/book" x="370" y="540" width="34" height="34" fill="#1B4F72"/>
+    <use data-icon="tabler-outline/run" x="440" y="540" width="34" height="34" fill="#1B4F72"/>
+    <use data-icon="tabler-outline/flower" x="510" y="540" width="34" height="34" fill="#1B4F72"/>
+    <use data-icon="tabler-outline/moon" x="580" y="540" width="34" height="34" fill="#1B4F72"/>
+  </g>
+
+  <g id="p10-list" data-pptx-bounds="820 180 380 470">
+    <rect x="820" y="180" width="380" height="220" rx="16" fill="#27AE60" fill-opacity="0.16"/>
+    <text x="848" y="226" font-size="24" font-weight="bold" fill="#1E8449">Внутренние</text>
+    <text x="848" y="268" font-size="24" fill="#2C3E50">осмысленность</text>
+    <text x="848" y="300" font-size="24" fill="#2C3E50">самореализация</text>
+    <text x="848" y="332" font-size="24" fill="#2C3E50">здоровье</text>
+    <text x="848" y="364" font-size="24" fill="#2C3E50">благодарность</text>
+
+    <rect x="820" y="430" width="380" height="220" rx="16" fill="#1B4F72" fill-opacity="0.12"/>
+    <text x="848" y="476" font-size="24" font-weight="bold" fill="#1B4F72">Внешние</text>
+    <text x="848" y="518" font-size="24" fill="#2C3E50">материальная стабильность</text>
+    <text x="848" y="550" font-size="24" fill="#2C3E50">справедливость</text>
+    <text x="848" y="582" font-size="24" fill="#2C3E50">интересная деятельность</text>
+  </g>
+</svg>

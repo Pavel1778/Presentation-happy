@@ -1738,3 +1738,567 @@ argv: ["/usr/local/bin/python3", "scripts/pptx_delivery_check.py", "/workspace/p
 cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
 argv: ["/usr/local/bin/python3", "scripts/pptx_delivery_check.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v3_final.pptx"]
 === 2026-10-07T22:33:12.942Z END run=1c1d55291f90 elapsed_ms=741 output_lines=834 retained=0 omitted=834 ===
+
+=== 2026-10-08T08:50:04.921Z PYTHON run=5abcebe93e95 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007
+argv: ["/usr/local/bin/python3", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master/scripts/total_md_split.py", "--help"]
+=== 2026-10-08T08:50:04.943Z END run=5abcebe93e95 elapsed_ms=21 output_lines=18 retained=0 omitted=18 ===
+
+=== 2026-10-08T08:50:38.279Z PYTHON run=874e6dac3cee ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/total_md_split.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007"]
+=== 2026-10-08T08:50:38.299Z END run=874e6dac3cee elapsed_ms=20 output_lines=7 retained=0 omitted=7 ===
+
+=== 2026-10-08T08:50:48.951Z PYTHON run=75215f14d6a9 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/total_md_split.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007"]
+stdout:
+  [OK] SVG files and notes have one-to-one correspondence
+  [Done] Successfully generated 17/17 file(s)
+  [Done] Notes splitting complete
+=== 2026-10-08T08:50:48.976Z END run=75215f14d6a9 elapsed_ms=24 output_lines=26 retained=3 omitted=23 ===
+
+=== 2026-10-08T08:51:06.645Z PYTHON run=c2a8a6e54366 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007
+argv: ["/usr/local/bin/python3", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master/scripts/notes_to_audio.py", ".", "--provider", "edge", "--voice", "ru-RU-SvetlanaNeural", "--rate", "-5%", "--concurrency", "4"]
+stderr:
+  error: failed to generate audio/01_cover.mp3: Missing dependency `edge-tts`. Install it with: python3 -m pip install edge-tts
+  error: failed to generate audio/02_goals.mp3: Missing dependency `edge-tts`. Install it with: python3 -m pip install edge-tts
+  error: failed to generate audio/03_toc.mp3: Missing dependency `edge-tts`. Install it with: python3 -m pip install edge-tts
+  error: failed to generate audio/04_annotation.mp3: Missing dependency `edge-tts`. Install it with: python3 -m pip install edge-tts
+  error: failed to generate audio/05_why.mp3: Missing dependency `edge-tts`. Install it with: python3 -m pip install edge-tts
+  error: failed to generate audio/06_science.mp3: Missing dependency `edge-tts`. Install it with: python3 -m pip install edge-tts
+  error: failed to generate audio/07_physiology.mp3: Missing dependency `edge-tts`. Install it with: python3 -m pip install edge-tts
+  error: failed to generate audio/08_history.mp3: Missing dependency `edge-tts`. Install it with: python3 -m pip install edge-tts
+stderr-tail:
+  error: failed to generate audio/14_digital.mp3: Missing dependency `edge-tts`. Install it with: python3 -m pip install edge-tts
+  error: failed to generate audio/15_recommendations.mp3: Missing dependency `edge-tts`. Install it with: python3 -m pip install edge-tts
+  error: failed to generate audio/16_conclusions.mp3: Missing dependency `edge-tts`. Install it with: python3 -m pip install edge-tts
+  error: failed to generate audio/17_sources.mp3: Missing dependency `edge-tts`. Install it with: python3 -m pip install edge-tts
+=== 2026-10-08T08:51:07.005Z END run=c2a8a6e54366 elapsed_ms=360 output_lines=18 retained=12 omitted=6 ===
+
+=== 2026-10-08T08:51:15.230Z PYTHON run=b74f7e61e455 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007
+argv: ["/usr/local/bin/python3", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master/scripts/notes_to_audio.py", ".", "--provider", "edge", "--voice", "ru-RU-SvetlanaNeural", "--rate", "-5%", "--concurrency", "4"]
+stdout:
+  [OK] audio/01_cover.mp3
+  [Done] Generated 17/17 audio/SRT pair(s): audio
+  [REPORT] Narration manifest: audio/manifest.json
+=== 2026-10-08T08:51:34.756Z END run=b74f7e61e455 elapsed_ms=19526 output_lines=37 retained=3 omitted=34 ===
+
+=== 2026-10-08T08:51:36.902Z PYTHON run=87727b360e97 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/finalize_svg.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--only", "embed-icons", "align-images"]
+=== 2026-10-08T08:51:37.017Z END run=87727b360e97 elapsed_ms=114 output_lines=1 retained=0 omitted=1 ===
+
+=== 2026-10-08T08:53:42.909Z PYTHON run=5a3c4fcbc4b8 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/finalize_svg.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--only", "embed-icons", "align-images"]
+stdout:
+  [OK] 13_education.svg (1 icons)
+  [OK] Done!
+=== 2026-10-08T08:53:53.417Z END run=5a3c4fcbc4b8 elapsed_ms=10507 output_lines=24 retained=2 omitted=22 ===
+
+=== 2026-10-08T08:53:55.959Z PYTHON run=29b2e669eb92 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_quality_checker.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007"]
+stdout:
+  [ERROR] 01_cover.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <g id="cover-header"> data-pptx-bounds overlaps <g id="cover-logo"> data-pptx-bounds by 160.0px x 130.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+     [ERROR] <text> (x=1140, y=226; text='колледж связи') exceeds <g id="cover-logo"> data-pptx-bounds on the vertical axis: content (1059.8, 207.3)-(1220.2, 233.7), container (1040.0, 60.0)-(1240.0, 210.0), overflow horizontal 0.0%, vertical 15.8% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="cover-header"> x=80.0, y=228.0..346.0, 3 lines; <g id="cover-author"> x=112.0, y=500.0..576.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+     [WARN] 1 ungrouped top-level Slide-local element(s) in svg_output (<text id="credit">); group only logical content units in a top-level <g id="...">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as "background" or "decoration"
+  [WARN] 02_goals.svg - Passed (with warnings)
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="p02-goal"> x=120.0, y=336.0..404.0, 3 lines; <g id="p02-goal"> x=120.0, y=490.0..524.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p02_goals.jpg is 7360x4912 and renders at 0.17x scale in a 1280x720 slice frame; the source is 1.5 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+     [WARN] 1 ungrouped top-level Slide-local element(s) in svg_output (<text id="credit">); group only logical content units in a top-level <g id="...">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as "background" or "decoration"
+  [WARN] 03_toc.svg - Passed (with warnings)
+  [OK] 05_why.svg - Passed
+  [ERROR] 12_easterlin.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text> (x=80, y=676; text='© Marek Ślusarczyk /…') exceeds <g id="p11-credits"> data-pptx-bounds on the vertical axis: content (80.0, 657.3)-(550.8, 683.7), container (80.0, 662.0)-(1260.0, 720.0), overflow horizontal 0.0%, vertical 8.1% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text
+     [ERROR] Missing image-specific inline attribution for sourced image p11_easterlin.jpg (Marek Ślusarczyk ( Tupungato ) Photo portfolio; CC BY). Add compact author + license credit per references/image-searcher.md §7.
+     [ERROR] Missing image-specific inline attribution for sourced image p11_rich.jpg (Pedro Ribeiro Simões from Lisboa, Portugal; CC BY). Add compact author + license credit per references/image-searcher.md §7.
+     [WARN] Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id="p11-credits"> x=80.0, y=676.0..696.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p11_rich.jpg is 3692x3220 and renders at 0.10x scale in a 360x150 slice frame; the source is 4.2 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 13_education.svg - Passed (with warnings)
+     viewBox: 0 0 1280 720
+  [ERROR] 17_sources.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] Missing image-specific inline attribution for sourced image p03_toc.jpg (Shixart1985; CC BY). Add compact author + license credit per references/image-searcher.md §7.
+     [WARN] Image ../images/p03_toc.jpg is 6048x4032 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [SUMMARY] Check Summary
+  Total files: 17
+    [OK] Fully passed: 3 (17%)
+    [WARN] With warnings: 11 (64%)
+    [ERROR] With errors: 3 (17%)
+  Provenance categories:
+    blocking: 6          hard findings; gate also requires exit 0
+    introduced: 31       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 17 | text: 282 | images: 26 | icons: 74
+    Geometry: SVG elements 146 | native presets 0 | page-frame elements 35 | marker uses 0
+    Effects: inline emphasis 0 (pages 0) | gradients 17 (pages 17) | filters 0 (pages 0) | text effects 0 (pages 0)
+    Native objects: charts 0 | tables 0 | formulas 0
+    Presets: (none)
+=== 2026-10-08T08:54:01.484Z END run=29b2e669eb92 elapsed_ms=5525 output_lines=117 retained=42 omitted=75 ===
+
+=== 2026-10-08T08:54:12.511Z PYTHON run=0475b6e5904e ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_quality_checker.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--quick-generate", "--json"]
+stdout:
+  [ERROR] 01_cover.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <g id="cover-header"> data-pptx-bounds overlaps <g id="cover-logo"> data-pptx-bounds by 160.0px x 130.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+     [ERROR] <text> (x=1140, y=226; text='колледж связи') exceeds <g id="cover-logo"> data-pptx-bounds on the vertical axis: content (1059.8, 207.3)-(1220.2, 233.7), container (1040.0, 60.0)-(1240.0, 210.0), overflow horizontal 0.0%, vertical 15.8% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text
+     [WARN] Quick roster declares no deck language: put lang="<BCP-47>" (vi-VN, he-IL, ...) on the first page's root <svg>; export reads it for run proofing language, right-to-left defaults, theme script slots and docProps (advisory)
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="cover-header"> x=80.0, y=228.0..346.0, 3 lines; <g id="cover-author"> x=112.0, y=500.0..576.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+     [WARN] 1 ungrouped top-level Slide-local element(s) in svg_output (<text id="credit">); group only logical content units in a top-level <g id="...">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as "background" or "decoration"
+  [WARN] 02_goals.svg - Passed (with warnings)
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="p02-goal"> x=120.0, y=336.0..404.0, 3 lines; <g id="p02-goal"> x=120.0, y=490.0..524.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p02_goals.jpg is 7360x4912 and renders at 0.17x scale in a 1280x720 slice frame; the source is 1.5 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+     [WARN] 1 ungrouped top-level Slide-local element(s) in svg_output (<text id="credit">); group only logical content units in a top-level <g id="...">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as "background" or "decoration"
+  [OK] 05_why.svg - Passed
+  [ERROR] 12_easterlin.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text> (x=80, y=676; text='© Marek Ślusarczyk /…') exceeds <g id="p11-credits"> data-pptx-bounds on the vertical axis: content (80.0, 657.3)-(550.8, 683.7), container (80.0, 662.0)-(1260.0, 720.0), overflow horizontal 0.0%, vertical 8.1% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text
+     [ERROR] Missing image-specific inline attribution for sourced image p11_easterlin.jpg (Marek Ślusarczyk ( Tupungato ) Photo portfolio; CC BY). Add compact author + license credit per references/image-searcher.md §7.
+     [ERROR] Missing image-specific inline attribution for sourced image p11_rich.jpg (Pedro Ribeiro Simões from Lisboa, Portugal; CC BY). Add compact author + license credit per references/image-searcher.md §7.
+     [WARN] Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id="p11-credits"> x=80.0, y=676.0..696.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p11_rich.jpg is 3692x3220 and renders at 0.10x scale in a 360x150 slice frame; the source is 4.2 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 13_education.svg - Passed (with warnings)
+     viewBox: 0 0 1280 720
+  [ERROR] 17_sources.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] Missing image-specific inline attribution for sourced image p03_toc.jpg (Shixart1985; CC BY). Add compact author + license credit per references/image-searcher.md §7.
+     [WARN] Image ../images/p03_toc.jpg is 6048x4032 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [SUMMARY] Check Summary
+  Total files: 17
+    [OK] Fully passed: 3 (17%)
+    [WARN] With warnings: 11 (64%)
+    [ERROR] With errors: 3 (17%)
+  Provenance categories:
+    blocking: 6          hard findings; gate also requires exit 0
+    introduced: 32       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 17 | text: 282 | images: 26 | icons: 74
+    Geometry: SVG elements 146 | native presets 0 | page-frame elements 35 | marker uses 0
+    Effects: inline emphasis 0 (pages 0) | gradients 17 (pages 17) | filters 0 (pages 0) | text effects 0 (pages 0)
+    Native objects: charts 0 | tables 0 | formulas 0
+    Presets: (none)
+  [REPORT] JSON quality report exported: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json
+=== 2026-10-08T08:54:18.140Z END run=0475b6e5904e elapsed_ms=5628 output_lines=102 retained=43 omitted=59 ===
+
+=== 2026-10-08T08:55:09.646Z PYTHON run=6cc49882cdd2 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/finalize_svg.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--only", "embed-icons", "align-images"]
+stdout:
+  [OK] 13_education.svg (1 icons)
+  [OK] Done!
+=== 2026-10-08T08:55:20.011Z END run=6cc49882cdd2 elapsed_ms=10364 output_lines=24 retained=2 omitted=22 ===
+
+=== 2026-10-08T08:55:20.227Z PYTHON run=f1a9dcffd80f ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_quality_checker.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--quick-generate", "--json"]
+stdout:
+  [ERROR] 01_cover.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text id="credit"> exceeds <g id="cover-credit"> data-pptx-bounds on the vertical axis: content (80.0, 693.3)-(649.8, 719.7), container (80.0, 700.0)-(700.0, 726.0), overflow horizontal 0.0%, vertical 25.8% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text
+     [WARN] <g id="cover-credit"> data-pptx-bounds exceeds canvas viewBox on the vertical axis: content (80.0, 700.0)-(700.0, 726.0), container (0.0, 0.0)-(1280.0, 720.0), overflow horizontal 0.0%, vertical 0.8% (error above 5%); keep the root module subcanvas inside the SVG viewBox
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="cover-header"> x=80.0, y=228.0..346.0, 3 lines; <g id="cover-author"> x=112.0, y=500.0..576.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [ERROR] 02_goals.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text id="p02-foot"> exceeds <g id="p02-foot-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (80.0, 669.6)-(401.3, 698.4), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 40030.3%, vertical 69740.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈14.6 px per mixed char at 24px incl. headroom; ≈0 chars fit in 1 px
+     [ERROR] <text id="p02-num"> exceeds <g id="p02-num-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (1171.7, 669.6)-(1200.0, 698.4), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 119900.0%, vertical 69740.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈14.1 px per Latin char at 24px incl. headroom; ≈0 chars fit in 1 px
+     [ERROR] <text id="credit"> exceeds <g id="credit-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (80.0, 693.3)-(531.0, 719.7), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 52995.1%, vertical 71870.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈14.5 px per mixed char at 22px incl. headroom; ≈0 chars fit in 1 px
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="p02-goal"> x=120.0, y=336.0..404.0, 3 lines; <g id="p02-goal"> x=120.0, y=490.0..524.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p02_goals.jpg is 7360x4912 and renders at 0.17x scale in a 1280x720 slice frame; the source is 1.5 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [ERROR] 03_toc.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text id="p03-foot"> exceeds <g id="p03-foot-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (80.0, 669.6)-(401.3, 698.4), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 40030.3%, vertical 69740.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈14.6 px per mixed char at 24px incl. headroom; ≈0 chars fit in 1 px
+     [ERROR] <text id="p03-num"> exceeds <g id="p03-num-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (1171.7, 669.6)-(1200.0, 698.4), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 119900.0%, vertical 69740.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈14.1 px per Latin char at 24px incl. headroom; ≈0 chars fit in 1 px
+     [ERROR] <text id="credit"> exceeds <g id="credit-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (80.0, 693.3)-(491.6, 719.7), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 49058.6%, vertical 71870.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈13.7 px per mixed char at 22px incl. headroom; ≈0 chars fit in 1 px
+     [WARN] Image ../images/p03_toc.jpg is 6048x4032 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [ERROR] 04_annotation.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text id="p04-foot"> exceeds <g id="p04-foot-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (80.0, 671.3)-(374.5, 697.7), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 37352.8%, vertical 69670.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈13.4 px per mixed char at 22px incl. headroom; ≈0 chars fit in 1 px
+     [ERROR] <text id="p04-num"> exceeds <g id="p04-num-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (1174.1, 671.3)-(1200.0, 697.7), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 119900.0%, vertical 69670.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈13.0 px per Latin char at 22px incl. headroom; ≈0 chars fit in 1 px
+     [ERROR] <text id="credit"> exceeds <g id="credit-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (80.0, 693.3)-(491.6, 719.7), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 49058.6%, vertical 71870.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈13.7 px per mixed char at 22px incl. headroom; ≈0 chars fit in 1 px
+     [WARN] Image ../images/p03_toc.jpg is 6048x4032 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [ERROR] 05_why.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text id="p04-foot"> exceeds <g id="p04-foot-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (80.0, 669.6)-(401.3, 698.4), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 40030.3%, vertical 69740.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈14.6 px per mixed char at 24px incl. headroom; ≈0 chars fit in 1 px
+     [ERROR] <text id="p04-num"> exceeds <g id="p04-num-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (1171.7, 669.6)-(1200.0, 698.4), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 119900.0%, vertical 69740.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈14.1 px per Latin char at 24px incl. headroom; ≈0 chars fit in 1 px
+  [ERROR] 06_science.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text id="p05-foot"> exceeds <g id="p05-foot-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (80.0, 693.3)-(374.5, 719.7), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 37352.8%, vertical 71870.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈13.4 px per mixed char at 22px incl. headroom; ≈0 chars fit in 1 px
+     [ERROR] <text id="p05-num"> exceeds <g id="p05-num-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (1174.1, 693.3)-(1200.0, 719.7), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 119900.0%, vertical 71870.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈13.0 px per Latin char at 22px incl. headroom; ≈0 chars fit in 1 px
+     [ERROR] <text id="credit"> exceeds <g id="credit-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (80.0, 673.3)-(628.7, 699.7), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 62774.3%, vertical 69870.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈14.1 px per mixed char at 22px incl. headroom; ≈0 chars fit in 1 px
+     [WARN] 1 ungrouped top-level Slide-local element(s) in svg_output (<text id="p05-note">); group only logical content units in a top-level <g id="...">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as "background" or "decoration"
+  [ERROR] 07_physiology.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text id="p06-num"> exceeds <g id="p06-num-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (1174.1, 677.3)-(1200.0, 703.7), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 119900.0%, vertical 70270.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈13.0 px per Latin char at 22px incl. headroom; ≈0 chars fit in 1 px
+  [ERROR] 08_history.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text id="p07-num"> exceeds <g id="p07-num-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (1171.7, 669.6)-(1200.0, 698.4), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 119900.0%, vertical 69740.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈14.1 px per Latin char at 24px incl. headroom; ≈0 chars fit in 1 px
+     [ERROR] <text id="credit"> exceeds <g id="credit-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (80.0, 687.3)-(1055.4, 713.7), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 105441.7%, vertical 71270.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈14.3 px per mixed char at 22px incl. headroom; ≈0 chars fit in 1 px
+     [WARN] Image ../images/p07_history.jpg is 5184x3456 and renders at 0.25x scale in a 1280x720 slice frame; the source is 2.6 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+     [WARN] Image ../images/ph_aristotle.jpg is 2849x4166 and renders at 0.03x scale in a 76x76 slice frame; the source is 9.8 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+     [WARN] Image ../images/ph_seneca.jpg is 6478x3874 and renders at 0.02x scale in a 76x76 slice frame; the source is 3.3 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+     [WARN] Image ../images/ph_jefferson.jpg is 2400x2387 and renders at 0.03x scale in a 76x76 slice frame; the source is 1.4 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [ERROR] 09_hedonia.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text id="p08-num"> exceeds <g id="p08-num-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (1171.7, 669.6)-(1200.0, 698.4), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 119900.0%, vertical 69740.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈14.1 px per Latin char at 24px incl. headroom; ≈0 chars fit in 1 px
+     [ERROR] <text id="credit"> exceeds <g id="credit-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (80.0, 687.3)-(1307.8, 713.7), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 130677.8%, vertical 71270.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈13.6 px per mixed char at 22px incl. headroom; ≈0 chars fit in 1 px
+     [WARN] Image ../images/p08_hedonia.jpg is 6048x4024 and renders at 0.21x scale in a 1280x720 slice frame; the source is 5.0 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+     [WARN] Image ../images/hed_pleasure.jpg is 6016x4016 and renders at 0.08x scale in a 480x180 slice frame; the source is 10.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+     [WARN] Image ../images/eud_meaning.jpg is 3456x2592 and renders at 0.14x scale in a 480x180 slice frame; the source is 1.6 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [ERROR] 10_formula.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text id="p09-foot"> exceeds <g id="p09-foot-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (80.0, 669.6)-(401.3, 698.4), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 40030.3%, vertical 69740.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈14.6 px per mixed char at 24px incl. headroom; ≈0 chars fit in 1 px
+     [ERROR] <text id="p09-num"> exceeds <g id="p09-num-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (1171.7, 669.6)-(1200.0, 698.4), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 119900.0%, vertical 69740.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈14.1 px per Latin char at 24px incl. headroom; ≈0 chars fit in 1 px
+  [ERROR] 11_factors.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text id="p10-foot"> exceeds <g id="p10-foot-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (80.0, 669.6)-(401.3, 698.4), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 40030.3%, vertical 69740.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈14.6 px per mixed char at 24px incl. headroom; ≈0 chars fit in 1 px
+     [ERROR] <text id="p10-num"> exceeds <g id="p10-num-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (1171.7, 669.6)-(1200.0, 698.4), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 119900.0%, vertical 69740.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈14.1 px per Latin char at 24px incl. headroom; ≈0 chars fit in 1 px
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="p10-list"> x=848.0, y=268.0..364.0, 4 lines; <g id="p10-list"> x=848.0, y=518.0..582.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+  [ERROR] 12_easterlin.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <g id="p11-note"> data-pptx-bounds overlaps <g id="p11-credits"> data-pptx-bounds by 1120.0px x 4.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+     [ERROR] <text id="p11-foot"> exceeds <g id="p11-foot-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (700.0, 693.3)-(994.5, 719.7), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 99352.8%, vertical 71870.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈13.4 px per mixed char at 22px incl. headroom; ≈0 chars fit in 1 px
+     [ERROR] <text id="p11-num"> exceeds <g id="p11-num-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (1174.1, 693.3)-(1200.0, 719.7), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 119900.0%, vertical 71870.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈13.0 px per Latin char at 22px incl. headroom; ≈0 chars fit in 1 px
+     [ERROR] Missing image-specific inline attribution for sourced image p11_easterlin.jpg (Marek Ślusarczyk ( Tupungato ) Photo portfolio; CC BY). Add compact author + license credit per references/image-searcher.md §7.
+     [ERROR] Missing image-specific inline attribution for sourced image p11_rich.jpg (Pedro Ribeiro Simões from Lisboa, Portugal; CC BY). Add compact author + license credit per references/image-searcher.md §7.
+     [WARN] Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id="p11-credits"> x=80.0, y=676.0..696.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p11_rich.jpg is 3692x3220 and renders at 0.10x scale in a 360x150 slice frame; the source is 4.2 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [ERROR] 13_education.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text id="p12-foot"> exceeds <g id="p12-foot-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (80.0, 669.6)-(401.3, 698.4), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 40030.3%, vertical 69740.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈14.6 px per mixed char at 24px incl. headroom; ≈0 chars fit in 1 px
+     [ERROR] <text id="p12-num"> exceeds <g id="p12-num-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (1171.7, 669.6)-(1200.0, 698.4), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 119900.0%, vertical 69740.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈14.1 px per Latin char at 24px incl. headroom; ≈0 chars fit in 1 px
+     [ERROR] <text id="credit"> exceeds <g id="credit-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (80.0, 693.3)-(547.2, 719.7), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 54616.2%, vertical 71870.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈14.6 px per mixed char at 22px incl. headroom; ≈0 chars fit in 1 px
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="p12-list"> x=848.0, y=382.0..414.0, 2 lines; <g id="p12-list"> x=848.0, y=466.0..498.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p12_education.jpg is 7200x4800 and renders at 0.18x scale in a 1280x720 slice frame; the source is 10.0 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [ERROR] 14_digital.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text id="p13-foot"> exceeds <g id="p13-foot-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (80.0, 669.6)-(401.3, 698.4), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 40030.3%, vertical 69740.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈14.6 px per mixed char at 24px incl. headroom; ≈0 chars fit in 1 px
+     [ERROR] <text id="p13-num"> exceeds <g id="p13-num-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (1171.7, 669.6)-(1200.0, 698.4), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 119900.0%, vertical 69740.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈14.1 px per Latin char at 24px incl. headroom; ≈0 chars fit in 1 px
+     [WARN] Image ../images/p13_digital.jpg is 5616x3744 and renders at 0.23x scale in a 1280x720 slice frame; the source is 10.3 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [ERROR] 15_recommendations.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text id="p14-foot"> exceeds <g id="p14-foot-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (80.0, 669.6)-(401.3, 698.4), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 40030.3%, vertical 69740.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈14.6 px per mixed char at 24px incl. headroom; ≈0 chars fit in 1 px
+     [ERROR] <text id="p14-num"> exceeds <g id="p14-num-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (1171.7, 669.6)-(1200.0, 698.4), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 119900.0%, vertical 69740.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈14.1 px per Latin char at 24px incl. headroom; ≈0 chars fit in 1 px
+     [ERROR] <text id="credit"> exceeds <g id="credit-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (80.0, 693.3)-(468.5, 719.7), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 46751.4%, vertical 71870.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈14.4 px per mixed char at 22px incl. headroom; ≈0 chars fit in 1 px
+  [ERROR] 16_conclusions.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text id="p16-foot"> exceeds <g id="p16-foot-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (80.0, 681.3)-(374.5, 707.7), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 37352.8%, vertical 70670.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈13.4 px per mixed char at 22px incl. headroom; ≈0 chars fit in 1 px
+     [ERROR] <text id="p16-num"> exceeds <g id="p16-num-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (1174.1, 681.3)-(1200.0, 707.7), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 119900.0%, vertical 70670.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈13.0 px per Latin char at 22px incl. headroom; ≈0 chars fit in 1 px
+     [WARN] Image ../images/p15_conclusions.jpg is 6000x4000 and renders at 0.21x scale in a 1280x720 slice frame; the source is 10.8 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [ERROR] 17_sources.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text id="p17-foot"> exceeds <g id="p17-foot-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (80.0, 671.3)-(374.5, 697.7), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 37352.8%, vertical 69670.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈13.4 px per mixed char at 22px incl. headroom; ≈0 chars fit in 1 px
+     [ERROR] <text id="p17-num"> exceeds <g id="p17-num-wrap"> data-pptx-bounds on the horizontal and vertical axis: content (1174.1, 671.3)-(1200.0, 697.7), container (0.0, 0.0)-(1.0, 1.0), overflow horizontal 119900.0%, vertical 69670.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈13.0 px per Latin char at 22px incl. headroom; ≈0 chars fit in 1 px
+     [ERROR] <text id="credit"> exceeds <g id="p17-credit"> data-pptx-bounds on the vertical axis: content (80.0, 693.3)-(605.1, 719.7), container (80.0, 700.0)-(720.0, 726.0), overflow horizontal 0.0%, vertical 25.8% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text
+     [WARN] <g id="p17-credit"> data-pptx-bounds exceeds canvas viewBox on the vertical axis: content (80.0, 700.0)-(720.0, 726.0), container (0.0, 0.0)-(1280.0, 720.0), overflow horizontal 0.0%, vertical 0.8% (error above 5%); keep the root module subcanvas inside the SVG viewBox
+     [WARN] Image ../images/p03_toc.jpg is 6048x4032 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [SUMMARY] Check Summary
+  Total files: 17
+    [OK] Fully passed: 0 (0%)
+    [WARN] With warnings: 0 (0%)
+    [ERROR] With errors: 17 (100%)
+  Provenance categories:
+    blocking: 42         hard findings; gate also requires exit 0
+    introduced: 24       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 17 | text: 283 | images: 26 | icons: 74
+    Geometry: SVG elements 146 | native presets 0 | page-frame elements 35 | marker uses 0
+    Effects: inline emphasis 0 (pages 0) | gradients 17 (pages 17) | filters 0 (pages 0) | text effects 0 (pages 0)
+    Native objects: charts 0 | tables 0 | formulas 0
+  [REPORT] JSON quality report exported: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json
+=== 2026-10-08T08:55:25.754Z END run=f1a9dcffd80f elapsed_ms=5526 output_lines=130 retained=116 omitted=14 ===
+
+=== 2026-10-08T08:56:28.094Z PYTHON run=5c92984daf32 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/finalize_svg.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--only", "embed-icons", "align-images"]
+stdout:
+  [OK] 13_education.svg (1 icons)
+  [OK] Done!
+=== 2026-10-08T08:56:38.512Z END run=5c92984daf32 elapsed_ms=10417 output_lines=24 retained=2 omitted=22 ===
+
+=== 2026-10-08T08:56:38.731Z PYTHON run=bae3061f2da3 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_quality_checker.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--quick-generate", "--json"]
+stdout:
+  [ERROR] 01_cover.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <g id="cover-question"> data-pptx-bounds overlaps <g id="cover-credit"> data-pptx-bounds by 640.0px x 2.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+     [ERROR] <text id="credit"> exceeds <g id="cover-credit"> data-pptx-bounds on the vertical axis: content (80.0, 693.3)-(649.8, 719.7), container (80.0, 688.0)-(720.0, 718.0), overflow horizontal 0.0%, vertical 5.7% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="cover-header"> x=80.0, y=228.0..346.0, 3 lines; <g id="cover-author"> x=112.0, y=500.0..576.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 02_goals.svg - Passed (with warnings)
+     viewBox: 0 0 1280 720
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="p02-goal"> x=120.0, y=336.0..404.0, 3 lines; <g id="p02-goal"> x=120.0, y=490.0..524.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p02_goals.jpg is 7360x4912 and renders at 0.17x scale in a 1280x720 slice frame; the source is 1.5 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+     [WARN] 1 ungrouped top-level Slide-local element(s) in svg_output (<text id="credit">); group only logical content units in a top-level <g id="...">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as "background" or "decoration"
+  [WARN] 03_toc.svg - Passed (with warnings)
+  [OK] 05_why.svg - Passed
+  [ERROR] 06_science.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <g id="p05-approaches"> data-pptx-bounds overlaps <g id="p05-note"> data-pptx-bounds by 1040.0px x 8.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+     [ERROR] <text id="credit"> exceeds <g id="p05-note"> data-pptx-bounds on the vertical axis: content (80.0, 677.3)-(628.7, 703.7), container (80.0, 652.0)-(1220.0, 698.0), overflow horizontal 0.0%, vertical 12.4% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text
+  [OK] 07_physiology.svg - Passed
+     viewBox: 0 0 1280 720
+  [WARN] 08_history.svg - Passed (with warnings)
+     viewBox: 0 0 1280 720
+  [ERROR] 12_easterlin.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text> (x=80, y=646; text='Гедонистическая адап…') exceeds <g id="p11-note"> data-pptx-bounds on the vertical axis: content (80.0, 625.6)-(893.0, 654.4), container (80.0, 606.0)-(1200.0, 646.0), overflow horizontal 0.0%, vertical 21.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text
+     [ERROR] Missing image-specific inline attribution for sourced image p11_easterlin.jpg (Marek Ślusarczyk ( Tupungato ) Photo portfolio; CC BY). Add compact author + license credit per references/image-searcher.md §7.
+     [WARN] Image ../images/p11_rich.jpg is 3692x3220 and renders at 0.10x scale in a 360x150 slice frame; the source is 4.2 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 13_education.svg - Passed (with warnings)
+     viewBox: 0 0 1280 720
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="p12-list"> x=848.0, y=382.0..414.0, 2 lines; <g id="p12-list"> x=848.0, y=466.0..498.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+  [ERROR] 17_sources.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text id="credit"> exceeds <g id="p17-credit"> data-pptx-bounds on the vertical axis: content (80.0, 693.3)-(605.1, 719.7), container (80.0, 688.0)-(720.0, 718.0), overflow horizontal 0.0%, vertical 5.7% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text
+     [WARN] Image ../images/p03_toc.jpg is 6048x4032 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [SUMMARY] Check Summary
+  Total files: 17
+    [OK] Fully passed: 3 (17%)
+    [WARN] With warnings: 10 (58%)
+    [ERROR] With errors: 4 (23%)
+  Provenance categories:
+    blocking: 7          hard findings; gate also requires exit 0
+    introduced: 27       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 17 | text: 282 | images: 26 | icons: 74
+    Geometry: SVG elements 146 | native presets 0 | page-frame elements 35 | marker uses 0
+    Effects: inline emphasis 0 (pages 0) | gradients 17 (pages 17) | filters 0 (pages 0) | text effects 0 (pages 0)
+    Native objects: charts 0 | tables 0 | formulas 0
+    Presets: (none)
+  [REPORT] JSON quality report exported: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json
+=== 2026-10-08T08:56:44.258Z END run=bae3061f2da3 elapsed_ms=5527 output_lines=98 retained=50 omitted=48 ===
+
+=== 2026-10-08T08:57:14.480Z PYTHON run=4347c0a73ba0 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/finalize_svg.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--only", "embed-icons", "align-images"]
+stdout:
+  [OK] 13_education.svg (1 icons)
+  [OK] Done!
+=== 2026-10-08T08:57:24.924Z END run=4347c0a73ba0 elapsed_ms=10444 output_lines=24 retained=2 omitted=22 ===
+
+=== 2026-10-08T08:57:25.151Z PYTHON run=7ecf337773f6 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_quality_checker.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--quick-generate", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="cover-header"> x=80.0, y=228.0..346.0, 3 lines; <g id="cover-author"> x=112.0, y=500.0..576.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 02_goals.svg - Passed (with warnings)
+  [OK] 05_why.svg - Passed
+  [ERROR] 12_easterlin.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text> (x=80, y=646; text='Гедонистическая адап…') exceeds <g id="p11-note"> data-pptx-bounds on the vertical axis: content (80.0, 625.6)-(893.0, 654.4), container (80.0, 612.0)-(1200.0, 652.0), overflow horizontal 0.0%, vertical 6.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text
+     [WARN] Image ../images/p11_rich.jpg is 3692x3220 and renders at 0.10x scale in a 360x150 slice frame; the source is 4.2 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 13_education.svg - Passed (with warnings)
+     viewBox: 0 0 1280 720
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="p12-list"> x=848.0, y=382.0..414.0, 2 lines; <g id="p12-list"> x=848.0, y=466.0..498.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+  [SUMMARY] Check Summary
+  Total files: 17
+    [OK] Fully passed: 4 (23%)
+    [WARN] With warnings: 12 (70%)
+    [ERROR] With errors: 1 (5%)
+  Provenance categories:
+    blocking: 1          hard findings; gate also requires exit 0
+    introduced: 27       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 17 | text: 282 | images: 26 | icons: 74
+    Geometry: SVG elements 146 | native presets 0 | page-frame elements 35 | marker uses 0
+  [REPORT] JSON quality report exported: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json
+=== 2026-10-08T08:57:30.658Z END run=7ecf337773f6 elapsed_ms=5506 output_lines=92 retained=26 omitted=66 ===
+
+=== 2026-10-08T08:57:34.361Z PYTHON run=ad45acdf32dc ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/finalize_svg.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--only", "embed-icons", "align-images"]
+stdout:
+  [OK] 13_education.svg (1 icons)
+  [OK] Done!
+=== 2026-10-08T08:57:44.771Z END run=ad45acdf32dc elapsed_ms=10410 output_lines=24 retained=2 omitted=22 ===
+
+=== 2026-10-08T08:57:44.999Z PYTHON run=fc4011e3bf40 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_quality_checker.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--quick-generate", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="cover-header"> x=80.0, y=228.0..346.0, 3 lines; <g id="cover-author"> x=112.0, y=500.0..576.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 02_goals.svg - Passed (with warnings)
+  [OK] 05_why.svg - Passed
+  [ERROR] 12_easterlin.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <g id="p11-note"> data-pptx-bounds overlaps <g id="p11-credits"> data-pptx-bounds by 1120.0px x 14.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+     [WARN] Image ../images/p11_rich.jpg is 3692x3220 and renders at 0.10x scale in a 360x150 slice frame; the source is 4.2 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 13_education.svg - Passed (with warnings)
+     viewBox: 0 0 1280 720
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="p12-list"> x=848.0, y=382.0..414.0, 2 lines; <g id="p12-list"> x=848.0, y=466.0..498.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+  [SUMMARY] Check Summary
+  Total files: 17
+    [OK] Fully passed: 4 (23%)
+    [WARN] With warnings: 12 (70%)
+    [ERROR] With errors: 1 (5%)
+  Provenance categories:
+    blocking: 1          hard findings; gate also requires exit 0
+    introduced: 27       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 17 | text: 282 | images: 26 | icons: 74
+    Geometry: SVG elements 146 | native presets 0 | page-frame elements 35 | marker uses 0
+  [REPORT] JSON quality report exported: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json
+=== 2026-10-08T08:57:50.538Z END run=fc4011e3bf40 elapsed_ms=5539 output_lines=92 retained=26 omitted=66 ===
+
+=== 2026-10-08T08:57:55.762Z PYTHON run=16db50b6a647 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/finalize_svg.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--only", "embed-icons", "align-images"]
+stdout:
+  [OK] 13_education.svg (1 icons)
+  [OK] Done!
+=== 2026-10-08T08:58:06.274Z END run=16db50b6a647 elapsed_ms=10511 output_lines=24 retained=2 omitted=22 ===
+
+=== 2026-10-08T08:58:06.504Z PYTHON run=3b765020e21a ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_quality_checker.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--quick-generate", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="cover-header"> x=80.0, y=228.0..346.0, 3 lines; <g id="cover-author"> x=112.0, y=500.0..576.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 02_goals.svg - Passed (with warnings)
+  [OK] 05_why.svg - Passed
+  [ERROR] 12_easterlin.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text> (x=80, y=646; text='Гедонистическая адап…') exceeds <g id="p11-note"> data-pptx-bounds on the vertical axis: content (80.0, 625.6)-(893.0, 654.4), container (80.0, 620.0)-(1200.0, 652.0), overflow horizontal 0.0%, vertical 7.5% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text
+     [WARN] Image ../images/p11_rich.jpg is 3692x3220 and renders at 0.10x scale in a 360x150 slice frame; the source is 4.2 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 13_education.svg - Passed (with warnings)
+     viewBox: 0 0 1280 720
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="p12-list"> x=848.0, y=382.0..414.0, 2 lines; <g id="p12-list"> x=848.0, y=466.0..498.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+  [SUMMARY] Check Summary
+  Total files: 17
+    [OK] Fully passed: 4 (23%)
+    [WARN] With warnings: 12 (70%)
+    [ERROR] With errors: 1 (5%)
+  Provenance categories:
+    blocking: 1          hard findings; gate also requires exit 0
+    introduced: 27       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 17 | text: 282 | images: 26 | icons: 74
+    Geometry: SVG elements 146 | native presets 0 | page-frame elements 35 | marker uses 0
+  [REPORT] JSON quality report exported: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json
+=== 2026-10-08T08:58:12.080Z END run=3b765020e21a elapsed_ms=5576 output_lines=92 retained=26 omitted=66 ===
+
+=== 2026-10-08T08:58:19.924Z PYTHON run=f1acd2be3ec6 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/finalize_svg.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--only", "embed-icons", "align-images"]
+stdout:
+  [OK] 13_education.svg (1 icons)
+  [OK] Done!
+=== 2026-10-08T08:58:30.479Z END run=f1acd2be3ec6 elapsed_ms=10555 output_lines=24 retained=2 omitted=22 ===
+
+=== 2026-10-08T08:58:30.703Z PYTHON run=deb4a06a71b9 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_quality_checker.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--quick-generate", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="cover-header"> x=80.0, y=228.0..346.0, 3 lines; <g id="cover-author"> x=112.0, y=500.0..576.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 02_goals.svg - Passed (with warnings)
+  [OK] 05_why.svg - Passed
+  [SUMMARY] Check Summary
+  Total files: 17
+    [OK] Fully passed: 4 (23%)
+    [WARN] With warnings: 13 (76%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 27       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 17 | text: 282 | images: 26 | icons: 74
+    Geometry: SVG elements 146 | native presets 0 | page-frame elements 35 | marker uses 0
+  [REPORT] JSON quality report exported: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json
+=== 2026-10-08T08:58:36.235Z END run=deb4a06a71b9 elapsed_ms=5531 output_lines=89 retained=19 omitted=70 ===
+
+=== 2026-10-08T08:58:39.402Z PYTHON run=a29b0d7ad225 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "-f", "ppt169", "--with-notes", "--narration-audio-dir", "audio", "--animation-config", "animations.json", "--transition", "fade", "--transition-duration", "0.5", "--image-sizing", "display", "--image-quality", "82", "-o", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4.pptx"]
+stderr:
+  Traceback (most recent call last):
+    File "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master/scripts/svg_to_pptx.py", line 25, in <module>
+      from svg_to_pptx import main
+    File "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master/scripts/svg_to_pptx/__init__.py", line 23, in __getattr__
+      from .pptx_package.cli import main
+    File "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master/scripts/svg_to_pptx/pptx_package/cli.py", line 87, in <module>
+      from .builder import RoundtripSlidePatch, create_pptx_with_native_svg
+    File "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master/scripts/svg_to_pptx/pptx_package/builder.py", line 26, in <module>
+stderr-tail:
+      from pptx import Presentation
+  ModuleNotFoundError: No module named 'pptx'
+=== 2026-10-08T08:58:39.966Z END run=a29b0d7ad225 elapsed_ms=563 output_lines=10 retained=10 omitted=0 ===
+
+=== 2026-10-08T08:59:05.370Z PYTHON run=612fa8d78c47 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "-f", "ppt169", "--with-notes", "--narration-audio-dir", "audio", "--animation-config", "animations.json", "--transition", "fade", "--transition-duration", "0.5", "--image-sizing", "display", "--image-quality", "82", "-o", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4.pptx"]
+stdout:
+  [Done] Saved: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4.pptx
+    [POSTFLIGHT] status=passed-with-warnings quality_gate=passed slides=17 warning_categories=1
+    [POSTFLIGHT][WARNING] quality_introduced_warnings=27
+    [PPTX] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4.pptx
+    [REPORT] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/happiness_concept_v4.report.json
+=== 2026-10-08T08:59:22.068Z END run=612fa8d78c47 elapsed_ms=16698 output_lines=73 retained=5 omitted=68 ===
+
+=== 2026-10-08T09:01:23.231Z PYTHON run=18370c67e039 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "-f", "ppt169", "--with-notes", "--narration-audio-dir", "audio", "--animation-config", "animations.json", "--transition", "fade", "--transition-duration", "0.5", "--image-sizing", "display", "--image-quality", "82", "-o", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4.pptx"]
+stdout:
+  [Done] Saved: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4.pptx
+    [POSTFLIGHT] status=passed-with-warnings quality_gate=passed slides=17 warning_categories=1
+    [POSTFLIGHT][WARNING] quality_introduced_warnings=27
+    [PPTX] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4.pptx
+    [REPORT] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/happiness_concept_v4.report.json
+=== 2026-10-08T09:01:39.956Z END run=18370c67e039 elapsed_ms=16724 output_lines=73 retained=5 omitted=68 ===
+
+=== 2026-10-08T09:02:32.193Z PYTHON run=3496d0458005 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "-f", "ppt169", "--with-notes", "--narration-audio-dir", "audio", "--animation-config", "animations.json", "--image-sizing", "display", "--image-quality", "82", "-o", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4.pptx"]
+stdout:
+  [Done] Saved: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4.pptx
+    [POSTFLIGHT] status=passed-with-warnings quality_gate=passed slides=17 warning_categories=1
+    [POSTFLIGHT][WARNING] quality_introduced_warnings=27
+    [PPTX] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4.pptx
+    [REPORT] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/happiness_concept_v4.report.json
+=== 2026-10-08T09:02:49.107Z END run=3496d0458005 elapsed_ms=16914 output_lines=73 retained=5 omitted=68 ===
+
+=== 2026-10-08T09:04:08.245Z PYTHON run=5970ce011e8d ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/pptx_delivery_check.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4_video.pptx"]
+=== 2026-10-08T09:04:09.062Z END run=5970ce011e8d elapsed_ms=816 output_lines=839 retained=0 omitted=839 ===
+
+=== 2026-10-08T09:04:11.147Z PYTHON run=e9def4924dfe ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/pptx_delivery_check.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/exports/happiness_concept_v4_video.pptx"]
+=== 2026-10-08T09:04:11.976Z END run=e9def4924dfe elapsed_ms=829 output_lines=839 retained=0 omitted=839 ===

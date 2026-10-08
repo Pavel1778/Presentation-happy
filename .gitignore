@@ -15,8 +15,10 @@ Thumbs.db
 .agents/**/backup/
 .agents/**/exports/preview/
 .agents/**/exports/*_video.pptx
+!.agents/**/exports/happiness_concept_v4_video.pptx
 .agents/**/exports/*_narrated.pptx
 .agents/**/exports/happiness_concept_v3.pptx
+.agents/**/preview_v4/
 .agents/**/svg_final/
 .agents/**/icons/**/*.json
 

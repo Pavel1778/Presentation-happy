@@ -1,108 +1,341 @@
 {
-  "version": 1,
-  "defaults": {
-    "transition": { "effect": "fade", "duration": 0.5 },
-    "animation": { "effect": "none" }
+ "version": 1,
+ "defaults": {
+  "transition": {
+   "effect": "fade",
+   "duration": 0.5
   },
-  "slides": {
-    "01_cover": {
-      "transition": { "effect": "none" }
-    },
-    "02_goals": {
-      "groups": {
-        "p02-title": { "effect": "entrance_fade", "order": 1, "duration": 0.4, "trigger": "after-previous" },
-        "p02-goal": { "effect": "entrance_fade", "order": 2, "duration": 0.4, "trigger": "after-previous" },
-        "p02-tasks": { "effect": "entrance_fade", "order": 3, "duration": 0.4, "trigger": "after-previous" }
-      }
-    },
-    "03_toc": {
-      "groups": {
-        "p03-title": { "effect": "entrance_fade", "order": 1, "duration": 0.4, "trigger": "after-previous" },
-        "p03-grid": { "effect": "entrance_fade", "order": 2, "duration": 0.5, "trigger": "after-previous" }
-      }
-    },
-    "04_why": {
-      "groups": {
-        "p04-title": { "effect": "entrance_fade", "order": 1, "duration": 0.4, "trigger": "after-previous" },
-        "p04-depression": { "effect": "entrance_fade", "order": 2, "duration": 0.5, "trigger": "after-previous" },
-        "p04-happiness": { "effect": "entrance_fade", "order": 3, "duration": 0.5, "trigger": "after-previous" }
-      }
-    },
-    "05_science": {
-      "groups": {
-        "p05-title": { "effect": "entrance_fade", "order": 1, "duration": 0.4, "trigger": "after-previous" },
-        "p05-venn": { "effect": "entrance_fade", "order": 2, "duration": 0.5, "trigger": "after-previous" },
-        "p05-approaches": { "effect": "entrance_fade", "order": 3, "duration": 0.5, "trigger": "after-previous" }
-      }
-    },
-    "06_physiology": {
-      "groups": {
-        "p06-title": { "effect": "entrance_fade", "order": 1, "duration": 0.4, "trigger": "after-previous" },
-        "p06-video": { "effect": "entrance_fade", "order": 2, "duration": 0.5, "trigger": "after-previous" },
-        "p06-summary": { "effect": "entrance_fade", "order": 3, "duration": 0.5, "trigger": "after-previous" }
-      }
-    },
-    "07_history": {
-      "groups": {
-        "p07-title": { "effect": "entrance_fade", "order": 1, "duration": 0.4, "trigger": "after-previous" },
-        "p07-timeline": { "effect": "entrance_fade", "order": 2, "duration": 0.6, "trigger": "after-previous" },
-        "p07-note": { "effect": "entrance_fade", "order": 3, "duration": 0.4, "trigger": "after-previous" }
-      }
-    },
-    "08_hedonia": {
-      "groups": {
-        "p08-title": { "effect": "entrance_fade", "order": 1, "duration": 0.4, "trigger": "after-previous" },
-        "p08-hedonia": { "effect": "entrance_fade", "order": 2, "duration": 0.5, "trigger": "after-previous" },
-        "p08-eudaimonia": { "effect": "entrance_fade", "order": 3, "duration": 0.5, "trigger": "after-previous" }
-      }
-    },
-    "09_formula": {
-      "groups": {
-        "p09-title": { "effect": "entrance_fade", "order": 1, "duration": 0.4, "trigger": "after-previous" },
-        "p09-pie": { "effect": "entrance_fade", "order": 2, "duration": 0.5, "trigger": "after-previous" },
-        "p09-legend": { "effect": "entrance_fade", "order": 3, "duration": 0.5, "trigger": "after-previous" }
-      }
-    },
-    "10_factors": {
-      "groups": {
-        "p10-title": { "effect": "entrance_fade", "order": 1, "duration": 0.4, "trigger": "after-previous" },
-        "p10-tree": { "effect": "entrance_fade", "order": 2, "duration": 0.5, "trigger": "after-previous" },
-        "p10-list": { "effect": "entrance_fade", "order": 3, "duration": 0.5, "trigger": "after-previous" }
-      }
-    },
-    "11_easterlin": {
-      "groups": {
-        "p11-title": { "effect": "entrance_fade", "order": 1, "duration": 0.4, "trigger": "after-previous" },
-        "p11-chart": { "effect": "entrance_fade", "order": 2, "duration": 0.6, "trigger": "after-previous" },
-        "p11-note": { "effect": "entrance_fade", "order": 3, "duration": 0.4, "trigger": "after-previous" }
-      }
-    },
-    "12_education": {
-      "groups": {
-        "p12-title": { "effect": "entrance_fade", "order": 1, "duration": 0.4, "trigger": "after-previous" },
-        "p12-chart": { "effect": "entrance_fade", "order": 2, "duration": 0.6, "trigger": "after-previous" },
-        "p12-list": { "effect": "entrance_fade", "order": 3, "duration": 0.5, "trigger": "after-previous" }
-      }
-    },
-    "13_digital": {
-      "groups": {
-        "p13-title": { "effect": "entrance_fade", "order": 1, "duration": 0.4, "trigger": "after-previous" },
-        "p13-plus": { "effect": "entrance_fade", "order": 2, "duration": 0.5, "trigger": "after-previous" },
-        "p13-minus": { "effect": "entrance_fade", "order": 3, "duration": 0.5, "trigger": "after-previous" }
-      }
-    },
-    "14_recommendations": {
-      "groups": {
-        "p14-title": { "effect": "entrance_fade", "order": 1, "duration": 0.4, "trigger": "after-previous" },
-        "p14-checklist": { "effect": "entrance_fade", "order": 2, "duration": 0.6, "trigger": "after-previous" }
-      }
-    },
-    "15_conclusions": {
-      "groups": {
-        "p15-title": { "effect": "entrance_fade", "order": 1, "duration": 0.4, "trigger": "after-previous" },
-        "p15-puzzle": { "effect": "entrance_fade", "order": 2, "duration": 0.6, "trigger": "after-previous" },
-        "p15-sources": { "effect": "entrance_fade", "order": 3, "duration": 0.5, "trigger": "after-previous" }
-      }
-    }
+  "animation": {
+   "effect": "none"
   }
+ },
+ "slides": {
+  "01_cover": {
+   "transition": {
+    "effect": "none"
+   }
+  },
+  "02_goals": {
+   "groups": {
+    "p02-title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4,
+     "trigger": "after-previous"
+    },
+    "p02-goal": {
+     "effect": "entrance_fade",
+     "order": 2,
+     "duration": 0.5,
+     "trigger": "after-previous"
+    },
+    "p02-tasks": {
+     "effect": "entrance_fade",
+     "order": 3,
+     "duration": 0.5,
+     "trigger": "after-previous"
+    }
+   }
+  },
+  "03_toc": {
+   "groups": {
+    "p03-title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4,
+     "trigger": "after-previous"
+    },
+    "p03-grid": {
+     "effect": "entrance_fade",
+     "order": 2,
+     "duration": 0.5,
+     "trigger": "after-previous"
+    }
+   }
+  },
+  "04_annotation": {
+   "groups": {
+    "p04-title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4,
+     "trigger": "after-previous"
+    },
+    "p04-abstract": {
+     "effect": "entrance_fade",
+     "order": 2,
+     "duration": 0.5,
+     "trigger": "after-previous"
+    }
+   }
+  },
+  "05_why": {
+   "groups": {
+    "p04-title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4,
+     "trigger": "after-previous"
+    },
+    "p04-depression": {
+     "effect": "entrance_fade",
+     "order": 2,
+     "duration": 0.5,
+     "trigger": "after-previous"
+    },
+    "p04-happiness": {
+     "effect": "entrance_fade",
+     "order": 3,
+     "duration": 0.5,
+     "trigger": "after-previous"
+    }
+   }
+  },
+  "06_science": {
+   "groups": {
+    "p05-title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4,
+     "trigger": "after-previous"
+    },
+    "p05-venn": {
+     "effect": "entrance_fade",
+     "order": 2,
+     "duration": 0.5,
+     "trigger": "after-previous"
+    },
+    "p05-approaches": {
+     "effect": "entrance_fade",
+     "order": 3,
+     "duration": 0.5,
+     "trigger": "after-previous"
+    }
+   }
+  },
+  "07_physiology": {
+   "groups": {
+    "p06-title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4,
+     "trigger": "after-previous"
+    },
+    "p06-video": {
+     "effect": "entrance_fade",
+     "order": 2,
+     "duration": 0.5,
+     "trigger": "after-previous"
+    },
+    "p06-summary": {
+     "effect": "entrance_fade",
+     "order": 3,
+     "duration": 0.5,
+     "trigger": "after-previous"
+    }
+   }
+  },
+  "08_history": {
+   "groups": {
+    "p07-title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4,
+     "trigger": "after-previous"
+    },
+    "p07-timeline": {
+     "effect": "entrance_fade",
+     "order": 2,
+     "duration": 0.5,
+     "trigger": "after-previous"
+    },
+    "p07-note": {
+     "effect": "entrance_fade",
+     "order": 3,
+     "duration": 0.5,
+     "trigger": "after-previous"
+    }
+   }
+  },
+  "09_hedonia": {
+   "groups": {
+    "p08-title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4,
+     "trigger": "after-previous"
+    },
+    "p08-hedonia": {
+     "effect": "entrance_fade",
+     "order": 2,
+     "duration": 0.5,
+     "trigger": "after-previous"
+    },
+    "p08-eudaimonia": {
+     "effect": "entrance_fade",
+     "order": 3,
+     "duration": 0.5,
+     "trigger": "after-previous"
+    }
+   }
+  },
+  "10_formula": {
+   "groups": {
+    "p09-title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4,
+     "trigger": "after-previous"
+    },
+    "p09-pie": {
+     "effect": "entrance_fade",
+     "order": 2,
+     "duration": 0.5,
+     "trigger": "after-previous"
+    },
+    "p09-legend": {
+     "effect": "entrance_fade",
+     "order": 3,
+     "duration": 0.5,
+     "trigger": "after-previous"
+    }
+   }
+  },
+  "11_factors": {
+   "groups": {
+    "p10-title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4,
+     "trigger": "after-previous"
+    },
+    "p10-tree": {
+     "effect": "entrance_fade",
+     "order": 2,
+     "duration": 0.5,
+     "trigger": "after-previous"
+    },
+    "p10-list": {
+     "effect": "entrance_fade",
+     "order": 3,
+     "duration": 0.5,
+     "trigger": "after-previous"
+    }
+   }
+  },
+  "12_easterlin": {
+   "groups": {
+    "p11-title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4,
+     "trigger": "after-previous"
+    },
+    "p11-chart": {
+     "effect": "entrance_fade",
+     "order": 2,
+     "duration": 0.5,
+     "trigger": "after-previous"
+    },
+    "p11-photos": {
+     "effect": "entrance_fade",
+     "order": 3,
+     "duration": 0.5,
+     "trigger": "after-previous"
+    }
+   }
+  },
+  "13_education": {
+   "groups": {
+    "p12-title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4,
+     "trigger": "after-previous"
+    },
+    "p12-chart": {
+     "effect": "entrance_fade",
+     "order": 2,
+     "duration": 0.5,
+     "trigger": "after-previous"
+    },
+    "p12-list": {
+     "effect": "entrance_fade",
+     "order": 3,
+     "duration": 0.5,
+     "trigger": "after-previous"
+    }
+   }
+  },
+  "14_digital": {
+   "groups": {
+    "p13-title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4,
+     "trigger": "after-previous"
+    },
+    "p13-plus": {
+     "effect": "entrance_fade",
+     "order": 2,
+     "duration": 0.5,
+     "trigger": "after-previous"
+    },
+    "p13-minus": {
+     "effect": "entrance_fade",
+     "order": 3,
+     "duration": 0.5,
+     "trigger": "after-previous"
+    }
+   }
+  },
+  "15_recommendations": {
+   "groups": {
+    "p14-title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4,
+     "trigger": "after-previous"
+    },
+    "p14-checklist": {
+     "effect": "entrance_fade",
+     "order": 2,
+     "duration": 0.5,
+     "trigger": "after-previous"
+    }
+   }
+  },
+  "16_conclusions": {
+   "groups": {
+    "p16-title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4,
+     "trigger": "after-previous"
+    },
+    "p16-puzzle": {
+     "effect": "entrance_fade",
+     "order": 2,
+     "duration": 0.5,
+     "trigger": "after-previous"
+    }
+   }
+  },
+  "17_sources": {
+   "groups": {
+    "p17-title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4,
+     "trigger": "after-previous"
+    },
+    "p17-sources": {
+     "effect": "entrance_fade",
+     "order": 2,
+     "duration": 0.5,
+     "trigger": "after-previous"
+    }
+   }
+  }
+ }
 }

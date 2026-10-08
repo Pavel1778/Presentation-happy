@@ -31,7 +31,7 @@
 - title: 48
 - body: 24
 - label: 20
-- credit: 16
+- credit: 22
 
 ## icons
 - library: tabler-outline
@@ -41,18 +41,20 @@
 - P01: cover
 - P02: goal
 - P03: toc
-- P04: data
-- P05: concept
-- P06: infographic
-- P07: timeline
-- P08: comparison
-- P09: chart
-- P10: tree
-- P11: chart
+- P04: abstract
+- P05: data
+- P06: concept
+- P07: infographic
+- P08: timeline
+- P09: comparison
+- P10: chart
+- P11: tree
 - P12: chart
-- P13: balance
-- P14: checklist
-- P15: summary
+- P13: chart
+- P14: balance
+- P15: checklist
+- P16: summary
+- P17: sources
 
 ## pptx_structure
 - mode: flat
