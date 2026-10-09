@@ -37,6 +37,7 @@
 - small: 22
 - label: 20
 - fine: 18
+- credit: 15
 
 ## icons
 - library: tabler-outline

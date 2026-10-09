@@ -4677,3 +4677,316 @@ stdout:
     [PPTX] /workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx
     [REPORT] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/Konceptsiya_schastya.report.json
 === 2026-10-09T19:32:46.841Z END run=0ddeb03795f6 elapsed_ms=12071 output_lines=73 retained=5 omitted=68 ===
+
+=== 2026-10-09T20:23:03.451Z PYTHON run=f4b812e7e340 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e
+argv: ["/usr/local/bin/python3", ".agents/skills/ppt-master/scripts/svg_quality_checker.py", ".agents/projects/happiness_concept_ppt169_20261007", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [ERROR] 01_cover.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text> (x=80, y=658; text='Почему рост дохода н…') exceeds <g id="cover-question"> data-pptx-bounds on the horizontal axis: content (80.0, 630.8)-(1326.7, 669.2), container (80.0, 616.0)-(980.0, 676.0), overflow horizontal 38.5%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈20.8 px per mixed char at 32px incl. headroom; ≈43 chars fit in 900 px
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [ERROR] 01_goals.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography-size recurrence: undeclared font-size 15 (13 occurrences) exceeds the sparse-display limit of 2 occurrences. Structural text must return to its declared role band; a genuinely recurring display treatment needs a justified named role in the Design Spec and spec_lock.
+     [WARN] Image ../images/p02_goals.jpg is 7360x4912 and renders at 0.17x scale in a 1280x720 slice frame; the source is 1.5 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [ERROR] 02_toc.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography-size recurrence: undeclared font-size 15 (13 occurrences) exceeds the sparse-display limit of 2 occurrences. Structural text must return to its declared role band; a genuinely recurring display treatment needs a justified named role in the Design Spec and spec_lock.
+     [WARN] Image ../images/p03_toc.jpg is 6048x4032 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [ERROR] 03_why.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography-size recurrence: undeclared font-size 15 (13 occurrences) exceeds the sparse-display limit of 2 occurrences. Structural text must return to its declared role band; a genuinely recurring display treatment needs a justified named role in the Design Spec and spec_lock.
+     [WARN] <text> (x=1180, y=528; text='2025') exceeds <g id="chart-hap"> data-pptx-bounds on the horizontal axis: content (1154.1, 509.3)-(1205.9, 535.7), container (660.0, 185.0)-(1200.0, 585.0), overflow horizontal 1.1%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈13.0 px per Latin char at 22px incl. headroom; ≈41 chars fit in 540 px
+  [ERROR] 04_science.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography-size recurrence: undeclared font-size 15 (13 occurrences) exceeds the sparse-display limit of 2 occurrences. Structural text must return to its declared role band; a genuinely recurring display treatment needs a justified named role in the Design Spec and spec_lock.
+  [ERROR] 05_physiology.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <g id="video-note"> data-pptx-bounds overlaps <g id="note"> data-pptx-bounds by 400.0px x 12.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+     [ERROR] <text> (x=494, y=524; text='Анимация: работа ней…') exceeds <g id="video-note"> data-pptx-bounds on the horizontal axis: content (494.0, 505.3)-(920.4, 531.7), container (440.0, 490.0)-(840.0, 552.0), overflow horizontal 20.1%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈14.2 px per mixed char at 22px incl. headroom; ≈28 chars fit in 400 px
+     [ERROR] spec_lock typography-size recurrence: undeclared font-size 15 (13 occurrences) exceeds the sparse-display limit of 2 occurrences. Structural text must return to its declared role band; a genuinely recurring display treatment needs a justified named role in the Design Spec and spec_lock.
+  [WARN] 06_history.svg - Passed (with warnings)
+     viewBox: 0 0 1280 720
+     [WARN] Image ../images/p07_history.jpg is 5184x3456 and renders at 0.25x scale in a 1280x720 slice frame; the source is 2.6 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [ERROR] 07_hedonia.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography-size recurrence: undeclared font-size 15 (13 occurrences) exceeds the sparse-display limit of 2 occurrences. Structural text must return to its declared role band; a genuinely recurring display treatment needs a justified named role in the Design Spec and spec_lock.
+     [WARN] Image ../images/p08_hedonia.jpg is 6048x4024 and renders at 0.21x scale in a 1280x720 slice frame; the source is 5.0 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+     [WARN] Image ../images/hed_pleasure.jpg is 6016x4016 and renders at 0.08x scale in a 480x200 slice frame; the source is 10.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+     [WARN] Image ../images/eud_meaning.jpg is 3456x2592 and renders at 0.14x scale in a 480x200 slice frame; the source is 1.6 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 08_formula.svg - Passed (with warnings)
+     [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (3 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): donut-center:text-anchor None -> 'middle'; text[18]:text-anchor 'middle' -> None; text[19]:text-anchor 'middle' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
+  [ERROR] 09_factors.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography-size recurrence: undeclared font-size 15 (13 occurrences) exceeds the sparse-display limit of 2 occurrences. Structural text must return to its declared role band; a genuinely recurring display treatment needs a justified named role in the Design Spec and spec_lock.
+  [ERROR] 10_easterlin.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography-size recurrence: undeclared font-size 15 (13 occurrences) exceeds the sparse-display limit of 2 occurrences. Structural text must return to its declared role band; a genuinely recurring display treatment needs a justified named role in the Design Spec and spec_lock.
+  [OK] 11_education.svg - Passed
+     viewBox: 0 0 1280 720
+  [WARN] 12_digital.svg - Passed (with warnings)
+     viewBox: 0 0 1280 720
+     [WARN] Image ../images/p13_digital.jpg is 5616x3744 and renders at 0.23x scale in a 1280x720 slice frame; the source is 10.3 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [ERROR] 13_recommendations.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography-size recurrence: undeclared font-size 15 (13 occurrences) exceeds the sparse-display limit of 2 occurrences. Structural text must return to its declared role band; a genuinely recurring display treatment needs a justified named role in the Design Spec and spec_lock.
+  [ERROR] 15_sources.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text> (x=640, y=432; text='Полный список источн…') exceeds <g id="qr"> data-pptx-bounds on the horizontal and vertical axis: content (478.3, 413.3)-(801.7, 439.7), container (520.0, 436.0)-(760.0, 672.0), overflow horizontal 17.4%, vertical 9.6% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈14.7 px per mixed char at 22px incl. headroom; ≈16 chars fit in 240 px
+     [ERROR] spec_lock typography-size recurrence: undeclared font-size 15 (13 occurrences) exceeds the sparse-display limit of 2 occurrences. Structural text must return to its declared role band; a genuinely recurring display treatment needs a justified named role in the Design Spec and spec_lock.
+     [WARN] <text> (x=640, y=672; text='Наведите камеру теле…') exceeds <g id="qr"> data-pptx-bounds on the vertical axis: content (536.7, 659.2)-(743.3, 677.2), container (520.0, 436.0)-(760.0, 672.0), overflow horizontal 0.0%, vertical 2.2% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text
+     [WARN] Image ../images/p15_conclusions.jpg is 6000x4000 and renders at 0.21x scale in a 1280x720 slice frame; the source is 10.8 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [SUMMARY] Check Summary
+  Total files: 15
+    [OK] Fully passed: 1 (6%)
+    [WARN] With warnings: 3 (20%)
+    [ERROR] With errors: 11 (73%)
+  Provenance categories:
+    blocking: 14         hard findings; gate also requires exit 0
+    introduced: 12       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 15 | text: 215 | images: 20 | icons: 45
+    Geometry: SVG elements 140 | native presets 0 | page-frame elements 54 | marker uses 0
+    Effects: inline emphasis 0 (pages 0) | gradients 15 (pages 15) | filters 0 (pages 0) | text effects 0 (pages 0)
+    Native objects: charts 0 | tables 0 | formulas 0
+  [REPORT] JSON quality report exported: .agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json
+=== 2026-10-09T20:23:07.664Z END run=f4b812e7e340 elapsed_ms=4212 output_lines=107 retained=71 omitted=36 ===
+
+=== 2026-10-09T20:23:21.174Z PYTHON run=8559640d061b ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e
+argv: ["/usr/local/bin/python3", ".agents/skills/ppt-master/scripts/svg_quality_checker.py", ".agents/projects/happiness_concept_ppt169_20261007", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [ERROR] 01_cover.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text> (x=80, y=658; text='Почему рост дохода н…') exceeds <g id="cover-question"> data-pptx-bounds on the horizontal axis: content (80.0, 630.8)-(1326.7, 669.2), container (80.0, 616.0)-(980.0, 676.0), overflow horizontal 38.5%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈20.8 px per mixed char at 32px incl. headroom; ≈43 chars fit in 900 px
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [ERROR] 01_goals.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography-size recurrence: undeclared font-size 15 (13 occurrences) exceeds the sparse-display limit of 2 occurrences. Structural text must return to its declared role band; a genuinely recurring display treatment needs a justified named role in the Design Spec and spec_lock.
+     [WARN] Image ../images/p02_goals.jpg is 7360x4912 and renders at 0.17x scale in a 1280x720 slice frame; the source is 1.5 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [ERROR] 02_toc.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography-size recurrence: undeclared font-size 15 (13 occurrences) exceeds the sparse-display limit of 2 occurrences. Structural text must return to its declared role band; a genuinely recurring display treatment needs a justified named role in the Design Spec and spec_lock.
+     [WARN] Image ../images/p03_toc.jpg is 6048x4032 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [ERROR] 03_why.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography-size recurrence: undeclared font-size 15 (13 occurrences) exceeds the sparse-display limit of 2 occurrences. Structural text must return to its declared role band; a genuinely recurring display treatment needs a justified named role in the Design Spec and spec_lock.
+     [WARN] <text> (x=1180, y=528; text='2025') exceeds <g id="chart-hap"> data-pptx-bounds on the horizontal axis: content (1154.1, 509.3)-(1205.9, 535.7), container (660.0, 185.0)-(1200.0, 585.0), overflow horizontal 1.1%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈13.0 px per Latin char at 22px incl. headroom; ≈41 chars fit in 540 px
+  [ERROR] 04_science.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography-size recurrence: undeclared font-size 15 (13 occurrences) exceeds the sparse-display limit of 2 occurrences. Structural text must return to its declared role band; a genuinely recurring display treatment needs a justified named role in the Design Spec and spec_lock.
+  [ERROR] 05_physiology.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <g id="video-note"> data-pptx-bounds overlaps <g id="note"> data-pptx-bounds by 400.0px x 12.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+     [ERROR] <text> (x=494, y=524; text='Анимация: работа ней…') exceeds <g id="video-note"> data-pptx-bounds on the horizontal axis: content (494.0, 505.3)-(920.4, 531.7), container (440.0, 490.0)-(840.0, 552.0), overflow horizontal 20.1%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈14.2 px per mixed char at 22px incl. headroom; ≈28 chars fit in 400 px
+     [ERROR] spec_lock typography-size recurrence: undeclared font-size 15 (13 occurrences) exceeds the sparse-display limit of 2 occurrences. Structural text must return to its declared role band; a genuinely recurring display treatment needs a justified named role in the Design Spec and spec_lock.
+  [WARN] 06_history.svg - Passed (with warnings)
+     viewBox: 0 0 1280 720
+     [WARN] Image ../images/p07_history.jpg is 5184x3456 and renders at 0.25x scale in a 1280x720 slice frame; the source is 2.6 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [ERROR] 07_hedonia.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography-size recurrence: undeclared font-size 15 (13 occurrences) exceeds the sparse-display limit of 2 occurrences. Structural text must return to its declared role band; a genuinely recurring display treatment needs a justified named role in the Design Spec and spec_lock.
+     [WARN] Image ../images/p08_hedonia.jpg is 6048x4024 and renders at 0.21x scale in a 1280x720 slice frame; the source is 5.0 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+     [WARN] Image ../images/hed_pleasure.jpg is 6016x4016 and renders at 0.08x scale in a 480x200 slice frame; the source is 10.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+     [WARN] Image ../images/eud_meaning.jpg is 3456x2592 and renders at 0.14x scale in a 480x200 slice frame; the source is 1.6 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 08_formula.svg - Passed (with warnings)
+     [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (3 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): donut-center:text-anchor None -> 'middle'; text[18]:text-anchor 'middle' -> None; text[19]:text-anchor 'middle' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
+  [ERROR] 09_factors.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography-size recurrence: undeclared font-size 15 (13 occurrences) exceeds the sparse-display limit of 2 occurrences. Structural text must return to its declared role band; a genuinely recurring display treatment needs a justified named role in the Design Spec and spec_lock.
+  [ERROR] 10_easterlin.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography-size recurrence: undeclared font-size 15 (13 occurrences) exceeds the sparse-display limit of 2 occurrences. Structural text must return to its declared role band; a genuinely recurring display treatment needs a justified named role in the Design Spec and spec_lock.
+  [OK] 11_education.svg - Passed
+     viewBox: 0 0 1280 720
+  [WARN] 12_digital.svg - Passed (with warnings)
+     viewBox: 0 0 1280 720
+     [WARN] Image ../images/p13_digital.jpg is 5616x3744 and renders at 0.23x scale in a 1280x720 slice frame; the source is 10.3 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [ERROR] 13_recommendations.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography-size recurrence: undeclared font-size 15 (13 occurrences) exceeds the sparse-display limit of 2 occurrences. Structural text must return to its declared role band; a genuinely recurring display treatment needs a justified named role in the Design Spec and spec_lock.
+  [ERROR] 15_sources.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text> (x=640, y=432; text='Полный список источн…') exceeds <g id="qr"> data-pptx-bounds on the horizontal and vertical axis: content (478.3, 413.3)-(801.7, 439.7), container (520.0, 436.0)-(760.0, 672.0), overflow horizontal 17.4%, vertical 9.6% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈14.7 px per mixed char at 22px incl. headroom; ≈16 chars fit in 240 px
+     [ERROR] spec_lock typography-size recurrence: undeclared font-size 15 (13 occurrences) exceeds the sparse-display limit of 2 occurrences. Structural text must return to its declared role band; a genuinely recurring display treatment needs a justified named role in the Design Spec and spec_lock.
+     [WARN] <text> (x=640, y=672; text='Наведите камеру теле…') exceeds <g id="qr"> data-pptx-bounds on the vertical axis: content (536.7, 659.2)-(743.3, 677.2), container (520.0, 436.0)-(760.0, 672.0), overflow horizontal 0.0%, vertical 2.2% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text
+     [WARN] Image ../images/p15_conclusions.jpg is 6000x4000 and renders at 0.21x scale in a 1280x720 slice frame; the source is 10.8 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [SUMMARY] Check Summary
+  Total files: 15
+    [OK] Fully passed: 1 (6%)
+    [WARN] With warnings: 3 (20%)
+    [ERROR] With errors: 11 (73%)
+  Provenance categories:
+    blocking: 14         hard findings; gate also requires exit 0
+    introduced: 12       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 15 | text: 215 | images: 20 | icons: 45
+    Geometry: SVG elements 140 | native presets 0 | page-frame elements 54 | marker uses 0
+    Effects: inline emphasis 0 (pages 0) | gradients 15 (pages 15) | filters 0 (pages 0) | text effects 0 (pages 0)
+    Native objects: charts 0 | tables 0 | formulas 0
+  [REPORT] JSON quality report exported: .agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json
+=== 2026-10-09T20:23:25.120Z END run=8559640d061b elapsed_ms=3946 output_lines=107 retained=71 omitted=36 ===
+
+=== 2026-10-09T20:24:05.828Z PYTHON run=e5bc808f18ab ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e
+argv: ["/usr/local/bin/python3", ".agents/skills/ppt-master/scripts/svg_quality_checker.py", ".agents/projects/happiness_concept_ppt169_20261007", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 01_goals.svg - Passed (with warnings)
+     [WARN] Image ../images/p02_goals.jpg is 7360x4912 and renders at 0.17x scale in a 1280x720 slice frame; the source is 1.5 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [OK] 03_why.svg - Passed
+  [ERROR] 05_physiology.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <g id="video-note"> data-pptx-bounds overlaps <g id="oxytocin"> data-pptx-bounds by 40.0px x 22.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+  [WARN] 06_history.svg - Passed (with warnings)
+     viewBox: 0 0 1280 720
+     [WARN] Image ../images/p07_history.jpg is 5184x3456 and renders at 0.25x scale in a 1280x720 slice frame; the source is 2.6 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 07_hedonia.svg - Passed (with warnings)
+  [ERROR] 15_sources.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <g id="key-sources"> data-pptx-bounds overlaps <g id="qr"> data-pptx-bounds by 360.0px x 4.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+     [ERROR] <text> (x=640, y=686; text='Наведите камеру теле…') exceeds <g id="qr"> data-pptx-bounds on the vertical axis: content (487.9, 667.3)-(792.1, 693.7), container (460.0, 424.0)-(820.0, 672.0), overflow horizontal 0.0%, vertical 8.8% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text
+     [WARN] Image ../images/p15_conclusions.jpg is 6000x4000 and renders at 0.21x scale in a 1280x720 slice frame; the source is 10.8 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [SUMMARY] Check Summary
+  Total files: 15
+    [OK] Fully passed: 6 (40%)
+    [WARN] With warnings: 7 (46%)
+    [ERROR] With errors: 2 (13%)
+  Provenance categories:
+    blocking: 3          hard findings; gate also requires exit 0
+    introduced: 10       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 15 | text: 215 | images: 20 | icons: 45
+    Geometry: SVG elements 140 | native presets 0 | page-frame elements 54 | marker uses 0
+    Effects: inline emphasis 0 (pages 0) | gradients 15 (pages 15) | filters 0 (pages 0) | text effects 0 (pages 0)
+    Native objects: charts 0 | tables 0 | formulas 0
+    Presets: (none)
+  [REPORT] JSON quality report exported: .agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json
+=== 2026-10-09T20:24:09.773Z END run=e5bc808f18ab elapsed_ms=3945 output_lines=91 retained=34 omitted=57 ===
+
+=== 2026-10-09T20:24:20.187Z PYTHON run=b212bbe7a2b5 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e
+argv: ["/usr/local/bin/python3", ".agents/skills/ppt-master/scripts/svg_quality_checker.py", ".agents/projects/happiness_concept_ppt169_20261007", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 01_goals.svg - Passed (with warnings)
+     [WARN] Image ../images/p02_goals.jpg is 7360x4912 and renders at 0.17x scale in a 1280x720 slice frame; the source is 1.5 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [OK] 03_why.svg - Passed
+  [SUMMARY] Check Summary
+  Total files: 15
+    [OK] Fully passed: 7 (46%)
+    [WARN] With warnings: 8 (53%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 11       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 15 | text: 215 | images: 20 | icons: 45
+    Geometry: SVG elements 140 | native presets 0 | page-frame elements 54 | marker uses 0
+  [REPORT] JSON quality report exported: .agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json
+=== 2026-10-09T20:24:24.111Z END run=b212bbe7a2b5 elapsed_ms=3923 output_lines=87 retained=19 omitted=68 ===
+
+=== 2026-10-09T20:24:39.610Z PYTHON run=0e0e1fca611d ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "-f", "ppt169", "--with-notes", "--animation-config", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/animations.json", "--image-sizing", "display", "--image-quality", "82", "-o", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx"]
+stdout:
+  [Done] Saved: /workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx
+    [POSTFLIGHT] status=passed-with-warnings quality_gate=passed slides=15 warning_categories=1
+    [POSTFLIGHT][WARNING] quality_introduced_warnings=11
+    [PPTX] /workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx
+    [REPORT] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/Konceptsiya_schastya.report.json
+=== 2026-10-09T20:24:51.439Z END run=0e0e1fca611d elapsed_ms=11829 output_lines=72 retained=5 omitted=67 ===
+
+=== 2026-10-09T20:25:25.962Z PYTHON run=aac06f4fd585 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "-f", "ppt169", "--with-notes", "--animation-config", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/animations.json", "--image-sizing", "display", "--image-quality", "82", "-o", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx"]
+stdout:
+  [Done] Saved: /workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx
+    [POSTFLIGHT] status=passed-with-warnings quality_gate=passed slides=15 warning_categories=1
+    [POSTFLIGHT][WARNING] quality_introduced_warnings=11
+    [PPTX] /workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx
+    [REPORT] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/Konceptsiya_schastya.report.json
+=== 2026-10-09T20:25:37.732Z END run=aac06f4fd585 elapsed_ms=11770 output_lines=72 retained=5 omitted=67 ===
+
+=== 2026-10-09T20:27:14.010Z PYTHON run=ef587026c91a ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e
+argv: ["/usr/local/bin/python3", ".agents/skills/ppt-master/scripts/svg_quality_checker.py", ".agents/projects/happiness_concept_ppt169_20261007", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 01_goals.svg - Passed (with warnings)
+     [WARN] Image ../images/p02_goals.jpg is 7360x4912 and renders at 0.17x scale in a 1280x720 slice frame; the source is 1.5 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [OK] 03_why.svg - Passed
+  [SUMMARY] Check Summary
+  Total files: 15
+    [OK] Fully passed: 7 (46%)
+    [WARN] With warnings: 8 (53%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 11       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 15 | text: 216 | images: 20 | icons: 45
+    Geometry: SVG elements 140 | native presets 0 | page-frame elements 54 | marker uses 0
+  [REPORT] JSON quality report exported: .agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json
+=== 2026-10-09T20:27:17.971Z END run=ef587026c91a elapsed_ms=3961 output_lines=87 retained=19 omitted=68 ===
+
+=== 2026-10-09T20:27:21.899Z PYTHON run=13db8ad9180a ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "-f", "ppt169", "--with-notes", "--animation-config", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/animations.json", "--image-sizing", "display", "--image-quality", "82", "-o", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx"]
+stdout:
+  [Done] Saved: /workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx
+    [POSTFLIGHT] status=passed-with-warnings quality_gate=passed slides=15 warning_categories=1
+    [POSTFLIGHT][WARNING] quality_introduced_warnings=11
+    [PPTX] /workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx
+    [REPORT] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/Konceptsiya_schastya.report.json
+=== 2026-10-09T20:27:33.680Z END run=13db8ad9180a elapsed_ms=11781 output_lines=72 retained=5 omitted=67 ===
+
+=== 2026-10-09T20:28:11.398Z PYTHON run=ee72f24c622b ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e
+argv: ["/usr/local/bin/python3", ".agents/skills/ppt-master/scripts/svg_quality_checker.py", ".agents/projects/happiness_concept_ppt169_20261007", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 01_goals.svg - Passed (with warnings)
+     [WARN] Image ../images/p02_goals.jpg is 7360x4912 and renders at 0.17x scale in a 1280x720 slice frame; the source is 1.5 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [OK] 03_why.svg - Passed
+  [SUMMARY] Check Summary
+  Total files: 15
+    [OK] Fully passed: 7 (46%)
+    [WARN] With warnings: 8 (53%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 11       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 15 | text: 216 | images: 20 | icons: 45
+    Geometry: SVG elements 140 | native presets 0 | page-frame elements 54 | marker uses 0
+  [REPORT] JSON quality report exported: .agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json
+=== 2026-10-09T20:28:15.313Z END run=ee72f24c622b elapsed_ms=3914 output_lines=87 retained=19 omitted=68 ===
+
+=== 2026-10-09T20:28:15.673Z PYTHON run=99b22ddb2ff0 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "-f", "ppt169", "--with-notes", "--animation-config", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/animations.json", "--image-sizing", "display", "--image-quality", "82", "-o", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx"]
+stdout:
+  [Done] Saved: /workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx
+    [POSTFLIGHT] status=passed-with-warnings quality_gate=passed slides=15 warning_categories=1
+    [POSTFLIGHT][WARNING] quality_introduced_warnings=11
+    [PPTX] /workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx
+    [REPORT] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/Konceptsiya_schastya.report.json
+=== 2026-10-09T20:28:27.497Z END run=99b22ddb2ff0 elapsed_ms=11823 output_lines=72 retained=5 omitted=67 ===

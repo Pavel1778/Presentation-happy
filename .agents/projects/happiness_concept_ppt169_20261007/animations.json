@@ -178,30 +178,31 @@
           "effect_options": {
             "direction": "up"
           },
-          "order": 4,
+          "order": 3,
           "duration": 0.5,
           "trigger": "with-previous",
           "delay": 0.1
         },
         "endorphins": {
           "effect": "entrance_fade",
-          "order": 5,
-          "duration": 0.4,
-          "trigger": "on-click"
-        },
-        "oxytocin": {
-          "effect": "entrance_fade",
-          "order": 6,
-          "duration": 0.4,
-          "trigger": "with-previous",
-          "delay": 0.1
-        },
-        "note": {
-          "effect": "entrance_fade",
-          "order": 7,
+          "order": 3,
           "duration": 0.4,
           "trigger": "with-previous",
           "delay": 0.2
+        },
+        "oxytocin": {
+          "effect": "entrance_fade",
+          "order": 3,
+          "duration": 0.4,
+          "trigger": "with-previous",
+          "delay": 0.3
+        },
+        "note": {
+          "effect": "entrance_fade",
+          "order": 3,
+          "duration": 0.4,
+          "trigger": "with-previous",
+          "delay": 0.4
         }
       }
     },
@@ -313,9 +314,10 @@
         },
         "legend": {
           "effect": "entrance_fade",
-          "order": 6,
+          "order": 5,
           "duration": 0.5,
-          "trigger": "on-click"
+          "trigger": "with-previous",
+          "delay": 0.3
         }
       }
     },
@@ -367,30 +369,17 @@
           "duration": 0.4
         },
         "chart": {
-          "effect": "entrance_fade",
-          "order": 2,
-          "duration": 0.4,
-          "trigger": "on-click"
-        },
-        "chart-line": {
           "effect": "entrance_wipe",
           "effect_options": {
             "direction": "right"
           },
-          "order": 3,
+          "order": 2,
           "duration": 1.0,
           "trigger": "on-click"
         },
-        "chart-mark": {
-          "effect": "entrance_zoom",
-          "order": 4,
-          "duration": 0.5,
-          "trigger": "with-previous",
-          "delay": 0.8
-        },
         "theses": {
           "effect": "entrance_fade",
-          "order": 5,
+          "order": 3,
           "duration": 0.5,
           "trigger": "on-click"
         }
@@ -404,30 +393,17 @@
           "duration": 0.4
         },
         "chart": {
-          "effect": "entrance_fade",
-          "order": 2,
-          "duration": 0.4,
-          "trigger": "on-click"
-        },
-        "chart-line": {
           "effect": "entrance_wipe",
           "effect_options": {
             "direction": "right"
           },
-          "order": 3,
+          "order": 2,
           "duration": 1.0,
           "trigger": "on-click"
         },
-        "chart-mark": {
-          "effect": "entrance_zoom",
-          "order": 4,
-          "duration": 0.5,
-          "trigger": "with-previous",
-          "delay": 0.8
-        },
         "list": {
           "effect": "entrance_fade",
-          "order": 5,
+          "order": 3,
           "duration": 0.5,
           "trigger": "on-click"
         }
@@ -498,37 +474,38 @@
         },
         "rec-2": {
           "effect": "entrance_fade",
-          "order": 3,
+          "order": 2,
           "duration": 0.4,
           "trigger": "with-previous",
           "delay": 0.1
         },
         "rec-3": {
           "effect": "entrance_fade",
-          "order": 4,
+          "order": 2,
           "duration": 0.4,
           "trigger": "with-previous",
           "delay": 0.2
         },
         "rec-4": {
           "effect": "entrance_fade",
-          "order": 5,
+          "order": 2,
           "duration": 0.4,
-          "trigger": "on-click"
+          "trigger": "with-previous",
+          "delay": 0.3
         },
         "rec-5": {
           "effect": "entrance_fade",
-          "order": 6,
+          "order": 2,
           "duration": 0.4,
           "trigger": "with-previous",
-          "delay": 0.1
+          "delay": 0.4
         },
         "rec-6": {
           "effect": "entrance_fade",
-          "order": 7,
+          "order": 2,
           "duration": 0.4,
           "trigger": "with-previous",
-          "delay": 0.2
+          "delay": 0.5
         }
       }
     },

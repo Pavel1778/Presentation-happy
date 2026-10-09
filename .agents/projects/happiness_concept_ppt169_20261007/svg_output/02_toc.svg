@@ -11,7 +11,7 @@
   <rect id="p03-bg" x="0" y="0" width="1280" height="720" fill="url(#bg-grad)" fill-opacity="0.9" data-pptx-role="background"/>
   <rect id="accent" x="0" y="0" width="1280" height="6" fill="#27AE60" data-pptx-role="decoration"/>
   <g id="title" data-pptx-bounds="80 44 1010 92">
-    <text x="80" y="106" font-size="48" font-weight="bold" fill="#1B4F72">Что мы разберём</text>
+    <text x="80" y="106" font-size="40" font-weight="bold" fill="#1B4F72">Что мы разберём</text>
   </g>
   <g id="toc" data-pptx-bounds="80 175 1140 400">
     <rect x="80" y="190" width="272" height="168" rx="16" fill="#FFFFFF" fill-opacity="0.86"/>
@@ -47,4 +47,4 @@
     <text x="963" y="488" font-size="28" font-weight="bold" fill="#2C3E50">Выводы</text>
     <text x="963" y="524" font-size="22" fill="#5D6D7E">и советы</text>
   </g>
-<line id="footer-rule" x1="80" y1="684" x2="1200" y2="684" stroke="#1F4E79" stroke-opacity="0.12" stroke-width="1" data-pptx-role="decoration"/><g id="slide-number" data-pptx-bounds="1100 690 100 28"><text x="1200" y="708" font-size="22" text-anchor="end" fill="#5D6D7E">3</text></g><g id="credits" data-pptx-bounds="80 690 980 28"><text x="80" y="708" font-size="22" fill="#7F8C8D">Shixart1985 (CC BY 2.0)</text></g></svg>
+<line id="footer-rule" x1="80" y1="684" x2="1200" y2="684" stroke="#1F4E79" stroke-opacity="0.12" stroke-width="1" data-pptx-role="decoration"/><g id="slide-number" data-pptx-bounds="1100 690 100 28"><text x="1200" y="708" font-size="22" text-anchor="end" fill="#5D6D7E">3</text></g><g id="credits" data-pptx-bounds="80 690 980 28"><text x="80" y="708" font-size="15" fill="#8A97A3">Shixart1985 (CC BY 2.0)</text></g></svg>

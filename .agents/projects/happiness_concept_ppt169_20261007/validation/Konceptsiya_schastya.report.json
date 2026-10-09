@@ -3,75 +3,75 @@
   "status": "passed-with-warnings",
   "output": {
     "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx",
-    "bytes": 13471474
+    "bytes": 13487007
   },
   "source": {
     "svg_slide_count": 15,
     "layout_definition_count": 0,
     "fingerprint": {
       "algorithm": "sha256",
-      "digest": "096fa9a66a78213da25fbae93bd6bade4d4e72a0f9b892be7d8d4e4ec06e19e4",
+      "digest": "bba702092e90a024bafa869cc1a2123d6a98ff96707ff60643bee89932c316fa",
       "file_count": 15,
       "files": [
         {
           "file": "01_cover.svg",
-          "sha256": "152d71574004190529c17f84f64aeb79ec9df029ea6504ecb758aa4801c65de9"
+          "sha256": "4daed6cb0b61a007c409ce2197fc53d4a81d889b889420bcea68f9628ba1046a"
         },
         {
           "file": "01_goals.svg",
-          "sha256": "64768ae3d145cfc574ab4309c141861e54052ccec0dc2831e83431c8601a7c55"
+          "sha256": "ac673f697e63f36e1cbb25376653ac7f20ed1c5f59d37492c8e418ca14576d42"
         },
         {
           "file": "02_toc.svg",
-          "sha256": "4e4b3f804d024765a1b233b4fd4207a2e670a4421782e6f3c2953e1d234dd441"
+          "sha256": "d2c22671deea175460cabc87c4f2cd85a2bb423f76c3f3983d4b473c0f0885bc"
         },
         {
           "file": "03_why.svg",
-          "sha256": "9044fd9b6ca89d73df0aa3df76d2ad1f8d4aa99832c822d61cbf31f1ec5bfda7"
+          "sha256": "91b8b8d7438da4db8ca2e9c10c65196a78e41eddd14389a58e3fd0214c52750d"
         },
         {
           "file": "04_science.svg",
-          "sha256": "a31710df0c042446200554e7c8fe937d54bace790910fff282ecbf8cb3193fe6"
+          "sha256": "e90237809d410f4085ac4bb86d5a729d613127b20b74857db652e132c566efb9"
         },
         {
           "file": "05_physiology.svg",
-          "sha256": "228cf7ae29e9034df28f7d707cc6b53c165e1abab7ca5d708ee423f822e82d86"
+          "sha256": "6d672b81d4c289bd51b472066d5f107e1e15374df82a042aa2e3397d408ea9ca"
         },
         {
           "file": "06_history.svg",
-          "sha256": "2f66be738b0e2933f96b6b573641cd0ea4886baf1e1b463541df47b66094f9f7"
+          "sha256": "029ce940edda882ca5b43192e626f9180be03a54d7d57cb474b36d3007b438aa"
         },
         {
           "file": "07_hedonia.svg",
-          "sha256": "5a2fb686c4b2e989656b8640d7ed807d12b3416ea7e67464bc1c40ca7719981a"
+          "sha256": "ec03771394801f1e1c5a6de99883fa47faa97f4d7473c7588514f5caab266afc"
         },
         {
           "file": "08_formula.svg",
-          "sha256": "515e7aec7b5d65fd33ebb857dfc1403f046c6271350de93784dd7f28f715ba46"
+          "sha256": "c71235c74ac419e23a1edb2efed39b96f4855f385e4cd09c56dbc610bc5eef0d"
         },
         {
           "file": "09_factors.svg",
-          "sha256": "0c388fbe27749fb8d11e255db84a6b392221068dacb5b4f69a42335592485aaa"
+          "sha256": "a3ee9f673c10a4b7e457ffd76b2fa4b9f5bb4f73a9c9d4b30665aa24b434b334"
         },
         {
           "file": "10_easterlin.svg",
-          "sha256": "5e44175a25fbad1dd27bf316ae7c4ad2ee1cb68a13ccd888b6c2e45cd0bc5f88"
+          "sha256": "10471e69ea38ee39977d2d111cfa1e2506ee2086d710b051bdde9dbdd3e918b0"
         },
         {
           "file": "11_education.svg",
-          "sha256": "ceaafba55e9ebe62cabcc2d33f4ab082f8b4acb4ddf39df770df5b2c21970f22"
+          "sha256": "90a790485f20080e70d3688235f59ddaab13f59c9f96142d02affa6daf1900a4"
         },
         {
           "file": "12_digital.svg",
-          "sha256": "d7cc7952541943b6d7e3b884222045c04653dcc883bf7f22b33885d5daa7c28b"
+          "sha256": "339f0029f03db4948a2bcb861c4f223bb179d5ecda215c2f74e8a0ba4a8a33b3"
         },
         {
           "file": "13_recommendations.svg",
-          "sha256": "d08ac55a0f414ccc51913da7ab42e520d66786e1d5de7c303348fb14db0934ef"
+          "sha256": "30fb663c59033741dae1bccde744a77232e5511cf4c7dd9227227d48b21b2837"
         },
         {
           "file": "15_sources.svg",
-          "sha256": "bfaa62cdad83ca47ffc839a5326aa4883ac1b688b8fe6deb2997ad1b53adfd0f"
+          "sha256": "7b50c3f54ea724bc064100b7a79ea86bfbeb2ebb79da8f42c41892d5324894de"
         }
       ]
     },
@@ -109,68 +109,68 @@
     "source_match": "passed",
     "source_fingerprint": {
       "algorithm": "sha256",
-      "digest": "096fa9a66a78213da25fbae93bd6bade4d4e72a0f9b892be7d8d4e4ec06e19e4",
+      "digest": "bba702092e90a024bafa869cc1a2123d6a98ff96707ff60643bee89932c316fa",
       "file_count": 15,
       "files": [
         {
           "file": "01_cover.svg",
-          "sha256": "152d71574004190529c17f84f64aeb79ec9df029ea6504ecb758aa4801c65de9"
+          "sha256": "4daed6cb0b61a007c409ce2197fc53d4a81d889b889420bcea68f9628ba1046a"
         },
         {
           "file": "01_goals.svg",
-          "sha256": "64768ae3d145cfc574ab4309c141861e54052ccec0dc2831e83431c8601a7c55"
+          "sha256": "ac673f697e63f36e1cbb25376653ac7f20ed1c5f59d37492c8e418ca14576d42"
         },
         {
           "file": "02_toc.svg",
-          "sha256": "4e4b3f804d024765a1b233b4fd4207a2e670a4421782e6f3c2953e1d234dd441"
+          "sha256": "d2c22671deea175460cabc87c4f2cd85a2bb423f76c3f3983d4b473c0f0885bc"
         },
         {
           "file": "03_why.svg",
-          "sha256": "9044fd9b6ca89d73df0aa3df76d2ad1f8d4aa99832c822d61cbf31f1ec5bfda7"
+          "sha256": "91b8b8d7438da4db8ca2e9c10c65196a78e41eddd14389a58e3fd0214c52750d"
         },
         {
           "file": "04_science.svg",
-          "sha256": "a31710df0c042446200554e7c8fe937d54bace790910fff282ecbf8cb3193fe6"
+          "sha256": "e90237809d410f4085ac4bb86d5a729d613127b20b74857db652e132c566efb9"
         },
         {
           "file": "05_physiology.svg",
-          "sha256": "228cf7ae29e9034df28f7d707cc6b53c165e1abab7ca5d708ee423f822e82d86"
+          "sha256": "6d672b81d4c289bd51b472066d5f107e1e15374df82a042aa2e3397d408ea9ca"
         },
         {
           "file": "06_history.svg",
-          "sha256": "2f66be738b0e2933f96b6b573641cd0ea4886baf1e1b463541df47b66094f9f7"
+          "sha256": "029ce940edda882ca5b43192e626f9180be03a54d7d57cb474b36d3007b438aa"
         },
         {
           "file": "07_hedonia.svg",
-          "sha256": "5a2fb686c4b2e989656b8640d7ed807d12b3416ea7e67464bc1c40ca7719981a"
+          "sha256": "ec03771394801f1e1c5a6de99883fa47faa97f4d7473c7588514f5caab266afc"
         },
         {
           "file": "08_formula.svg",
-          "sha256": "515e7aec7b5d65fd33ebb857dfc1403f046c6271350de93784dd7f28f715ba46"
+          "sha256": "c71235c74ac419e23a1edb2efed39b96f4855f385e4cd09c56dbc610bc5eef0d"
         },
         {
           "file": "09_factors.svg",
-          "sha256": "0c388fbe27749fb8d11e255db84a6b392221068dacb5b4f69a42335592485aaa"
+          "sha256": "a3ee9f673c10a4b7e457ffd76b2fa4b9f5bb4f73a9c9d4b30665aa24b434b334"
         },
         {
           "file": "10_easterlin.svg",
-          "sha256": "5e44175a25fbad1dd27bf316ae7c4ad2ee1cb68a13ccd888b6c2e45cd0bc5f88"
+          "sha256": "10471e69ea38ee39977d2d111cfa1e2506ee2086d710b051bdde9dbdd3e918b0"
         },
         {
           "file": "11_education.svg",
-          "sha256": "ceaafba55e9ebe62cabcc2d33f4ab082f8b4acb4ddf39df770df5b2c21970f22"
+          "sha256": "90a790485f20080e70d3688235f59ddaab13f59c9f96142d02affa6daf1900a4"
         },
         {
           "file": "12_digital.svg",
-          "sha256": "d7cc7952541943b6d7e3b884222045c04653dcc883bf7f22b33885d5daa7c28b"
+          "sha256": "339f0029f03db4948a2bcb861c4f223bb179d5ecda215c2f74e8a0ba4a8a33b3"
         },
         {
           "file": "13_recommendations.svg",
-          "sha256": "d08ac55a0f414ccc51913da7ab42e520d66786e1d5de7c303348fb14db0934ef"
+          "sha256": "30fb663c59033741dae1bccde744a77232e5511cf4c7dd9227227d48b21b2837"
         },
         {
           "file": "15_sources.svg",
-          "sha256": "bfaa62cdad83ca47ffc839a5326aa4883ac1b688b8fe6deb2997ad1b53adfd0f"
+          "sha256": "7b50c3f54ea724bc064100b7a79ea86bfbeb2ebb79da8f42c41892d5324894de"
         }
       ]
     },
@@ -186,7 +186,7 @@
         "issues": []
       },
       "introduced": {
-        "count": 10,
+        "count": 11,
         "issues": [
           {
             "file": "01_cover.svg",
@@ -223,6 +223,10 @@
           {
             "file": "12_digital.svg",
             "message": "Image ../images/p13_digital.jpg is 5616x3744 and renders at 0.23x scale in a 1280x720 slice frame; the source is 10.3 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+          },
+          {
+            "file": "15_sources.svg",
+            "message": "<text> (x=640, y=678; text='Наведите камеру теле…') exceeds <g id=\"qr\"> data-pptx-bounds on the vertical axis: content (487.9, 659.3)-(792.1, 685.7), container (460.0, 428.0)-(820.0, 684.0), overflow horizontal 0.0%, vertical 0.7% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text"
           },
           {
             "file": "15_sources.svg",

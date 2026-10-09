@@ -15,7 +15,7 @@
 
   <g id="cover-header" data-pptx-bounds="80 92 850 300">
     <text x="80" y="140" font-size="22" fill="#5D6D7E" letter-spacing="2">РОСТОВСКИЙ-НА-ДОНУ КОЛЛЕДЖ СВЯЗИ И ИНФОРМАТИКИ</text>
-    <text x="80" y="216" font-size="48" font-weight="bold" fill="#1B4F72">Концепция счастья:<tspan x="80" dy="62">что делает людей счастливыми</tspan><tspan x="80" dy="62">в современном мире?</tspan></text>
+    <text x="80" y="216" font-size="40" font-weight="bold" fill="#1B4F72">Концепция счастья:<tspan x="80" dy="62">что делает людей счастливыми</tspan><tspan x="80" dy="62">в современном мире?</tspan></text>
   </g>
 
   <g id="cover-logo" data-pptx-bounds="950 70 310 250">
@@ -29,10 +29,10 @@
   <g id="cover-author" data-pptx-bounds="80 404 760 176">
     <rect x="80" y="410" width="6" height="150" rx="3" fill="#27AE60"/>
     <text x="112" y="446" font-size="32" font-weight="bold" fill="#2C3E50">Сабадаш Павел Андреевич</text>
-    <text x="112" y="486" font-size="22" fill="#5D6D7E">Группа ИС-24<tspan x="112" dy="34">sabadaspaha@gmail.com</tspan><tspan x="112" dy="34">Защита учебной презентации, 2026</tspan></text>
+    <text x="112" y="486" font-size="22" fill="#5D6D7E">Группа ИС-24<tspan x="112" dy="34">Защита учебной презентации, 2026</tspan></text>
   </g>
 
-  <g id="cover-question" data-pptx-bounds="80 616 900 60">
+  <g id="cover-question" data-pptx-bounds="80 616 1120 60">
     <text x="80" y="658" font-size="32" font-style="italic" fill="#E67E22">Почему деньги не гарантируют счастья?</text>
   </g>
 <line id="footer-rule" x1="80" y1="684" x2="1200" y2="684" stroke="#1F4E79" stroke-opacity="0.12" stroke-width="1" data-pptx-role="decoration"/><g id="slide-number" data-pptx-bounds="1100 690 100 28"><text x="1200" y="708" font-size="22" text-anchor="end" fill="#5D6D7E">1</text></g></svg>
