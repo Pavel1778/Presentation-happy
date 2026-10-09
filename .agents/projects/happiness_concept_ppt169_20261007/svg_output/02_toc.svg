@@ -13,7 +13,7 @@
   <g id="title" data-pptx-bounds="80 44 1010 92">
     <text x="80" y="106" font-size="40" font-weight="bold" fill="#1B4F72">Что мы разберём</text>
   </g>
-  <g id="toc" data-pptx-bounds="80 175 1140 400">
+  <g id="toc" data-pptx-bounds="80 175 1120 400">
     <rect x="80" y="190" width="272" height="168" rx="16" fill="#FFFFFF" fill-opacity="0.86"/>
     <use data-icon="tabler-outline/activity" x="102" y="212" width="46" height="46" fill="#27AE60"/>
     <text x="102" y="298" font-size="28" font-weight="bold" fill="#2C3E50">Зачем изучать</text>

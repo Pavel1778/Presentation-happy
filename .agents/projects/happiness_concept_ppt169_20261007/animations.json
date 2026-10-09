@@ -1,534 +1,434 @@
 {
-  "version": 1,
-  "defaults": {
-    "transition": {
-      "effect": "fade",
-      "duration": 0.5
-    },
-    "animation": {
-      "effect": "entrance_fade",
-      "duration": 0.4,
-      "trigger": "after-previous"
-    }
+ "version": 1,
+ "defaults": {
+  "transition": {
+   "effect": "fade",
+   "duration": 0.5
   },
-  "slides": {
-    "01_cover": {
-      "transition": {
-        "effect": "none"
-      },
-      "animation": {
-        "effect": "none"
-      }
-    },
-    "01_goals": {
-      "groups": {
-        "title": {
-          "effect": "entrance_fade",
-          "order": 1,
-          "duration": 0.4
-        },
-        "goal": {
-          "effect": "entrance_fly",
-          "effect_options": {
-            "direction": "up"
-          },
-          "order": 2,
-          "duration": 0.5,
-          "trigger": "on-click"
-        },
-        "tasks": {
-          "effect": "entrance_fade",
-          "order": 3,
-          "duration": 0.5,
-          "trigger": "on-click"
-        }
-      }
-    },
-    "02_toc": {
-      "groups": {
-        "title": {
-          "effect": "entrance_fade",
-          "order": 1,
-          "duration": 0.4
-        },
-        "toc": {
-          "effect": "entrance_fly",
-          "effect_options": {
-            "direction": "up"
-          },
-          "order": 2,
-          "duration": 0.5,
-          "trigger": "on-click"
-        }
-      }
-    },
-    "03_why": {
-      "groups": {
-        "title": {
-          "effect": "entrance_fade",
-          "order": 1,
-          "duration": 0.4
-        },
-        "chart-dep": {
-          "effect": "entrance_wipe",
-          "effect_options": {
-            "direction": "right"
-          },
-          "order": 2,
-          "duration": 0.9,
-          "trigger": "on-click"
-        },
-        "chart-hap": {
-          "effect": "entrance_wipe",
-          "effect_options": {
-            "direction": "right"
-          },
-          "order": 3,
-          "duration": 0.9,
-          "trigger": "on-click"
-        }
-      }
-    },
-    "04_science": {
-      "groups": {
-        "title": {
-          "effect": "entrance_fade",
-          "order": 1,
-          "duration": 0.4
-        },
-        "swb-left": {
-          "effect": "entrance_fly",
-          "effect_options": {
-            "direction": "up"
-          },
-          "order": 2,
-          "duration": 0.5,
-          "trigger": "on-click"
-        },
-        "swb-mid": {
-          "effect": "entrance_zoom",
-          "order": 3,
-          "duration": 0.5,
-          "trigger": "with-previous",
-          "delay": 0.15
-        },
-        "swb-right": {
-          "effect": "entrance_fly",
-          "effect_options": {
-            "direction": "up"
-          },
-          "order": 4,
-          "duration": 0.5,
-          "trigger": "with-previous",
-          "delay": 0.3
-        },
-        "appr-1": {
-          "effect": "entrance_fade",
-          "order": 5,
-          "duration": 0.4,
-          "trigger": "on-click"
-        },
-        "appr-2": {
-          "effect": "entrance_fade",
-          "order": 6,
-          "duration": 0.4,
-          "trigger": "with-previous",
-          "delay": 0.1
-        },
-        "appr-3": {
-          "effect": "entrance_fade",
-          "order": 7,
-          "duration": 0.4,
-          "trigger": "with-previous",
-          "delay": 0.2
-        },
-        "appr-4": {
-          "effect": "entrance_fade",
-          "order": 8,
-          "duration": 0.4,
-          "trigger": "with-previous",
-          "delay": 0.3
-        }
-      }
-    },
-    "05_physiology": {
-      "groups": {
-        "title": {
-          "effect": "entrance_fade",
-          "order": 1,
-          "duration": 0.4
-        },
-        "video": {
-          "effect": "entrance_zoom",
-          "order": 2,
-          "duration": 0.5,
-          "trigger": "on-click"
-        },
-        "dopamine": {
-          "effect": "entrance_fly",
-          "effect_options": {
-            "direction": "up"
-          },
-          "order": 3,
-          "duration": 0.5,
-          "trigger": "on-click"
-        },
-        "serotonin": {
-          "effect": "entrance_fly",
-          "effect_options": {
-            "direction": "up"
-          },
-          "order": 3,
-          "duration": 0.5,
-          "trigger": "with-previous",
-          "delay": 0.1
-        },
-        "endorphins": {
-          "effect": "entrance_fade",
-          "order": 3,
-          "duration": 0.4,
-          "trigger": "with-previous",
-          "delay": 0.2
-        },
-        "oxytocin": {
-          "effect": "entrance_fade",
-          "order": 3,
-          "duration": 0.4,
-          "trigger": "with-previous",
-          "delay": 0.3
-        },
-        "note": {
-          "effect": "entrance_fade",
-          "order": 3,
-          "duration": 0.4,
-          "trigger": "with-previous",
-          "delay": 0.4
-        }
-      }
-    },
-    "06_history": {
-      "groups": {
-        "title": {
-          "effect": "entrance_fade",
-          "order": 1,
-          "duration": 0.4
-        },
-        "timeline": {
-          "effect": "entrance_wipe",
-          "effect_options": {
-            "direction": "right"
-          },
-          "order": 2,
-          "duration": 1.0,
-          "trigger": "on-click"
-        },
-        "note": {
-          "effect": "entrance_fade",
-          "order": 3,
-          "duration": 0.4,
-          "trigger": "on-click"
-        }
-      }
-    },
-    "07_hedonia": {
-      "groups": {
-        "title": {
-          "effect": "entrance_fade",
-          "order": 1,
-          "duration": 0.4
-        },
-        "compare": {
-          "effect": "entrance_fly",
-          "effect_options": {
-            "direction": "up"
-          },
-          "order": 2,
-          "duration": 0.6,
-          "trigger": "on-click"
-        },
-        "note": {
-          "effect": "entrance_fade",
-          "order": 3,
-          "duration": 0.4,
-          "trigger": "on-click"
-        }
-      }
-    },
-    "08_formula": {
-      "transition": {
-        "effect": "morph",
-        "effect_options": {
-          "morph_by": "object"
-        },
-        "duration": 0.8
-      },
-      "morph": {
-        "from": "07_hedonia",
-        "pairs": {
-          "title-flow": {
-            "from": "title",
-            "to": "title"
-          }
-        }
-      },
-      "groups": {
-        "title": {
-          "effect": "entrance_fade",
-          "order": 1,
-          "duration": 0.4
-        },
-        "donut-seg1": {
-          "effect": "entrance_wipe",
-          "effect_options": {
-            "direction": "right"
-          },
-          "order": 2,
-          "duration": 0.7,
-          "trigger": "on-click"
-        },
-        "donut-seg2": {
-          "effect": "entrance_wipe",
-          "effect_options": {
-            "direction": "right"
-          },
-          "order": 3,
-          "duration": 0.7,
-          "trigger": "with-previous",
-          "delay": 0.25
-        },
-        "donut-seg3": {
-          "effect": "entrance_wipe",
-          "effect_options": {
-            "direction": "right"
-          },
-          "order": 4,
-          "duration": 0.7,
-          "trigger": "with-previous",
-          "delay": 0.5
-        },
-        "donut-center": {
-          "effect": "entrance_zoom",
-          "order": 5,
-          "duration": 0.5,
-          "trigger": "on-click"
-        },
-        "legend": {
-          "effect": "entrance_fade",
-          "order": 5,
-          "duration": 0.5,
-          "trigger": "with-previous",
-          "delay": 0.3
-        }
-      }
-    },
-    "09_factors": {
-      "groups": {
-        "title": {
-          "effect": "entrance_fade",
-          "order": 1,
-          "duration": 0.4
-        },
-        "photo": {
-          "effect": "entrance_fade",
-          "order": 2,
-          "duration": 0.5,
-          "trigger": "on-click"
-        },
-        "factors": {
-          "effect": "entrance_fly",
-          "effect_options": {
-            "direction": "up"
-          },
-          "order": 3,
-          "duration": 0.6,
-          "trigger": "on-click"
-        }
-      }
-    },
-    "10_easterlin": {
-      "transition": {
-        "effect": "morph",
-        "effect_options": {
-          "morph_by": "object"
-        },
-        "duration": 0.8
-      },
-      "morph": {
-        "from": "09_factors",
-        "pairs": {
-          "title-flow": {
-            "from": "title",
-            "to": "title"
-          }
-        }
-      },
-      "groups": {
-        "title": {
-          "effect": "entrance_fade",
-          "order": 1,
-          "duration": 0.4
-        },
-        "chart": {
-          "effect": "entrance_wipe",
-          "effect_options": {
-            "direction": "right"
-          },
-          "order": 2,
-          "duration": 1.0,
-          "trigger": "on-click"
-        },
-        "theses": {
-          "effect": "entrance_fade",
-          "order": 3,
-          "duration": 0.5,
-          "trigger": "on-click"
-        }
-      }
-    },
-    "11_education": {
-      "groups": {
-        "title": {
-          "effect": "entrance_fade",
-          "order": 1,
-          "duration": 0.4
-        },
-        "chart": {
-          "effect": "entrance_wipe",
-          "effect_options": {
-            "direction": "right"
-          },
-          "order": 2,
-          "duration": 1.0,
-          "trigger": "on-click"
-        },
-        "list": {
-          "effect": "entrance_fade",
-          "order": 3,
-          "duration": 0.5,
-          "trigger": "on-click"
-        }
-      }
-    },
-    "12_digital": {
-      "transition": {
-        "effect": "morph",
-        "effect_options": {
-          "morph_by": "object"
-        },
-        "duration": 0.8
-      },
-      "morph": {
-        "from": "11_education",
-        "pairs": {
-          "title-flow": {
-            "from": "title",
-            "to": "title"
-          }
-        }
-      },
-      "groups": {
-        "title": {
-          "effect": "entrance_fade",
-          "order": 1,
-          "duration": 0.4
-        },
-        "plus": {
-          "effect": "entrance_fly",
-          "effect_options": {
-            "direction": "up"
-          },
-          "order": 2,
-          "duration": 0.5,
-          "trigger": "on-click"
-        },
-        "minus": {
-          "effect": "entrance_fly",
-          "effect_options": {
-            "direction": "up"
-          },
-          "order": 3,
-          "duration": 0.5,
-          "trigger": "with-previous",
-          "delay": 0.15
-        },
-        "note": {
-          "effect": "entrance_fade",
-          "order": 4,
-          "duration": 0.4,
-          "trigger": "on-click"
-        }
-      }
-    },
-    "13_recommendations": {
-      "groups": {
-        "title": {
-          "effect": "entrance_fade",
-          "order": 1,
-          "duration": 0.4
-        },
-        "rec-1": {
-          "effect": "entrance_fade",
-          "order": 2,
-          "duration": 0.4,
-          "trigger": "on-click"
-        },
-        "rec-2": {
-          "effect": "entrance_fade",
-          "order": 2,
-          "duration": 0.4,
-          "trigger": "with-previous",
-          "delay": 0.1
-        },
-        "rec-3": {
-          "effect": "entrance_fade",
-          "order": 2,
-          "duration": 0.4,
-          "trigger": "with-previous",
-          "delay": 0.2
-        },
-        "rec-4": {
-          "effect": "entrance_fade",
-          "order": 2,
-          "duration": 0.4,
-          "trigger": "with-previous",
-          "delay": 0.3
-        },
-        "rec-5": {
-          "effect": "entrance_fade",
-          "order": 2,
-          "duration": 0.4,
-          "trigger": "with-previous",
-          "delay": 0.4
-        },
-        "rec-6": {
-          "effect": "entrance_fade",
-          "order": 2,
-          "duration": 0.4,
-          "trigger": "with-previous",
-          "delay": 0.5
-        }
-      }
-    },
-    "15_sources": {
-      "groups": {
-        "title": {
-          "effect": "entrance_fade",
-          "order": 1,
-          "duration": 0.4
-        },
-        "conclusions": {
-          "effect": "entrance_fade",
-          "order": 2,
-          "duration": 0.5,
-          "trigger": "on-click"
-        },
-        "qr": {
-          "effect": "entrance_zoom",
-          "order": 3,
-          "duration": 0.5,
-          "trigger": "on-click"
-        }
-      }
-    }
+  "animation": {
+   "effect": "entrance_fade",
+   "duration": 0.4,
+   "trigger": "after-previous"
   }
+ },
+ "slides": {
+  "01_cover": {
+   "transition": {
+    "effect": "none"
+   },
+   "animation": {
+    "effect": "none"
+   }
+  },
+  "01_goals": {
+   "groups": {
+    "title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4
+    },
+    "goal": {
+     "effect": "entrance_fly",
+     "effect_options": {
+      "direction": "up"
+     },
+     "order": 2,
+     "duration": 0.5,
+     "trigger": "on-click"
+    },
+    "tasks": {
+     "effect": "entrance_fade",
+     "order": 3,
+     "duration": 0.5,
+     "trigger": "on-click"
+    }
+   }
+  },
+  "02_toc": {
+   "groups": {
+    "title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4
+    },
+    "toc": {
+     "effect": "entrance_fly",
+     "effect_options": {
+      "direction": "up"
+     },
+     "order": 2,
+     "duration": 0.5,
+     "trigger": "on-click"
+    }
+   }
+  },
+  "03_why": {
+   "groups": {
+    "title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4
+    },
+    "chart-dep": {
+     "effect": "entrance_wipe",
+     "effect_options": {
+      "direction": "right"
+     },
+     "order": 2,
+     "duration": 0.9,
+     "trigger": "on-click"
+    },
+    "chart-hap": {
+     "effect": "entrance_wipe",
+     "effect_options": {
+      "direction": "right"
+     },
+     "order": 3,
+     "duration": 0.9,
+     "trigger": "on-click"
+    }
+   }
+  },
+  "04_science": {
+   "groups": {
+    "title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4,
+     "trigger": "after-previous"
+    },
+    "swb-left": {
+     "effect": "entrance_fade",
+     "order": 2,
+     "duration": 0.6,
+     "trigger": "on-click"
+    },
+    "appr-1": {
+     "effect": "entrance_fly",
+     "order": 3,
+     "duration": 0.6,
+     "trigger": "on-click",
+     "effect_options": {
+      "direction": "up"
+     }
+    }
+   }
+  },
+  "05_physiology": {
+   "groups": {
+    "title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4,
+     "trigger": "after-previous"
+    },
+    "diagram": {
+     "effect": "entrance_fade",
+     "order": 2,
+     "duration": 0.7,
+     "trigger": "on-click"
+    },
+    "note": {
+     "effect": "entrance_fade",
+     "order": 3,
+     "duration": 0.5,
+     "trigger": "on-click"
+    }
+   }
+  },
+  "06_history": {
+   "groups": {
+    "title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4
+    },
+    "timeline": {
+     "effect": "entrance_wipe",
+     "effect_options": {
+      "direction": "right"
+     },
+     "order": 2,
+     "duration": 1.0,
+     "trigger": "on-click"
+    },
+    "note": {
+     "effect": "entrance_fade",
+     "order": 3,
+     "duration": 0.4,
+     "trigger": "on-click"
+    }
+   }
+  },
+  "07_hedonia": {
+   "groups": {
+    "title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4
+    },
+    "compare": {
+     "effect": "entrance_fly",
+     "effect_options": {
+      "direction": "up"
+     },
+     "order": 2,
+     "duration": 0.6,
+     "trigger": "on-click"
+    },
+    "note": {
+     "effect": "entrance_fade",
+     "order": 3,
+     "duration": 0.4,
+     "trigger": "on-click"
+    }
+   }
+  },
+  "08_formula": {
+   "transition": {
+    "effect": "morph",
+    "effect_options": {
+     "morph_by": "object"
+    },
+    "duration": 0.8
+   },
+   "morph": {
+    "from": "07_hedonia",
+    "pairs": {
+     "title-flow": {
+      "from": "title",
+      "to": "title"
+     }
+    }
+   },
+   "groups": {
+    "title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4,
+     "trigger": "after-previous"
+    },
+    "donut": {
+     "effect": "entrance_wipe",
+     "order": 2,
+     "duration": 0.9,
+     "trigger": "on-click",
+     "effect_options": {
+      "direction": "right"
+     }
+    },
+    "legend": {
+     "effect": "entrance_fade",
+     "order": 3,
+     "duration": 0.5,
+     "trigger": "with-previous"
+    }
+   }
+  },
+  "09_factors": {
+   "groups": {
+    "title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4
+    },
+    "photo": {
+     "effect": "entrance_fade",
+     "order": 2,
+     "duration": 0.5,
+     "trigger": "on-click"
+    },
+    "factors": {
+     "effect": "entrance_fly",
+     "effect_options": {
+      "direction": "up"
+     },
+     "order": 3,
+     "duration": 0.6,
+     "trigger": "on-click"
+    }
+   }
+  },
+  "10_easterlin": {
+   "transition": {
+    "effect": "morph",
+    "effect_options": {
+     "morph_by": "object"
+    },
+    "duration": 0.8
+   },
+   "morph": {
+    "from": "09_factors",
+    "pairs": {
+     "title-flow": {
+      "from": "title",
+      "to": "title"
+     }
+    }
+   },
+   "groups": {
+    "title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4
+    },
+    "chart": {
+     "effect": "entrance_wipe",
+     "effect_options": {
+      "direction": "right"
+     },
+     "order": 2,
+     "duration": 1.0,
+     "trigger": "on-click"
+    },
+    "theses": {
+     "effect": "entrance_fade",
+     "order": 3,
+     "duration": 0.5,
+     "trigger": "on-click"
+    }
+   }
+  },
+  "11_education": {
+   "groups": {
+    "title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4
+    },
+    "chart": {
+     "effect": "entrance_wipe",
+     "effect_options": {
+      "direction": "right"
+     },
+     "order": 2,
+     "duration": 1.0,
+     "trigger": "on-click"
+    },
+    "list": {
+     "effect": "entrance_fade",
+     "order": 3,
+     "duration": 0.5,
+     "trigger": "on-click"
+    }
+   }
+  },
+  "12_digital": {
+   "transition": {
+    "effect": "morph",
+    "effect_options": {
+     "morph_by": "object"
+    },
+    "duration": 0.8
+   },
+   "morph": {
+    "from": "11_education",
+    "pairs": {
+     "title-flow": {
+      "from": "title",
+      "to": "title"
+     }
+    }
+   },
+   "groups": {
+    "title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4
+    },
+    "plus": {
+     "effect": "entrance_fly",
+     "effect_options": {
+      "direction": "up"
+     },
+     "order": 2,
+     "duration": 0.5,
+     "trigger": "on-click"
+    },
+    "minus": {
+     "effect": "entrance_fly",
+     "effect_options": {
+      "direction": "up"
+     },
+     "order": 3,
+     "duration": 0.5,
+     "trigger": "with-previous",
+     "delay": 0.15
+    },
+    "note": {
+     "effect": "entrance_fade",
+     "order": 4,
+     "duration": 0.4,
+     "trigger": "on-click"
+    }
+   }
+  },
+  "13_recommendations": {
+   "groups": {
+    "title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4,
+     "trigger": "after-previous"
+    },
+    "rec-1": {
+     "effect": "entrance_fly",
+     "order": 2,
+     "duration": 0.6,
+     "trigger": "on-click",
+     "effect_options": {
+      "direction": "up"
+     }
+    },
+    "rec-2": {
+     "effect": "entrance_fly",
+     "order": 2,
+     "duration": 0.6,
+     "trigger": "with-previous",
+     "effect_options": {
+      "direction": "up"
+     }
+    },
+    "rec-3": {
+     "effect": "entrance_fly",
+     "order": 2,
+     "duration": 0.6,
+     "trigger": "with-previous",
+     "effect_options": {
+      "direction": "up"
+     }
+    },
+    "rec-4": {
+     "effect": "entrance_fly",
+     "order": 2,
+     "duration": 0.6,
+     "trigger": "with-previous",
+     "effect_options": {
+      "direction": "up"
+     }
+    }
+   }
+  },
+  "15_sources": {
+   "groups": {
+    "title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4
+    },
+    "conclusions": {
+     "effect": "entrance_fade",
+     "order": 2,
+     "duration": 0.5,
+     "trigger": "on-click"
+    },
+    "qr": {
+     "effect": "entrance_zoom",
+     "order": 3,
+     "duration": 0.5,
+     "trigger": "on-click"
+    }
+   }
+  }
+ }
 }
