@@ -2,76 +2,76 @@
   "schema": "ppt-master.pptx-postflight-report.v1",
   "status": "passed-with-warnings",
   "output": {
-    "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya_highcontrast.pptx",
-    "bytes": 13214275
+    "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya_static.pptx",
+    "bytes": 13203359
   },
   "source": {
     "svg_slide_count": 15,
     "layout_definition_count": 0,
     "fingerprint": {
       "algorithm": "sha256",
-      "digest": "dcb5ba26b52a7550112bd6ee0fb4feb9fac9bf885c3a32c1b8b5a1e30a306e2b",
+      "digest": "e58ad49a77112d8b60db85003585071bcb0972a6f8337d6e5a45ab8732870bca",
       "file_count": 15,
       "files": [
         {
           "file": "01_cover.svg",
-          "sha256": "6c755196dfd17418b3259f7a4f1a5a7d399be07075936f2610290e3cde7650fe"
+          "sha256": "15d1e1fd942f82e995c8105785bb3b5f1734a3dbae91c0add77a90c125db9a41"
         },
         {
           "file": "01_goals.svg",
-          "sha256": "a1e3109faae17ddc9bc11dc8b1c3b7f9d21a751bbcfa712fb4adffdd706f3d10"
+          "sha256": "c1ebf02abb3b3a51c69ece31df23d1267e35f8c47f462dc69444cbf20fb1a72b"
         },
         {
           "file": "02_toc.svg",
-          "sha256": "406673a1b1d6d4d752a7b4e7a64ff72b20fd1a9297ccd3720ebfb2f732885dbb"
+          "sha256": "3bdb729360cebc7ca19ba6bdf589787747ae70afbdb2d8dded1f8ae6fd51da9c"
         },
         {
           "file": "03_why.svg",
-          "sha256": "f7f833b5b66e4a44922b195150918f498a45a7ecb81adbf13bb13b939647878d"
+          "sha256": "a8684c5d16cf430353d86259678e5119b5e833856e3282ac74d289c96d346d2d"
         },
         {
           "file": "04_science.svg",
-          "sha256": "3fd80feb081e82e38f21ebfb8232bc5b810382e8d8e658f1bb773e6e7dd06970"
+          "sha256": "d294414e5f32c5b3afbba8f56267c10752a0081b9a0bb413d6daa9c93882aaae"
         },
         {
           "file": "05_physiology.svg",
-          "sha256": "4a3a474355a42915590dc03cf7d61c33e5dd6e36e568f2a851a7b38094ebc569"
+          "sha256": "e2d3725105849b202b04bfb96bdb66d07c295c96617bbb4860db50441057d56b"
         },
         {
           "file": "06_history.svg",
-          "sha256": "424f7cf0912177045f4b74ef9bd012c6f86a98d550c3235669e07cb79632964f"
+          "sha256": "516836c5f64d3b372c4b7cb1b768211b3be990922acd3ceaf874ae643406e79e"
         },
         {
           "file": "07_hedonia.svg",
-          "sha256": "c1ba29e658ae8e62237b80a05ae9747514574794d7871334f395fb216f11d620"
+          "sha256": "ee705e7eaced84e5c5057234353e13135f83c23588115e748c1bb92d2b9ef38c"
         },
         {
           "file": "08_formula.svg",
-          "sha256": "0b2cac880b977086bdf2f7ef694406f52cace2c266beb0df7d41ce8d062b0d1e"
+          "sha256": "aacd16d48d8010a9a2a3d00f34edfa37458a4f5a457c2532177276d75fe24e23"
         },
         {
           "file": "09_factors.svg",
-          "sha256": "6d8768a644dfaa6ba653ec8fb6b7cf194b3082b2d3e8d1e3a1eabc917876faf3"
+          "sha256": "7fd84247a10b34efe78dbf9d84be4dbc42297279e4b7ecdf0b701e624f304525"
         },
         {
           "file": "10_easterlin.svg",
-          "sha256": "51a158e42d91415bdc77af114b5099ec06ad3c23e8869c607a7f4b7417dde1c8"
+          "sha256": "32086673d42b5d5190327e0c888a2fe0c0a0c556e531399d5c7b6f88e7d83fc1"
         },
         {
           "file": "11_education.svg",
-          "sha256": "3bee753efbab961e1142a3e4809235d2e8d7d2c5f92f47d331d15c18df66664b"
+          "sha256": "36915c8926ae10c1db9f293ad13af97a6a7cfb10403cbb0b8bfcdd45452182cf"
         },
         {
           "file": "12_digital.svg",
-          "sha256": "8f4c2f05bc626d5e71785db97315d5fbae8cbde48b04b89d9d5a987340bcb7bb"
+          "sha256": "339f0029f03db4948a2bcb861c4f223bb179d5ecda215c2f74e8a0ba4a8a33b3"
         },
         {
           "file": "13_recommendations.svg",
-          "sha256": "6ad3b845e8f2220dfde298d517728accb041d9a4992a4e8acd574240af22db4b"
+          "sha256": "32b2b85ba24fd6106e6967efcec0566f09743a89e0bccb0dbd21b1e2847234d4"
         },
         {
           "file": "15_sources.svg",
-          "sha256": "3c48ba8a17f339204ca83992619c88d3622663126cb898d36340e9a32875bc39"
+          "sha256": "be5823ffac03f383962082aa80f6a46448b1be0e39eb18609e8d1e1f205b5c14"
         }
       ]
     },
@@ -93,9 +93,9 @@
     "transitions": "enforced-at-build",
     "animations": "enforced-at-build",
     "project_svg_contract": "enforced-at-build",
-    "compatibility_normalization": "warning",
+    "compatibility_normalization": "not-applicable",
     "authoring_roundtrip": "not-applicable",
-    "quality_gate": "stale",
+    "quality_gate": "passed",
     "quality_warnings": "warning",
     "template_tokens": "passed",
     "external_images": "passed",
@@ -106,7 +106,7 @@
     "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json",
     "schema": "ppt-master.svg-quality-report.v1",
     "stage": "final",
-    "source_match": "mismatch",
+    "source_match": "passed",
     "source_fingerprint": {
       "algorithm": "sha256",
       "digest": "e58ad49a77112d8b60db85003585071bcb0972a6f8337d6e5a45ab8732870bca",
@@ -272,20 +272,20 @@
     }
   },
   "export_policy": {
-    "project_svg_contract": "strict-after-dangerous-normalization",
+    "project_svg_contract": "strict",
     "dangerous_normalization_count": 0
   },
   "deck_motion": {
     "transition": {
-      "effect": "fade",
+      "effect": null,
       "effect_options": {},
-      "duration": 0.5,
+      "duration": 0.4,
       "auto_advance": null,
       "sound": null
     },
     "animation": {
-      "effect": "entrance_fade",
-      "effect_request": "entrance_fade",
+      "effect": "none",
+      "effect_request": null,
       "duration": 0.4,
       "stagger": 0.5,
       "trigger": "after-previous"
@@ -303,5 +303,5 @@
     "narration_timings": false
   },
   "backup_path": null,
-  "conversion_trace_path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/Konceptsiya_schastya_highcontrast.trace.json"
+  "conversion_trace_path": null
 }

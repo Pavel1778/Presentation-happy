@@ -9,12 +9,20 @@
     <text x="672" y="272" font-size="22" fill="#2C3E50">• Смысл устойчивее удовольствия</text>
     <text x="112" y="316" font-size="22" fill="#2C3E50">• Счастье — навык, его можно развивать</text>
   </g>
-  <g id="key-sources" data-pptx-bounds="140 388 1000 40">
-    <text x="640" y="410" font-size="22" fill="#5D6D7E" text-anchor="middle">Ключевые источники: Селигман, Канеман, Килингсворт</text>
+  <g id="sources" data-pptx-bounds="80 388 640 284">
+    <rect x="80" y="388" width="640" height="284" rx="16" fill="#FFFFFF" fill-opacity="0.9"/>
+    <use data-icon="tabler-outline/book-2" x="104" y="402" width="32" height="32" fill="#1B4F72"/>
+    <text x="146" y="428" font-size="24" font-weight="bold" fill="#1B4F72">Источники</text>
+    <text x="104" y="472" font-size="16" fill="#2C3E50">• World Happiness Report (ВОЗ)</text>
+    <text x="104" y="506" font-size="16" fill="#2C3E50">• Killingsworth, PNAS (2021)</text>
+    <text x="104" y="540" font-size="16" fill="#2C3E50">• Канеман и Дитон (2010, 2023)</text>
+    <text x="424" y="472" font-size="16" fill="#2C3E50">• Селигман «Подлинное счастье»</text>
+    <text x="424" y="506" font-size="16" fill="#2C3E50">• Lyubomirsky, Sheldon &amp; Schkade (2005)</text>
+    <text x="424" y="540" font-size="16" fill="#2C3E50">• Джидарьян (2013)</text>
   </g>
-  <g id="qr" data-pptx-bounds="460 428 360 256">
-    <text x="640" y="450" font-size="22" font-weight="bold" fill="#1B4F72" text-anchor="middle">Полный список источников</text>
-    <image x="540" y="468" width="200" height="200" href="../images/qr_sources.png"/>
-    <text x="640" y="678" font-size="22" fill="#5D6D7E" text-anchor="middle">Наведите камеру телефона</text>
+  <g id="qr" data-pptx-bounds="740 388 440 284">
+    <rect x="740" y="388" width="440" height="284" rx="16" fill="#FFFFFF" fill-opacity="0.9"/>
+    <text x="960" y="428" font-size="22" font-weight="bold" fill="#1B4F72" text-anchor="middle">Полный список источников</text>
+    <image x="860" y="452" width="200" height="200" href="../images/qr_sources.png"/>
   </g>
 <line id="footer-rule" x1="80" y1="684" x2="1200" y2="684" stroke="#1F4E79" stroke-opacity="0.12" stroke-width="1" data-pptx-role="decoration"/><g id="slide-number" data-pptx-bounds="1100 690 100 28"><text x="1200" y="708" font-size="22" text-anchor="end" fill="#5D6D7E">15</text></g></svg>

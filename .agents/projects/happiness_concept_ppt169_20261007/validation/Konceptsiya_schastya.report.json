@@ -3,14 +3,14 @@
   "status": "passed-with-warnings",
   "output": {
     "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx",
-    "bytes": 13485688
+    "bytes": 13214390
   },
   "source": {
     "svg_slide_count": 15,
     "layout_definition_count": 0,
     "fingerprint": {
       "algorithm": "sha256",
-      "digest": "72ae50ab695a33b93859d2fad9513d0bbf357787a54deaa927ece5cb6f20a198",
+      "digest": "e58ad49a77112d8b60db85003585071bcb0972a6f8337d6e5a45ab8732870bca",
       "file_count": 15,
       "files": [
         {
@@ -19,11 +19,11 @@
         },
         {
           "file": "01_goals.svg",
-          "sha256": "ac673f697e63f36e1cbb25376653ac7f20ed1c5f59d37492c8e418ca14576d42"
+          "sha256": "c1ebf02abb3b3a51c69ece31df23d1267e35f8c47f462dc69444cbf20fb1a72b"
         },
         {
           "file": "02_toc.svg",
-          "sha256": "c7ef75ee643bdc1f57f5b2ab3b9d4e3365e3e0272521ceed1a4de271e0f12dac"
+          "sha256": "3bdb729360cebc7ca19ba6bdf589787747ae70afbdb2d8dded1f8ae6fd51da9c"
         },
         {
           "file": "03_why.svg",
@@ -31,11 +31,11 @@
         },
         {
           "file": "04_science.svg",
-          "sha256": "3de4bdaf7f3d6084abde89c8cf3c1de2f65dd2798c8644aa3abc61b2c9cb6715"
+          "sha256": "d294414e5f32c5b3afbba8f56267c10752a0081b9a0bb413d6daa9c93882aaae"
         },
         {
           "file": "05_physiology.svg",
-          "sha256": "a41b691c0712bdaf3241b36e902fdf07f3d79f698066738f072475cba049fa97"
+          "sha256": "e2d3725105849b202b04bfb96bdb66d07c295c96617bbb4860db50441057d56b"
         },
         {
           "file": "06_history.svg",
@@ -43,23 +43,23 @@
         },
         {
           "file": "07_hedonia.svg",
-          "sha256": "ec03771394801f1e1c5a6de99883fa47faa97f4d7473c7588514f5caab266afc"
+          "sha256": "ee705e7eaced84e5c5057234353e13135f83c23588115e748c1bb92d2b9ef38c"
         },
         {
           "file": "08_formula.svg",
-          "sha256": "93ca4f4c4378cc28183636adaf0c6479c0d84322cbc406a9ecf26ac1e5c603ec"
+          "sha256": "aacd16d48d8010a9a2a3d00f34edfa37458a4f5a457c2532177276d75fe24e23"
         },
         {
           "file": "09_factors.svg",
-          "sha256": "a3ee9f673c10a4b7e457ffd76b2fa4b9f5bb4f73a9c9d4b30665aa24b434b334"
+          "sha256": "7fd84247a10b34efe78dbf9d84be4dbc42297279e4b7ecdf0b701e624f304525"
         },
         {
           "file": "10_easterlin.svg",
-          "sha256": "7c2596fb22fbc39f46264f5981b3f8484307f5801698080a14e87f00256627b4"
+          "sha256": "32086673d42b5d5190327e0c888a2fe0c0a0c556e531399d5c7b6f88e7d83fc1"
         },
         {
           "file": "11_education.svg",
-          "sha256": "00825efdc66b8d70655bc81207a025e8ba88bb033b8d64a0059dd8a9e465811e"
+          "sha256": "36915c8926ae10c1db9f293ad13af97a6a7cfb10403cbb0b8bfcdd45452182cf"
         },
         {
           "file": "12_digital.svg",
@@ -67,11 +67,11 @@
         },
         {
           "file": "13_recommendations.svg",
-          "sha256": "d7e794186e34f2b571279c3f3957364341119c6f1c9e09bd4b2d7bd544823a82"
+          "sha256": "32b2b85ba24fd6106e6967efcec0566f09743a89e0bccb0dbd21b1e2847234d4"
         },
         {
           "file": "15_sources.svg",
-          "sha256": "4411f23cc110575c25585b8dba98f92ae5a3ca89e3dd976db0c85b6853a16806"
+          "sha256": "be5823ffac03f383962082aa80f6a46448b1be0e39eb18609e8d1e1f205b5c14"
         }
       ]
     },
@@ -109,7 +109,7 @@
     "source_match": "passed",
     "source_fingerprint": {
       "algorithm": "sha256",
-      "digest": "72ae50ab695a33b93859d2fad9513d0bbf357787a54deaa927ece5cb6f20a198",
+      "digest": "e58ad49a77112d8b60db85003585071bcb0972a6f8337d6e5a45ab8732870bca",
       "file_count": 15,
       "files": [
         {
@@ -118,11 +118,11 @@
         },
         {
           "file": "01_goals.svg",
-          "sha256": "ac673f697e63f36e1cbb25376653ac7f20ed1c5f59d37492c8e418ca14576d42"
+          "sha256": "c1ebf02abb3b3a51c69ece31df23d1267e35f8c47f462dc69444cbf20fb1a72b"
         },
         {
           "file": "02_toc.svg",
-          "sha256": "c7ef75ee643bdc1f57f5b2ab3b9d4e3365e3e0272521ceed1a4de271e0f12dac"
+          "sha256": "3bdb729360cebc7ca19ba6bdf589787747ae70afbdb2d8dded1f8ae6fd51da9c"
         },
         {
           "file": "03_why.svg",
@@ -130,11 +130,11 @@
         },
         {
           "file": "04_science.svg",
-          "sha256": "3de4bdaf7f3d6084abde89c8cf3c1de2f65dd2798c8644aa3abc61b2c9cb6715"
+          "sha256": "d294414e5f32c5b3afbba8f56267c10752a0081b9a0bb413d6daa9c93882aaae"
         },
         {
           "file": "05_physiology.svg",
-          "sha256": "a41b691c0712bdaf3241b36e902fdf07f3d79f698066738f072475cba049fa97"
+          "sha256": "e2d3725105849b202b04bfb96bdb66d07c295c96617bbb4860db50441057d56b"
         },
         {
           "file": "06_history.svg",
@@ -142,23 +142,23 @@
         },
         {
           "file": "07_hedonia.svg",
-          "sha256": "ec03771394801f1e1c5a6de99883fa47faa97f4d7473c7588514f5caab266afc"
+          "sha256": "ee705e7eaced84e5c5057234353e13135f83c23588115e748c1bb92d2b9ef38c"
         },
         {
           "file": "08_formula.svg",
-          "sha256": "93ca4f4c4378cc28183636adaf0c6479c0d84322cbc406a9ecf26ac1e5c603ec"
+          "sha256": "aacd16d48d8010a9a2a3d00f34edfa37458a4f5a457c2532177276d75fe24e23"
         },
         {
           "file": "09_factors.svg",
-          "sha256": "a3ee9f673c10a4b7e457ffd76b2fa4b9f5bb4f73a9c9d4b30665aa24b434b334"
+          "sha256": "7fd84247a10b34efe78dbf9d84be4dbc42297279e4b7ecdf0b701e624f304525"
         },
         {
           "file": "10_easterlin.svg",
-          "sha256": "7c2596fb22fbc39f46264f5981b3f8484307f5801698080a14e87f00256627b4"
+          "sha256": "32086673d42b5d5190327e0c888a2fe0c0a0c556e531399d5c7b6f88e7d83fc1"
         },
         {
           "file": "11_education.svg",
-          "sha256": "00825efdc66b8d70655bc81207a025e8ba88bb033b8d64a0059dd8a9e465811e"
+          "sha256": "36915c8926ae10c1db9f293ad13af97a6a7cfb10403cbb0b8bfcdd45452182cf"
         },
         {
           "file": "12_digital.svg",
@@ -166,11 +166,11 @@
         },
         {
           "file": "13_recommendations.svg",
-          "sha256": "d7e794186e34f2b571279c3f3957364341119c6f1c9e09bd4b2d7bd544823a82"
+          "sha256": "32b2b85ba24fd6106e6967efcec0566f09743a89e0bccb0dbd21b1e2847234d4"
         },
         {
           "file": "15_sources.svg",
-          "sha256": "4411f23cc110575c25585b8dba98f92ae5a3ca89e3dd976db0c85b6853a16806"
+          "sha256": "be5823ffac03f383962082aa80f6a46448b1be0e39eb18609e8d1e1f205b5c14"
         }
       ]
     },
@@ -186,7 +186,7 @@
         "issues": []
       },
       "introduced": {
-        "count": 14,
+        "count": 13,
         "issues": [
           {
             "file": "01_cover.svg",
@@ -222,10 +222,6 @@
           },
           {
             "file": "07_hedonia.svg",
-            "message": "Image ../images/p08_hedonia.jpg is 6048x4024 and renders at 0.21x scale in a 1280x720 slice frame; the source is 5.0 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
-          },
-          {
-            "file": "07_hedonia.svg",
             "message": "Image ../images/hed_pleasure.jpg is 6016x4016 and renders at 0.08x scale in a 480x200 slice frame; the source is 10.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
           },
           {
@@ -238,7 +234,7 @@
           },
           {
             "file": "15_sources.svg",
-            "message": "<text> (x=640, y=678; text='Наведите камеру теле…') exceeds <g id=\"qr\"> data-pptx-bounds on the vertical axis: content (487.9, 659.3)-(792.1, 685.7), container (460.0, 428.0)-(820.0, 684.0), overflow horizontal 0.0%, vertical 0.7% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text"
+            "message": "<text> (x=424, y=506; text='• Lyubomirsky, Sheld…') exceeds <g id=\"sources\"> data-pptx-bounds on the horizontal axis: content (424.0, 492.4)-(743.5, 511.6), container (80.0, 388.0)-(720.0, 672.0), overflow horizontal 3.7%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈9.4 px per mixed char at 16px incl. headroom; ≈68 chars fit in 640 px"
           },
           {
             "file": "15_sources.svg",

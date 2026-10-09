@@ -283,9 +283,18 @@
     },
     "theses": {
      "effect": "entrance_fade",
-     "order": 3,
+     "order": 4,
      "duration": 0.5,
      "trigger": "on-click"
+    },
+    "chart-plot": {
+     "effect": "entrance_wipe",
+     "effect_options": {
+      "direction": "right"
+     },
+     "order": 3,
+     "duration": 1.0,
+     "trigger": "with-previous"
     }
    }
   },
@@ -307,9 +316,18 @@
     },
     "list": {
      "effect": "entrance_fade",
-     "order": 3,
+     "order": 4,
      "duration": 0.5,
      "trigger": "on-click"
+    },
+    "chart-plot": {
+     "effect": "entrance_wipe",
+     "effect_options": {
+      "direction": "right"
+     },
+     "order": 3,
+     "duration": 1.0,
+     "trigger": "with-previous"
     }
    }
   },
