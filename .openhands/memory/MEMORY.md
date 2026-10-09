@@ -117,3 +117,9 @@
 - **`tools/embed_slide6_video.py` patches the EXISTING poster pic (`Image 8`) in place**, not a new `<p:pic>` — add `a:hlinkClick ppaction://media`, `a:videoFile r:link`, `p14:media r:embed`; declare `xmlns:p14` on the `p14:media` element (the exporter never does).
 - **Nested-SVG images are skipped by cairosvg** (blank QR in the old PDF). `tools/render_pdf.py` now rasterises `.svg` images at 1080x1080 to lossless PNG (JPEG breaks QR decode). QR decodes from the rebuilt PDF. Note LibreOffice IS installed (`/usr/bin/libreoffice`) but the cairosvg path is preferred here.
 - `exports/preview.html` slide-name list must match `svg_output/*.svg` (they are `01_goals`…`15_sources`, NOT `02_goals`…`15_conclusions`).
+
+## ppt-master authoring invariants (learned 4146aa8)
+- `svg_quality_checker --stage final`: EVERY visible root `<g>` needs `data-pptx-bounds` (even `data-pptx-role="decoration"` groups), and direct-root module zones must be **disjoint** (1px tol). To merge cards that surround a centred element (e.g. a GIF), fold the element AND the cards into ONE module.
+- After merging/renaming SVG groups, sync `animations.json`: a group id absent from the SVG silently drops its animation.
+- Package `Times New Roman` lives only in theme1/theme2 `Arab/Hebr/Viet` fallbacks — NOT a slide typeface; slide runs resolve to `+mn-lt/+mn-ea/+mn-cs`. Margin audits must skip full-bleed bg (`x=0,y=0,w>=1280`) and chrome.
+- Deck verified: 15 slides/15 notes, 11 fade/3 morph/1 none, 0 click-groups >3, PDF 0 overlaps/0 out-of-frame, QR decodes from PPTX media + PDF.
