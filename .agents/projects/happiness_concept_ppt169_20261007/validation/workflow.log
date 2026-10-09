@@ -4585,3 +4585,95 @@ stdout:
     [PPTX] /workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx
     [REPORT] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/Konceptsiya_schastya.report.json
 === 2026-10-09T19:26:08.707Z END run=de9268c32307 elapsed_ms=12013 output_lines=73 retained=5 omitted=68 ===
+
+=== 2026-10-09T19:32:02.589Z PYTHON run=82b6fdc27442 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_quality_checker.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 01_goals.svg - Passed (with warnings)
+     [WARN] Image ../images/p02_goals.jpg is 7360x4912 and renders at 0.17x scale in a 1280x720 slice frame; the source is 1.5 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [OK] 03_why.svg - Passed
+  [SUMMARY] Check Summary
+  Total files: 15
+    [OK] Fully passed: 8 (53%)
+    [WARN] With warnings: 7 (46%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 9        advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 15 | text: 212 | images: 20 | icons: 45
+    Geometry: SVG elements 134 | native presets 0 | page-frame elements 54 | marker uses 0
+=== 2026-10-09T19:32:06.654Z END run=82b6fdc27442 elapsed_ms=4065 output_lines=83 retained=18 omitted=65 ===
+
+=== 2026-10-09T19:32:09.027Z PYTHON run=734b3e8ddd6c ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_quality_checker.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 01_goals.svg - Passed (with warnings)
+     [WARN] Image ../images/p02_goals.jpg is 7360x4912 and renders at 0.17x scale in a 1280x720 slice frame; the source is 1.5 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [OK] 03_why.svg - Passed
+  [SUMMARY] Check Summary
+  Total files: 15
+    [OK] Fully passed: 8 (53%)
+    [WARN] With warnings: 7 (46%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 9        advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 15 | text: 212 | images: 20 | icons: 45
+    Geometry: SVG elements 134 | native presets 0 | page-frame elements 54 | marker uses 0
+=== 2026-10-09T19:32:13.062Z END run=734b3e8ddd6c elapsed_ms=4034 output_lines=83 retained=18 omitted=65 ===
+
+=== 2026-10-09T19:32:17.007Z PYTHON run=52069913a56c ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "-f", "ppt169", "--with-notes", "--animation-config", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/animations.json", "--image-sizing", "display", "--image-quality", "82", "-o", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx"]
+stderr:
+  Error: default release export requires a passing final SVG quality report for the current svg_output/; found stale.
+  Run: python3 skills/ppt-master/scripts/svg_quality_checker.py "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007" --canonical-authoring --stage final --json
+=== 2026-10-09T19:32:18.067Z END run=52069913a56c elapsed_ms=1059 output_lines=2 retained=2 omitted=0 ===
+
+=== 2026-10-09T19:32:25.440Z PYTHON run=78c544581e6f ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e
+argv: ["/usr/local/bin/python3", ".agents/skills/ppt-master/scripts/svg_quality_checker.py", ".agents/projects/happiness_concept_ppt169_20261007", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 01_goals.svg - Passed (with warnings)
+     [WARN] Image ../images/p02_goals.jpg is 7360x4912 and renders at 0.17x scale in a 1280x720 slice frame; the source is 1.5 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [OK] 03_why.svg - Passed
+  [SUMMARY] Check Summary
+  Total files: 15
+    [OK] Fully passed: 7 (46%)
+    [WARN] With warnings: 8 (53%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 10       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 15 | text: 212 | images: 20 | icons: 45
+    Geometry: SVG elements 134 | native presets 0 | page-frame elements 54 | marker uses 0
+  [REPORT] JSON quality report exported: .agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json
+=== 2026-10-09T19:32:29.471Z END run=78c544581e6f elapsed_ms=4031 output_lines=85 retained=19 omitted=66 ===
+
+=== 2026-10-09T19:32:34.769Z PYTHON run=0ddeb03795f6 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "-f", "ppt169", "--with-notes", "--animation-config", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/animations.json", "--image-sizing", "display", "--image-quality", "82", "-o", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx"]
+stdout:
+  [Done] Saved: /workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx
+    [POSTFLIGHT] status=passed-with-warnings quality_gate=passed slides=15 warning_categories=1
+    [POSTFLIGHT][WARNING] quality_introduced_warnings=10
+    [PPTX] /workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx
+    [REPORT] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/Konceptsiya_schastya.report.json
+=== 2026-10-09T19:32:46.841Z END run=0ddeb03795f6 elapsed_ms=12071 output_lines=73 retained=5 omitted=68 ===

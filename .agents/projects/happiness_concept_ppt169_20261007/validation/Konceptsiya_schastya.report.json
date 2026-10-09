@@ -3,14 +3,14 @@
   "status": "passed-with-warnings",
   "output": {
     "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx",
-    "bytes": 13471479
+    "bytes": 13471474
   },
   "source": {
     "svg_slide_count": 15,
     "layout_definition_count": 0,
     "fingerprint": {
       "algorithm": "sha256",
-      "digest": "2e871e97aad13f61e83c4d77c6898bcb408bdd3c0fae21987ecea1d91e2baef6",
+      "digest": "096fa9a66a78213da25fbae93bd6bade4d4e72a0f9b892be7d8d4e4ec06e19e4",
       "file_count": 15,
       "files": [
         {
@@ -39,7 +39,7 @@
         },
         {
           "file": "06_history.svg",
-          "sha256": "ed00a61910bd84ae9ca528e9875152a0e89f3fb0503d77f44e13bf153cab90b9"
+          "sha256": "2f66be738b0e2933f96b6b573641cd0ea4886baf1e1b463541df47b66094f9f7"
         },
         {
           "file": "07_hedonia.svg",
@@ -109,7 +109,7 @@
     "source_match": "passed",
     "source_fingerprint": {
       "algorithm": "sha256",
-      "digest": "2e871e97aad13f61e83c4d77c6898bcb408bdd3c0fae21987ecea1d91e2baef6",
+      "digest": "096fa9a66a78213da25fbae93bd6bade4d4e72a0f9b892be7d8d4e4ec06e19e4",
       "file_count": 15,
       "files": [
         {
@@ -138,7 +138,7 @@
         },
         {
           "file": "06_history.svg",
-          "sha256": "ed00a61910bd84ae9ca528e9875152a0e89f3fb0503d77f44e13bf153cab90b9"
+          "sha256": "2f66be738b0e2933f96b6b573641cd0ea4886baf1e1b463541df47b66094f9f7"
         },
         {
           "file": "07_hedonia.svg",

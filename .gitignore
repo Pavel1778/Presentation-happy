@@ -13,13 +13,7 @@ Thumbs.db
 .agents/**/images/
 .agents/**/media/
 .agents/**/backup/
-.agents/**/exports/preview/
-.agents/**/exports/*_video.pptx
-!.agents/**/exports/happiness_concept_v5_video.pptx
-.agents/**/exports/*_narrated.pptx
-.agents/**/exports/happiness_concept_v3.pptx
-.agents/**/exports/happiness_concept_v4.pptx
-.agents/**/exports/happiness_concept_v4_video.pptx
+.agents/**/exports/
 .agents/**/preview_v4/
 .agents/**/svg_final/
 .agents/**/icons/**/*.json
@@ -28,3 +22,4 @@ Thumbs.db
 .agent_tmp/
 .cache/
 node_modules/
+.agents/**/validation/_pdf_pages/

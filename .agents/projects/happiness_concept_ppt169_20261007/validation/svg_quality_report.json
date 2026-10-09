@@ -4,7 +4,7 @@
   "target": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007",
   "source_fingerprint": {
     "algorithm": "sha256",
-    "digest": "2e871e97aad13f61e83c4d77c6898bcb408bdd3c0fae21987ecea1d91e2baef6",
+    "digest": "096fa9a66a78213da25fbae93bd6bade4d4e72a0f9b892be7d8d4e4ec06e19e4",
     "file_count": 15,
     "files": [
       {
@@ -33,7 +33,7 @@
       },
       {
         "file": "06_history.svg",
-        "sha256": "ed00a61910bd84ae9ca528e9875152a0e89f3fb0503d77f44e13bf153cab90b9"
+        "sha256": "2f66be738b0e2933f96b6b573641cd0ea4886baf1e1b463541df47b66094f9f7"
       },
       {
         "file": "07_hedonia.svg",
@@ -359,7 +359,7 @@
   "files": [
     {
       "file": "01_cover.svg",
-      "path": "svg_output/01_cover.svg",
+      "path": ".agents/projects/happiness_concept_ppt169_20261007/svg_output/01_cover.svg",
       "exists": true,
       "errors": [],
       "warnings": [
@@ -432,7 +432,7 @@
     },
     {
       "file": "01_goals.svg",
-      "path": "svg_output/01_goals.svg",
+      "path": ".agents/projects/happiness_concept_ppt169_20261007/svg_output/01_goals.svg",
       "exists": true,
       "errors": [],
       "warnings": [
@@ -507,7 +507,7 @@
     },
     {
       "file": "02_toc.svg",
-      "path": "svg_output/02_toc.svg",
+      "path": ".agents/projects/happiness_concept_ppt169_20261007/svg_output/02_toc.svg",
       "exists": true,
       "errors": [],
       "warnings": [
@@ -582,7 +582,7 @@
     },
     {
       "file": "03_why.svg",
-      "path": "svg_output/03_why.svg",
+      "path": ".agents/projects/happiness_concept_ppt169_20261007/svg_output/03_why.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -654,7 +654,7 @@
     },
     {
       "file": "04_science.svg",
-      "path": "svg_output/04_science.svg",
+      "path": ".agents/projects/happiness_concept_ppt169_20261007/svg_output/04_science.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -728,7 +728,7 @@
     },
     {
       "file": "05_physiology.svg",
-      "path": "svg_output/05_physiology.svg",
+      "path": ".agents/projects/happiness_concept_ppt169_20261007/svg_output/05_physiology.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -804,7 +804,7 @@
     },
     {
       "file": "06_history.svg",
-      "path": "svg_output/06_history.svg",
+      "path": ".agents/projects/happiness_concept_ppt169_20261007/svg_output/06_history.svg",
       "exists": true,
       "errors": [],
       "warnings": [
@@ -875,11 +875,11 @@
         }
       },
       "passed": true,
-      "source_sha256": "ed00a61910bd84ae9ca528e9875152a0e89f3fb0503d77f44e13bf153cab90b9"
+      "source_sha256": "2f66be738b0e2933f96b6b573641cd0ea4886baf1e1b463541df47b66094f9f7"
     },
     {
       "file": "07_hedonia.svg",
-      "path": "svg_output/07_hedonia.svg",
+      "path": ".agents/projects/happiness_concept_ppt169_20261007/svg_output/07_hedonia.svg",
       "exists": true,
       "errors": [],
       "warnings": [
@@ -959,7 +959,7 @@
     },
     {
       "file": "08_formula.svg",
-      "path": "svg_output/08_formula.svg",
+      "path": ".agents/projects/happiness_concept_ppt169_20261007/svg_output/08_formula.svg",
       "exists": true,
       "errors": [],
       "warnings": [
@@ -1033,7 +1033,7 @@
     },
     {
       "file": "09_factors.svg",
-      "path": "svg_output/09_factors.svg",
+      "path": ".agents/projects/happiness_concept_ppt169_20261007/svg_output/09_factors.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -1106,7 +1106,7 @@
     },
     {
       "file": "10_easterlin.svg",
-      "path": "svg_output/10_easterlin.svg",
+      "path": ".agents/projects/happiness_concept_ppt169_20261007/svg_output/10_easterlin.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -1179,7 +1179,7 @@
     },
     {
       "file": "11_education.svg",
-      "path": "svg_output/11_education.svg",
+      "path": ".agents/projects/happiness_concept_ppt169_20261007/svg_output/11_education.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -1251,7 +1251,7 @@
     },
     {
       "file": "12_digital.svg",
-      "path": "svg_output/12_digital.svg",
+      "path": ".agents/projects/happiness_concept_ppt169_20261007/svg_output/12_digital.svg",
       "exists": true,
       "errors": [],
       "warnings": [
@@ -1325,7 +1325,7 @@
     },
     {
       "file": "13_recommendations.svg",
-      "path": "svg_output/13_recommendations.svg",
+      "path": ".agents/projects/happiness_concept_ppt169_20261007/svg_output/13_recommendations.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -1396,7 +1396,7 @@
     },
     {
       "file": "15_sources.svg",
-      "path": "svg_output/15_sources.svg",
+      "path": ".agents/projects/happiness_concept_ppt169_20261007/svg_output/15_sources.svg",
       "exists": true,
       "errors": [],
       "warnings": [
