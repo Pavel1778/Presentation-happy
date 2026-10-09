@@ -4362,3 +4362,215 @@ stderr:
 cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
 argv: ["/usr/local/bin/python3", "scripts/animation_config.py", "validate", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007"]
 === 2026-10-09T18:55:05.061Z END run=252e4098feed elapsed_ms=315 output_lines=1 retained=0 omitted=1 ===
+
+=== 2026-10-09T18:59:49.983Z PYTHON run=6e584c4b200b ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--list-groups"]
+stderr:
+  usage: svg_to_pptx.py [-h] [-o OUTPUT] [-s SOURCE]
+                        [-f {ppt169,ppt43,wechat,xiaohongshu,moments,story,banner,a4}]
+                        [-q] [--quick-generate] [--primary-language TAG]
+                        [--roundtrip]
+                        [--enable-dangerous-nonconforming-svg-export]
+                        [--reflow-text | --merge-paragraphs | --no-merge]
+                        [--conversion-trace [PATH]] [--native-charts-and-tables]
+                        [--pptx-structure {structured,flat,baseline,template,preserve,generated}]
+stderr-tail:
+                        [--narration-start-floor NARRATION_START_FLOOR]
+                        [--inherit-motion-from BASE_POSTFLIGHT_REPORT]
+                        project_path
+  svg_to_pptx.py: error: unrecognized arguments: --list-groups
+=== 2026-10-09T18:59:50.950Z END run=6e584c4b200b elapsed_ms=967 output_lines=30 retained=12 omitted=18 ===
+
+=== 2026-10-09T19:07:11.602Z PYTHON run=873603c99cac ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/animation_config.py", "validate", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007"]
+=== 2026-10-09T19:07:11.903Z END run=873603c99cac elapsed_ms=301 output_lines=1 retained=0 omitted=1 ===
+
+=== 2026-10-09T19:07:15.254Z PYTHON run=9551e6bafca8 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_quality_checker.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--stage", "final", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 01_goals.svg - Passed (with warnings)
+     [WARN] Image ../images/p02_goals.jpg is 7360x4912 and renders at 0.17x scale in a 1280x720 slice frame; the source is 1.5 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [OK] 03_why.svg - Passed
+  [ERROR] 08_formula.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <g id="donut-seg1"> data-pptx-bounds overlaps <g id="donut-seg2"> data-pptx-bounds by 89.0px x 272.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+     [ERROR] <g id="donut-seg1"> data-pptx-bounds overlaps <g id="donut-seg3"> data-pptx-bounds by 89.0px x 73.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+     [ERROR] <g id="donut-seg1"> data-pptx-bounds overlaps <g id="donut-center"> data-pptx-bounds by 92.0px x 60.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+     [ERROR] <g id="donut-seg2"> data-pptx-bounds overlaps <g id="donut-seg3"> data-pptx-bounds by 89.0px x 45.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+     [ERROR] <g id="donut-seg2"> data-pptx-bounds overlaps <g id="donut-center"> data-pptx-bounds by 89.0px x 60.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+     [ERROR] <text> (x=330, y=368; text='С = Н + В + О') exceeds <g id="donut-center"> data-pptx-bounds on the horizontal and vertical axis: content (230.2, 344.2)-(429.8, 377.8), container (238.0, 354.0)-(422.0, 414.0), overflow horizontal 4.2%, vertical 16.3% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈28.5 px per mixed char at 28px incl. headroom; ≈6 chars fit in 184 px
+     [WARN] <text> (x=330, y=402; text='формула счастья') exceeds <g id="donut-center"> data-pptx-bounds on the horizontal axis: content (235.1, 383.3)-(424.9, 409.7), container (238.0, 354.0)-(422.0, 414.0), overflow horizontal 1.6%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈13.6 px per mixed char at 22px incl. headroom; ≈13 chars fit in 184 px
+  [OK] 09_factors.svg - Passed
+     viewBox: 0 0 1280 720
+  [ERROR] 10_easterlin.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <g id="chart"> data-pptx-bounds overlaps <g id="chart-line"> data-pptx-bounds by 650.0px x 222.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+     [ERROR] <g id="chart"> data-pptx-bounds overlaps <g id="chart-mark"> data-pptx-bounds by 22.0px x 22.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+     [ERROR] <g id="chart-line"> data-pptx-bounds overlaps <g id="chart-mark"> data-pptx-bounds by 22.0px x 22.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+  [ERROR] 11_education.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <g id="chart"> data-pptx-bounds overlaps <g id="chart-line"> data-pptx-bounds by 560.0px x 200.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+     [ERROR] <g id="chart"> data-pptx-bounds overlaps <g id="chart-mark"> data-pptx-bounds by 22.0px x 22.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+     [ERROR] <g id="chart-line"> data-pptx-bounds overlaps <g id="chart-mark"> data-pptx-bounds by 22.0px x 11.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+  [WARN] 12_digital.svg - Passed (with warnings)
+     viewBox: 0 0 1280 720
+     [WARN] Image ../images/p13_digital.jpg is 5616x3744 and renders at 0.23x scale in a 1280x720 slice frame; the source is 10.3 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [OK] 13_recommendations.svg - Passed
+  [SUMMARY] Check Summary
+  Total files: 15
+    [OK] Fully passed: 5 (33%)
+    [WARN] With warnings: 7 (46%)
+    [ERROR] With errors: 3 (20%)
+  Provenance categories:
+    blocking: 12         hard findings; gate also requires exit 0
+    introduced: 10       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 15 | text: 212 | images: 20 | icons: 45
+    Geometry: SVG elements 134 | native presets 0 | page-frame elements 47 | marker uses 0
+  [REPORT] JSON quality report exported: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json
+=== 2026-10-09T19:07:19.273Z END run=9551e6bafca8 elapsed_ms=4019 output_lines=99 retained=44 omitted=55 ===
+
+=== 2026-10-09T19:07:48.909Z PYTHON run=987392aa407b ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_quality_checker.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--stage", "final", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 01_goals.svg - Passed (with warnings)
+     [WARN] Image ../images/p02_goals.jpg is 7360x4912 and renders at 0.17x scale in a 1280x720 slice frame; the source is 1.5 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [OK] 03_why.svg - Passed
+  [SUMMARY] Check Summary
+  Total files: 15
+    [OK] Fully passed: 8 (53%)
+    [WARN] With warnings: 7 (46%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 9        advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 15 | text: 212 | images: 20 | icons: 45
+    Geometry: SVG elements 134 | native presets 0 | page-frame elements 54 | marker uses 0
+  [REPORT] JSON quality report exported: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json
+=== 2026-10-09T19:07:52.890Z END run=987392aa407b elapsed_ms=3981 output_lines=84 retained=19 omitted=65 ===
+
+=== 2026-10-09T19:07:56.034Z PYTHON run=54e5014b750b ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "-f", "ppt169", "--with-notes", "--animation-config", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/animations.json", "--image-sizing", "display", "--image-quality", "82", "-o", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx"]
+stdout:
+  [Done] Saved: /workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx
+    [POSTFLIGHT] status=passed-with-warnings quality_gate=passed slides=15 warning_categories=1
+    [POSTFLIGHT][WARNING] quality_introduced_warnings=9
+    [PPTX] /workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx
+    [REPORT] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/Konceptsiya_schastya.report.json
+=== 2026-10-09T19:08:07.836Z END run=54e5014b750b elapsed_ms=11802 output_lines=73 retained=5 omitted=68 ===
+
+=== 2026-10-09T19:08:40.144Z PYTHON run=dbd2d4077d7d ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "-f", "ppt169", "--with-notes", "--animation-config", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/animations.json", "--image-sizing", "display", "--image-quality", "82", "-o", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx"]
+stdout:
+  [Done] Saved: /workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx
+    [POSTFLIGHT] status=passed-with-warnings quality_gate=passed slides=15 warning_categories=1
+    [POSTFLIGHT][WARNING] quality_introduced_warnings=9
+    [PPTX] /workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx
+    [REPORT] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/Konceptsiya_schastya.report.json
+=== 2026-10-09T19:08:51.972Z END run=dbd2d4077d7d elapsed_ms=11827 output_lines=73 retained=5 omitted=68 ===
+
+=== 2026-10-09T19:09:46.003Z PYTHON run=82e21f4643a2 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "-f", "ppt169", "--with-notes", "--animation-config", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/animations.json", "--image-sizing", "display", "--image-quality", "82", "-o", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx"]
+stderr:
+  Error: default release export requires a passing final SVG quality report for the current svg_output/; found stale.
+  Run: python3 skills/ppt-master/scripts/svg_quality_checker.py "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007" --canonical-authoring --stage final --json
+=== 2026-10-09T19:09:47.022Z END run=82e21f4643a2 elapsed_ms=1019 output_lines=2 retained=2 omitted=0 ===
+
+=== 2026-10-09T19:09:49.816Z PYTHON run=e193496626a4 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_quality_checker.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 01_goals.svg - Passed (with warnings)
+     [WARN] Image ../images/p02_goals.jpg is 7360x4912 and renders at 0.17x scale in a 1280x720 slice frame; the source is 1.5 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [OK] 03_why.svg - Passed
+  [SUMMARY] Check Summary
+  Total files: 15
+    [OK] Fully passed: 7 (46%)
+    [WARN] With warnings: 8 (53%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 10       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 15 | text: 212 | images: 20 | icons: 45
+    Geometry: SVG elements 134 | native presets 0 | page-frame elements 54 | marker uses 0
+  [REPORT] JSON quality report exported: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json
+=== 2026-10-09T19:09:53.857Z END run=e193496626a4 elapsed_ms=4041 output_lines=85 retained=19 omitted=66 ===
+
+=== 2026-10-09T19:09:56.661Z PYTHON run=042329df60cd ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "-f", "ppt169", "--with-notes", "--animation-config", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/animations.json", "--image-sizing", "display", "--image-quality", "82", "-o", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx"]
+stdout:
+  [Done] Saved: /workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx
+    [POSTFLIGHT] status=passed-with-warnings quality_gate=passed slides=15 warning_categories=1
+    [POSTFLIGHT][WARNING] quality_introduced_warnings=10
+    [PPTX] /workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx
+    [REPORT] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/Konceptsiya_schastya.report.json
+=== 2026-10-09T19:10:08.574Z END run=042329df60cd elapsed_ms=11913 output_lines=73 retained=5 omitted=68 ===
+
+=== 2026-10-09T19:10:33.450Z PYTHON run=ca7383806d48 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "-f", "ppt169", "--with-notes", "--animation-config", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/animations.json", "--image-sizing", "display", "--image-quality", "82", "-o", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya_bez_video.pptx"]
+stdout:
+  [Done] Saved: /workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya_bez_video.pptx
+    [POSTFLIGHT] status=passed-with-warnings quality_gate=passed slides=15 warning_categories=1
+    [POSTFLIGHT][WARNING] quality_introduced_warnings=10
+    [PPTX] /workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya_bez_video.pptx
+    [REPORT] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/Konceptsiya_schastya_bez_video.report.json
+=== 2026-10-09T19:10:45.410Z END run=ca7383806d48 elapsed_ms=11959 output_lines=73 retained=5 omitted=68 ===
+
+=== 2026-10-09T19:12:57.685Z PYTHON run=75a7b5b23001 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/skills/ppt-master
+argv: ["/usr/local/bin/python3", "scripts/svg_to_pptx.py", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007", "-f", "ppt169", "--with-notes", "--animation-config", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/animations.json", "--image-sizing", "display", "--image-quality", "82", "-o", "/workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx"]
+stdout:
+  [Done] Saved: /workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx
+    [POSTFLIGHT] status=passed-with-warnings quality_gate=passed slides=15 warning_categories=1
+    [POSTFLIGHT][WARNING] quality_introduced_warnings=10
+    [PPTX] /workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx
+    [REPORT] /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/Konceptsiya_schastya.report.json
+=== 2026-10-09T19:13:09.721Z END run=75a7b5b23001 elapsed_ms=12036 output_lines=73 retained=5 omitted=68 ===
+
+=== 2026-10-09T19:13:24.537Z PYTHON run=59e3f8107a92 ===
+cwd: /workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007
+argv: ["/usr/local/bin/python3", "../../skills/ppt-master/scripts/svg_quality_checker.py", ".", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Image ../images/p01_cover.jpg is 6230x3894 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [WARN] 01_goals.svg - Passed (with warnings)
+     [WARN] Image ../images/p02_goals.jpg is 7360x4912 and renders at 0.17x scale in a 1280x720 slice frame; the source is 1.5 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time
+  [OK] 03_why.svg - Passed
+  [SUMMARY] Check Summary
+  Total files: 15
+    [OK] Fully passed: 7 (46%)
+    [WARN] With warnings: 8 (53%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 10       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 15 | text: 212 | images: 20 | icons: 45
+    Geometry: SVG elements 134 | native presets 0 | page-frame elements 54 | marker uses 0
+  [REPORT] JSON quality report exported: validation/svg_quality_report.json
+=== 2026-10-09T19:13:28.619Z END run=59e3f8107a92 elapsed_ms=4082 output_lines=85 retained=19 omitted=66 ===

@@ -2,8 +2,8 @@
   "schema": "ppt-master.pptx-postflight-report.v1",
   "status": "passed-with-warnings",
   "output": {
-    "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya_bez_video.pptx",
-    "bytes": 13470420
+    "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx",
+    "bytes": 13471364
   },
   "source": {
     "svg_slide_count": 15,

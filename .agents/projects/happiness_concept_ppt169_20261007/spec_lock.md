@@ -10,7 +10,7 @@
 - audience: преподаватели колледжа и аттестационная комиссия
 - objective: показать, что делает людей счастливыми в современном мире
 - core_message: счастье — результат осознанных усилий, а не только генов и денег
-- consumption_mode: narrated-slideshow
+- consumption_mode: named-slideshow
 
 ## mode
 - mode: deck
