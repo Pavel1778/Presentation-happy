@@ -4,7 +4,7 @@
   "target": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007",
   "source_fingerprint": {
     "algorithm": "sha256",
-    "digest": "67c765f80f064701b133f2dde43abe7b42c47fab0ed03e9858cbc8f13dadcbd5",
+    "digest": "69d5db2f0324fe5d6af50ebfb4ee400030c8d4e63ef34575604ace31350b6e36",
     "file_count": 15,
     "files": [
       {
@@ -21,7 +21,7 @@
       },
       {
         "file": "03_why.svg",
-        "sha256": "91b8b8d7438da4db8ca2e9c10c65196a78e41eddd14389a58e3fd0214c52750d"
+        "sha256": "afe13ce727457eea6b991a425bfacc0deb4d8ca50f2360364387226cf268104b"
       },
       {
         "file": "04_science.svg",
@@ -29,7 +29,7 @@
       },
       {
         "file": "05_physiology.svg",
-        "sha256": "e970a47345b422b6d669023db16232dbd8e67269fb32ff7a4d151b5070901152"
+        "sha256": "a41b691c0712bdaf3241b36e902fdf07f3d79f698066738f072475cba049fa97"
       },
       {
         "file": "06_history.svg",
@@ -41,7 +41,7 @@
       },
       {
         "file": "08_formula.svg",
-        "sha256": "8d63c8b887f7b3b30a6928e26be96abfaf33cea832e9e1c781f3d379419bb64f"
+        "sha256": "41fb79a29a03f989865dc45a578d45e05bab5368699e55a7deee76d9cd89657d"
       },
       {
         "file": "09_factors.svg",
@@ -65,14 +65,14 @@
       },
       {
         "file": "15_sources.svg",
-        "sha256": "7b50c3f54ea724bc064100b7a79ea86bfbeb2ebb79da8f42c41892d5324894de"
+        "sha256": "4411f23cc110575c25585b8dba98f92ae5a3ca89e3dd976db0c85b6853a16806"
       }
     ]
   },
   "summary": {
     "total": 15,
-    "passed": 8,
-    "warnings": 7,
+    "passed": 6,
+    "warnings": 9,
     "errors": 0
   },
   "issue_types": {},
@@ -82,7 +82,7 @@
       "issues": []
     },
     "introduced": {
-      "count": 14,
+      "count": 17,
       "issues": [
         {
           "file": "01_cover.svg",
@@ -95,6 +95,14 @@
         {
           "file": "02_toc.svg",
           "message": "Image ../images/p03_toc.jpg is 6048x4032 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+        },
+        {
+          "file": "03_why.svg",
+          "message": "<text> (x=110, y=584; text='Источник: CDC/ВОЗ') exceeds <g id=\"chart-dep\"> data-pptx-bounds on the vertical axis: content (110.0, 565.3)-(334.2, 591.7), container (80.0, 185.0)-(630.0, 585.0), overflow horizontal 0.0%, vertical 1.7% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text"
+        },
+        {
+          "file": "03_why.svg",
+          "message": "<text> (x=690, y=584; text='Источник: World Happ…') exceeds <g id=\"chart-hap\"> data-pptx-bounds on the vertical axis: content (690.0, 565.3)-(1060.3, 591.7), container (660.0, 185.0)-(1200.0, 585.0), overflow horizontal 0.0%, vertical 1.7% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text"
         },
         {
           "file": "06_history.svg",
@@ -127,6 +135,10 @@
         {
           "file": "07_hedonia.svg",
           "message": "Image ../images/eud_meaning.jpg is 3456x2592 and renders at 0.14x scale in a 480x200 slice frame; the source is 1.6 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+        },
+        {
+          "file": "08_formula.svg",
+          "message": "<text> (x=200, y=664; text='Мета-анализы (Rohrer…') exceeds <g id=\"note\"> data-pptx-bounds on the horizontal axis: content (200.0, 645.3)-(1218.1, 671.7), container (80.0, 600.0)-(1200.0, 676.0), overflow horizontal 1.6%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈13.4 px per mixed char at 22px incl. headroom; ≈83 chars fit in 1120 px"
         },
         {
           "file": "12_digital.svg",
@@ -213,7 +225,6 @@
       "#8A97A3": [
         "01_goals.svg",
         "02_toc.svg",
-        "03_why.svg",
         "04_science.svg",
         "05_physiology.svg",
         "07_hedonia.svg",
@@ -601,7 +612,10 @@
       "path": ".agents/projects/happiness_concept_ppt169_20261007/svg_output/03_why.svg",
       "exists": true,
       "errors": [],
-      "warnings": [],
+      "warnings": [
+        "<text> (x=110, y=584; text='Источник: CDC/ВОЗ') exceeds <g id=\"chart-dep\"> data-pptx-bounds on the vertical axis: content (110.0, 565.3)-(334.2, 591.7), container (80.0, 185.0)-(630.0, 585.0), overflow horizontal 0.0%, vertical 1.7% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text",
+        "<text> (x=690, y=584; text='Источник: World Happ…') exceeds <g id=\"chart-hap\"> data-pptx-bounds on the vertical axis: content (690.0, 565.3)-(1060.3, 591.7), container (660.0, 185.0)-(1200.0, 585.0), overflow horizontal 0.0%, vertical 1.7% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text"
+      ],
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
@@ -656,7 +670,6 @@
           "colors": [
             "#1F4E79",
             "#5D6D7E",
-            "#8A97A3",
             "#95A5A6",
             "#D6EAF8",
             "#E3E8ED",
@@ -668,7 +681,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "91b8b8d7438da4db8ca2e9c10c65196a78e41eddd14389a58e3fd0214c52750d"
+      "source_sha256": "afe13ce727457eea6b991a425bfacc0deb4d8ca50f2360364387226cf268104b"
     },
     {
       "file": "04_science.svg",
@@ -818,7 +831,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "e970a47345b422b6d669023db16232dbd8e67269fb32ff7a4d151b5070901152"
+      "source_sha256": "a41b691c0712bdaf3241b36e902fdf07f3d79f698066738f072475cba049fa97"
     },
     {
       "file": "06_history.svg",
@@ -984,7 +997,9 @@
       "path": ".agents/projects/happiness_concept_ppt169_20261007/svg_output/08_formula.svg",
       "exists": true,
       "errors": [],
-      "warnings": [],
+      "warnings": [
+        "<text> (x=200, y=664; text='Мета-анализы (Rohrer…') exceeds <g id=\"note\"> data-pptx-bounds on the horizontal axis: content (200.0, 645.3)-(1218.1, 671.7), container (80.0, 600.0)-(1200.0, 676.0), overflow horizontal 1.6%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈13.4 px per mixed char at 22px incl. headroom; ≈83 chars fit in 1120 px"
+      ],
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
@@ -1049,7 +1064,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "8d63c8b887f7b3b30a6928e26be96abfaf33cea832e9e1c781f3d379419bb64f"
+      "source_sha256": "41fb79a29a03f989865dc45a578d45e05bab5368699e55a7deee76d9cd89657d"
     },
     {
       "file": "09_factors.svg",
@@ -1485,7 +1500,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "7b50c3f54ea724bc064100b7a79ea86bfbeb2ebb79da8f42c41892d5324894de"
+      "source_sha256": "4411f23cc110575c25585b8dba98f92ae5a3ca89e3dd976db0c85b6853a16806"
     }
   ]
 }
