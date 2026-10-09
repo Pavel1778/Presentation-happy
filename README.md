@@ -107,6 +107,14 @@ python3 scripts/svg_to_pptx.py \
   -o ./Konceptsiya_schastya_bez_video.pptx
 ```
 
+Встроить видео в слайд 6 и пересобрать PDF (оба скрипта в
+`.agents/projects/happiness_concept_ppt169_20261007/tools/`):
+
+```bash
+python3 .../tools/embed_slide6_video.py   # берёт *_bez_video.pptx и кладёт mp4 в слайд 6
+python3 .../tools/render_pdf.py           # рендерит Konceptsiya_schastya.pdf из svg_output/
+```
+
 Проверка качества SVG и готового PPTX:
 
 ```bash

@@ -1,302 +1,110 @@
 {
   "version": 1,
   "defaults": {
-    "transition": {
-      "effect": "fade",
-      "duration": 0.5
-    },
-    "animation": {
-      "effect": "none"
-    }
+    "transition": { "effect": "fade", "duration": 0.5 },
+    "animation": { "effect": "none" }
   },
   "slides": {
     "01_cover": {
-      "transition": {
-        "effect": "none"
-      }
+      "transition": { "effect": "none" }
     },
     "01_goals": {
       "groups": {
-        "title": {
-          "effect": "entrance_fade",
-          "order": 1,
-          "duration": 0.4,
-          "trigger": "after-previous"
-        },
-        "goal": {
-          "effect": "entrance_fade",
-          "order": 2,
-          "duration": 0.5,
-          "trigger": "after-previous"
-        },
-        "tasks": {
-          "effect": "entrance_fade",
-          "order": 3,
-          "duration": 0.5,
-          "trigger": "after-previous"
-        }
+        "title": { "effect": "entrance_fade", "order": 1, "duration": 0.4, "trigger": "after-previous" },
+        "goal": { "effect": "entrance_fade", "order": 2, "duration": 0.5, "trigger": "after-previous" },
+        "tasks": { "effect": "entrance_fly", "order": 3, "duration": 0.5, "trigger": "after-previous" }
       }
     },
     "02_toc": {
       "groups": {
-        "title": {
-          "effect": "entrance_fade",
-          "order": 1,
-          "duration": 0.4,
-          "trigger": "after-previous"
-        },
-        "toc": {
-          "effect": "entrance_fade",
-          "order": 2,
-          "duration": 0.5,
-          "trigger": "after-previous"
-        }
+        "title": { "effect": "entrance_fade", "order": 1, "duration": 0.4, "trigger": "after-previous" },
+        "toc": { "effect": "entrance_fade", "order": 2, "duration": 0.5, "trigger": "after-previous" }
       }
     },
     "03_why": {
       "groups": {
-        "title": {
-          "effect": "entrance_fade",
-          "order": 1,
-          "duration": 0.4,
-          "trigger": "after-previous"
-        },
-        "chart-dep": {
-          "effect": "entrance_fade",
-          "order": 2,
-          "duration": 0.5,
-          "trigger": "after-previous"
-        },
-        "chart-hap": {
-          "effect": "entrance_fade",
-          "order": 3,
-          "duration": 0.5,
-          "trigger": "after-previous"
-        }
+        "title": { "effect": "entrance_fade", "order": 1, "duration": 0.4, "trigger": "after-previous" },
+        "chart-dep": { "effect": "entrance_wipe", "effect_options": { "direction": "up" }, "order": 2, "duration": 0.7, "trigger": "after-previous" },
+        "chart-hap": { "effect": "entrance_wipe", "effect_options": { "direction": "up" }, "order": 3, "duration": 0.7, "trigger": "after-previous" }
       }
     },
     "04_science": {
       "groups": {
-        "title": {
-          "effect": "entrance_fade",
-          "order": 1,
-          "duration": 0.4,
-          "trigger": "after-previous"
-        },
-        "swb": {
-          "effect": "entrance_fade",
-          "order": 2,
-          "duration": 0.5,
-          "trigger": "after-previous"
-        },
-        "approaches": {
-          "effect": "entrance_fade",
-          "order": 3,
-          "duration": 0.5,
-          "trigger": "after-previous"
-        }
+        "title": { "effect": "entrance_fade", "order": 1, "duration": 0.4, "trigger": "after-previous" },
+        "swb": { "effect": "entrance_zoom", "order": 2, "duration": 0.5, "trigger": "after-previous" },
+        "approaches": { "effect": "entrance_fade", "order": 3, "duration": 0.5, "trigger": "after-previous" }
       }
     },
     "05_physiology": {
       "groups": {
-        "title": {
-          "effect": "entrance_fade",
-          "order": 1,
-          "duration": 0.4,
-          "trigger": "after-previous"
-        },
-        "dopamine": {
-          "effect": "entrance_fade",
-          "order": 2,
-          "duration": 0.5,
-          "trigger": "after-previous"
-        },
-        "serotonin": {
-          "effect": "entrance_fade",
-          "order": 3,
-          "duration": 0.5,
-          "trigger": "after-previous"
-        }
+        "title": { "effect": "entrance_fade", "order": 1, "duration": 0.4, "trigger": "after-previous" },
+        "video": { "effect": "entrance_zoom", "order": 2, "duration": 0.5, "trigger": "after-previous" },
+        "note": { "effect": "entrance_fade", "order": 3, "duration": 0.4, "trigger": "after-previous" }
       }
     },
     "06_history": {
       "groups": {
-        "title": {
-          "effect": "entrance_fade",
-          "order": 1,
-          "duration": 0.4,
-          "trigger": "after-previous"
-        },
-        "timeline": {
-          "effect": "entrance_fade",
-          "order": 2,
-          "duration": 0.5,
-          "trigger": "after-previous"
-        }
+        "title": { "effect": "entrance_fade", "order": 1, "duration": 0.4, "trigger": "after-previous" },
+        "timeline": { "effect": "entrance_wipe", "effect_options": { "direction": "left" }, "order": 2, "duration": 0.8, "trigger": "after-previous" },
+        "note": { "effect": "entrance_fade", "order": 3, "duration": 0.4, "trigger": "after-previous" }
       }
     },
     "07_hedonia": {
       "groups": {
-        "title": {
-          "effect": "entrance_fade",
-          "order": 1,
-          "duration": 0.4,
-          "trigger": "after-previous"
-        },
-        "compare": {
-          "effect": "entrance_fade",
-          "order": 2,
-          "duration": 0.5,
-          "trigger": "after-previous"
-        }
+        "title": { "effect": "entrance_fade", "order": 1, "duration": 0.4, "trigger": "after-previous" },
+        "compare": { "effect": "entrance_fade", "order": 2, "duration": 0.6, "trigger": "after-previous" },
+        "note": { "effect": "entrance_fade", "order": 3, "duration": 0.4, "trigger": "after-previous" }
       }
     },
     "08_formula": {
+      "transition": { "effect": "fade", "duration": 0.5 },
       "groups": {
-        "title": {
-          "effect": "entrance_fade",
-          "order": 1,
-          "duration": 0.4,
-          "trigger": "after-previous"
-        },
-        "donut": {
-          "effect": "entrance_fade",
-          "order": 2,
-          "duration": 0.5,
-          "trigger": "after-previous"
-        },
-        "legend": {
-          "effect": "entrance_fade",
-          "order": 3,
-          "duration": 0.5,
-          "trigger": "after-previous"
-        }
+        "title": { "effect": "entrance_fade", "order": 1, "duration": 0.4, "trigger": "after-previous" },
+        "donut": { "effect": "entrance_wheel", "order": 2, "duration": 0.8, "trigger": "after-previous" },
+        "legend": { "effect": "entrance_fade", "order": 3, "duration": 0.4, "trigger": "after-previous" }
       }
     },
     "09_factors": {
       "groups": {
-        "title": {
-          "effect": "entrance_fade",
-          "order": 1,
-          "duration": 0.4,
-          "trigger": "after-previous"
-        },
-        "photo": {
-          "effect": "entrance_fade",
-          "order": 2,
-          "duration": 0.5,
-          "trigger": "after-previous"
-        },
-        "factors": {
-          "effect": "entrance_fade",
-          "order": 3,
-          "duration": 0.5,
-          "trigger": "after-previous"
-        }
+        "title": { "effect": "entrance_fade", "order": 1, "duration": 0.4, "trigger": "after-previous" },
+        "photo": { "effect": "entrance_fade", "order": 2, "duration": 0.6, "trigger": "after-previous" },
+        "factors": { "effect": "entrance_fly", "order": 3, "duration": 0.5, "trigger": "after-previous" }
       }
     },
     "10_easterlin": {
+      "transition": { "effect": "fade", "duration": 0.5 },
       "groups": {
-        "title": {
-          "effect": "entrance_fade",
-          "order": 1,
-          "duration": 0.4,
-          "trigger": "after-previous"
-        },
-        "chart": {
-          "effect": "entrance_fade",
-          "order": 2,
-          "duration": 0.5,
-          "trigger": "after-previous"
-        },
-        "theses": {
-          "effect": "entrance_fade",
-          "order": 3,
-          "duration": 0.5,
-          "trigger": "after-previous"
-        }
+        "title": { "effect": "entrance_fade", "order": 1, "duration": 0.4, "trigger": "after-previous" },
+        "chart": { "effect": "entrance_wipe", "effect_options": { "direction": "left" }, "order": 2, "duration": 0.9, "trigger": "after-previous" },
+        "theses": { "effect": "entrance_fade", "order": 3, "duration": 0.5, "trigger": "after-previous" }
       }
     },
     "11_education": {
       "groups": {
-        "title": {
-          "effect": "entrance_fade",
-          "order": 1,
-          "duration": 0.4,
-          "trigger": "after-previous"
-        },
-        "chart": {
-          "effect": "entrance_fade",
-          "order": 2,
-          "duration": 0.5,
-          "trigger": "after-previous"
-        },
-        "list": {
-          "effect": "entrance_fade",
-          "order": 3,
-          "duration": 0.5,
-          "trigger": "after-previous"
-        }
+        "title": { "effect": "entrance_fade", "order": 1, "duration": 0.4, "trigger": "after-previous" },
+        "chart": { "effect": "entrance_wipe", "effect_options": { "direction": "left" }, "order": 2, "duration": 0.9, "trigger": "after-previous" },
+        "list": { "effect": "entrance_fade", "order": 3, "duration": 0.5, "trigger": "after-previous" }
       }
     },
     "12_digital": {
+      "transition": { "effect": "fade", "duration": 0.5 },
       "groups": {
-        "title": {
-          "effect": "entrance_fade",
-          "order": 1,
-          "duration": 0.4,
-          "trigger": "after-previous"
-        },
-        "plus": {
-          "effect": "entrance_fade",
-          "order": 2,
-          "duration": 0.5,
-          "trigger": "after-previous"
-        },
-        "minus": {
-          "effect": "entrance_fade",
-          "order": 3,
-          "duration": 0.5,
-          "trigger": "after-previous"
-        }
+        "title": { "effect": "entrance_fade", "order": 1, "duration": 0.4, "trigger": "after-previous" },
+        "plus": { "effect": "entrance_fade", "order": 2, "duration": 0.5, "trigger": "after-previous" },
+        "minus": { "effect": "entrance_fade", "order": 3, "duration": 0.5, "trigger": "after-previous" }
       }
     },
     "13_recommendations": {
       "groups": {
-        "title": {
-          "effect": "entrance_fade",
-          "order": 1,
-          "duration": 0.4,
-          "trigger": "after-previous"
-        },
-        "recs": {
-          "effect": "entrance_fade",
-          "order": 2,
-          "duration": 0.5,
-          "trigger": "after-previous"
-        }
+        "title": { "effect": "entrance_fade", "order": 1, "duration": 0.4, "trigger": "after-previous" },
+        "recs": { "effect": "entrance_fly", "order": 2, "duration": 0.6, "trigger": "after-previous" }
       }
     },
     "15_sources": {
       "groups": {
-        "title": {
-          "effect": "entrance_fade",
-          "order": 1,
-          "duration": 0.4,
-          "trigger": "after-previous"
-        },
-        "conclusions": {
-          "effect": "entrance_fade",
-          "order": 2,
-          "duration": 0.5,
-          "trigger": "after-previous"
-        },
-        "qr": {
-          "effect": "entrance_fade",
-          "order": 3,
-          "duration": 0.5,
-          "trigger": "after-previous"
-        }
+        "title": { "effect": "entrance_fade", "order": 1, "duration": 0.4, "trigger": "after-previous" },
+        "conclusions": { "effect": "entrance_fade", "order": 2, "duration": 0.5, "trigger": "after-previous" },
+        "qr": { "effect": "entrance_zoom", "order": 3, "duration": 0.5, "trigger": "after-previous" }
       }
     }
   }

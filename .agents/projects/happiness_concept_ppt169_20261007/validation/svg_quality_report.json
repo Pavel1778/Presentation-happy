@@ -4,68 +4,68 @@
   "target": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007",
   "source_fingerprint": {
     "algorithm": "sha256",
-    "digest": "9aa3db5ed3a86ec53e7a57df9e536beb65c763e8d51316298f70b658570456ef",
+    "digest": "5a10ea9548cbf26369da4166204c62938ef80ca99545bfa7098bbfee7bef5a21",
     "file_count": 15,
     "files": [
       {
         "file": "01_cover.svg",
-        "sha256": "a2c47c0abacf9e097266a154a24923d8cf4a4818a4829296349d80fa25d0b710"
+        "sha256": "152d71574004190529c17f84f64aeb79ec9df029ea6504ecb758aa4801c65de9"
       },
       {
         "file": "01_goals.svg",
-        "sha256": "704d719029b17579a78025490b5b1fe248e93caf6f0f9e27f47777dcbf2886a6"
+        "sha256": "64768ae3d145cfc574ab4309c141861e54052ccec0dc2831e83431c8601a7c55"
       },
       {
         "file": "02_toc.svg",
-        "sha256": "b3a2b1c65eb1823ca7a1cab3f04964e73a0b63c7418b5fef68f4c70548e8e16b"
+        "sha256": "4e4b3f804d024765a1b233b4fd4207a2e670a4421782e6f3c2953e1d234dd441"
       },
       {
         "file": "03_why.svg",
-        "sha256": "2535c958d94cfbc65e5032c2f2849824952642dd83e6202e317f595cad46d61d"
+        "sha256": "9044fd9b6ca89d73df0aa3df76d2ad1f8d4aa99832c822d61cbf31f1ec5bfda7"
       },
       {
         "file": "04_science.svg",
-        "sha256": "09005a56c509b4b31f54882c53b7f39a5662778a2be7f737174973deb3e4a0d0"
+        "sha256": "64d2512173ee5ad5b738dc0ccbc47d841a67e3e39f30eec54bccbc19d84b41c4"
       },
       {
         "file": "05_physiology.svg",
-        "sha256": "5ead9ed88e20ad3fa08c39711b221ba119516d2d7d8e149e560d262dde09ae03"
+        "sha256": "228cf7ae29e9034df28f7d707cc6b53c165e1abab7ca5d708ee423f822e82d86"
       },
       {
         "file": "06_history.svg",
-        "sha256": "ecd274452f7574d54c87c51237039dd69ee3cd596142fe1f9538318d0b8d67bd"
+        "sha256": "ed00a61910bd84ae9ca528e9875152a0e89f3fb0503d77f44e13bf153cab90b9"
       },
       {
         "file": "07_hedonia.svg",
-        "sha256": "bca423a5f0d79462f9207d6a230b52d02e92ae7c6a5a887f07f6ab97206e48ba"
+        "sha256": "5a2fb686c4b2e989656b8640d7ed807d12b3416ea7e67464bc1c40ca7719981a"
       },
       {
         "file": "08_formula.svg",
-        "sha256": "c0ea7b9f46b088a6bce0d9f5a06b3ff4fc231106f4aa918616ad1ed4bdaf7958"
+        "sha256": "60a49583d187d214a41a0becb891ea86b39c037444febc1d81967d1646d7f750"
       },
       {
         "file": "09_factors.svg",
-        "sha256": "df38810413ff4a55cb4e94d18ca7a566295cff7b8209d61186743aab556d3cf1"
+        "sha256": "0c388fbe27749fb8d11e255db84a6b392221068dacb5b4f69a42335592485aaa"
       },
       {
         "file": "10_easterlin.svg",
-        "sha256": "dd92dfa68acefe5d124d7e514e66f0aee0e11b0165f30f93c1dd78708982868e"
+        "sha256": "4e122f5e98efd73778f1323fd263fb5435ab9a0e49b257c4752ead4f494f308f"
       },
       {
         "file": "11_education.svg",
-        "sha256": "2a0a95b5cf3a992d27144d3b1a97d0b2738a5fbb3586530b732afd8a77b23b21"
+        "sha256": "43708b678830525285a0ddabfe363e7f2cea81b5d0d7e32780c2538a0ff76a36"
       },
       {
         "file": "12_digital.svg",
-        "sha256": "b50e5655f35a04bb7f24172e00ec3c9b4d785c6a31dc47bddad19edb6fecdf37"
+        "sha256": "d7cc7952541943b6d7e3b884222045c04653dcc883bf7f22b33885d5daa7c28b"
       },
       {
         "file": "13_recommendations.svg",
-        "sha256": "10e0c6e9b518cb53b2020390ebde15cb272474668ca3851fd8cdab8c6eddfcd5"
+        "sha256": "40ada9600a222cefe951e13f5da2878bae800af1a170cd51d1e85b5cd8a1074e"
       },
       {
         "file": "15_sources.svg",
-        "sha256": "5235da45855fc14396176a6084405dc06c82775c3195b724bb75af33c929d796"
+        "sha256": "52d75abe9c98e97b0d01bfe11b1a28410f9c3433449391a1c2bf3847b6419c1f"
       }
     ]
   },
@@ -146,6 +146,23 @@
         "12_digital.svg",
         "15_sources.svg"
       ],
+      "#1F4E79": [
+        "01_cover.svg",
+        "01_goals.svg",
+        "02_toc.svg",
+        "03_why.svg",
+        "04_science.svg",
+        "05_physiology.svg",
+        "06_history.svg",
+        "07_hedonia.svg",
+        "08_formula.svg",
+        "09_factors.svg",
+        "10_easterlin.svg",
+        "11_education.svg",
+        "12_digital.svg",
+        "13_recommendations.svg",
+        "15_sources.svg"
+      ],
       "#27AE60": [
         "01_cover.svg",
         "02_toc.svg",
@@ -161,17 +178,30 @@
       ],
       "#5D6D7E": [
         "01_cover.svg",
+        "01_goals.svg",
         "02_toc.svg",
         "03_why.svg",
         "04_science.svg",
+        "05_physiology.svg",
         "06_history.svg",
         "07_hedonia.svg",
         "08_formula.svg",
         "09_factors.svg",
         "10_easterlin.svg",
         "11_education.svg",
+        "12_digital.svg",
         "13_recommendations.svg",
         "15_sources.svg"
+      ],
+      "#7F8C8D": [
+        "01_goals.svg",
+        "02_toc.svg",
+        "04_science.svg",
+        "05_physiology.svg",
+        "07_hedonia.svg",
+        "09_factors.svg",
+        "10_easterlin.svg",
+        "13_recommendations.svg"
       ],
       "#95A5A6": [
         "03_why.svg",
@@ -268,12 +298,12 @@
     "scope": "informational-not-a-quota",
     "pages": 15,
     "totals": {
-      "text_elements": 189,
+      "text_elements": 212,
       "image_placements": 20,
       "icons": 45,
-      "svg_geometry_elements": 121,
+      "svg_geometry_elements": 134,
       "preset_shapes": 0,
-      "page_frame_elements": 32,
+      "page_frame_elements": 47,
       "marker_uses": 0,
       "inline_emphasis_runs": 0,
       "gradient_uses": 15,
@@ -294,10 +324,10 @@
     },
     "relationship_pages": null,
     "geometry_elements": {
-      "circle": 15,
+      "circle": 14,
       "ellipse": 0,
-      "line": 11,
-      "path": 4,
+      "line": 26,
+      "path": 3,
       "polygon": 0,
       "polyline": 4,
       "rect": 87
@@ -334,7 +364,7 @@
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 7,
+          "text_elements": 8,
           "images": {
             "placements": 1,
             "files": [
@@ -354,14 +384,14 @@
               "rect": 3,
               "circle": 4,
               "ellipse": 0,
-              "line": 0,
+              "line": 1,
               "polyline": 0,
               "polygon": 0,
               "path": 0
             },
             "preset_shapes": 0,
             "preset_names": {},
-            "page_frame_elements": 4,
+            "page_frame_elements": 5,
             "marker_uses": {
               "start": 0,
               "mid": 0,
@@ -379,10 +409,11 @@
         "fonts": [
           "Arial"
         ],
-        "text_elements": 7,
+        "text_elements": 8,
         "tspan_elements": 4,
         "contextual_values": {
           "colors": [
+            "#1F4E79",
             "#27AE60",
             "#5D6D7E",
             "#D6EAF8",
@@ -393,7 +424,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "a2c47c0abacf9e097266a154a24923d8cf4a4818a4829296349d80fa25d0b710"
+      "source_sha256": "152d71574004190529c17f84f64aeb79ec9df029ea6504ecb758aa4801c65de9"
     },
     {
       "file": "01_goals.svg",
@@ -406,7 +437,7 @@
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 9,
+          "text_elements": 11,
           "images": {
             "placements": 1,
             "files": [
@@ -426,301 +457,14 @@
               "rect": 6,
               "circle": 0,
               "ellipse": 0,
-              "line": 0,
+              "line": 1,
               "polyline": 0,
               "polygon": 0,
               "path": 0
             },
             "preset_shapes": 0,
             "preset_names": {},
-            "page_frame_elements": 2,
-            "marker_uses": {
-              "start": 0,
-              "mid": 0,
-              "end": 0
-            }
-          },
-          "native_objects": {
-            "chart": 0,
-            "table": 0,
-            "formula_block": 0,
-            "formula_inline": 0,
-            "other": 0
-          }
-        },
-        "fonts": [
-          "Arial"
-        ],
-        "text_elements": 9,
-        "tspan_elements": 1,
-        "contextual_values": {
-          "colors": [
-            "#B9631B",
-            "#D6EAF8",
-            "#E67E22",
-            "#E74C3C",
-            "#F5E6D3",
-            "#FFFFFF"
-          ]
-        }
-      },
-      "passed": true,
-      "source_sha256": "704d719029b17579a78025490b5b1fe248e93caf6f0f9e27f47777dcbf2886a6"
-    },
-    {
-      "file": "02_toc.svg",
-      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/02_toc.svg",
-      "exists": true,
-      "errors": [],
-      "warnings": [
-        "Image ../images/p03_toc.jpg is 6048x4032 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
-      ],
-      "info": {
-        "viewbox": "0 0 1280 720",
-        "carrier_receipt": {
-          "text_elements": 17,
-          "images": {
-            "placements": 1,
-            "files": [
-              "p03_toc.jpg"
-            ],
-            "max_frame_share": 1.0
-          },
-          "icons": 8,
-          "effects": {
-            "inline_emphasis_runs": 0,
-            "gradient_uses": 1,
-            "filter_uses": 0,
-            "text_effects": 0
-          },
-          "geometry": {
-            "svg_elements": {
-              "rect": 10,
-              "circle": 0,
-              "ellipse": 0,
-              "line": 0,
-              "polyline": 0,
-              "polygon": 0,
-              "path": 0
-            },
-            "preset_shapes": 0,
-            "preset_names": {},
-            "page_frame_elements": 2,
-            "marker_uses": {
-              "start": 0,
-              "mid": 0,
-              "end": 0
-            }
-          },
-          "native_objects": {
-            "chart": 0,
-            "table": 0,
-            "formula_block": 0,
-            "formula_inline": 0,
-            "other": 0
-          }
-        },
-        "fonts": [
-          "Arial"
-        ],
-        "text_elements": 17,
-        "tspan_elements": 0,
-        "contextual_values": {
-          "colors": [
-            "#27AE60",
-            "#5D6D7E",
-            "#D6EAF8",
-            "#E67E22",
-            "#E74C3C",
-            "#F5E6D3",
-            "#FFFFFF"
-          ]
-        }
-      },
-      "passed": true,
-      "source_sha256": "b3a2b1c65eb1823ca7a1cab3f04964e73a0b63c7418b5fef68f4c70548e8e16b"
-    },
-    {
-      "file": "03_why.svg",
-      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/03_why.svg",
-      "exists": true,
-      "errors": [],
-      "warnings": [],
-      "info": {
-        "viewbox": "0 0 1280 720",
-        "carrier_receipt": {
-          "text_elements": 14,
-          "images": {
-            "placements": 1,
-            "files": [
-              "p04_why.jpg"
-            ],
-            "max_frame_share": 1.0
-          },
-          "icons": 1,
-          "effects": {
-            "inline_emphasis_runs": 0,
-            "gradient_uses": 1,
-            "filter_uses": 0,
-            "text_effects": 0
-          },
-          "geometry": {
-            "svg_elements": {
-              "rect": 4,
-              "circle": 2,
-              "ellipse": 0,
-              "line": 4,
-              "polyline": 2,
-              "polygon": 0,
-              "path": 0
-            },
-            "preset_shapes": 0,
-            "preset_names": {},
-            "page_frame_elements": 2,
-            "marker_uses": {
-              "start": 0,
-              "mid": 0,
-              "end": 0
-            }
-          },
-          "native_objects": {
-            "chart": 0,
-            "table": 0,
-            "formula_block": 0,
-            "formula_inline": 0,
-            "other": 0
-          }
-        },
-        "fonts": [
-          "Arial"
-        ],
-        "text_elements": 14,
-        "tspan_elements": 0,
-        "contextual_values": {
-          "colors": [
-            "#5D6D7E",
-            "#95A5A6",
-            "#D6EAF8",
-            "#E67E22",
-            "#E74C3C",
-            "#F5E6D3",
-            "#FFFFFF"
-          ]
-        }
-      },
-      "passed": true,
-      "source_sha256": "2535c958d94cfbc65e5032c2f2849824952642dd83e6202e317f595cad46d61d"
-    },
-    {
-      "file": "04_science.svg",
-      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/04_science.svg",
-      "exists": true,
-      "errors": [],
-      "warnings": [],
-      "info": {
-        "viewbox": "0 0 1280 720",
-        "carrier_receipt": {
-          "text_elements": 18,
-          "images": {
-            "placements": 1,
-            "files": [
-              "p05_science.jpg"
-            ],
-            "max_frame_share": 1.0
-          },
-          "icons": 3,
-          "effects": {
-            "inline_emphasis_runs": 0,
-            "gradient_uses": 1,
-            "filter_uses": 0,
-            "text_effects": 0
-          },
-          "geometry": {
-            "svg_elements": {
-              "rect": 10,
-              "circle": 0,
-              "ellipse": 0,
-              "line": 0,
-              "polyline": 0,
-              "polygon": 0,
-              "path": 0
-            },
-            "preset_shapes": 0,
-            "preset_names": {},
-            "page_frame_elements": 2,
-            "marker_uses": {
-              "start": 0,
-              "mid": 0,
-              "end": 0
-            }
-          },
-          "native_objects": {
-            "chart": 0,
-            "table": 0,
-            "formula_block": 0,
-            "formula_inline": 0,
-            "other": 0
-          }
-        },
-        "fonts": [
-          "Arial"
-        ],
-        "text_elements": 18,
-        "tspan_elements": 1,
-        "contextual_values": {
-          "colors": [
-            "#1E8449",
-            "#27AE60",
-            "#5D6D7E",
-            "#C0392B",
-            "#D6EAF8",
-            "#E74C3C",
-            "#F5E6D3",
-            "#FFFFFF"
-          ]
-        }
-      },
-      "passed": true,
-      "source_sha256": "09005a56c509b4b31f54882c53b7f39a5662778a2be7f737174973deb3e4a0d0"
-    },
-    {
-      "file": "05_physiology.svg",
-      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/05_physiology.svg",
-      "exists": true,
-      "errors": [],
-      "warnings": [],
-      "info": {
-        "viewbox": "0 0 1280 720",
-        "carrier_receipt": {
-          "text_elements": 11,
-          "images": {
-            "placements": 2,
-            "files": [
-              "p06_physiology.jpg",
-              "p06_video_poster.jpg"
-            ],
-            "max_frame_share": 1.0
-          },
-          "icons": 6,
-          "effects": {
-            "inline_emphasis_runs": 0,
-            "gradient_uses": 1,
-            "filter_uses": 0,
-            "text_effects": 0
-          },
-          "geometry": {
-            "svg_elements": {
-              "rect": 8,
-              "circle": 1,
-              "ellipse": 0,
-              "line": 0,
-              "polyline": 0,
-              "polygon": 0,
-              "path": 1
-            },
-            "preset_shapes": 0,
-            "preset_names": {},
-            "page_frame_elements": 2,
+            "page_frame_elements": 3,
             "marker_uses": {
               "start": 0,
               "mid": 0,
@@ -742,11 +486,12 @@
         "tspan_elements": 1,
         "contextual_values": {
           "colors": [
-            "#1E8449",
-            "#27AE60",
+            "#1F4E79",
+            "#5D6D7E",
+            "#7F8C8D",
             "#B9631B",
-            "#C0392B",
             "#D6EAF8",
+            "#E67E22",
             "#E74C3C",
             "#F5E6D3",
             "#FFFFFF"
@@ -754,28 +499,28 @@
         }
       },
       "passed": true,
-      "source_sha256": "5ead9ed88e20ad3fa08c39711b221ba119516d2d7d8e149e560d262dde09ae03"
+      "source_sha256": "64768ae3d145cfc574ab4309c141861e54052ccec0dc2831e83431c8601a7c55"
     },
     {
-      "file": "06_history.svg",
-      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/06_history.svg",
+      "file": "02_toc.svg",
+      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/02_toc.svg",
       "exists": true,
       "errors": [],
       "warnings": [
-        "Image ../images/p07_history.jpg is 5184x3456 and renders at 0.25x scale in a 1280x720 slice frame; the source is 2.6 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+        "Image ../images/p03_toc.jpg is 6048x4032 and renders at 0.21x scale in a 1280x720 slice frame; the source is 7.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
       ],
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 20,
+          "text_elements": 19,
           "images": {
             "placements": 1,
             "files": [
-              "p07_history.jpg"
+              "p03_toc.jpg"
             ],
             "max_frame_share": 1.0
           },
-          "icons": 7,
+          "icons": 8,
           "effects": {
             "inline_emphasis_runs": 0,
             "gradient_uses": 1,
@@ -784,8 +529,8 @@
           },
           "geometry": {
             "svg_elements": {
-              "rect": 3,
-              "circle": 6,
+              "rect": 10,
+              "circle": 0,
               "ellipse": 0,
               "line": 1,
               "polyline": 0,
@@ -794,7 +539,152 @@
             },
             "preset_shapes": 0,
             "preset_names": {},
-            "page_frame_elements": 2,
+            "page_frame_elements": 3,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 19,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#1F4E79",
+            "#27AE60",
+            "#5D6D7E",
+            "#7F8C8D",
+            "#D6EAF8",
+            "#E67E22",
+            "#E74C3C",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "4e4b3f804d024765a1b233b4fd4207a2e670a4421782e6f3c2953e1d234dd441"
+    },
+    {
+      "file": "03_why.svg",
+      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/03_why.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 15,
+          "images": {
+            "placements": 1,
+            "files": [
+              "p04_why.jpg"
+            ],
+            "max_frame_share": 1.0
+          },
+          "icons": 1,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 1,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 2,
+              "ellipse": 0,
+              "line": 5,
+              "polyline": 2,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 3,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#1F4E79",
+            "#5D6D7E",
+            "#95A5A6",
+            "#D6EAF8",
+            "#E67E22",
+            "#E74C3C",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "9044fd9b6ca89d73df0aa3df76d2ad1f8d4aa99832c822d61cbf31f1ec5bfda7"
+    },
+    {
+      "file": "04_science.svg",
+      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/04_science.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 20,
+          "images": {
+            "placements": 1,
+            "files": [
+              "p05_science.jpg"
+            ],
+            "max_frame_share": 1.0
+          },
+          "icons": 3,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 1,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 10,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 3,
             "marker_uses": {
               "start": 0,
               "mid": 0,
@@ -817,6 +707,159 @@
         "contextual_values": {
           "colors": [
             "#1E8449",
+            "#1F4E79",
+            "#27AE60",
+            "#5D6D7E",
+            "#7F8C8D",
+            "#C0392B",
+            "#D6EAF8",
+            "#E74C3C",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "64d2512173ee5ad5b738dc0ccbc47d841a67e3e39f30eec54bccbc19d84b41c4"
+    },
+    {
+      "file": "05_physiology.svg",
+      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/05_physiology.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 13,
+          "images": {
+            "placements": 2,
+            "files": [
+              "brain_neurons.gif",
+              "p06_physiology.jpg"
+            ],
+            "max_frame_share": 1.0
+          },
+          "icons": 6,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 1,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 8,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 3,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 13,
+        "tspan_elements": 1,
+        "contextual_values": {
+          "colors": [
+            "#1E8449",
+            "#1F4E79",
+            "#27AE60",
+            "#5D6D7E",
+            "#7F8C8D",
+            "#B9631B",
+            "#C0392B",
+            "#D6EAF8",
+            "#E74C3C",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "228cf7ae29e9034df28f7d707cc6b53c165e1abab7ca5d708ee423f822e82d86"
+    },
+    {
+      "file": "06_history.svg",
+      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/06_history.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Image ../images/p07_history.jpg is 5184x3456 and renders at 0.25x scale in a 1280x720 slice frame; the source is 2.6 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 21,
+          "images": {
+            "placements": 1,
+            "files": [
+              "p07_history.jpg"
+            ],
+            "max_frame_share": 1.0
+          },
+          "icons": 7,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 1,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 6,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 3,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 21,
+        "tspan_elements": 1,
+        "contextual_values": {
+          "colors": [
+            "#1E8449",
+            "#1F4E79",
             "#27AE60",
             "#5D6D7E",
             "#95A5A6",
@@ -828,7 +871,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "ecd274452f7574d54c87c51237039dd69ee3cd596142fe1f9538318d0b8d67bd"
+      "source_sha256": "ed00a61910bd84ae9ca528e9875152a0e89f3fb0503d77f44e13bf153cab90b9"
     },
     {
       "file": "07_hedonia.svg",
@@ -843,7 +886,7 @@
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 8,
+          "text_elements": 10,
           "images": {
             "placements": 3,
             "files": [
@@ -865,14 +908,14 @@
               "rect": 4,
               "circle": 0,
               "ellipse": 0,
-              "line": 1,
+              "line": 2,
               "polyline": 0,
               "polygon": 0,
               "path": 0
             },
             "preset_shapes": 0,
             "preset_names": {},
-            "page_frame_elements": 2,
+            "page_frame_elements": 3,
             "marker_uses": {
               "start": 0,
               "mid": 0,
@@ -890,12 +933,14 @@
         "fonts": [
           "Arial"
         ],
-        "text_elements": 8,
+        "text_elements": 10,
         "tspan_elements": 0,
         "contextual_values": {
           "colors": [
             "#1E8449",
+            "#1F4E79",
             "#5D6D7E",
+            "#7F8C8D",
             "#95A5A6",
             "#B9631B",
             "#D6EAF8",
@@ -906,7 +951,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "bca423a5f0d79462f9207d6a230b52d02e92ae7c6a5a887f07f6ab97206e48ba"
+      "source_sha256": "5a2fb686c4b2e989656b8640d7ed807d12b3416ea7e67464bc1c40ca7719981a"
     },
     {
       "file": "08_formula.svg",
@@ -917,7 +962,7 @@
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 10,
+          "text_elements": 11,
           "images": {
             "placements": 1,
             "files": [
@@ -937,14 +982,14 @@
               "rect": 8,
               "circle": 0,
               "ellipse": 0,
-              "line": 0,
+              "line": 1,
               "polyline": 0,
               "polygon": 0,
               "path": 3
             },
             "preset_shapes": 0,
             "preset_names": {},
-            "page_frame_elements": 2,
+            "page_frame_elements": 3,
             "marker_uses": {
               "start": 0,
               "mid": 0,
@@ -962,11 +1007,12 @@
         "fonts": [
           "Arial"
         ],
-        "text_elements": 10,
+        "text_elements": 11,
         "tspan_elements": 1,
         "contextual_values": {
           "colors": [
             "#1E8449",
+            "#1F4E79",
             "#27AE60",
             "#5D6D7E",
             "#95A5A6",
@@ -977,7 +1023,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "c0ea7b9f46b088a6bce0d9f5a06b3ff4fc231106f4aa918616ad1ed4bdaf7958"
+      "source_sha256": "60a49583d187d214a41a0becb891ea86b39c037444febc1d81967d1646d7f750"
     },
     {
       "file": "09_factors.svg",
@@ -988,7 +1034,7 @@
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 12,
+          "text_elements": 14,
           "images": {
             "placements": 2,
             "files": [
@@ -1009,14 +1055,14 @@
               "rect": 3,
               "circle": 0,
               "ellipse": 0,
-              "line": 0,
+              "line": 1,
               "polyline": 0,
               "polygon": 0,
               "path": 0
             },
             "preset_shapes": 0,
             "preset_names": {},
-            "page_frame_elements": 2,
+            "page_frame_elements": 3,
             "marker_uses": {
               "start": 0,
               "mid": 0,
@@ -1034,13 +1080,15 @@
         "fonts": [
           "Arial"
         ],
-        "text_elements": 12,
+        "text_elements": 14,
         "tspan_elements": 0,
         "contextual_values": {
           "colors": [
             "#1E8449",
+            "#1F4E79",
             "#27AE60",
             "#5D6D7E",
+            "#7F8C8D",
             "#D6EAF8",
             "#E67E22",
             "#F5E6D3"
@@ -1048,7 +1096,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "df38810413ff4a55cb4e94d18ca7a566295cff7b8209d61186743aab556d3cf1"
+      "source_sha256": "0c388fbe27749fb8d11e255db84a6b392221068dacb5b4f69a42335592485aaa"
     },
     {
       "file": "10_easterlin.svg",
@@ -1059,7 +1107,7 @@
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 11,
+          "text_elements": 13,
           "images": {
             "placements": 1,
             "files": [
@@ -1079,14 +1127,14 @@
               "rect": 5,
               "circle": 1,
               "ellipse": 0,
-              "line": 3,
+              "line": 4,
               "polyline": 1,
               "polygon": 0,
               "path": 0
             },
             "preset_shapes": 0,
             "preset_names": {},
-            "page_frame_elements": 2,
+            "page_frame_elements": 3,
             "marker_uses": {
               "start": 0,
               "mid": 0,
@@ -1104,12 +1152,14 @@
         "fonts": [
           "Arial"
         ],
-        "text_elements": 11,
+        "text_elements": 13,
         "tspan_elements": 3,
         "contextual_values": {
           "colors": [
+            "#1F4E79",
             "#27AE60",
             "#5D6D7E",
+            "#7F8C8D",
             "#95A5A6",
             "#D6EAF8",
             "#E74C3C",
@@ -1119,7 +1169,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "dd92dfa68acefe5d124d7e514e66f0aee0e11b0165f30f93c1dd78708982868e"
+      "source_sha256": "4e122f5e98efd73778f1323fd263fb5435ab9a0e49b257c4752ead4f494f308f"
     },
     {
       "file": "11_education.svg",
@@ -1130,7 +1180,7 @@
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 11,
+          "text_elements": 12,
           "images": {
             "placements": 1,
             "files": [
@@ -1150,14 +1200,14 @@
               "rect": 7,
               "circle": 1,
               "ellipse": 0,
-              "line": 2,
+              "line": 3,
               "polyline": 1,
               "polygon": 0,
               "path": 0
             },
             "preset_shapes": 0,
             "preset_names": {},
-            "page_frame_elements": 2,
+            "page_frame_elements": 3,
             "marker_uses": {
               "start": 0,
               "mid": 0,
@@ -1175,10 +1225,11 @@
         "fonts": [
           "Arial"
         ],
-        "text_elements": 11,
+        "text_elements": 12,
         "tspan_elements": 2,
         "contextual_values": {
           "colors": [
+            "#1F4E79",
             "#5D6D7E",
             "#95A5A6",
             "#B9631B",
@@ -1190,7 +1241,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "2a0a95b5cf3a992d27144d3b1a97d0b2738a5fbb3586530b732afd8a77b23b21"
+      "source_sha256": "43708b678830525285a0ddabfe363e7f2cea81b5d0d7e32780c2538a0ff76a36"
     },
     {
       "file": "12_digital.svg",
@@ -1203,7 +1254,7 @@
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 12,
+          "text_elements": 13,
           "images": {
             "placements": 1,
             "files": [
@@ -1223,84 +1274,14 @@
               "rect": 5,
               "circle": 0,
               "ellipse": 0,
-              "line": 0,
+              "line": 1,
               "polyline": 0,
               "polygon": 0,
               "path": 0
             },
             "preset_shapes": 0,
             "preset_names": {},
-            "page_frame_elements": 2,
-            "marker_uses": {
-              "start": 0,
-              "mid": 0,
-              "end": 0
-            }
-          },
-          "native_objects": {
-            "chart": 0,
-            "table": 0,
-            "formula_block": 0,
-            "formula_inline": 0,
-            "other": 0
-          }
-        },
-        "fonts": [
-          "Arial"
-        ],
-        "text_elements": 12,
-        "tspan_elements": 0,
-        "contextual_values": {
-          "colors": [
-            "#1E8449",
-            "#27AE60",
-            "#C0392B",
-            "#D6EAF8",
-            "#E74C3C",
-            "#F5E6D3"
-          ]
-        }
-      },
-      "passed": true,
-      "source_sha256": "b50e5655f35a04bb7f24172e00ec3c9b4d785c6a31dc47bddad19edb6fecdf37"
-    },
-    {
-      "file": "13_recommendations.svg",
-      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/13_recommendations.svg",
-      "exists": true,
-      "errors": [],
-      "warnings": [],
-      "info": {
-        "viewbox": "0 0 1280 720",
-        "carrier_receipt": {
-          "text_elements": 13,
-          "images": {
-            "placements": 1,
-            "files": [
-              "p14_recommendations.jpg"
-            ],
-            "max_frame_share": 1.0
-          },
-          "icons": 6,
-          "effects": {
-            "inline_emphasis_runs": 0,
-            "gradient_uses": 1,
-            "filter_uses": 0,
-            "text_effects": 0
-          },
-          "geometry": {
-            "svg_elements": {
-              "rect": 8,
-              "circle": 0,
-              "ellipse": 0,
-              "line": 0,
-              "polyline": 0,
-              "polygon": 0,
-              "path": 0
-            },
-            "preset_shapes": 0,
-            "preset_names": {},
-            "page_frame_elements": 2,
+            "page_frame_elements": 3,
             "marker_uses": {
               "start": 0,
               "mid": 0,
@@ -1322,8 +1303,82 @@
         "tspan_elements": 0,
         "contextual_values": {
           "colors": [
+            "#1E8449",
+            "#1F4E79",
             "#27AE60",
             "#5D6D7E",
+            "#C0392B",
+            "#D6EAF8",
+            "#E74C3C",
+            "#F5E6D3"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "d7cc7952541943b6d7e3b884222045c04653dcc883bf7f22b33885d5daa7c28b"
+    },
+    {
+      "file": "13_recommendations.svg",
+      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/13_recommendations.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 15,
+          "images": {
+            "placements": 1,
+            "files": [
+              "p14_recommendations.jpg"
+            ],
+            "max_frame_share": 1.0
+          },
+          "icons": 6,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 1,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 8,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 3,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#1F4E79",
+            "#27AE60",
+            "#5D6D7E",
+            "#7F8C8D",
             "#D6EAF8",
             "#F5E6D3",
             "#FFFFFF"
@@ -1331,7 +1386,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "10e0c6e9b518cb53b2020390ebde15cb272474668ca3851fd8cdab8c6eddfcd5"
+      "source_sha256": "40ada9600a222cefe951e13f5da2878bae800af1a170cd51d1e85b5cd8a1074e"
     },
     {
       "file": "15_sources.svg",
@@ -1344,7 +1399,7 @@
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 16,
+          "text_elements": 17,
           "images": {
             "placements": 2,
             "files": [
@@ -1365,14 +1420,14 @@
               "rect": 3,
               "circle": 0,
               "ellipse": 0,
-              "line": 0,
+              "line": 1,
               "polyline": 0,
               "polygon": 0,
               "path": 0
             },
             "preset_shapes": 0,
             "preset_names": {},
-            "page_frame_elements": 2,
+            "page_frame_elements": 3,
             "marker_uses": {
               "start": 0,
               "mid": 0,
@@ -1390,11 +1445,12 @@
         "fonts": [
           "Arial"
         ],
-        "text_elements": 16,
+        "text_elements": 17,
         "tspan_elements": 0,
         "contextual_values": {
           "colors": [
             "#1E8449",
+            "#1F4E79",
             "#27AE60",
             "#5D6D7E",
             "#D6EAF8",
@@ -1404,7 +1460,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "5235da45855fc14396176a6084405dc06c82775c3195b724bb75af33c929d796"
+      "source_sha256": "52d75abe9c98e97b0d01bfe11b1a28410f9c3433449391a1c2bf3847b6419c1f"
     }
   ]
 }

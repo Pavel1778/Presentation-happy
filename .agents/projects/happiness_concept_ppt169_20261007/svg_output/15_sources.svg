@@ -4,4 +4,4 @@
     <image x="860" y="430" width="180" height="180" href="../images/qr_sources.svg"/>
     <text x="950" y="640" font-size="22" fill="#5D6D7E" text-anchor="middle">Наведите камеру</text>
   </g>
-</svg>
+<line id="footer-rule" x1="80" y1="684" x2="1200" y2="684" stroke="#1F4E79" stroke-opacity="0.12" stroke-width="1" data-pptx-role="decoration"/><g id="slide-number" data-pptx-bounds="1100 690 100 28"><text x="1200" y="708" font-size="22" text-anchor="end" fill="#5D6D7E">15</text></g></svg>

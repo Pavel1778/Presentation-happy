@@ -43,4 +43,4 @@
     <use data-icon="tabler-outline/quote" x="96" y="610" width="40" height="40" fill="#E67E22"/>
     <text x="152" y="642" font-size="24" font-style="italic" fill="#2C3E50">Парадокс: литературы больше, счастливых людей — нет</text>
   </g>
-</svg>
+<line id="footer-rule" x1="80" y1="684" x2="1200" y2="684" stroke="#1F4E79" stroke-opacity="0.12" stroke-width="1" data-pptx-role="decoration"/><g id="slide-number" data-pptx-bounds="1100 690 100 28"><text x="1200" y="708" font-size="22" text-anchor="end" fill="#5D6D7E">4</text></g></svg>
