@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"
+     font-family="Arial" lang="ru-RU" data-pptx-page-role="cover">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EAF2F8;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#EFE1C9;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <image id="cover-photo" x="0" y="0" width="1280" height="720" href="../images/p01_cover.jpg" preserveAspectRatio="xMidYMid slice" data-pptx-role="background"/>
+  <rect id="cover-bg" x="0" y="0" width="1280" height="720" fill="url(#bg-grad)" fill-opacity="0.86" data-pptx-role="background"/>
+  
+  
+  
+
+  <g id="cover-decor" data-pptx-bounds="850 290 430 430" data-pptx-role="decoration"><circle id="cover-orb" cx="1080" cy="520" r="230" fill="#FFFFFF" opacity="0.35" data-pptx-role="decoration"/><rect id="cover-accent" x="0" y="0" width="1280" height="6" fill="#1E8449" data-pptx-role="decoration"/></g><g id="cover-header" data-pptx-bounds="80 92 850 300">
+    <text x="80" y="140" font-size="22" fill="#2C2C2C" letter-spacing="2">РОСТОВСКИЙ-НА-ДОНУ КОЛЛЕДЖ СВЯЗИ И ИНФОРМАТИКИ</text>
+    <text x="80" y="216" font-size="44" font-weight="bold" fill="#154360">Концепция счастья:<tspan x="80" dy="62">что делает людей счастливыми</tspan><tspan x="80" dy="62">в современном мире?</tspan></text>
+  </g>
+
+  <g id="cover-logo" data-pptx-bounds="950 70 250 250">
+    <circle cx="1115" cy="150" r="66" fill="#154360" fill-opacity="0.92"/>
+    <circle cx="1115" cy="150" r="56" fill="none" stroke="#FFFFFF" stroke-width="4"/>
+    <use data-icon="tabler-outline/school" x="1089" y="124" width="52" height="52" fill="#FFFFFF"/>
+    <text x="1115" y="256" font-size="32" font-weight="bold" fill="#154360" text-anchor="middle">РКСИ</text>
+    <text x="1115" y="290" font-size="22" fill="#2C2C2C" text-anchor="middle">колледж связи</text>
+  </g>
+
+  <g id="cover-author" data-pptx-bounds="80 404 760 176">
+    <rect x="80" y="410" width="6" height="150" rx="3" fill="#1E8449"/>
+    <text x="112" y="446" font-size="32" font-weight="bold" fill="#1A1A1A">Сабадаш Павел Андреевич</text>
+    <text x="112" y="486" font-size="22" fill="#2C2C2C">Группа ИС-24<tspan x="112" dy="34">Защита учебной презентации, 2026</tspan></text>
+  </g>
+
+  <g id="cover-question" data-pptx-bounds="80 616 1120 60">
+    <text x="80" y="658" font-size="32" font-style="italic" fill="#CA6F1E">Почему деньги не гарантируют счастья?</text>
+  </g>
+<g id="slide-number" data-pptx-bounds="1100 690 100 28"><text x="1200" y="708" font-size="22" text-anchor="end" fill="#2C2C2C">1</text></g></svg>

@@ -2,76 +2,76 @@
   "schema": "ppt-master.pptx-postflight-report.v1",
   "status": "passed-with-warnings",
   "output": {
-    "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya.pptx",
-    "bytes": 13485688
+    "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya_highcontrast.pptx",
+    "bytes": 13485513
   },
   "source": {
     "svg_slide_count": 15,
     "layout_definition_count": 0,
     "fingerprint": {
       "algorithm": "sha256",
-      "digest": "72ae50ab695a33b93859d2fad9513d0bbf357787a54deaa927ece5cb6f20a198",
+      "digest": "65127cc7c13c38100f19c4a1ad604443e96207f001fc9162e397c7c45f5b7f8b",
       "file_count": 15,
       "files": [
         {
           "file": "01_cover.svg",
-          "sha256": "15d1e1fd942f82e995c8105785bb3b5f1734a3dbae91c0add77a90c125db9a41"
+          "sha256": "6c755196dfd17418b3259f7a4f1a5a7d399be07075936f2610290e3cde7650fe"
         },
         {
           "file": "01_goals.svg",
-          "sha256": "ac673f697e63f36e1cbb25376653ac7f20ed1c5f59d37492c8e418ca14576d42"
+          "sha256": "9cb88d5528e4a79fc06ae1944a3bc08099c062f061e2f28fd67bb453a1a6c0fe"
         },
         {
           "file": "02_toc.svg",
-          "sha256": "c7ef75ee643bdc1f57f5b2ab3b9d4e3365e3e0272521ceed1a4de271e0f12dac"
+          "sha256": "79c0d1c869f18925d457ac4c233a589eb983235842053628f2b70b481e9e3a02"
         },
         {
           "file": "03_why.svg",
-          "sha256": "a8684c5d16cf430353d86259678e5119b5e833856e3282ac74d289c96d346d2d"
+          "sha256": "f7f833b5b66e4a44922b195150918f498a45a7ecb81adbf13bb13b939647878d"
         },
         {
           "file": "04_science.svg",
-          "sha256": "3de4bdaf7f3d6084abde89c8cf3c1de2f65dd2798c8644aa3abc61b2c9cb6715"
+          "sha256": "ecd5738d3963d84d8cd3c9a23fff18f149bbda226dcf86b38735dbccc20b2031"
         },
         {
           "file": "05_physiology.svg",
-          "sha256": "a41b691c0712bdaf3241b36e902fdf07f3d79f698066738f072475cba049fa97"
+          "sha256": "4c16283614303b35471d9c32d8fa9b2826f42bf0f5a7ff5c7dd3bd79ebc7811a"
         },
         {
           "file": "06_history.svg",
-          "sha256": "516836c5f64d3b372c4b7cb1b768211b3be990922acd3ceaf874ae643406e79e"
+          "sha256": "424f7cf0912177045f4b74ef9bd012c6f86a98d550c3235669e07cb79632964f"
         },
         {
           "file": "07_hedonia.svg",
-          "sha256": "ec03771394801f1e1c5a6de99883fa47faa97f4d7473c7588514f5caab266afc"
+          "sha256": "c2a55b5b91d1b112bda97baa34a923a784f80e54f5bb871bfebe35e031e84393"
         },
         {
           "file": "08_formula.svg",
-          "sha256": "93ca4f4c4378cc28183636adaf0c6479c0d84322cbc406a9ecf26ac1e5c603ec"
+          "sha256": "67d7edfd63ab7ec1aa5f79b589787ed270b5cd6f347ee0215998f963cb046ad2"
         },
         {
           "file": "09_factors.svg",
-          "sha256": "a3ee9f673c10a4b7e457ffd76b2fa4b9f5bb4f73a9c9d4b30665aa24b434b334"
+          "sha256": "714a396fe1c0fc6d50617c6f86e098630ea3d007a2cc69c70e68bd8daf47191b"
         },
         {
           "file": "10_easterlin.svg",
-          "sha256": "7c2596fb22fbc39f46264f5981b3f8484307f5801698080a14e87f00256627b4"
+          "sha256": "a04703cf867370fd8491c0282e454abe931811ec5bd6546723c7130323a87b58"
         },
         {
           "file": "11_education.svg",
-          "sha256": "00825efdc66b8d70655bc81207a025e8ba88bb033b8d64a0059dd8a9e465811e"
+          "sha256": "e5d30d710e49c5189b9c3b5dc2d8bd137707762e7f5454be868081fb5ce8c2d2"
         },
         {
           "file": "12_digital.svg",
-          "sha256": "339f0029f03db4948a2bcb861c4f223bb179d5ecda215c2f74e8a0ba4a8a33b3"
+          "sha256": "8f4c2f05bc626d5e71785db97315d5fbae8cbde48b04b89d9d5a987340bcb7bb"
         },
         {
           "file": "13_recommendations.svg",
-          "sha256": "d7e794186e34f2b571279c3f3957364341119c6f1c9e09bd4b2d7bd544823a82"
+          "sha256": "72623fe06b0b63be77418ed39d7fd8fe3439f7aa1135bf999b853d42026bf9f1"
         },
         {
           "file": "15_sources.svg",
-          "sha256": "4411f23cc110575c25585b8dba98f92ae5a3ca89e3dd976db0c85b6853a16806"
+          "sha256": "87eeb98a47ea0fb7a7ff49bd63fbcca0485db12941ed7b8611b7cd26c804c5ba"
         }
       ]
     },
@@ -95,7 +95,7 @@
     "project_svg_contract": "enforced-at-build",
     "compatibility_normalization": "not-applicable",
     "authoring_roundtrip": "not-applicable",
-    "quality_gate": "passed",
+    "quality_gate": "stale",
     "quality_warnings": "warning",
     "template_tokens": "passed",
     "external_images": "passed",
@@ -106,7 +106,7 @@
     "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json",
     "schema": "ppt-master.svg-quality-report.v1",
     "stage": "final",
-    "source_match": "passed",
+    "source_match": "mismatch",
     "source_fingerprint": {
       "algorithm": "sha256",
       "digest": "72ae50ab695a33b93859d2fad9513d0bbf357787a54deaa927ece5cb6f20a198",

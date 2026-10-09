@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"
+     font-family="Arial" lang="ru-RU" data-pptx-page-role="content">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EAF2F8;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#EFE1C9;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <image id="p03-photo" x="0" y="0" width="1280" height="720" href="../images/p03_toc.jpg" preserveAspectRatio="xMidYMid slice" data-pptx-role="background"/>
+  <rect id="p03-bg" x="0" y="0" width="1280" height="720" fill="url(#bg-grad)" fill-opacity="0.9" data-pptx-role="background"/>
+  <rect id="accent" x="0" y="0" width="1280" height="6" fill="#1E8449" data-pptx-role="decoration"/>
+  <g id="title" data-pptx-bounds="80 44 1010 92">
+    <text x="80" y="106" font-size="44" font-weight="bold" fill="#154360">Что мы разберём</text>
+  </g>
+  <g id="toc" data-pptx-bounds="80 175 1120 400">
+    <rect x="80" y="190" width="272" height="168" rx="16" fill="#FFFFFF" fill-opacity="0.86"/>
+    <use data-icon="tabler-outline/activity" x="102" y="212" width="46" height="46" fill="#1E8449"/>
+    <text x="102" y="298" font-size="28" font-weight="bold" fill="#1A1A1A">Зачем изучать</text>
+    <text x="102" y="334" font-size="22" fill="#2C2C2C">данные о депрессии</text>
+    <rect x="367" y="190" width="272" height="168" rx="16" fill="#FFFFFF" fill-opacity="0.86"/>
+    <use data-icon="tabler-outline/scale" x="389" y="212" width="46" height="46" fill="#1E8449"/>
+    <text x="389" y="298" font-size="28" font-weight="bold" fill="#1A1A1A">Научный подход</text>
+    <text x="389" y="334" font-size="22" fill="#2C2C2C">что такое SWB</text>
+    <rect x="654" y="190" width="272" height="168" rx="16" fill="#FFFFFF" fill-opacity="0.86"/>
+    <use data-icon="tabler-outline/brain" x="676" y="212" width="46" height="46" fill="#1E8449"/>
+    <text x="676" y="298" font-size="28" font-weight="bold" fill="#1A1A1A">Физиология</text>
+    <text x="676" y="334" font-size="22" fill="#2C2C2C">нейромедиаторы</text>
+    <rect x="941" y="190" width="272" height="168" rx="16" fill="#FFFFFF" fill-opacity="0.86"/>
+    <use data-icon="tabler-outline/timeline" x="963" y="212" width="46" height="46" fill="#1E8449"/>
+    <text x="963" y="298" font-size="28" font-weight="bold" fill="#1A1A1A">История</text>
+    <text x="963" y="334" font-size="22" fill="#2C2C2C">от Аристотеля</text>
+    <rect x="80" y="380" width="272" height="168" rx="16" fill="#FFFFFF" fill-opacity="0.86"/>
+    <use data-icon="tabler-outline/mood-smile" x="102" y="402" width="46" height="46" fill="#CA6F1E"/>
+    <text x="102" y="488" font-size="28" font-weight="bold" fill="#1A1A1A">Гедонизм</text>
+    <text x="102" y="524" font-size="22" fill="#2C2C2C">и эвдемония</text>
+    <rect x="367" y="380" width="272" height="168" rx="16" fill="#FFFFFF" fill-opacity="0.86"/>
+    <use data-icon="tabler-outline/chart-pie" x="389" y="402" width="46" height="46" fill="#CA6F1E"/>
+    <text x="389" y="488" font-size="28" font-weight="bold" fill="#1A1A1A">Формула</text>
+    <text x="389" y="524" font-size="22" fill="#2C2C2C">50/40/10</text>
+    <rect x="654" y="380" width="272" height="168" rx="16" fill="#FFFFFF" fill-opacity="0.86"/>
+    <use data-icon="tabler-outline/chart-line" x="676" y="402" width="46" height="46" fill="#CA6F1E"/>
+    <text x="676" y="488" font-size="28" font-weight="bold" fill="#1A1A1A">Данные</text>
+    <text x="676" y="524" font-size="22" fill="#2C2C2C">доход и школа</text>
+    <rect x="941" y="380" width="272" height="168" rx="16" fill="#FFFFFF" fill-opacity="0.86"/>
+    <use data-icon="tabler-outline/award" x="963" y="402" width="46" height="46" fill="#A93226"/>
+    <text x="963" y="488" font-size="28" font-weight="bold" fill="#1A1A1A">Выводы</text>
+    <text x="963" y="524" font-size="22" fill="#2C2C2C">и советы</text>
+  </g>
+<line id="footer-rule" x1="80" y1="684" x2="1200" y2="684" stroke="#10304A" stroke-opacity="0.12" stroke-width="1" data-pptx-role="decoration"/><g id="slide-number" data-pptx-bounds="1100 690 100 28"><text x="1200" y="708" font-size="22" text-anchor="end" fill="#2C2C2C">3</text></g><g id="credits" data-pptx-bounds="80 690 980 28"><text x="80" y="708" font-size="15" fill="#2C2C2C">Shixart1985 (CC BY 2.0)</text></g></svg>

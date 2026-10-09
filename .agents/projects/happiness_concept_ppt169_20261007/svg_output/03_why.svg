@@ -13,7 +13,7 @@
   <g id="title" data-pptx-bounds="80 44 1120 92">
     <text x="80" y="106" font-size="40" font-weight="bold" fill="#1B4F72">Литературы много — счастливых меньше</text>
   </g>
-  <g id="chart-dep" data-pptx-bounds="80 185 550 400">
+  <g id="chart-dep" data-pptx-bounds="80 185 550 405">
     <rect x="80" y="185" width="550" height="405" rx="16" fill="#FFFFFF" fill-opacity="0.9"/>
     <text x="110" y="228" font-size="24" font-weight="bold" fill="#E74C3C">Депрессия, США</text>
     <text x="150" y="262" font-size="22" fill="#5D6D7E">доля взрослых, %</text>
@@ -34,9 +34,9 @@
     <text x="162" y="528" font-size="22" fill="#5D6D7E" text-anchor="middle">2013</text>
     <text x="578" y="528" font-size="22" fill="#5D6D7E" text-anchor="middle">2023</text>
     <text x="110" y="556" font-size="22" fill="#2C3E50">8,2% → 13,1% за 10 лет</text>
-    <text x="110" y="584" font-size="22" fill="#5D6D7E">Источник: CDC/ВОЗ</text>
+    <text x="110" y="582" font-size="22" fill="#5D6D7E">Источник: CDC/ВОЗ</text>
   </g>
-  <g id="chart-hap" data-pptx-bounds="660 185 540 400">
+  <g id="chart-hap" data-pptx-bounds="660 185 540 405">
     <rect x="660" y="185" width="540" height="405" rx="16" fill="#FFFFFF" fill-opacity="0.9"/>
     <text x="690" y="228" font-size="24" font-weight="bold" fill="#1B4F72">Индекс счастья</text>
     <text x="730" y="262" font-size="22" fill="#5D6D7E">баллы (0–10)</text>
@@ -52,7 +52,7 @@
     <text x="730" y="528" font-size="22" fill="#5D6D7E" text-anchor="middle">2005</text>
     <text x="1170" y="528" font-size="22" fill="#5D6D7E" text-anchor="middle">2025</text>
     <text x="690" y="556" font-size="22" fill="#2C3E50">Индекс на плато с 2005 года</text>
-    <text x="690" y="584" font-size="22" fill="#5D6D7E">Источник: World Happiness Report</text>
+    <text x="690" y="582" font-size="22" fill="#5D6D7E">Источник: World Happiness Report</text>
   </g>
   <g id="quote" data-pptx-bounds="80 605 1120 70">
     <use data-icon="tabler-outline/quote" x="96" y="610" width="40" height="40" fill="#E67E22"/>
