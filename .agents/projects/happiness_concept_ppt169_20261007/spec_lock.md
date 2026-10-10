@@ -51,14 +51,16 @@
 - P05: concept
 - P06: infographic
 - P07: timeline
-- P08: comparison
-- P09: chart
-- P10: tree
+- P08: quotes
+- P09: gallery
+- P10: comparison
 - P11: chart
-- P12: chart
-- P13: balance
-- P14: checklist
-- P15: ending
+- P12: tree
+- P13: chart
+- P14: chart
+- P15: balance
+- P16: checklist
+- P17: ending
 
 ## pptx_structure
 - mode: flat

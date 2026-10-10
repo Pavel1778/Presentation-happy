@@ -32,13 +32,13 @@ def audit(path: Path) -> Audit:
     z = zipfile.ZipFile(path)
     names = z.namelist()
 
-    a.check('15 slides', len(pres.slides) == 15, len(pres.slides))
+    a.check('17 slides', len(pres.slides) == 17, len(pres.slides))
     a.check('16:9 1280x720',
             (pres.slide_width, pres.slide_height) == (12192000, 6858000),
             f'{pres.slide_width}x{pres.slide_height}')
     notes = sum(1 for s in pres.slides
                 if s.has_notes_slide and s.notes_slide.notes_text_frame.text.strip())
-    a.check('notes on 15 slides', notes == 15, notes)
+    a.check('notes on 17 slides', notes == 17, notes)
     a.check('no audio parts', not any(n.endswith(('.mp3', '.wav', '.m4a')) for n in names))
     a.check('no mp4 parts', not any(n.endswith('.mp4') for n in names))
     xml = ''.join(z.read(n).decode('utf-8', 'ignore')
@@ -50,7 +50,7 @@ def audit(path: Path) -> Audit:
 
     fade = morph = 0
     anim = morph_pairs = 0
-    for i in range(1, 16):
+    for i in range(1, 18):
         s = z.read(f'ppt/slides/slide{i}.xml').decode()
         if 'p159:morph' in s:
             morph += 1
@@ -60,15 +60,15 @@ def audit(path: Path) -> Audit:
             anim += 1
         if '!!title-flow' in s:
             morph_pairs += 1
-    a.check('transitions 11 fade / 3 morph / 1 none',
-            fade == 11 and morph == 3, f'fade={fade} morph={morph}')
-    a.check('object animation on 14 slides', anim == 14, anim)
+    a.check('transitions 13 fade / 3 morph / 1 none',
+            fade == 13 and morph == 3, f'fade={fade} morph={morph}')
+    a.check('object animation on 16 slides', anim == 16, anim)
     a.check('morph pairs on 6 slides', morph_pairs == 6, morph_pairs)
     a.check('no speaker-note audio', xml.count('audioFile') == 0)
 
-    rels = z.read('ppt/slides/_rels/slide15.xml.rels').decode()
+    rels = z.read('ppt/slides/_rels/slide17.xml.rels').decode()
     m = re.search(r'media/([^"]+\.png)', rels)
-    a.check('slide-15 QR is a PNG part', m is not None)
+    a.check('slide-17 QR is a PNG part', m is not None)
     if m:
         png = z.read('ppt/media/' + m.group(1))
         dec = cv2.QRCodeDetector().detectAndDecode(

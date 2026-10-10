@@ -2,122 +2,15 @@
   "schema": "ppt-master.pptx-postflight-report.v1",
   "status": "passed-with-warnings",
   "output": {
-    "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/Konceptsiya_schastya_highcontrast.pptx",
-    "bytes": 13227188
+    "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agent_tmp/build_main.pptx",
+    "bytes": 13227316
   },
   "source": {
     "svg_slide_count": 17,
     "layout_definition_count": 0,
     "fingerprint": {
       "algorithm": "sha256",
-      "digest": "a5964be685d950df2a55f8a8a95f765ba9a0016c2b7b51a65a663c44e7c05929",
-      "file_count": 17,
-      "files": [
-        {
-          "file": "01_cover.svg",
-          "sha256": "6c755196dfd17418b3259f7a4f1a5a7d399be07075936f2610290e3cde7650fe"
-        },
-        {
-          "file": "01_goals.svg",
-          "sha256": "a1e3109faae17ddc9bc11dc8b1c3b7f9d21a751bbcfa712fb4adffdd706f3d10"
-        },
-        {
-          "file": "02_toc.svg",
-          "sha256": "406673a1b1d6d4d752a7b4e7a64ff72b20fd1a9297ccd3720ebfb2f732885dbb"
-        },
-        {
-          "file": "03_why.svg",
-          "sha256": "2af7b23b26a0d259076ea4016f6769903ac8fa8554045eec683a8b96354cb243"
-        },
-        {
-          "file": "04_science.svg",
-          "sha256": "3abe41d421073024cc0de17765b7f1ff7374e26ca4b378b89c6adbd7aff47103"
-        },
-        {
-          "file": "05_physiology.svg",
-          "sha256": "4a3a474355a42915590dc03cf7d61c33e5dd6e36e568f2a851a7b38094ebc569"
-        },
-        {
-          "file": "06_history.svg",
-          "sha256": "424f7cf0912177045f4b74ef9bd012c6f86a98d550c3235669e07cb79632964f"
-        },
-        {
-          "file": "06b_rus_tradition.svg",
-          "sha256": "b03911b988ae9fb0de360bda0acd64855fdcd78a75e5d59bbd8be17ebd29e88e"
-        },
-        {
-          "file": "06c_rus_scientists.svg",
-          "sha256": "21b34c88f8b4e0bde4944dd78b3a0419a24d6cdb941b3000f0afc2adfe8154e1"
-        },
-        {
-          "file": "07_hedonia.svg",
-          "sha256": "3e80ac5a3174ce52d5c89a43ff61af55b48a3a5f786d69e82d0ca1f577ff935c"
-        },
-        {
-          "file": "08_formula.svg",
-          "sha256": "1ec2bafea2af0889f5f95ee74f3211c8758f1996a51b6064a0f7bf5f2001d0b2"
-        },
-        {
-          "file": "09_factors.svg",
-          "sha256": "65747e1f2bd7d57e78ac7d16a6e1f39091629a7f52c6e7b9ec1ee0c075584213"
-        },
-        {
-          "file": "10_easterlin.svg",
-          "sha256": "6122e41ba1aae63ad22d43b6283418406f6e092a6514cc31d2efbc364ce93683"
-        },
-        {
-          "file": "11_education.svg",
-          "sha256": "1019153b24a1e541e38b1283656bc80b1be02ecbaa7a337866d88bbdc91ed10c"
-        },
-        {
-          "file": "12_digital.svg",
-          "sha256": "8b4640e989e0822e0e5fe53937b1ff4cbd8cdc6b87bbaa5be56af1b3be877f8c"
-        },
-        {
-          "file": "13_recommendations.svg",
-          "sha256": "c3122efb2aff5e1ba213d2e15f80f1d6728b39b69e5b5201ad515fd18556f273"
-        },
-        {
-          "file": "15_sources.svg",
-          "sha256": "81801c034e99e8b304f43eea783bd633845e29671adcbe806a5c4d142aae7c18"
-        }
-      ]
-    },
-    "authoring_roundtrip": null
-  },
-  "package": {
-    "zip_integrity": "passed",
-    "corrupt_member": null,
-    "slides": 17,
-    "notes": 17,
-    "masters": 1,
-    "layouts": 1
-  },
-  "checks": {
-    "zip_integrity": "passed",
-    "slide_count": "passed",
-    "internal_relationships": "enforced-at-build",
-    "structured_package": "not-applicable",
-    "transitions": "enforced-at-build",
-    "animations": "enforced-at-build",
-    "project_svg_contract": "enforced-at-build",
-    "compatibility_normalization": "not-applicable",
-    "authoring_roundtrip": "not-applicable",
-    "quality_gate": "stale",
-    "quality_warnings": "warning",
-    "template_tokens": "passed",
-    "external_images": "passed",
-    "font_portability": "passed"
-  },
-  "quality": {
-    "status": "loaded",
-    "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json",
-    "schema": "ppt-master.svg-quality-report.v1",
-    "stage": "final",
-    "source_match": "mismatch",
-    "source_fingerprint": {
-      "algorithm": "sha256",
-      "digest": "dc4abbeed1910d2d7011d9b510708c2d75a45b0d88f4a1705b0b72e5d971cfd4",
+      "digest": "71a1f418fd4510f4230d9c1f3fbf463cef7f69a08c69771570cf96078a2335e4",
       "file_count": 17,
       "files": [
         {
@@ -170,7 +63,114 @@
         },
         {
           "file": "10_easterlin.svg",
-          "sha256": "6d6e0b5713f56db280cc581189316d49288d5fbd52dd19028999775668fc4f72"
+          "sha256": "873b96e5ffb14ab3e1c33a5737351f8fe150a17b410b5d989dce2e23fe6d156d"
+        },
+        {
+          "file": "11_education.svg",
+          "sha256": "6a3deb84eb19d90a53c8ee739dcd8cbc4f17b4fc23c7c13af40a51e3e4595fb6"
+        },
+        {
+          "file": "12_digital.svg",
+          "sha256": "c1df3fda586064602a919da466c520d10862ec746439c660f177419d99210b09"
+        },
+        {
+          "file": "13_recommendations.svg",
+          "sha256": "6d0218afaf6222cb0b81c437c64d9db4d6ddc9b7421bc3ccb942b3062f62df72"
+        },
+        {
+          "file": "15_sources.svg",
+          "sha256": "e25147be88bae226e5fee6db9164078092e26de41b31fbe0d7e6cb4ef1eaa50e"
+        }
+      ]
+    },
+    "authoring_roundtrip": null
+  },
+  "package": {
+    "zip_integrity": "passed",
+    "corrupt_member": null,
+    "slides": 17,
+    "notes": 17,
+    "masters": 1,
+    "layouts": 1
+  },
+  "checks": {
+    "zip_integrity": "passed",
+    "slide_count": "passed",
+    "internal_relationships": "enforced-at-build",
+    "structured_package": "not-applicable",
+    "transitions": "enforced-at-build",
+    "animations": "enforced-at-build",
+    "project_svg_contract": "enforced-at-build",
+    "compatibility_normalization": "not-applicable",
+    "authoring_roundtrip": "not-applicable",
+    "quality_gate": "passed",
+    "quality_warnings": "warning",
+    "template_tokens": "passed",
+    "external_images": "passed",
+    "font_portability": "passed"
+  },
+  "quality": {
+    "status": "loaded",
+    "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/validation/svg_quality_report.json",
+    "schema": "ppt-master.svg-quality-report.v1",
+    "stage": "final",
+    "source_match": "passed",
+    "source_fingerprint": {
+      "algorithm": "sha256",
+      "digest": "71a1f418fd4510f4230d9c1f3fbf463cef7f69a08c69771570cf96078a2335e4",
+      "file_count": 17,
+      "files": [
+        {
+          "file": "01_cover.svg",
+          "sha256": "15d1e1fd942f82e995c8105785bb3b5f1734a3dbae91c0add77a90c125db9a41"
+        },
+        {
+          "file": "01_goals.svg",
+          "sha256": "c1ebf02abb3b3a51c69ece31df23d1267e35f8c47f462dc69444cbf20fb1a72b"
+        },
+        {
+          "file": "02_toc.svg",
+          "sha256": "3bdb729360cebc7ca19ba6bdf589787747ae70afbdb2d8dded1f8ae6fd51da9c"
+        },
+        {
+          "file": "03_why.svg",
+          "sha256": "0048e4550443cd975a7ced637c91579a8e44599da19d372d53a332e6ea5824cd"
+        },
+        {
+          "file": "04_science.svg",
+          "sha256": "ee354426625c26c1bbd3c8dba1ec7a4589de22205ee9ffb783f24b01432c61fb"
+        },
+        {
+          "file": "05_physiology.svg",
+          "sha256": "e2d3725105849b202b04bfb96bdb66d07c295c96617bbb4860db50441057d56b"
+        },
+        {
+          "file": "06_history.svg",
+          "sha256": "516836c5f64d3b372c4b7cb1b768211b3be990922acd3ceaf874ae643406e79e"
+        },
+        {
+          "file": "06b_rus_tradition.svg",
+          "sha256": "7a2399d2dc1f65e5cf61393a9c02069c7bd350a430a27ef585a5ee673cfe6b00"
+        },
+        {
+          "file": "06c_rus_scientists.svg",
+          "sha256": "ff12398ebbdc87dcc1c94b2f8bd5801f60fc764b45ccf97af820840356c0c239"
+        },
+        {
+          "file": "07_hedonia.svg",
+          "sha256": "9b2dea4a37ac65dc7f71bc02bef717e15bd5b8cc62e80fb77b709bb9c6133543"
+        },
+        {
+          "file": "08_formula.svg",
+          "sha256": "92a1346d93c83fc95d794bb5267980645c38c88b75b9d273b2aef4c02d171859"
+        },
+        {
+          "file": "09_factors.svg",
+          "sha256": "d424a8b12d5d2f7e89c6fddba228f311759c7ed511fe07824725083374969de0"
+        },
+        {
+          "file": "10_easterlin.svg",
+          "sha256": "873b96e5ffb14ab3e1c33a5737351f8fe150a17b410b5d989dce2e23fe6d156d"
         },
         {
           "file": "11_education.svg",

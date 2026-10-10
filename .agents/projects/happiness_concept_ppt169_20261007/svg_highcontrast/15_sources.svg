@@ -14,15 +14,16 @@
     <use data-icon="tabler-outline/book-2" x="104" y="402" width="32" height="32" fill="#154360"/>
     <text x="146" y="428" font-size="24" font-weight="bold" fill="#154360">Источники</text>
     <text x="104" y="472" font-size="16" fill="#1A1A1A">• World Happiness Report (ВОЗ)</text>
-    <text x="104" y="506" font-size="16" fill="#1A1A1A">• Killingsworth, PNAS (2021)</text>
-    <text x="104" y="540" font-size="16" fill="#1A1A1A">• Канеман и Дитон (2010, 2023)</text>
+    <text x="104" y="506" font-size="16" fill="#1A1A1A">• Канеман и Дитон (2010, 2023)</text>
+    <text x="104" y="540" font-size="16" fill="#1A1A1A">• Killingsworth, PNAS (2021)</text>
     <text x="424" y="472" font-size="16" fill="#1A1A1A">• Селигман «Подлинное счастье»</text>
-    <text x="424" y="506" font-size="16" fill="#1A1A1A">• Lyubomirsky, Sheldon &amp; Schkade (2005)</text>
-    <text x="424" y="540" font-size="16" fill="#1A1A1A">• Джидарьян (2013)</text>
+    <text x="424" y="506" font-size="16" fill="#1A1A1A">• Любомирский и др. (2005)</text>
+    <text x="424" y="540" font-size="16" fill="#1A1A1A">• Джидарьян, Куликов, Леонтьев</text>
+    <text x="104" y="574" font-size="16" fill="#1A1A1A">• Рубинштейн (1957), Выготский — отечественная психология</text>
   </g>
   <g id="qr" data-pptx-bounds="740 388 440 284">
     <rect x="740" y="388" width="440" height="284" rx="16" fill="#FFFFFF" fill-opacity="0.9"/>
     <text x="960" y="428" font-size="22" font-weight="bold" fill="#154360" text-anchor="middle">Полный список источников</text>
     <image x="860" y="452" width="200" height="200" href="../images/qr_sources.png"/>
   </g>
-<line id="footer-rule" x1="80" y1="684" x2="1200" y2="684" stroke="#10304A" stroke-opacity="0.12" stroke-width="1" data-pptx-role="decoration"/><g id="slide-number" data-pptx-bounds="1100 690 100 28"><text x="1200" y="708" font-size="22" text-anchor="end" fill="#2C2C2C">15</text></g></svg>
+<line id="footer-rule" x1="80" y1="684" x2="1200" y2="684" stroke="#10304A" stroke-opacity="0.12" stroke-width="1" data-pptx-role="decoration"/><g id="slide-number" data-pptx-bounds="1100 690 100 28"><text x="1200" y="708" font-size="22" text-anchor="end" fill="#2C2C2C">17</text></g></svg>
