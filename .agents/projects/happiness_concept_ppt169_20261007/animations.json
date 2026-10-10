@@ -160,6 +160,54 @@
     }
    }
   },
+  "06b_rus_tradition": {
+   "groups": {
+    "title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4
+    },
+    "cards": {
+     "effect": "entrance_fly",
+     "effect_options": {
+      "direction": "up"
+     },
+     "order": 2,
+     "duration": 0.6,
+     "trigger": "on-click"
+    },
+    "note": {
+     "effect": "entrance_fade",
+     "order": 3,
+     "duration": 0.5,
+     "trigger": "on-click"
+    }
+   }
+  },
+  "06c_rus_scientists": {
+   "groups": {
+    "title": {
+     "effect": "entrance_fade",
+     "order": 1,
+     "duration": 0.4
+    },
+    "cards": {
+     "effect": "entrance_fly",
+     "effect_options": {
+      "direction": "up"
+     },
+     "order": 2,
+     "duration": 0.6,
+     "trigger": "on-click"
+    },
+    "note": {
+     "effect": "entrance_fade",
+     "order": 3,
+     "duration": 0.5,
+     "trigger": "on-click"
+    }
+   }
+  },
   "07_hedonia": {
    "groups": {
     "title": {

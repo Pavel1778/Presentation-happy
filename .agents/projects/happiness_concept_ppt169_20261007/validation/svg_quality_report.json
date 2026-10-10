@@ -4,8 +4,8 @@
   "target": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007",
   "source_fingerprint": {
     "algorithm": "sha256",
-    "digest": "e58ad49a77112d8b60db85003585071bcb0972a6f8337d6e5a45ab8732870bca",
-    "file_count": 15,
+    "digest": "dc4abbeed1910d2d7011d9b510708c2d75a45b0d88f4a1705b0b72e5d971cfd4",
+    "file_count": 17,
     "files": [
       {
         "file": "01_cover.svg",
@@ -21,11 +21,11 @@
       },
       {
         "file": "03_why.svg",
-        "sha256": "a8684c5d16cf430353d86259678e5119b5e833856e3282ac74d289c96d346d2d"
+        "sha256": "0048e4550443cd975a7ced637c91579a8e44599da19d372d53a332e6ea5824cd"
       },
       {
         "file": "04_science.svg",
-        "sha256": "d294414e5f32c5b3afbba8f56267c10752a0081b9a0bb413d6daa9c93882aaae"
+        "sha256": "ee354426625c26c1bbd3c8dba1ec7a4589de22205ee9ffb783f24b01432c61fb"
       },
       {
         "file": "05_physiology.svg",
@@ -36,43 +36,51 @@
         "sha256": "516836c5f64d3b372c4b7cb1b768211b3be990922acd3ceaf874ae643406e79e"
       },
       {
+        "file": "06b_rus_tradition.svg",
+        "sha256": "7a2399d2dc1f65e5cf61393a9c02069c7bd350a430a27ef585a5ee673cfe6b00"
+      },
+      {
+        "file": "06c_rus_scientists.svg",
+        "sha256": "ff12398ebbdc87dcc1c94b2f8bd5801f60fc764b45ccf97af820840356c0c239"
+      },
+      {
         "file": "07_hedonia.svg",
-        "sha256": "ee705e7eaced84e5c5057234353e13135f83c23588115e748c1bb92d2b9ef38c"
+        "sha256": "9b2dea4a37ac65dc7f71bc02bef717e15bd5b8cc62e80fb77b709bb9c6133543"
       },
       {
         "file": "08_formula.svg",
-        "sha256": "aacd16d48d8010a9a2a3d00f34edfa37458a4f5a457c2532177276d75fe24e23"
+        "sha256": "92a1346d93c83fc95d794bb5267980645c38c88b75b9d273b2aef4c02d171859"
       },
       {
         "file": "09_factors.svg",
-        "sha256": "7fd84247a10b34efe78dbf9d84be4dbc42297279e4b7ecdf0b701e624f304525"
+        "sha256": "d424a8b12d5d2f7e89c6fddba228f311759c7ed511fe07824725083374969de0"
       },
       {
         "file": "10_easterlin.svg",
-        "sha256": "32086673d42b5d5190327e0c888a2fe0c0a0c556e531399d5c7b6f88e7d83fc1"
+        "sha256": "6d6e0b5713f56db280cc581189316d49288d5fbd52dd19028999775668fc4f72"
       },
       {
         "file": "11_education.svg",
-        "sha256": "36915c8926ae10c1db9f293ad13af97a6a7cfb10403cbb0b8bfcdd45452182cf"
+        "sha256": "6a3deb84eb19d90a53c8ee739dcd8cbc4f17b4fc23c7c13af40a51e3e4595fb6"
       },
       {
         "file": "12_digital.svg",
-        "sha256": "339f0029f03db4948a2bcb861c4f223bb179d5ecda215c2f74e8a0ba4a8a33b3"
+        "sha256": "c1df3fda586064602a919da466c520d10862ec746439c660f177419d99210b09"
       },
       {
         "file": "13_recommendations.svg",
-        "sha256": "32b2b85ba24fd6106e6967efcec0566f09743a89e0bccb0dbd21b1e2847234d4"
+        "sha256": "6d0218afaf6222cb0b81c437c64d9db4d6ddc9b7421bc3ccb942b3062f62df72"
       },
       {
         "file": "15_sources.svg",
-        "sha256": "be5823ffac03f383962082aa80f6a46448b1be0e39eb18609e8d1e1f205b5c14"
+        "sha256": "e25147be88bae226e5fee6db9164078092e26de41b31fbe0d7e6cb4ef1eaa50e"
       }
     ]
   },
   "summary": {
-    "total": 15,
-    "passed": 8,
-    "warnings": 7,
+    "total": 17,
+    "passed": 9,
+    "warnings": 8,
     "errors": 0
   },
   "issue_types": {},
@@ -117,6 +125,10 @@
           "message": "Image ../images/p07_history.jpg is 5184x3456 and renders at 0.25x scale in a 1280x720 slice frame; the source is 2.6 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
         },
         {
+          "file": "06b_rus_tradition.svg",
+          "message": "Image ../images/p07_history.jpg is 5184x3456 and renders at 0.25x scale in a 1280x720 slice frame; the source is 2.6 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+        },
+        {
           "file": "07_hedonia.svg",
           "message": "Image ../images/hed_pleasure.jpg is 6016x4016 and renders at 0.08x scale in a 480x200 slice frame; the source is 10.9 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
         },
@@ -127,10 +139,6 @@
         {
           "file": "12_digital.svg",
           "message": "Image ../images/p13_digital.jpg is 5616x3744 and renders at 0.23x scale in a 1280x720 slice frame; the source is 10.3 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
-        },
-        {
-          "file": "15_sources.svg",
-          "message": "<text> (x=424, y=506; text='• Lyubomirsky, Sheld…') exceeds <g id=\"sources\"> data-pptx-bounds on the horizontal axis: content (424.0, 492.4)-(743.5, 511.6), container (80.0, 388.0)-(720.0, 672.0), overflow horizontal 3.7%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈9.4 px per mixed char at 16px incl. headroom; ≈68 chars fit in 640 px"
         },
         {
           "file": "15_sources.svg",
@@ -156,6 +164,7 @@
         "04_science.svg",
         "05_physiology.svg",
         "06_history.svg",
+        "06c_rus_scientists.svg",
         "07_hedonia.svg",
         "08_formula.svg",
         "09_factors.svg",
@@ -169,6 +178,8 @@
         "04_science.svg",
         "05_physiology.svg",
         "06_history.svg",
+        "06b_rus_tradition.svg",
+        "06c_rus_scientists.svg",
         "07_hedonia.svg",
         "08_formula.svg",
         "09_factors.svg",
@@ -182,6 +193,7 @@
         "04_science.svg",
         "05_physiology.svg",
         "06_history.svg",
+        "06c_rus_scientists.svg",
         "08_formula.svg",
         "09_factors.svg",
         "10_easterlin.svg",
@@ -197,6 +209,8 @@
         "04_science.svg",
         "05_physiology.svg",
         "06_history.svg",
+        "06b_rus_tradition.svg",
+        "06c_rus_scientists.svg",
         "07_hedonia.svg",
         "08_formula.svg",
         "09_factors.svg",
@@ -217,6 +231,7 @@
       "#B9631B": [
         "01_goals.svg",
         "05_physiology.svg",
+        "06b_rus_tradition.svg",
         "07_hedonia.svg",
         "11_education.svg"
       ],
@@ -233,6 +248,8 @@
         "04_science.svg",
         "05_physiology.svg",
         "06_history.svg",
+        "06b_rus_tradition.svg",
+        "06c_rus_scientists.svg",
         "07_hedonia.svg",
         "08_formula.svg",
         "09_factors.svg",
@@ -251,6 +268,8 @@
         "02_toc.svg",
         "03_why.svg",
         "06_history.svg",
+        "06b_rus_tradition.svg",
+        "06c_rus_scientists.svg",
         "07_hedonia.svg",
         "09_factors.svg",
         "11_education.svg"
@@ -261,6 +280,7 @@
         "03_why.svg",
         "04_science.svg",
         "05_physiology.svg",
+        "06c_rus_scientists.svg",
         "10_easterlin.svg",
         "12_digital.svg"
       ],
@@ -272,6 +292,8 @@
         "04_science.svg",
         "05_physiology.svg",
         "06_history.svg",
+        "06b_rus_tradition.svg",
+        "06c_rus_scientists.svg",
         "07_hedonia.svg",
         "08_formula.svg",
         "09_factors.svg",
@@ -289,6 +311,8 @@
         "04_science.svg",
         "05_physiology.svg",
         "06_history.svg",
+        "06b_rus_tradition.svg",
+        "06c_rus_scientists.svg",
         "07_hedonia.svg",
         "08_formula.svg",
         "10_easterlin.svg",
@@ -302,29 +326,29 @@
   },
   "carrier_receipt": {
     "scope": "informational-not-a-quota",
-    "pages": 15,
+    "pages": 17,
     "totals": {
-      "text_elements": 216,
-      "image_placements": 20,
-      "icons": 46,
-      "svg_geometry_elements": 139,
+      "text_elements": 242,
+      "image_placements": 22,
+      "icons": 55,
+      "svg_geometry_elements": 154,
       "preset_shapes": 0,
-      "page_frame_elements": 51,
+      "page_frame_elements": 57,
       "marker_uses": 0,
       "inline_emphasis_runs": 0,
-      "gradient_uses": 15,
+      "gradient_uses": 17,
       "filter_uses": 0,
       "text_effects": 0
     },
     "pages_with": {
-      "images": 15,
-      "icons": 13,
+      "images": 17,
+      "icons": 15,
       "presets": 0,
       "charts": 0,
       "tables": 0,
       "formulas": 0,
       "inline_emphasis_runs": 0,
-      "gradient_uses": 15,
+      "gradient_uses": 17,
       "filter_uses": 0,
       "text_effects": 0
     },
@@ -332,11 +356,11 @@
     "geometry_elements": {
       "circle": 15,
       "ellipse": 0,
-      "line": 28,
+      "line": 30,
       "path": 5,
       "polygon": 0,
       "polyline": 2,
-      "rect": 89
+      "rect": 102
     },
     "preset_names": {},
     "native_objects": {
@@ -650,7 +674,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "a8684c5d16cf430353d86259678e5119b5e833856e3282ac74d289c96d346d2d"
+      "source_sha256": "0048e4550443cd975a7ced637c91579a8e44599da19d372d53a332e6ea5824cd"
     },
     {
       "file": "04_science.svg",
@@ -723,7 +747,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "d294414e5f32c5b3afbba8f56267c10752a0081b9a0bb413d6daa9c93882aaae"
+      "source_sha256": "ee354426625c26c1bbd3c8dba1ec7a4589de22205ee9ffb783f24b01432c61fb"
     },
     {
       "file": "05_physiology.svg",
@@ -880,6 +904,152 @@
       "source_sha256": "516836c5f64d3b372c4b7cb1b768211b3be990922acd3ceaf874ae643406e79e"
     },
     {
+      "file": "06b_rus_tradition.svg",
+      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/06b_rus_tradition.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Image ../images/p07_history.jpg is 5184x3456 and renders at 0.25x scale in a 1280x720 slice frame; the source is 2.6 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 10,
+          "images": {
+            "placements": 1,
+            "files": [
+              "p07_history.jpg"
+            ],
+            "max_frame_share": 1.0
+          },
+          "icons": 4,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 1,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 6,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 3,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 10,
+        "tspan_elements": 3,
+        "contextual_values": {
+          "colors": [
+            "#1F4E79",
+            "#5D6D7E",
+            "#B9631B",
+            "#D6EAF8",
+            "#E67E22",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "7a2399d2dc1f65e5cf61393a9c02069c7bd350a430a27ef585a5ee673cfe6b00"
+    },
+    {
+      "file": "06c_rus_scientists.svg",
+      "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/06c_rus_scientists.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 15,
+          "images": {
+            "placements": 1,
+            "files": [
+              "p05_science.jpg"
+            ],
+            "max_frame_share": 1.0
+          },
+          "icons": 5,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 1,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 7,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 3,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 5,
+        "contextual_values": {
+          "colors": [
+            "#1E8449",
+            "#1F4E79",
+            "#27AE60",
+            "#5D6D7E",
+            "#D6EAF8",
+            "#E67E22",
+            "#E74C3C",
+            "#F5E6D3",
+            "#FFFFFF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "ff12398ebbdc87dcc1c94b2f8bd5801f60fc764b45ccf97af820840356c0c239"
+    },
+    {
       "file": "07_hedonia.svg",
       "path": "/workspace/project/2db92dcba3cd40d68e42868cc948934e/.agents/projects/happiness_concept_ppt169_20261007/svg_output/07_hedonia.svg",
       "exists": true,
@@ -955,7 +1125,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "ee705e7eaced84e5c5057234353e13135f83c23588115e748c1bb92d2b9ef38c"
+      "source_sha256": "9b2dea4a37ac65dc7f71bc02bef717e15bd5b8cc62e80fb77b709bb9c6133543"
     },
     {
       "file": "08_formula.svg",
@@ -1027,7 +1197,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "aacd16d48d8010a9a2a3d00f34edfa37458a4f5a457c2532177276d75fe24e23"
+      "source_sha256": "92a1346d93c83fc95d794bb5267980645c38c88b75b9d273b2aef4c02d171859"
     },
     {
       "file": "09_factors.svg",
@@ -1099,7 +1269,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "7fd84247a10b34efe78dbf9d84be4dbc42297279e4b7ecdf0b701e624f304525"
+      "source_sha256": "d424a8b12d5d2f7e89c6fddba228f311759c7ed511fe07824725083374969de0"
     },
     {
       "file": "10_easterlin.svg",
@@ -1156,7 +1326,7 @@
           "Arial"
         ],
         "text_elements": 12,
-        "tspan_elements": 3,
+        "tspan_elements": 5,
         "contextual_values": {
           "colors": [
             "#27AE60",
@@ -1170,7 +1340,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "32086673d42b5d5190327e0c888a2fe0c0a0c556e531399d5c7b6f88e7d83fc1"
+      "source_sha256": "6d6e0b5713f56db280cc581189316d49288d5fbd52dd19028999775668fc4f72"
     },
     {
       "file": "11_education.svg",
@@ -1241,7 +1411,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "36915c8926ae10c1db9f293ad13af97a6a7cfb10403cbb0b8bfcdd45452182cf"
+      "source_sha256": "6a3deb84eb19d90a53c8ee739dcd8cbc4f17b4fc23c7c13af40a51e3e4595fb6"
     },
     {
       "file": "12_digital.svg",
@@ -1315,7 +1485,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "339f0029f03db4948a2bcb861c4f223bb179d5ecda215c2f74e8a0ba4a8a33b3"
+      "source_sha256": "c1df3fda586064602a919da466c520d10862ec746439c660f177419d99210b09"
     },
     {
       "file": "13_recommendations.svg",
@@ -1385,7 +1555,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "32b2b85ba24fd6106e6967efcec0566f09743a89e0bccb0dbd21b1e2847234d4"
+      "source_sha256": "6d0218afaf6222cb0b81c437c64d9db4d6ddc9b7421bc3ccb942b3062f62df72"
     },
     {
       "file": "15_sources.svg",
@@ -1393,13 +1563,12 @@
       "exists": true,
       "errors": [],
       "warnings": [
-        "<text> (x=424, y=506; text='• Lyubomirsky, Sheld…') exceeds <g id=\"sources\"> data-pptx-bounds on the horizontal axis: content (424.0, 492.4)-(743.5, 511.6), container (80.0, 388.0)-(720.0, 672.0), overflow horizontal 3.7%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈9.4 px per mixed char at 16px incl. headroom; ≈68 chars fit in 640 px",
         "Image ../images/p15_conclusions.jpg is 6000x4000 and renders at 0.21x scale in a 1280x720 slice frame; the source is 10.8 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
       ],
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 16,
+          "text_elements": 17,
           "images": {
             "placements": 2,
             "files": [
@@ -1445,7 +1614,7 @@
         "fonts": [
           "Arial"
         ],
-        "text_elements": 16,
+        "text_elements": 17,
         "tspan_elements": 0,
         "contextual_values": {
           "colors": [
@@ -1460,7 +1629,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "be5823ffac03f383962082aa80f6a46448b1be0e39eb18609e8d1e1f205b5c14"
+      "source_sha256": "e25147be88bae226e5fee6db9164078092e26de41b31fbe0d7e6cb4ef1eaa50e"
     }
   ]
 }

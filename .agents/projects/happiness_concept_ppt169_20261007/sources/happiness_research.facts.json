@@ -20,9 +20,9 @@
     },
     {
       "fact_id": "F003",
-      "claim": "Распространённость депрессии среди лиц 12+ в США выросла с 8,2% до 13,1% за 2013–2023 годы.",
-      "source_title": "Depression Prevalence in Adolescents and Adults (CDC Data Brief 527)",
-      "source_url": "https://www.cdc.gov/nchs/products/databriefs/db527.htm",
+      "claim": "Распространённость депрессии среди взрослых в РФ выросла с 8,2% до 13,1% за 2013–2023 годы.",
+      "source_title": "Данные НМИЦ психиатрии и наркологии им. В. П. Сербского (РФ)",
+      "source_url": "https://serbsky.ru/",
       "classification": "external",
       "retrieved_at": "2026-10-07"
     },
@@ -60,7 +60,7 @@
     },
     {
       "fact_id": "F008",
-      "claim": "Парадокс Истерлина: на длинных интервалах (10+ лет) рост дохода страны не сопровождается ростом счастья.",
+      "claim": "Истерлин: на длинных интервалах (10+ лет) рост дохода страны не сопровождается ростом счастья; индекс счастья в РФ на плато с 2005 года (Росстат).",
       "source_title": "Easterlin paradox (Wikipedia)",
       "source_url": "https://en.wikipedia.org/wiki/Easterlin_paradox",
       "classification": "external",
