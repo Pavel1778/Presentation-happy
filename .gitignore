@@ -1,25 +1,16 @@
+# Временные файлы
+.agent_tmp/
+.agent-cache/
+.agents/
+.openhands/
+
 # Python
 __pycache__/
-*.py[cod]
-*.egg-info/
-.venv/
-venv/
+*.pyc
+
+# Node
+node_modules/
 
 # OS
 .DS_Store
 Thumbs.db
-
-# Raw / intermediate deck materials (regenerate from the SVGs; too large to track)
-.agents/**/images/
-.agents/**/media/
-.agents/**/backup/
-.agents/**/exports/
-.agents/**/preview_v4/
-.agents/**/svg_final/
-.agents/**/icons/**/*.json
-
-# Tooling caches
-.agent_tmp/
-.cache/
-node_modules/
-.agents/**/validation/_pdf_pages/
